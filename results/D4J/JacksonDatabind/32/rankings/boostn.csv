@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;com.fasterxml.jackson.databind.deser.std$UntypedObjectDeserializer.deserialize(JsonParser,DeserializationContext);com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.java;213;277;1.0
+2;com.fasterxml.jackson.databind.ser.std$ObjectArraySerializer.getSchema(SerializerProvider,Type);com/fasterxml/jackson/databind/ser/std/ObjectArraySerializer.java;347;370;0.9424499217227986
+3;com.fasterxml.jackson.databind.deser.std$MapDeserializer.deserialize(JsonParser,DeserializationContext);com/fasterxml/jackson/databind/deser/std/MapDeserializer.java;315;346;0.9196614923919672
+4;com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserialize(JsonParser,DeserializationContext);com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.java;483;542;0.8997687713065241
+5;com.fasterxml.jackson.databind.ser$DefaultSerializerProvider.generateJsonSchema(Class<?>);com/fasterxml/jackson/databind/ser/DefaultSerializerProvider.java;363;390;0.8925930619874051
+6;com.fasterxml.jackson.databind$ObjectMapper._readValue(DeserializationConfig,JsonParser,JavaType);com/fasterxml/jackson/databind/ObjectMapper.java;3683;3714;0.8587626100434108
+58;com.fasterxml.jackson.databind.deser$BeanDeserializerBase.deserializeFromArray(JsonParser,DeserializationContext);com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java;1225;1258;0.6271510204566558
+67;com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.mapArray(JsonParser,DeserializationContext);com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.java;582;616;0.615041396808043
+141;com.fasterxml.jackson.databind$ObjectMapper.ObjectMapper(JsonFactory,DefaultSerializerProvider,DefaultDeserializationContext);com/fasterxml/jackson/databind/ObjectMapper.java;493;548;0.5415071501652525
+2525;com.fasterxml.jackson.databind.type$TypeFactory.TypeFactory(TypeParser,TypeModifier[],ClassLoader);com/fasterxml/jackson/databind/type/TypeFactory.java;123;128;0.14062772099495385
+3242;com.fasterxml.jackson.databind.type$TypeFactory.withModifier(TypeModifier);com/fasterxml/jackson/databind/type/TypeFactory.java;130;139;0.07723227012981225
+4245;com.fasterxml.jackson.databind$JsonMappingException.toString();com/fasterxml/jackson/databind/JsonMappingException.java;323;327;0.015851400388094534
+4538;com.fasterxml.jackson.databind$ObjectMapper.getTypeFactory();com/fasterxml/jackson/databind/ObjectMapper.java;734;737;0.0
+4538;com.fasterxml.jackson.databind.type$TypeFactory.withClassLoader(ClassLoader);com/fasterxml/jackson/databind/type/TypeFactory.java;141;143;0.0
+4538;com.fasterxml.jackson.databind.type$TypeParser.withFactory(TypeFactory);com/fasterxml/jackson/databind/type/TypeParser.java;24;29;0.0

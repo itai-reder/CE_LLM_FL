@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;com.google.javascript.jscomp$TypeInference.ensurePropertyDeclaredHelper(Node,ObjectType);com/google/javascript/jscomp/TypeInference.java;550;573;1.0
+2;com.google.javascript.jscomp$NodeUtil.getRootOfQualifiedName(Node);com/google/javascript/jscomp/NodeUtil.java;2336;2347;0.9999836248116853
+3;com.google.javascript.rhino.jstype$FunctionType.isSubtype(JSType);com/google/javascript/rhino/jstype/FunctionType.java;866;913;0.999901748870112
+4;com.google.javascript.rhino.jstype$ArrowType.isSubtype(JSType);com/google/javascript/rhino/jstype/ArrowType.java;79;140;0.9998853736817973
+5;com.google.javascript.rhino.jstype$FunctionType.isReturnTypeInferred();com/google/javascript/rhino/jstype/FunctionType.java;269;271;0.999803497740224
+92;com.google.javascript.jscomp$FunctionTypeBuilder.getOrCreateConstructor();com/google/javascript/jscomp/FunctionTypeBuilder.java;631;680;0.994710814174363
+1527;com.google.javascript.jscomp$TypeValidator.registerMismatch(JSType,JSType,JSError);com/google/javascript/jscomp/TypeValidator.java;626;650;0.8612530294098382
+2995;com.google.javascript.jscomp$FunctionInjector.canInlineReferenceDirectly(Node,Node);com/google/javascript/jscomp/FunctionInjector.java;646;716;0.5759972489683631
+3796;com.google.javascript.jscomp$SymbolTable.getSymbolForTypeHelper(JSType,boolean);com/google/javascript/jscomp/SymbolTable.java;378;422;0.2975699220541036
+4569;com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder.createFunctionTypeFromNodes(Node,String,JSDocInfo,Node);com/google/javascript/jscomp/TypedScopeCreator.java;792;915;0.09862775921923102
+4570;com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder.getQnameRootScope(Node);com/google/javascript/jscomp/TypedScopeCreator.java;1203;1215;0.0985950088426017
+4571;com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder.defineSlot(Node,Node,String,JSType,boolean);com/google/javascript/jscomp/TypedScopeCreator.java;1050;1193;0.09857863365428703
+4572;com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder.isQnameRootedInGlobalScope(Node);com/google/javascript/jscomp/TypedScopeCreator.java;1195;1201;0.09856225846597236
+4573;com.google.javascript.jscomp.TypedScopeCreator.AbstractScopeBuilder$CollectProperties.maybeCollectMember(NodeTraversal,Node,Node,Node);com/google/javascript/jscomp/TypedScopeCreator.java;1642;1665;0.09848038252439903
+4622;com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher.processFunctionNode(FunctionNode);com/google/javascript/jscomp/parsing/IRFactory.java;599;657;0.09217593502325276

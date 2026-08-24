@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;org.mockito.internal.configuration.plugins$PluginLoader.loadImpl(Class<T>);org/mockito/internal/configuration/plugins/PluginLoader.java;41;69;1.0
+2;org.mockito.internal.verification.checkers$MissingInvocationInOrderChecker.check(List<Invocation>,InvocationMatcher,VerificationMode,InOrderContext);org/mockito/internal/verification/checkers/MissingInvocationInOrderChecker.java;33;65;0.9011687911623348
+3;org.mockito.internal.creation.cglib$ClassImposterizer.createProxyClass(Class<?>,Class<?>);org/mockito/internal/creation/cglib/ClassImposterizer.java;94;142;0.887388577966226
+4;org.mockito.exceptions$Reporter.cannotInitializeForInjectMocksAnnotation(String,Exception);org/mockito/exceptions/Reporter.java;619;629;0.8776706815142504
+5;org.mockito$MockitoAnnotations.initMocks(Object);org/mockito/MockitoAnnotations.java;83;109;0.6057450053817527
+7;org.mockito.internal.configuration$SpyAnnotationEngine.process(Class<?>,Object);org/mockito/internal/configuration/SpyAnnotationEngine.java;46;74;0.5507500077347567
+10;org.mockito.internal.configuration$SpyAnnotationEngine.newSpyInstance(Object,Field);org/mockito/internal/configuration/SpyAnnotationEngine.java;83;119;0.5274412997020499
+41;org.mockito.internal.creation.bytebuddy$ByteBuddyMockMaker.createMock(MockCreationSettings<T>,MockHandler);org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.java;24;53;0.3360381508974946
+76;org.mockito$Mockito.spy(Class<T>);org/mockito/Mockito.java;1372;1404;0.25905657491801665
+148;org.mockito.internal.stubbing.answers$CallsRealMethods.answer(InvocationOnMock);org/mockito/internal/stubbing/answers/CallsRealMethods.java;38;43;0.20810290380309177
+442;org.mockito.internal.creation.bytebuddy$MockMethodInterceptor.interceptSuperCallable(Object,Method,Object[],Callable<?>);org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java;39;51;0.12781706983301075
+739;org.mockito.internal.creation$MockSettingsImpl.outerInstance(Object);org/mockito/internal/creation/MockSettingsImpl.java;102;105;0.06754699181464724
+834;org.mockito.internal.creation.bytebuddy$InterceptedInvocation.callRealMethod();org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java;116;122;0.06350135148184516
+876;org.mockito.internal.creation$MockSettingsImpl.useConstructor();org/mockito/internal/creation/MockSettingsImpl.java;97;100;0.05170859596364736
+1071;org.mockito.internal.creation.bytebuddy.InterceptedInvocation.SuperMethod$FromCallable.invoke();org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java;181;189;0.015838395850999876
+1177;org.mockito.internal.creation.bytebuddy.InterceptedInvocation.SuperMethod$FromCallable.isInvokable();org/mockito/internal/creation/bytebuddy/InterceptedInvocation.java;176;179;0.0

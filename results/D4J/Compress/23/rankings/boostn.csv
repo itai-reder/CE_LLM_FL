@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;org.apache.commons.compress.archivers.zip$ZipArchiveInputStream.getNextZipEntry();org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java;185;288;1.0
+2;org.apache.commons.compress.archivers.sevenz.Coders$AES256SHA256Decoder.decode(InputStream,Coder,byte[]);org/apache/commons/compress/archivers/sevenz/Coders.java;148;241;0.8994082336002014
+3;org.apache.commons.compress.archivers.sevenz.Coders$AES256SHA256Decoder.init();org/apache/commons/compress/archivers/sevenz/Coders.java;155;225;0.8379456230535325
+4;org.apache.commons.compress.archivers.zip$ZipFile.readCentralDirectoryEntry(Map<ZipArchiveEntry,NameAndComment>);org/apache/commons/compress/archivers/zip/ZipFile.java;499;586;0.8151843484413472
+5;org.apache.commons.compress.archivers.zip$ZipArchiveInputStream.readDeflated(byte[],int,int);org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java;437;454;0.686998400890614
+16;org.apache.commons.compress.archivers.sevenz$SevenZFile.readEncodedHeader(DataInputStream,Archive,byte[]);org/apache/commons/compress/archivers/sevenz/SevenZFile.java;261;292;0.5295656355382838
+26;org.apache.commons.compress.archivers.sevenz.Coders$LZMADecoder.decode(InputStream,Coder,byte[]);org/apache/commons/compress/archivers/sevenz/Coders.java;106;118;0.47574971001050886
+27;org.apache.commons.compress.archivers.sevenz$SevenZFile.readHeaders(byte[]);org/apache/commons/compress/archivers/sevenz/SevenZFile.java;154;203;0.473196873868271
+40;org.apache.commons.compress.archivers.sevenz$Coders.addDecoder(InputStream,Coder,byte[]);org/apache/commons/compress/archivers/sevenz/Coders.java;44;53;0.4360938611246852
+56;org.apache.commons.compress.archivers.sevenz$SevenZFile.readFolder(DataInput);org/apache/commons/compress/archivers/sevenz/SevenZFile.java;480;557;0.36294478641278893
+72;org.apache.commons.compress.archivers.sevenz$SevenZFile.readUnpackInfo(DataInput,Archive);org/apache/commons/compress/archivers/sevenz/SevenZFile.java;349;395;0.33420196281968484
+140;org.apache.commons.compress.archivers.sevenz$SevenZFile.SevenZFile(File,byte[]);org/apache/commons/compress/archivers/sevenz/SevenZFile.java;81;107;0.2562690673348999
+189;org.apache.commons.compress.archivers.sevenz$SevenZFile.readPackInfo(DataInput,Archive);org/apache/commons/compress/archivers/sevenz/SevenZFile.java;320;347;0.207200503585406
+617;org.apache.commons.compress.archivers.sevenz$SevenZFile.readUint64(DataInput);org/apache/commons/compress/archivers/sevenz/SevenZFile.java;896;910;0.07156023206935784
+984;org.apache.commons.compress.archivers.sevenz$Folder.findBindPairForInStream(int);org/apache/commons/compress/archivers/sevenz/Folder.java;44;51;0.01795907083558521
+1192;org.apache.commons.compress.changes$Change.type();org/apache/commons/compress/changes/Change.java;89;91;0.0

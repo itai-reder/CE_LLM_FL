@@ -1,0 +1,3581 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 449
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1777,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1859,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3221,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3303,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3357,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.optimize(OptimizationData)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        13,
+        12,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 6144,
+        "cost_usd": 0.0006809720000000001,
+        "input_tokens": 14686,
+        "output_tokens": 627
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 449
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1777,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1859,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3221,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3303,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3357,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()"
+      ],
+      "top5_indices": [
+        1,
+        18,
+        12,
+        13,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 6144,
+        "cost_usd": 0.001421172,
+        "input_tokens": 14686,
+        "output_tokens": 627
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 449
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1777,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1859,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3221,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3303,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3357,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 272
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)",
+        "org.apache.commons.math3.optim.BaseMultiStartMultivariateOptimizer.doOptimize()"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        18,
+        17,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 6144,
+        "cost_usd": 0.0018791720000000001,
+        "input_tokens": 14686,
+        "output_tokens": 856
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 449
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1777,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1859,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3221,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3303,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3357,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 782
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()"
+      ],
+      "top5_indices": [
+        1,
+        17,
+        18,
+        13,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 6144,
+        "cost_usd": 0.002899172,
+        "input_tokens": 14686,
+        "output_tokens": 1366
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 449
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1777,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1859,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3221,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3303,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3357,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()"
+      ],
+      "top5_indices": [
+        1,
+        17,
+        18,
+        12,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 6144,
+        "cost_usd": 0.005122172,
+        "input_tokens": 14686,
+        "output_tokens": 627
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 449
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1777,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1859,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1995,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2398,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3760,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4008,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4324,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4406,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4809,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 4891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 4945,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.linear.EigenDecomposition.findEigenVectors(double[][])",
+        "org.apache.commons.math3.linear.MatrixUtils.isSymmetricInternal(RealMatrix,double,boolean)",
+        "org.apache.commons.math3.linear.TriDiagonalTransformer.getQT()"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 17408,
+        "cost_usd": 0.005934626,
+        "input_tokens": 40341,
+        "output_tokens": 787
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 449
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1777,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1859,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1995,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2398,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3760,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4008,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4324,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4406,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4809,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 4891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4945,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.BaseMultivariateVectorMultiStartOptimizer.optimize(int,FUNC,double[],double[],double[])",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()"
+      ],
+      "top5_indices": [
+        1,
+        18,
+        12,
+        14,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 16256,
+        "cost_usd": 0.0070494500000000005,
+        "input_tokens": 40341,
+        "output_tokens": 787
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 449
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1777,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 55
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1859,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 54
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1995,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 101
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2398,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3760,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 275
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3894,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 388
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3948,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.linear.TriDiagonalTransformer.transform()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.diag(RealMatrix)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        13,
+        6,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 7680,
+        "cost_usd": 0.0044354,
+        "input_tokens": 20800,
+        "output_tokens": 1387
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 449
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1777,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 72
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1859,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 291
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2262,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 85
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2398,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 851
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2532,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1699
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2929,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 995
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4291,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1495
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4345,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.linear.EigenDecomposition.findEigenVectors(double[][])",
+        "org.apache.commons.math3.linear.MatrixUtils.isSymmetricInternal(RealMatrix,double,boolean)",
+        "org.apache.commons.math3.linear.TriDiagonalTransformer.getQT()"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 11008,
+        "cost_usd": 0.013775731999999999,
+        "input_tokens": 23562,
+        "output_tokens": 5980
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 449
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1777,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1859,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1993,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2129,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3491,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 3894,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 3976,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4030,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.BaseMultivariateVectorMultiStartOptimizer.optimize(int,FUNC,double[],double[],double[])",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.linear.MatrixUtils.isSymmetricInternal(RealMatrix,double,boolean)",
+        "org.apache.commons.math3.linear.TriDiagonalTransformer.transform()"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        12,
+        4,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 15616,
+        "cost_usd": 0.011007132000000001,
+        "input_tokens": 24318,
+        "output_tokens": 735
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 449
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1777,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1859,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1993,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2129,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3491,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 3894,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 3976,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4030,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.optimize(OptimizationData)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        12,
+        13,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 13952,
+        "cost_usd": 0.0163383,
+        "input_tokens": 24318,
+        "output_tokens": 735
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 375
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1703,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1785,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2188,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2270,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2667,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2801,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2937,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3340,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3422,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3476,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.linear.EigenDecomposition.findEigenVectors(double[][])"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        13,
+        2,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 14208,
+        "cost_usd": 0.0017948039999999999,
+        "input_tokens": 27758,
+        "output_tokens": 691
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 375
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1703,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1785,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2188,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2270,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2667,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2801,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2937,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3340,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3422,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3476,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        13,
+        18,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 14208,
+        "cost_usd": 0.002558804,
+        "input_tokens": 27758,
+        "output_tokens": 691
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 375
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1921,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2324,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2458,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2540,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2856,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4218,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4096,
+          "input_tokens": 4703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4757,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        13,
+        2,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 17792,
+        "cost_usd": 0.0050301,
+        "input_tokens": 34734,
+        "output_tokens": 685
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 375
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1921,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2324,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2458,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2540,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2856,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4218,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4096,
+          "input_tokens": 4703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4757,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optimization.BaseMultivariateVectorMultiStartOptimizer.optimize(int,FUNC,double[],double[],double[])"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 17792,
+        "cost_usd": 0.0060503,
+        "input_tokens": 34734,
+        "output_tokens": 685
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 375
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1921,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2324,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2458,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2540,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2856,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4218,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4096,
+          "input_tokens": 4703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4757,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 288
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        13,
+        18,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 17792,
+        "cost_usd": 0.006540300000000001,
+        "input_tokens": 34734,
+        "output_tokens": 930
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 375
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1921,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2324,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2458,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2540,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2856,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4218,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4096,
+          "input_tokens": 4703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4757,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 973
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.BaseMultivariateVectorMultiStartOptimizer.optimize(int,FUNC,double[],double[],double[])",
+        "org.apache.commons.math3.optim.BaseMultiStartMultivariateOptimizer.doOptimize()"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        14,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 17792,
+        "cost_usd": 0.0079103,
+        "input_tokens": 34734,
+        "output_tokens": 1615
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 375
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1921,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2324,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2458,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2540,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2856,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4218,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4096,
+          "input_tokens": 4703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 4757,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.BaseMultiStartMultivariateOptimizer.doOptimize()"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        12,
+        13,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 18944,
+        "cost_usd": 0.0098553,
+        "input_tokens": 34734,
+        "output_tokens": 685
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 375
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 53
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1921,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2324,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 110
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2458,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 548
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2855,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 478
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2909,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        13,
+        18,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 6656,
+        "cost_usd": 0.0060854,
+        "input_tokens": 17124,
+        "output_tokens": 1651
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 375
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 419
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2182,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1656
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2236,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        13,
+        18,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00729875,
+        "input_tokens": 9075,
+        "output_tokens": 2515
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 375
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1703,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1785,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2188,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3550,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 3632,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 3766,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 4379,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 4461,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 4543,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4597,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.BaseMultiStartMultivariateOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        15,
+        2,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 24448,
+        "cost_usd": 0.01692985,
+        "input_tokens": 35773,
+        "output_tokens": 733
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 375
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1703,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1785,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2188,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3550,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 3632,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 3766,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 4379,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 4461,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 4543,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 4597,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.BaseMultiStartMultivariateOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        12,
+        15,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 23936,
+        "cost_usd": 0.02094925,
+        "input_tokens": 35773,
+        "output_tokens": 733
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1143
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2201,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2255,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.linear.EigenDecomposition.findEigenVectors(double[][])",
+        "org.apache.commons.math3.linear.TriDiagonalTransformer.transform()"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        2,
+        3,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0029493999999999996,
+        "input_tokens": 7744,
+        "output_tokens": 1249
+      }
+    },
+    "M2R2-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1143
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2201,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2255,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 271
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)",
+        "org.apache.commons.math3.optimization.BaseMultivariateVectorMultiStartOptimizer.optimize(int,FUNC,double[],double[],double[])"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        18,
+        17,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0039252,
+        "input_tokens": 7744,
+        "output_tokens": 1477
+      }
+    },
+    "M2R2-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1143
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2201,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2255,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 446
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)",
+        "org.apache.commons.math3.optimization.BaseMultivariateVectorMultiStartOptimizer.optimize(int,FUNC,double[],double[],double[])"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        18,
+        17,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0042752,
+        "input_tokens": 7744,
+        "output_tokens": 1652
+      }
+    },
+    "M2R2-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1143
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2201,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2255,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optim.BaseMultiStartMultivariateOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()"
+      ],
+      "top5_indices": [
+        1,
+        17,
+        18,
+        15,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.006068199999999999,
+        "input_tokens": 7744,
+        "output_tokens": 1249
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1143
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2201,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2337,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3699,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4102,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4184,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4318,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4634,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4688,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optimization.BaseMultivariateVectorMultiStartOptimizer.optimize(int,FUNC,double[],double[],double[])",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        18,
+        14,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 11648,
+        "cost_usd": 0.008587949999999999,
+        "input_tokens": 33451,
+        "output_tokens": 1423
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1143
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 62
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2201,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 95
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2604,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2740,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2874,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4236,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 444
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4290,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 208
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)",
+        "org.apache.commons.math3.optim.BaseMultiStartMultivariateOptimizer.doOptimize()"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        18,
+        17,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 9344,
+        "cost_usd": 0.0074918499999999996,
+        "input_tokens": 22233,
+        "output_tokens": 2018
+      }
+    },
+    "M2R2-M2R2-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1143
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 62
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2201,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 95
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2604,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2740,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2874,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4236,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 444
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4290,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 952
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.BaseMultiStartMultivariateOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        12,
+        15,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 9344,
+        "cost_usd": 0.00897985,
+        "input_tokens": 22233,
+        "output_tokens": 2762
+      }
+    },
+    "M2R2-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1143
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 62
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2201,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 95
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2604,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2740,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2874,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4236,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 444
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 4290,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        12,
+        17,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 11392,
+        "cost_usd": 0.00949185,
+        "input_tokens": 22233,
+        "output_tokens": 1853
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1143
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2201,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2335,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3697,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 4100,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4182,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4795,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4849,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.BaseMultiStartMultivariateOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        15,
+        12,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 16384,
+        "cost_usd": 0.02235375,
+        "input_tokens": 29447,
+        "output_tokens": 1429
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 569
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1433,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1515,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 2877,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4217,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4484,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4885,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 5553,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5376,
+          "input_tokens": 5784,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5504,
+          "input_tokens": 5976,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4608,
+          "input_tokens": 6124,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 6297,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        13,
+        12,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 28800,
+        "cost_usd": 0.0025895000000000002,
+        "input_tokens": 50314,
+        "output_tokens": 888
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 569
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1433,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1515,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1651,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2054,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2188,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3550,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 3632,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3948,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4345,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4593,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4647,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.BaseMultivariateVectorMultiStartOptimizer.optimize(int,FUNC,double[],double[],double[])",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        13,
+        14,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 11392,
+        "cost_usd": 0.00798805,
+        "input_tokens": 34725,
+        "output_tokens": 935
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 569
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1433,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1515,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 645
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 831
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2046,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 371
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2449,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 452
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2585,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1500
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3198,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1193
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3514,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 753
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4876,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2405
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 6216,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2098
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6270,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1507
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.BaseMultiStartMultivariateOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.BaseMultivariateVectorMultiStartOptimizer.optimize(int,FUNC,double[],double[],double[])",
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()"
+      ],
+      "top5_indices": [
+        13,
+        2,
+        15,
+        14,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 14080,
+        "cost_usd": 0.03081975,
+        "input_tokens": 37183,
+        "output_tokens": 12346
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 569
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1433,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1515,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1649,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 3011,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3414,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 3496,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 4109,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4229,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 4283,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.optimize(OptimizationData)",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        16,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 19328,
+        "cost_usd": 0.01683,
+        "input_tokens": 28308,
+        "output_tokens": 891
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 721
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2049,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2131,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2213,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2267,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.linear.EigenDecomposition.findEigenVectors(double[][])",
+        "org.apache.commons.math3.linear.MatrixUtils.isSymmetricInternal(RealMatrix,double,boolean)",
+        "org.apache.commons.math3.linear.TriDiagonalTransformer.getQT()"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 5248,
+        "cost_usd": 0.008901274000000002,
+        "input_tokens": 9829,
+        "output_tokens": 863
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 721
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2049,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2131,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2213,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2267,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)"
+      ],
+      "top5_indices": [
+        1,
+        17,
+        2,
+        13,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 5248,
+        "cost_usd": 0.010795498,
+        "input_tokens": 9829,
+        "output_tokens": 863
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 721
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2049,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2131,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2267,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2670,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 4032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4280,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4362,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4765,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4847,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 4981,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5400,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)"
+      ],
+      "top5_indices": [
+        1,
+        18,
+        12,
+        2,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 15360,
+        "cost_usd": 0.01624325,
+        "input_tokens": 42953,
+        "output_tokens": 1012
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 721
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2049,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2131,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2267,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2670,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 4032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4280,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4362,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4765,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4847,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 4981,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 5400,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.optimize(OptimizationData)",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        12,
+        16,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 17280,
+        "cost_usd": 0.019827249999999998,
+        "input_tokens": 42953,
+        "output_tokens": 1012
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 721
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2049,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 73
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2131,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2267,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 188
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2670,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 144
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4166,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4248,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 248
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4330,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 290
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4384,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.optimize(OptimizationData)",
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)"
+      ],
+      "top5_indices": [
+        2,
+        12,
+        16,
+        1,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 21632,
+        "cost_usd": 0.014749300000000002,
+        "input_tokens": 31446,
+        "output_tokens": 1773
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 721
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2049,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 290
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2131,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 361
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2528,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 628
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2662,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 365
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2798,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 679
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3201,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1076
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4563,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1397
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4645,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1189
+        },
+        {
+          "cached_tokens": 4480,
+          "input_tokens": 5258,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2114
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 5574,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 568
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 5628,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        13,
+        12,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 25856,
+        "cost_usd": 0.0347769,
+        "input_tokens": 42206,
+        "output_tokens": 9431
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 721
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2049,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2131,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3493,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3627,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 4030,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4112,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4248,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 4302,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.linear.EigenDecomposition.findEigenVectors(double[][])",
+        "org.apache.commons.math3.linear.MatrixUtils.isSymmetricInternal(RealMatrix,double,boolean)",
+        "org.apache.commons.math3.linear.TriDiagonalTransformer.getQT()"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 16896,
+        "cost_usd": 0.024003009999999998,
+        "input_tokens": 29161,
+        "output_tokens": 1007
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 721
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2049,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2131,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3493,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3627,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 4030,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4112,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4248,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4302,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        18,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 14976,
+        "cost_usd": 0.025027249999999997,
+        "input_tokens": 29161,
+        "output_tokens": 1007
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 721
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2049,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2131,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3493,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3627,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 4030,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4112,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4248,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4302,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 263
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        18,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 14976,
+        "cost_usd": 0.025467249999999997,
+        "input_tokens": 29161,
+        "output_tokens": 1227
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 721
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2049,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2131,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3493,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3627,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 4030,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4112,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4248,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4302,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 862
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        13,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 14976,
+        "cost_usd": 0.026665249999999998,
+        "input_tokens": 29161,
+        "output_tokens": 1826
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1169,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 721
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2049,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2131,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3493,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3627,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 4030,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4112,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4248,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4302,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math3.optim.BaseOptimizer.getIterations()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer.doOptimize()",
+        "org.apache.commons.math3.optimization.direct.SimplexOptimizer.doOptimize()",
+        "org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer(Formula,ConvergenceChecker<PointValuePair>)",
+        "org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer(double,double,double)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        12,
+        17,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 14976,
+        "cost_usd": 0.029673249999999998,
+        "input_tokens": 29161,
+        "output_tokens": 1007
+      }
+    }
+  },
+  "schema_version": 1
+}

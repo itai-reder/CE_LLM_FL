@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;org.apache.commons.compress.archivers.tar$TarArchiveInputStream.getNextTarEntry();org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java;159;244;1.0
+2;org.apache.commons.compress.archivers.tar$TarUtils.parseOctal(byte[],int,int);org/apache/commons/compress/archivers/tar/TarUtils.java;35;112;0.9994941191349437
+3;org.apache.commons.compress.archivers.tar$TarUtils.exceptionMessage(byte[],int,int,int,byte);org/apache/commons/compress/archivers/tar/TarUtils.java;165;171;0.9992411787024156
+4;org.apache.commons.compress.archivers.tar$TarArchiveEntry.evaluateType(byte[]);org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;911;924;0.9984823574048312
+5;org.apache.commons.compress.archivers.tar$TarArchiveEntry.parseTarHeader(byte[]);org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;800;866;0.998355887188567
+6;org.apache.commons.compress.archivers.tar$TarArchiveInputStream.close();org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java;85;92;0.9978500063235108
+7;org.apache.commons.compress.archivers.tar$TarBuffer.close();org/apache/commons/compress/archivers/tar/TarBuffer.java;386;407;0.9977235361072467
+9;org.apache.commons.compress.archivers.tar$TarArchiveEntry.isGNULongNameEntry();org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;607;615;0.9969647148096623
+11;org.apache.commons.compress.archivers.tar$TarArchiveEntry.TarArchiveEntry(byte[]);org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;305;315;0.9925382572404199
+16;org.apache.commons.compress.archivers.tar$TarBuffer.readBlock();org/apache/commons/compress/archivers/tar/TarBuffer.java;210;269;0.9889970911850259
+19;org.apache.commons.compress.archivers.tar$TarArchiveEntry.isDirectory();org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;640;659;0.9869735677248008
+113;org.apache.commons.compress.archivers.zip$ZipArchiveEntry.ZipArchiveEntry(java.util.zip.ZipEntry);org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java;101;124;0.9287972682433286
+148;org.apache.commons.compress.archivers.ar$ArArchiveEntry.ArArchiveEntry(String,long,int,int,int,long);org/apache/commons/compress/archivers/ar/ArArchiveEntry.java;89;107;0.8979385354748957
+608;org.apache.commons.compress.archivers.zip$ZipArchiveInputStream.getNextZipEntry();org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java;166;248;0.5013279372707727
+658;org.apache.commons.compress.archivers.zip$ZipArchiveOutputStream.handleSizesAndCrc(long,long,Zip64Mode);org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java;480;529;0.4273428607562919
+710;org.apache.commons.compress.archivers.zip$ZipFile.readCentralDirectoryEntry(Map<ZipArchiveEntry,NameAndComment>);org/apache/commons/compress/archivers/zip/ZipFile.java;424;515;0.3601871759200708

@@ -1,0 +1,551 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 850,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 741
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1750,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1853,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1941,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2030,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2123,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2216,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2381,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2467,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2735,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 3016,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3379,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.cli.CommandLine.getOptionValue(char)",
+        "org.apache.commons.cli.CommandLine.getOptionValue(String)",
+        "org.apache.commons.cli.Parser.processOption(String,ListIterator)",
+        "org.apache.commons.cli.OptionBuilder.create(char)",
+        "org.apache.commons.cli.OptionBuilder.withArgName(String)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        11,
+        9,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 15104,
+        "cost_usd": 0.001030602,
+        "input_tokens": 26741,
+        "output_tokens": 1103
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 850,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 251
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1260,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1348,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1445,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1548,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1637,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1984,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2265,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2358,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2610,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.cli.CommandLine.getOptionValue(String)",
+        "org.apache.commons.cli.OptionBuilder.create(String)",
+        "org.apache.commons.cli.OptionBuilder.create(char)",
+        "org.apache.commons.cli.OptionBuilder.withLongOpt(String)",
+        "org.apache.commons.cli.PosixParser.flatten(Options,String[],boolean)"
+      ],
+      "top5_indices": [
+        16,
+        15,
+        9,
+        17,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 7808,
+        "cost_usd": 0.0049322,
+        "input_tokens": 22492,
+        "output_tokens": 533
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 850,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 247
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1064,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1167,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 292
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1256,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 121
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1603,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 310
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1689,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 394
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1970,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 418
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2024,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 592
+        }
+      ],
+      "top5": [
+        "org.apache.commons.cli.PosixParser.flatten(Options,String[],boolean)",
+        "org.apache.commons.cli.Parser.processOption(String,ListIterator)",
+        "org.apache.commons.cli.CommandLine.getOptionValue(String)",
+        "org.apache.commons.cli.OptionBuilder.create(char)",
+        "org.apache.commons.cli.OptionBuilder.withLongOpt(String)"
+      ],
+      "top5_indices": [
+        14,
+        11,
+        16,
+        9,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00769775,
+        "input_tokens": 11623,
+        "output_tokens": 2396
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 850,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 698
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1166,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 113
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1269,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 314
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1355,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 187
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1444,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 552
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1725,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 190
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1813,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 651
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1978,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2207
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2075,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 602
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2422,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1951
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2476,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2034
+        }
+      ],
+      "top5": [
+        "org.apache.commons.cli.CommandLine.getOptionValue(String)",
+        "org.apache.commons.cli.PosixParser.flatten(Options,String[],boolean)",
+        "org.apache.commons.cli.Parser.processOption(String,ListIterator)",
+        "org.apache.commons.cli.OptionBuilder.create(String)",
+        "org.apache.commons.cli.OptionBuilder.withLongOpt(String)"
+      ],
+      "top5_indices": [
+        16,
+        14,
+        11,
+        15,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.022892449999999998,
+        "input_tokens": 18573,
+        "output_tokens": 9499
+      }
+    },
+    "M2R4-M2R4-M2R4": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 850,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2626
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1478,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 359
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 521
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1670,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1455
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1951,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 911
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2048,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 423
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2134,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 871
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2222,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1319
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2387,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1421
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 3143
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3148,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 4340
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3202,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 5972
+        }
+      ],
+      "top5": [
+        "org.apache.commons.cli.CommandLine.getOptionValue(String)",
+        "org.apache.commons.cli.Parser.processOption(String,ListIterator)",
+        "org.apache.commons.cli.PosixParser.flatten(Options,String[],boolean)",
+        "org.apache.commons.cli.OptionBuilder.create(String)",
+        "org.apache.commons.cli.OptionBuilder.withLongOpt(String)"
+      ],
+      "top5_indices": [
+        16,
+        11,
+        14,
+        15,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 8320,
+        "cost_usd": 0.05120125,
+        "input_tokens": 25405,
+        "output_tokens": 23361
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 850,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 669
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1678,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1781,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1867,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1956,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2059,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2145,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2242,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2328,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2414,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2503,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2557,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.cli.CommandLine.getOptionValue(String)",
+        "org.apache.commons.cli.CommandLine.hasOption(char)",
+        "org.apache.commons.cli.CommandLine.getOptionValue(char)",
+        "org.apache.commons.cli.Parser.processOption(String,ListIterator)",
+        "org.apache.commons.cli.OptionBuilder.withLongOpt(String)"
+      ],
+      "top5_indices": [
+        16,
+        7,
+        6,
+        11,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 14976,
+        "cost_usd": 0.024257,
+        "input_tokens": 24380,
+        "output_tokens": 1063
+      }
+    }
+  },
+  "schema_version": 1
+}

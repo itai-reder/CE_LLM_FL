@@ -1,0 +1,19 @@
+rank;signature;path;startLine;endLine;score
+1;org.mockito.internal.configuration$SpyAnnotationEngine.process(Class<?>,Object);org/mockito/internal/configuration/SpyAnnotationEngine.java;46;74;0.4082482904638631
+2;org.mockito.internal.stubbing.defaultanswers$ReturnsEmptyValues.answer(InvocationOnMock);org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java;60;81;0.2886751345948129
+3;org.mockito.internal.configuration.injection$SpyOnInjectedFieldsHandler.processInjection(Field,Object,Set<Object>);org/mockito/internal/configuration/injection/SpyOnInjectedFieldsHandler.java;30;56;0.2773500981126146
+4;org.mockito.internal.configuration.injection.filter$NameBasedCandidateFilter.filterCandidate(Collection<Object>,Field,Object);org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.java;22;44;0.22360679774997896
+5;org.mockito$Mockito.reset(T);org/mockito/Mockito.java;1582;1611;0.20851441405707477
+5;org.mockito.internal$MockitoCore.reset(T);org/mockito/internal/MockitoCore.java;93;101;0.20851441405707477
+5;org.mockito.internal.util$MockUtil.resetMock(T);org/mockito/internal/util/MockUtil.java;43;49;0.20851441405707477
+8;org.mockito.internal.configuration.injection.filter$FinalMockCandidateFilter.filterCandidate(Collection<Object>,Field,Object);org/mockito/internal/configuration/injection/filter/FinalMockCandidateFilter.java;23;47;0.2
+8;org.mockito.internal.util.reflection$SuperTypesLastSorter.sort(Collection<? extends Field>);org/mockito/internal/util/reflection/SuperTypesLastSorter.java;21;54;0.2
+20;org.mockito.internal.configuration.injection$PropertyAndSetterInjection.injectMockCandidatesOnFields(Set<Object>,Object,boolean,List<Field>);org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java;111;122;0.14744195615489714
+20;org.mockito.internal.configuration.injection.filter$TypeBasedCandidateFilter.filterCandidate(Collection<Object>,Field,Object);org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.java;20;29;0.14744195615489714
+49;org.mockito.internal.configuration.injection.MockInjection$OngoingMockInjection.apply();org/mockito/internal/configuration/injection/MockInjection.java;90;95;0.12309149097933272
+68;org.mockito.internal.creation.settings$CreationSettings.getMockName();org/mockito/internal/creation/settings/CreationSettings.java;84;86;0.05423261445466404
+186;org.mockito.internal.configuration$DefaultInjectionEngine.injectMocksOnFields(Set<Field>,Set<Object>,Object);org/mockito/internal/configuration/DefaultInjectionEngine.java;19;26;0.029260286799032642
+186;org.mockito.internal.configuration$InjectingAnnotationEngine.injectMocks(Object);org/mockito/internal/configuration/InjectingAnnotationEngine.java;80;101;0.029260286799032642
+232;org.mockito.exceptions$Reporter.cannotInitializeForInjectMocksAnnotation(String,Exception);org/mockito/exceptions/Reporter.java;638;648;0.0
+232;org.mockito.exceptions$Reporter.cannotInjectDependency(Field,Object,Exception);org/mockito/exceptions/Reporter.java;684;692;0.0
+232;org.mockito.exceptions$Reporter.fieldInitialisationThrewException(Field,Throwable);org/mockito/exceptions/Reporter.java;661;668;0.0

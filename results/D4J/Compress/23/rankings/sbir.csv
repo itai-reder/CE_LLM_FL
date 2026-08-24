@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;org.apache.commons.compress.archivers.sevenz$SevenZFile.SevenZFile(File,byte[]);org/apache/commons/compress/archivers/sevenz/SevenZFile.java;81;107;1.0
+2;org.apache.commons.compress.archivers.sevenz$SevenZFile.readHeaders(byte[]);org/apache/commons/compress/archivers/sevenz/SevenZFile.java;154;203;0.9999170262197146
+3;org.apache.commons.compress.archivers.sevenz$SevenZFile.readEncodedHeader(DataInputStream,Archive,byte[]);org/apache/commons/compress/archivers/sevenz/SevenZFile.java;261;292;0.9997510786591437
+4;org.apache.commons.compress.archivers.sevenz$SevenZFile.readFolder(DataInput);org/apache/commons/compress/archivers/sevenz/SevenZFile.java;480;557;0.9990043146365748
+5;org.apache.commons.compress.archivers.sevenz$SevenZFile.readUnpackInfo(DataInput,Archive);org/apache/commons/compress/archivers/sevenz/SevenZFile.java;349;395;0.9987553932957186
+6;org.apache.commons.compress.archivers.sevenz$SevenZFile.readUint64(DataInput);org/apache/commons/compress/archivers/sevenz/SevenZFile.java;896;910;0.998257550614006
+7;org.apache.commons.compress.archivers.sevenz$Coders.addDecoder(InputStream,Coder,byte[]);org/apache/commons/compress/archivers/sevenz/Coders.java;44;53;0.9979256554928643
+8;org.apache.commons.compress.archivers.sevenz$Folder.findBindPairForInStream(int);org/apache/commons/compress/archivers/sevenz/Folder.java;44;51;0.9975107865914371
+10;org.apache.commons.compress.archivers.sevenz$SevenZFile.readPackInfo(DataInput,Archive);org/apache/commons/compress/archivers/sevenz/SevenZFile.java;320;347;0.9970129439097245
+944;org.apache.commons.compress.archivers.zip$ZipArchiveInputStream.getNextZipEntry();org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java;185;288;0.39296382343179553
+951;org.apache.commons.compress.archivers.zip$ZipArchiveInputStream.readDeflated(byte[],int,int);org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java;437;454;0.3822602057749751
+1057;org.apache.commons.compress.archivers.zip$ZipFile.readCentralDirectoryEntry(Map<ZipArchiveEntry,NameAndComment>);org/apache/commons/compress/archivers/zip/ZipFile.java;499;586;0.29024228343843345
+1114;org.apache.commons.compress.changes$Change.type();org/apache/commons/compress/changes/Change.java;89;91;0.251161632923996
+1357;org.apache.commons.compress.archivers.sevenz.Coders$LZMADecoder.decode(InputStream,Coder,byte[]);org/apache/commons/compress/archivers/sevenz/Coders.java;106;118;0.03177895784931962
+1359;org.apache.commons.compress.archivers.sevenz.Coders$AES256SHA256Decoder.decode(InputStream,Coder,byte[]);org/apache/commons/compress/archivers/sevenz/Coders.java;148;241;0.02846000663790242

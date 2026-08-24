@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;com.fasterxml.jackson.databind.ser.std$DateTimeSerializerBase.createContextual(SerializerProvider,BeanProperty);com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.java;49;81;1.0
+2;com.fasterxml.jackson.databind.ser.std$EnumSerializer._isShapeWrittenUsingIndex(Class<?>,JsonFormat.Value,boolean);com/fasterxml/jackson/databind/ser/std/EnumSerializer.java;207;231;0.7175478878291728
+3;com.fasterxml.jackson.databind.deser.std.DateDeserializers$DateBasedDeserializer.createContextual(DeserializationContext,BeanProperty);com/fasterxml/jackson/databind/deser/std/DateDeserializers.java;102;141;0.6599426629763673
+4;com.fasterxml.jackson.databind.ser.std$BeanSerializerBase.createContextual(SerializerProvider,BeanProperty);com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java;383;518;0.6296059534046579
+5;com.fasterxml.jackson.databind.deser$BeanDeserializerBase.createContextual(DeserializationContext,BeanProperty);com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java;616;695;0.6290576262962617
+6;com.fasterxml.jackson.databind.deser$BeanDeserializerBase.BeanDeserializerBase(BeanDeserializerBuilder,BeanDescription,BeanPropertyMap,Map<String,SettableBeanProperty>,HashSet<String>,boolean,boolean);com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java;201;246;0.5760907253660855
+17;com.fasterxml.jackson.databind$SerializerProvider._dateFormat();com/fasterxml/jackson/databind/SerializerProvider.java;1250;1270;0.4472397408542999
+53;com.fasterxml.jackson.databind.util$StdDateFormat.format(Date,StringBuffer,FieldPosition);com/fasterxml/jackson/databind/util/StdDateFormat.java;362;371;0.31173237423551275
+167;com.fasterxml.jackson.databind$SerializerProvider.defaultSerializeDateValue(Date,JsonGenerator);com/fasterxml/jackson/databind/SerializerProvider.java;1030;1044;0.21074881846256108
+217;com.fasterxml.jackson.databind.ser.std$DateSerializer.serialize(Date,JsonGenerator,SerializerProvider);com/fasterxml/jackson/databind/ser/std/DateSerializer.java;44;57;0.1966038967962041
+2186;com.fasterxml.jackson.databind.type$TypeFactory.TypeFactory(TypeParser,TypeModifier[],ClassLoader);com/fasterxml/jackson/databind/type/TypeFactory.java;154;159;0.06022619450686788
+4110;com.fasterxml.jackson.databind$ObjectMapper.getTypeFactory();com/fasterxml/jackson/databind/ObjectMapper.java;738;741;0.0
+4110;com.fasterxml.jackson.databind.type$TypeFactory.withClassLoader(ClassLoader);com/fasterxml/jackson/databind/type/TypeFactory.java;172;174;0.0
+4110;com.fasterxml.jackson.databind.type$TypeFactory.withModifier(TypeModifier);com/fasterxml/jackson/databind/type/TypeFactory.java;161;170;0.0
+4110;com.fasterxml.jackson.databind.type$TypeParser.withFactory(TypeFactory);com/fasterxml/jackson/databind/type/TypeParser.java;22;27;0.0

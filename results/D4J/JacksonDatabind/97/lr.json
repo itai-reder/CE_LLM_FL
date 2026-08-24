@@ -1,0 +1,3413 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 979
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2372,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2542,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2596,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.type.TypeFactory.withClassLoader(ClassLoader)",
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 2176,
+        "cost_usd": 0.000763888,
+        "input_tokens": 8744,
+        "output_tokens": 1086
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 979
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2372,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2542,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2596,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.type.TypeFactory.withClassLoader(ClassLoader)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        10,
+        4,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 2176,
+        "cost_usd": 0.0013518879999999999,
+        "input_tokens": 8744,
+        "output_tokens": 1086
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 979
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2372,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2542,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2596,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 302
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)"
+      ],
+      "top5_indices": [
+        6,
+        10,
+        1,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 2176,
+        "cost_usd": 0.001869888,
+        "input_tokens": 8744,
+        "output_tokens": 1345
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 979
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2372,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2542,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2596,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1020
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)",
+        "com.fasterxml.jackson.databind.ObjectMapper.writer()",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)"
+      ],
+      "top5_indices": [
+        6,
+        10,
+        17,
+        1,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 2176,
+        "cost_usd": 0.003305888,
+        "input_tokens": 8744,
+        "output_tokens": 2063
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 979
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2372,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2542,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2596,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 2176,
+        "cost_usd": 0.004291888,
+        "input_tokens": 8744,
+        "output_tokens": 1086
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 979
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2372,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2542,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2642,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2826,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2922,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3150,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3429,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3599,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3702,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3899,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)",
+        "com.fasterxml.jackson.databind.ser.std.StdSerializer.findContextualConvertingSerializer(SerializerProvider,BeanProperty,JsonSerializer<?>)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        6,
+        10,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 11648,
+        "cost_usd": 0.00602015,
+        "input_tokens": 35051,
+        "output_tokens": 1270
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 979
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2372,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2542,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2642,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2826,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2922,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3150,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3429,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3599,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3702,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3899,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        10,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 11648,
+        "cost_usd": 0.00686875,
+        "input_tokens": 35051,
+        "output_tokens": 1270
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 979
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2372,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 96
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2472,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2642,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2738,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2830,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2922,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3025,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3253,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3532,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3713,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 3899,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        9,
+        4,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 21888,
+        "cost_usd": 0.004085287999999999,
+        "input_tokens": 34632,
+        "output_tokens": 1316
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 979
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2372,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 287
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2542,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 592
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2642,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2826,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2922,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3273,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 586
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3327,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)",
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        9,
+        10,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 13696,
+        "cost_usd": 0.006308750000000001,
+        "input_tokens": 26975,
+        "output_tokens": 2597
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 979
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2372,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2468,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2638,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2738,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2830,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2922,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2976,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        9,
+        6,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 14208,
+        "cost_usd": 0.009005588,
+        "input_tokens": 20178,
+        "output_tokens": 1229
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 979
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2372,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2468,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2638,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2738,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2830,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2922,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2976,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)"
+      ],
+      "top5_indices": [
+        6,
+        10,
+        1,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 12032,
+        "cost_usd": 0.0130973,
+        "input_tokens": 20178,
+        "output_tokens": 1229
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 662
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2055,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2245,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2435,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2605,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2705,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2875,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2967,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3063,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3291,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 3481,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3597,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.type.TypeFactory.TypeFactory(LRUMap<Object,JavaType>,TypeParser,TypeModifier[],ClassLoader)",
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        7,
+        6,
+        4,
+        1,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 16384,
+        "cost_usd": 0.002537442,
+        "input_tokens": 32553,
+        "output_tokens": 1037
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 662
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2055,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2245,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2435,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2605,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2705,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2875,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2967,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3063,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3291,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 3481,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3597,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)",
+        "com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.generateJsonSchema(Class<?>)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        10,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 18048,
+        "cost_usd": 0.002951242,
+        "input_tokens": 32553,
+        "output_tokens": 1037
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 662
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2055,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2225,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2317,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2409,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2509,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2605,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2889,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3168,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3338,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 3392,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)",
+        "com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(Object)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        9,
+        10,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 12672,
+        "cost_usd": 0.006195526,
+        "input_tokens": 30927,
+        "output_tokens": 930
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 662
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2055,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2225,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2317,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2409,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2509,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2605,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2889,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3168,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3338,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3392,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 11520,
+        "cost_usd": 0.00699975,
+        "input_tokens": 30927,
+        "output_tokens": 930
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 662
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2055,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2225,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2317,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2409,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2509,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2605,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2889,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3168,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3338,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3392,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 251
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 11520,
+        "cost_usd": 0.0074157500000000005,
+        "input_tokens": 30927,
+        "output_tokens": 1138
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 662
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2055,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2225,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2317,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2409,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2509,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2605,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2889,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3168,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3338,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3392,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 980
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 11520,
+        "cost_usd": 0.00887375,
+        "input_tokens": 30927,
+        "output_tokens": 1867
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 662
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2055,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2225,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2317,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2409,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2509,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2605,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2889,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3168,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3338,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3392,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 11520,
+        "cost_usd": 0.010735749999999999,
+        "input_tokens": 30927,
+        "output_tokens": 930
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 662
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2055,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 62
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2225,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 60
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2325,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2509,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2605,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2695,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2865,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 288
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 12928,
+        "cost_usd": 0.00550345,
+        "input_tokens": 23849,
+        "output_tokens": 1225
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 662
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2055,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 113
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2225,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 713
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2325,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2509,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1078
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2563,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.008014799999999999,
+        "input_tokens": 15328,
+        "output_tokens": 2653
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 662
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2055,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2225,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2325,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2417,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2509,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2605,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 10112,
+        "cost_usd": 0.0159926,
+        "input_tokens": 20996,
+        "output_tokens": 934
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 662
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2055,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2225,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2325,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2417,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2509,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2605,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 9600,
+        "cost_usd": 0.018255,
+        "input_tokens": 20996,
+        "output_tokens": 934
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 255
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1443,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1633,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1906,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2006,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2060,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        6,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 4096,
+        "cost_usd": 0.0012293480000000001,
+        "input_tokens": 12018,
+        "output_tokens": 441
+      }
+    },
+    "M2R2-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 255
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1443,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1633,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1906,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2006,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2060,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 423
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 2944,
+        "cost_usd": 0.0025271720000000003,
+        "input_tokens": 12018,
+        "output_tokens": 821
+      }
+    },
+    "M2R2-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 255
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1443,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1633,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1906,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2006,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2060,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 925
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectMapper.writer()"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 2944,
+        "cost_usd": 0.003531172,
+        "input_tokens": 12018,
+        "output_tokens": 1323
+      }
+    },
+    "M2R2-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 255
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1443,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1633,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1906,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2006,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2060,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 2944,
+        "cost_usd": 0.004171172,
+        "input_tokens": 12018,
+        "output_tokens": 441
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 255
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1443,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1613,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1809,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1901,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1993,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2174,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2344,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2398,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        9,
+        4,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0052661,
+        "input_tokens": 18618,
+        "output_tokens": 493
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 255
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1443,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1613,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 68
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1667,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 265
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00270925,
+        "input_tokens": 5957,
+        "output_tokens": 610
+      }
+    },
+    "M2R2-M2R2-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 255
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1443,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1613,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 68
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1667,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 909
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectMapper.writer()"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00399725,
+        "input_tokens": 5957,
+        "output_tokens": 1254
+      }
+    },
+    "M2R2-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 255
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1443,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1613,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 68
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1667,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.0028362500000000002,
+        "input_tokens": 5957,
+        "output_tokens": 388
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 255
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1443,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1613,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1713,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1805,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1897,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1993,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2047,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 8192,
+        "cost_usd": 0.00974125,
+        "input_tokens": 13745,
+        "output_tokens": 505
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 694
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1616,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1806,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1976,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2072,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2172,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2353,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2543,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2816,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 3095,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3323,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3599,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)",
+        "com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(Object)",
+        "com.fasterxml.jackson.databind.type.TypeFactory.TypeFactory(LRUMap<Object,JavaType>,TypeParser,TypeModifier[],ClassLoader)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        10,
+        16,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 18304,
+        "cost_usd": 0.002292202,
+        "input_tokens": 28605,
+        "output_tokens": 1027
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 694
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1616,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1886,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1978,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2070,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2166,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2347,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2575,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2665,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2719,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        9,
+        4,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 4864,
+        "cost_usd": 0.0065461,
+        "input_tokens": 23042,
+        "output_tokens": 940
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 694
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1616,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 76
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 464
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1886,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1978,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2070,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1283
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2166,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2347,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 538
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2401,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 819
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        10,
+        1,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 7936,
+        "cost_usd": 0.0104654,
+        "input_tokens": 17484,
+        "output_tokens": 3940
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 694
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1616,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1886,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1978,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2070,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2166,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2220,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 10496,
+        "cost_usd": 0.009401,
+        "input_tokens": 14956,
+        "output_tokens": 930
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 770
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2163,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2263,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2363,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2533,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2587,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)",
+        "com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(Object)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        9,
+        10,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 8448,
+        "cost_usd": 0.009490974,
+        "input_tokens": 13143,
+        "output_tokens": 948
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 770
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2163,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2263,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2363,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2533,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2587,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 8448,
+        "cost_usd": 0.011769198,
+        "input_tokens": 13143,
+        "output_tokens": 948
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 770
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2163,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2333,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2433,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2525,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2617,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2713,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2883,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2937,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0148535,
+        "input_tokens": 21838,
+        "output_tokens": 1000
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 770
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2163,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2333,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2433,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2525,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2617,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2713,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2883,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2937,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 1920,
+        "cost_usd": 0.0159745,
+        "input_tokens": 21838,
+        "output_tokens": 1000
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 770
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2163,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 69
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2333,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 146
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2433,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2525,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2617,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2713,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2894,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 2997,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3167,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 262
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 3221,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 17536,
+        "cost_usd": 0.014973250000000002,
+        "input_tokens": 28297,
+        "output_tokens": 1422
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 770
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2163,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 167
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2333,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 543
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2387,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 3840,
+        "cost_usd": 0.012377850000000001,
+        "input_tokens": 8117,
+        "output_tokens": 1523
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 770
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2163,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2333,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2433,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2525,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2617,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2713,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2767,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.type.TypeFactory.TypeFactory(LRUMap<Object,JavaType>,TypeParser,TypeModifier[],ClassLoader)",
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        7,
+        6,
+        1,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 11136,
+        "cost_usd": 0.01948501,
+        "input_tokens": 18785,
+        "output_tokens": 1020
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 770
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2163,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2333,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2433,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2525,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2617,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2713,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2767,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 9216,
+        "cost_usd": 0.02020225,
+        "input_tokens": 18785,
+        "output_tokens": 1020
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 770
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2163,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2333,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2433,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2525,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2617,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2713,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2767,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 215
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 9216,
+        "cost_usd": 0.020546250000000002,
+        "input_tokens": 18785,
+        "output_tokens": 1192
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 770
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2163,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2333,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2433,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2525,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2617,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2713,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2767,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 552
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 9216,
+        "cost_usd": 0.02122025,
+        "input_tokens": 18785,
+        "output_tokens": 1529
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 770
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2163,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2333,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2433,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2525,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2617,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2713,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2767,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.databind.node.POJONode.serialize(JsonGenerator,SerializerProvider)",
+        "com.fasterxml.jackson.databind.node.ObjectNode.putPOJO(String,Object)",
+        "com.fasterxml.jackson.databind.node.ContainerNode.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.node.JsonNodeFactory.pojoNode(Object)",
+        "com.fasterxml.jackson.databind.ObjectWriter.withAttribute(Object,Object)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        4,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 9216,
+        "cost_usd": 0.02331325,
+        "input_tokens": 18785,
+        "output_tokens": 1020
+      }
+    }
+  },
+  "schema_version": 1
+}

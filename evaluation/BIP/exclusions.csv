@@ -1,0 +1,214 @@
+Project,BugId,bucket,scope,detail
+PySnooper,1,fl_unreachable,all,faulty method(s) not covered by spectra (n=2)
+PySnooper,2,extraction_incomplete,all,audit status real_failure
+ansible,4,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+ansible,5,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+ansible,6,lr_readiness_skipped,all,SR top-20 blank
+ansible,7,lr_readiness_skipped,all,SR top-20 blank
+ansible,8,lr_readiness_skipped,all,SR top-20 blank
+ansible,9,lr_readiness_skipped,all,SR top-20 blank
+ansible,10,lr_readiness_skipped,all,SR top-20 blank
+ansible,11,fl_unreachable,all,faulty method(s) not covered by spectra (n=3)
+ansible,12,extraction_incomplete,all,audit status real_failure
+ansible,15,lr_readiness_skipped,all,SR top-20 blank
+ansible,16,lr_readiness_skipped,all,SR top-20 blank
+ansible,17,lr_readiness_skipped,all,SR top-20 blank
+ansible,18,lr_readiness_skipped,all,SR top-20 blank
+black,4,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+black,5,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+black,6,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+black,7,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+black,8,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+black,12,lr_readiness_skipped,all,SR top-20 blank
+black,14,lr_readiness_skipped,all,SR top-20 blank
+black,21,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+black,22,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+black,23,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+cookiecutter,1,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+cookiecutter,3,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+cookiecutter,4,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+fastapi,1,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+fastapi,2,fl_unreachable,all,faulty method(s) not covered by spectra (n=1)
+fastapi,3,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+fastapi,5,fl_unreachable,all,faulty method(s) not covered by spectra (n=1)
+fastapi,8,fl_unreachable,all,faulty method(s) not covered by spectra (n=2)
+fastapi,9,fl_unreachable,all,faulty method(s) not covered by spectra (n=1)
+fastapi,11,fl_unreachable,all,faulty method(s) not covered by spectra (n=1)
+fastapi,13,fl_unreachable,all,faulty method(s) not covered by spectra (n=1)
+fastapi,14,method_unlocalizable,aggregates,no method signature in faults.csv (patch outside any def)
+fastapi,15,extraction_incomplete,all,audit status real_failure
+fastapi,16,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+httpie,1,extraction_incomplete,all,audit status real_failure
+keras,2,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+keras,6,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+keras,9,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+keras,12,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+keras,15,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+keras,17,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+keras,22,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+keras,27,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+keras,35,lr_readiness_skipped,all,SR top-20 blank
+keras,40,lr_readiness_skipped,all,SR top-20 blank
+keras,43,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+luigi,1,extraction_incomplete,all,audit status real_failure
+luigi,4,lr_readiness_skipped,all,SR top-20 blank
+luigi,7,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+luigi,9,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+luigi,19,lr_readiness_skipped,all,SR top-20 blank
+luigi,23,fl_unreachable,all,faulty method(s) not covered by spectra (n=3)
+luigi,27,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+luigi,30,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+luigi,32,method_unlocalizable,aggregates,no method signature in faults.csv (patch outside any def)
+matplotlib,3,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+matplotlib,6,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+matplotlib,7,lr_readiness_skipped,all,SR top-20 blank
+matplotlib,8,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+matplotlib,9,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+matplotlib,10,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+matplotlib,11,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+matplotlib,12,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+matplotlib,14,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+matplotlib,15,extraction_incomplete,all,audit status real_failure
+matplotlib,16,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+matplotlib,18,fl_unreachable,all,faulty method(s) not covered by spectra (n=1)
+matplotlib,19,fl_unreachable,all,faulty method(s) not covered by spectra (n=1)
+matplotlib,22,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+matplotlib,26,extraction_incomplete,all,audit status real_failure
+matplotlib,27,extraction_incomplete,all,audit status real_failure
+matplotlib,28,extraction_incomplete,all,audit status real_failure
+pandas,2,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,5,fl_unreachable,all,faulty method(s) not covered by spectra (n=1)
+pandas,7,lr_readiness_skipped,all,SR top-20 blank
+pandas,11,lr_readiness_skipped,all,SR top-20 blank
+pandas,13,lr_readiness_skipped,all,SR top-20 blank
+pandas,14,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,15,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,16,lr_readiness_skipped,all,SR top-20 blank
+pandas,20,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,21,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,25,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,26,lr_readiness_skipped,all,SR top-20 blank
+pandas,27,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,28,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,30,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,34,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,35,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,36,lr_readiness_skipped,all,SR top-20 blank
+pandas,40,lr_readiness_skipped,all,SR top-20 blank
+pandas,42,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,43,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,46,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,48,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,51,fl_unreachable,all,faulty method(s) not covered by spectra (n=1)
+pandas,57,lr_readiness_skipped,all,SR top-20 blank
+pandas,59,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,60,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,62,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,64,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,66,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,67,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,68,fl_unreachable,all,faulty method(s) not covered by spectra (n=1)
+pandas,69,lr_readiness_skipped,all,SR top-20 blank
+pandas,70,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,76,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,77,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,78,lr_readiness_skipped,all,SR top-20 blank
+pandas,80,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,82,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,83,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,85,lr_readiness_skipped,all,SR top-20 blank
+pandas,94,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,95,lr_readiness_skipped,all,SR top-20 blank
+pandas,100,lr_readiness_skipped,all,SR top-20 blank
+pandas,101,lr_readiness_skipped,all,SR top-20 blank
+pandas,104,lr_readiness_skipped,all,SR top-20 blank
+pandas,108,lr_readiness_skipped,all,SR top-20 blank
+pandas,109,lr_readiness_skipped,all,SR top-20 blank
+pandas,110,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,112,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,113,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+pandas,115,lr_readiness_skipped,all,SR top-20 blank
+pandas,121,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,122,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,124,method_unlocalizable,aggregates,no method signature in faults.csv (patch outside any def)
+pandas,128,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+pandas,130,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,131,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,132,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,134,method_unlocalizable,aggregates,no method signature in faults.csv (patch outside any def)
+pandas,135,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,138,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,139,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,143,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,145,lr_readiness_skipped,all,SR top-20 blank
+pandas,148,sr_not_run,all,sr_result.json missing
+pandas,149,extraction_incomplete,all,audit status real_failure
+pandas,150,lr_readiness_skipped,all,SR top-20 blank
+pandas,153,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,154,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,159,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,160,lr_readiness_skipped,all,SR top-20 blank
+pandas,162,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,165,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+pandas,166,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+sanic,2,fl_unreachable,all,faulty method(s) not covered by spectra (n=1)
+sanic,4,extraction_incomplete,all,audit status real_failure
+sanic,5,extraction_incomplete,all,audit status real_failure
+scrapy,1,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+scrapy,9,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+scrapy,11,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+scrapy,12,method_unlocalizable,aggregates,no method signature in faults.csv (patch outside any def)
+scrapy,13,method_unlocalizable,aggregates,no method signature in faults.csv (patch outside any def)
+scrapy,16,lr_readiness_skipped,all,SR top-20 blank
+scrapy,17,lr_readiness_skipped,all,SR top-20 blank
+scrapy,19,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+scrapy,20,lr_readiness_skipped,all,SR top-20 blank
+scrapy,21,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+scrapy,26,extraction_incomplete,all,audit status real_failure
+scrapy,31,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+scrapy,33,extraction_incomplete,all,audit status real_failure
+scrapy,36,extraction_incomplete,all,audit status real_failure
+spacy,1,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+spacy,2,fl_unreachable,all,faulty method(s) not covered by spectra (n=1)
+spacy,3,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+spacy,4,extraction_incomplete,all,audit status real_failure
+spacy,7,extraction_incomplete,all,audit status real_failure
+spacy,8,method_unlocalizable,aggregates,no method signature in faults.csv (patch outside any def)
+spacy,9,method_unlocalizable,aggregates,no method signature in faults.csv (patch outside any def)
+spacy,10,method_unlocalizable,aggregates,no method signature in faults.csv (patch outside any def)
+thefuck,1,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+thefuck,2,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+thefuck,3,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+thefuck,4,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+thefuck,5,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+thefuck,6,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+thefuck,7,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+thefuck,8,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+thefuck,12,fl_unreachable,all,faulty method(s) not covered by spectra (n=1)
+thefuck,14,sr_not_run,all,blank trigger (non-mirrorable failure); sr_result.json missing
+thefuck,18,method_unlocalizable,aggregates,no method signature in faults.csv (patch outside any def)
+thefuck,25,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+thefuck,26,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+thefuck,27,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+thefuck,28,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+thefuck,30,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+thefuck,31,lr_readiness_skipped,all,SR top-20 blank
+thefuck,32,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+tornado,6,fl_unreachable,all,faulty method(s) not covered by spectra (n=2)
+tornado,8,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+tornado,10,lr_measurement_skipped,flexfl,"fault not in SR top-20; baselines evaluated, flexfl slots empty"
+tornado,13,lr_readiness_skipped,all,SR top-20 blank
+tqdm,7,method_unlocalizable,aggregates,no method signature in faults.csv (patch outside any def)
+youtube-dl,2,lr_not_run,flexfl,LR not run for any config; baselines evaluated
+youtube-dl,6,lr_readiness_skipped,all,SR top-20 blank
+youtube-dl,14,fl_unreachable,all,faulty method(s) not covered by spectra (n=2)
+youtube-dl,15,lr_readiness_skipped,all,SR top-20 blank
+youtube-dl,17,method_unlocalizable,aggregates,no method signature in faults.csv (patch outside any def)
+youtube-dl,22,lr_readiness_skipped,all,SR top-20 blank
+youtube-dl,33,lr_readiness_skipped,all,SR top-20 blank
+youtube-dl,36,method_unlocalizable,aggregates,no method signature in faults.csv (patch outside any def)
+youtube-dl,38,extraction_incomplete,all,audit status real_failure
+youtube-dl,39,extraction_incomplete,all,audit status real_failure
+youtube-dl,40,extraction_incomplete,all,audit status real_failure
+youtube-dl,41,lr_readiness_skipped,all,SR top-20 blank
+youtube-dl,42,extraction_incomplete,all,audit status real_failure

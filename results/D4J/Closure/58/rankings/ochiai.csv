@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher.processArrayLiteral(ArrayLiteral);com/google/javascript/jscomp/parsing/IRFactory.java;413;425;0.7071067811865475
+2;com.google.javascript.jscomp$LiveVariablesAnalysis.computeGenKill(Node,BitSet,BitSet,boolean);com/google/javascript/jscomp/LiveVariablesAnalysis.java;167;263;0.5773502691896258
+3;com.google.javascript.jscomp$ControlFlowAnalysis.computeFallThrough(Node);com/google/javascript/jscomp/ControlFlowAnalysis.java;781;800;0.5
+3;com.google.javascript.jscomp$ControlFlowAnalysis.computeFollowNode(Node,Node,ControlFlowAnalysis);com/google/javascript/jscomp/ControlFlowAnalysis.java;672;779;0.5
+3;com.google.javascript.jscomp$ControlFlowAnalysis.handleFor(Node);com/google/javascript/jscomp/ControlFlowAnalysis.java;395;430;0.5
+3;com.google.javascript.jscomp.parsing$TypeSafeDispatcher.process(AstNode);com/google/javascript/jscomp/parsing/TypeSafeDispatcher.java;118;282;0.5
+3;com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher.processForInLoop(ForInLoop);com/google/javascript/jscomp/parsing/IRFactory.java;566;573;0.5
+8;com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher.processElementGet(ElementGet);com/google/javascript/jscomp/parsing/IRFactory.java;545;551;0.35355339059327373
+9;com.google.javascript.jscomp.graph$LinkedDirectedGraph.isConnectedInDirection(N,Predicate<E>,N);com/google/javascript/jscomp/graph/LinkedDirectedGraph.java;203;215;0.31622776601683794
+10;com.google.javascript.jscomp$ControlFlowAnalysis.shouldTraverse(NodeTraversal,Node,Node);com/google/javascript/jscomp/ControlFlowAnalysis.java;217;292;0.30151134457776363
+42;com.google.javascript.jscomp$LiveVariablesAnalysis.addToSetIfLocal(Node,BitSet);com/google/javascript/jscomp/LiveVariablesAnalysis.java;265;275;0.09950371902099892
+56;com.google.javascript.jscomp$LiveVariablesAnalysis.flowThrough(Node,LiveVariableLattice);com/google/javascript/jscomp/LiveVariablesAnalysis.java;146;165;0.09245003270420485
+310;com.google.javascript.jscomp.parsing$ParserRunner.parse(StaticSourceFile,String,Config,ErrorReporter,Logger);com/google/javascript/jscomp/parsing/ParserRunner.java;95;147;0.07624928516630233
+481;com.google.javascript.rhino$Context.hasFeature(int);com/google/javascript/rhino/Context.java;960;1023;0.0

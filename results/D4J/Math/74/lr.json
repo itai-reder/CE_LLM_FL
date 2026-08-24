@@ -1,0 +1,3005 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 427
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2036,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 3381,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3435,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.AdaptiveStepsizeIntegrator(String,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        15,
+        16,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 1792,
+        "cost_usd": 0.000639596,
+        "input_tokens": 10302,
+        "output_tokens": 533
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 427
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2036,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 3381,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3435,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.setInitialStepSize(double)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        16,
+        18,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1792,
+        "cost_usd": 0.001395396,
+        "input_tokens": 10302,
+        "output_tokens": 533
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 427
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2036,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 3381,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3435,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 169
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.getOrder()"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        2,
+        16,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 1792,
+        "cost_usd": 0.001647396,
+        "input_tokens": 10302,
+        "output_tokens": 659
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 427
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2036,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 3381,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3435,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 662
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.AdaptiveStepsizeIntegrator(String,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        16,
+        15,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1792,
+        "cost_usd": 0.0026333959999999997,
+        "input_tokens": 10302,
+        "output_tokens": 1152
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 427
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2036,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 3381,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3435,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.AdamsMoultonIntegrator(int,double,double,double,double)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        2,
+        1,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1792,
+        "cost_usd": 0.0051743959999999995,
+        "input_tokens": 10302,
+        "output_tokens": 533
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 427
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2036,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2766,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 4120,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4668,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 6013,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6205,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9521,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 10251,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 10305,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        11,
+        16,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 16384,
+        "cost_usd": 0.009233454,
+        "input_tokens": 57335,
+        "output_tokens": 721
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 427
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2036,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2766,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 4120,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4668,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 6013,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6205,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9521,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 10251,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10305,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.AdaptiveStepsizeIntegrator(String,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        16,
+        15,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 14976,
+        "cost_usd": 0.01143295,
+        "input_tokens": 57335,
+        "output_tokens": 721
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 427
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2036,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 57
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2766,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 225
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4120,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 108
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4174,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        13,
+        16,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 7296,
+        "cost_usd": 0.0025344840000000005,
+        "input_tokens": 14546,
+        "output_tokens": 860
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 427
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2036,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2766,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 533
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4120,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 470
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 5465,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 886
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 5621,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1289
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 5675,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.Corrector.end()",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.Corrector.start(int,int,int,int,int,int)",
+        "org.apache.commons.math.linear.AbstractRealMatrix.walkInOptimizedOrder(RealMatrixPreservingVisitor)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        7,
+        8,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 15744,
+        "cost_usd": 0.009100233999999999,
+        "input_tokens": 27133,
+        "output_tokens": 3670
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 427
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2036,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2766,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 4120,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4312,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4096,
+          "input_tokens": 5657,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5376,
+          "input_tokens": 8973,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10312,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10366,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.setInitialStepSize(double)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        13,
+        16,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 17664,
+        "cost_usd": 0.031056800000000002,
+        "input_tokens": 49992,
+        "output_tokens": 713
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 427
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2036,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2766,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 4120,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4312,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4096,
+          "input_tokens": 5657,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5376,
+          "input_tokens": 8973,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10312,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10366,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.AdaptiveStepsizeIntegrator(String,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])"
+      ],
+      "top5_indices": [
+        11,
+        13,
+        2,
+        15,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 17664,
+        "cost_usd": 0.0439088,
+        "input_tokens": 49992,
+        "output_tokens": 713
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 561
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2170,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3515,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3745,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 5099,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4864,
+          "input_tokens": 6438,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6272,
+          "input_tokens": 7168,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6912,
+          "input_tokens": 7299,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 7040,
+          "input_tokens": 8644,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8698,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsBashforthIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        11,
+        12,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 28416,
+        "cost_usd": 0.002845508,
+        "input_tokens": 54226,
+        "output_tokens": 883
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 561
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2170,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3515,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3745,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 5099,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4864,
+          "input_tokens": 6438,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6272,
+          "input_tokens": 7168,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6912,
+          "input_tokens": 7299,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 7040,
+          "input_tokens": 8644,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 8698,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.setInitialStepSize(double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)"
+      ],
+      "top5_indices": [
+        11,
+        13,
+        2,
+        18,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 30080,
+        "cost_usd": 0.004279508,
+        "input_tokens": 54226,
+        "output_tokens": 883
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 561
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2170,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3524,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4254,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 5599,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6147,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 6377,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6431,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        11,
+        13,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.008103800000000001,
+        "input_tokens": 35952,
+        "output_tokens": 797
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 561
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2170,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3524,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4254,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 5599,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6147,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 6377,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6431,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)"
+      ],
+      "top5_indices": [
+        11,
+        13,
+        1,
+        16,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0094588,
+        "input_tokens": 35952,
+        "output_tokens": 797
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 561
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2170,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3524,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4254,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 5599,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6147,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 6377,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6431,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 229
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.getOrder()"
+      ],
+      "top5_indices": [
+        11,
+        13,
+        2,
+        16,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0098308,
+        "input_tokens": 35952,
+        "output_tokens": 983
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 561
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2170,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3524,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4254,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 5599,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6147,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 6377,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6431,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 654
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.getOrder()"
+      ],
+      "top5_indices": [
+        11,
+        13,
+        2,
+        16,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0106808,
+        "input_tokens": 35952,
+        "output_tokens": 1408
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 561
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2170,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3524,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4254,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 5599,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6147,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 6377,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 6431,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 29
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.getOrder()"
+      ],
+      "top5_indices": [
+        11,
+        13,
+        2,
+        16,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 6400,
+        "cost_usd": 0.0145098,
+        "input_tokens": 35952,
+        "output_tokens": 783
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 561
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2170,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 86
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3524,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 60
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4254,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 84
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4308,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.setInitialStepSize(double)"
+      ],
+      "top5_indices": [
+        11,
+        13,
+        2,
+        16,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 5376,
+        "cost_usd": 0.0043849,
+        "input_tokens": 15706,
+        "output_tokens": 834
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 561
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2170,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 325
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3524,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 305
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4254,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1071
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4308,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.setInitialStepSize(double)"
+      ],
+      "top5_indices": [
+        11,
+        13,
+        2,
+        16,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.007557299999999999,
+        "input_tokens": 15706,
+        "output_tokens": 2305
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 561
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2170,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3524,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 4254,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4096,
+          "input_tokens": 4484,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4538,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.getOrder()"
+      ],
+      "top5_indices": [
+        11,
+        13,
+        2,
+        16,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 13184,
+        "cost_usd": 0.010603799999999998,
+        "input_tokens": 20420,
+        "output_tokens": 739
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 561
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2170,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3524,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 4254,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4096,
+          "input_tokens": 4484,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 4538,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.getOrder()",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)"
+      ],
+      "top5_indices": [
+        11,
+        13,
+        2,
+        19,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 10880,
+        "cost_usd": 0.014736999999999998,
+        "input_tokens": 20420,
+        "output_tokens": 739
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1232
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2489,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3834,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 3888,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.linear.AbstractRealMatrix.walkInOptimizedOrder(RealMatrixPreservingVisitor)",
+        "org.apache.commons.math.linear.Array2DRowRealMatrix.walkInRowOrder(RealMatrixPreservingVisitor)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.AdamsMoultonIntegrator(int,double,double,double,double)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 3712,
+        "cost_usd": 0.003195706,
+        "input_tokens": 11661,
+        "output_tokens": 1338
+      }
+    },
+    "M2R2-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1232
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2489,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3834,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3888,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 287
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.setInitialStepSize(double)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        1,
+        2,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 2304,
+        "cost_usd": 0.004599802,
+        "input_tokens": 11661,
+        "output_tokens": 1582
+      }
+    },
+    "M2R2-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1232
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2489,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3834,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3888,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 571
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.AdamsMoultonIntegrator(int,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.setInitialStepSize(double)"
+      ],
+      "top5_indices": [
+        13,
+        2,
+        1,
+        5,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 2304,
+        "cost_usd": 0.005167802,
+        "input_tokens": 11661,
+        "output_tokens": 1866
+      }
+    },
+    "M2R2-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1232
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2489,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3834,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3888,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.AdamsMoultonIntegrator(int,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.setInitialStepSize(double)"
+      ],
+      "top5_indices": [
+        13,
+        2,
+        1,
+        5,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 2304,
+        "cost_usd": 0.008343802,
+        "input_tokens": 11661,
+        "output_tokens": 1338
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1232
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2489,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3219,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4573,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5918,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 6466,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7820,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 8050,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8104,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        1,
+        2,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 15104,
+        "cost_usd": 0.01163185,
+        "input_tokens": 48089,
+        "output_tokens": 1504
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1232
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2489,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 123
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3219,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 113
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4564,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 5918,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 116
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 6148,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 167
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6202,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 271
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.AdamsMoultonIntegrator(int,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.setInitialStepSize(double)"
+      ],
+      "top5_indices": [
+        13,
+        2,
+        1,
+        5,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 14464,
+        "cost_usd": 0.008331100000000001,
+        "input_tokens": 29990,
+        "output_tokens": 2044
+      }
+    },
+    "M2R2-M2R2-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1232
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2489,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 123
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3219,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 113
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4564,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 5918,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 116
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 6148,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 167
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 6202,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 523
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.AdamsMoultonIntegrator(int,double,double,double,double)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        1,
+        2,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 16128,
+        "cost_usd": 0.0084607,
+        "input_tokens": 29990,
+        "output_tokens": 2296
+      }
+    },
+    "M2R2-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1232
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2489,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 123
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3219,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 113
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4564,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 5918,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 116
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 6148,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 167
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 6202,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.AdaptiveStepsizeIntegrator(String,double,double,double,double)"
+      ],
+      "top5_indices": [
+        11,
+        13,
+        2,
+        1,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 16768,
+        "cost_usd": 0.0118291,
+        "input_tokens": 29990,
+        "output_tokens": 1816
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1232
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2489,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3834,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 4564,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 4794,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4608,
+          "input_tokens": 6148,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5888,
+          "input_tokens": 6304,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6016,
+          "input_tokens": 6435,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 6489,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.AdamsMoultonIntegrator(int,double,double,double,double)"
+      ],
+      "top5_indices": [
+        11,
+        13,
+        2,
+        1,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 29568,
+        "cost_usd": 0.023743749999999994,
+        "input_tokens": 42507,
+        "output_tokens": 1518
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 363
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1676,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3021,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3251,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3799,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 5153,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 6492,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6272,
+          "input_tokens": 7837,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8567,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 7552,
+          "input_tokens": 8674,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 8448,
+          "input_tokens": 8805,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 8909,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsBashforthIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        11,
+        12,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 34560,
+        "cost_usd": 0.0028369800000000007,
+        "input_tokens": 67634,
+        "output_tokens": 738
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 363
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1676,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2406,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 3760,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3952,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4108,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4838,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4892,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.AdamsMoultonIntegrator(int,double,double,double,double)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        1,
+        16,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 8192,
+        "cost_usd": 0.0060693,
+        "input_tokens": 27082,
+        "output_tokens": 571
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 363
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1676,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2406,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 230
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3760,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 225
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7076,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 432
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 8421,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1570
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8475,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1371
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.getOrder()",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])"
+      ],
+      "top5_indices": [
+        11,
+        13,
+        16,
+        19,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 5888,
+        "cost_usd": 0.015417199999999999,
+        "input_tokens": 33264,
+        "output_tokens": 4213
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 363
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1676,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2406,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 3751,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 3981,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4137,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 4191,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.AdamsMoultonIntegrator(int,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])"
+      ],
+      "top5_indices": [
+        13,
+        1,
+        2,
+        5,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 12928,
+        "cost_usd": 0.013862000000000001,
+        "input_tokens": 21592,
+        "output_tokens": 577
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 688
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2297,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3642,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3872,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 4420,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 5765,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5819,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.AdaptiveStepsizeIntegrator(String,double,double,double,double)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        11,
+        2,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 12672,
+        "cost_usd": 0.009441586000000002,
+        "input_tokens": 27265,
+        "output_tokens": 902
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 688
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2297,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3642,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3872,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 4420,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 5765,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 5819,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.AdaptiveStepsizeIntegrator(String,double,double,double,double)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        1,
+        2,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 14080,
+        "cost_usd": 0.015253186000000002,
+        "input_tokens": 27265,
+        "output_tokens": 902
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 688
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2297,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3027,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4381,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 5726,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 5882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 6430,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 7160,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7214,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.AdamsMoultonIntegrator(int,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        1,
+        5,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 19072,
+        "cost_usd": 0.015446550000000002,
+        "input_tokens": 43567,
+        "output_tokens": 946
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 688
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2297,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3027,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4381,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 5726,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 5882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 6430,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 7160,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 7214,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.AdamsMoultonIntegrator(int,double,double,double,double)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        1,
+        2,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 21120,
+        "cost_usd": 0.02070055,
+        "input_tokens": 43567,
+        "output_tokens": 946
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 688
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2297,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 65
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3027,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 80
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4381,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 89
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 5726,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 139
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 5918,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 98
+        },
+        {
+          "cached_tokens": 5504,
+          "input_tokens": 5972,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.AdaptiveStepsizeIntegrator(String,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        1,
+        15,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 16640,
+        "cost_usd": 0.014169149999999998,
+        "input_tokens": 28771,
+        "output_tokens": 1202
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 688
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2297,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 227
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3027,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 211
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4381,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 196
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 5726,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 801
+        },
+        {
+          "cached_tokens": 5504,
+          "input_tokens": 5780,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.AdamsMoultonIntegrator(int,double,double,double,double)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        1,
+        2,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 13568,
+        "cost_usd": 0.015068850000000002,
+        "input_tokens": 22661,
+        "output_tokens": 2166
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 688
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2297,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3027,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 4381,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 5726,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 5780,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.estimateError(double[][],double[],double[],double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.linear.AbstractRealMatrix.walkInOptimizedOrder(RealMatrixPreservingVisitor)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        16,
+        11,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 10496,
+        "cost_usd": 0.019343753999999998,
+        "input_tokens": 22661,
+        "output_tokens": 866
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 688
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2297,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3027,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 4381,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 5726,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5780,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.AdaptiveStepsizeIntegrator(String,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        1,
+        15,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 9088,
+        "cost_usd": 0.02063825,
+        "input_tokens": 22661,
+        "output_tokens": 866
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 688
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2297,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3027,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 4381,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 5726,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5780,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 182
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.AdaptiveStepsizeIntegrator(String,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        1,
+        15,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 9088,
+        "cost_usd": 0.02091625,
+        "input_tokens": 22661,
+        "output_tokens": 1005
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 688
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2297,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3027,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 4381,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 5726,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5780,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 338
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.AdaptiveStepsizeIntegrator(String,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        15,
+        1,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 9088,
+        "cost_usd": 0.02122825,
+        "input_tokens": 22661,
+        "output_tokens": 1161
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 688
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2297,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3027,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 4381,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 5726,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5780,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.initializeStep(FirstOrderDifferentialEquations,boolean,int,double[],double,double[],double[],double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator.integrate(FirstOrderDifferentialEquations,double,double[],double,double[])",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.filterStep(double,boolean,boolean)",
+        "org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.AdaptiveStepsizeIntegrator(String,double,double,double,double)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        1,
+        2,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 9088,
+        "cost_usd": 0.02676225,
+        "input_tokens": 22661,
+        "output_tokens": 866
+      }
+    }
+  },
+  "schema_version": 1
+}

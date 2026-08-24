@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;com.google.javascript.rhino.jstype$PrototypeObjectType.isSubtype(JSType);com/google/javascript/rhino/jstype/PrototypeObjectType.java;422;466;0.17149858514250882
+2;com.google.javascript.jscomp.TypedScopeCreator.AbstractScopeBuilder$CollectProperties.maybeCollectMember(NodeTraversal,Node,Node,Node);com/google/javascript/jscomp/TypedScopeCreator.java;1456;1480;0.1690308509457033
+2;com.google.javascript.rhino.jstype$InstanceObjectType.getCtorImplementedInterfaces();com/google/javascript/rhino/jstype/InstanceObjectType.java;175;178;0.1690308509457033
+4;com.google.javascript.jscomp$TypeValidator.expectAllInterfaceProperties(NodeTraversal,Node,FunctionType);com/google/javascript/jscomp/TypeValidator.java;555;570;0.16666666666666666
+4;com.google.javascript.jscomp$TypeValidator.expectInterfaceProperty(NodeTraversal,Node,ObjectType,ObjectType,String);com/google/javascript/jscomp/TypeValidator.java;572;590;0.16666666666666666
+6;com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder.isQnameRootedInGlobalScope(Node);com/google/javascript/jscomp/TypedScopeCreator.java;1099;1111;0.16012815380508713
+7;com.google.javascript.jscomp$NodeUtil.getRootOfQualifiedName(Node);com/google/javascript/jscomp/NodeUtil.java;2313;2325;0.13483997249264842
+7;com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder.defineSlot(Node,Node,String,JSType,boolean);com/google/javascript/jscomp/TypedScopeCreator.java;988;1097;0.13483997249264842
+9;com.google.javascript.rhino.jstype$FunctionType.addRelatedInterfaces(ObjectType,Set<ObjectType>);com/google/javascript/rhino/jstype/FunctionType.java;328;342;0.11704114719613057
+10;com.google.javascript.rhino.jstype$UnionType.findPropertyType(String);com/google/javascript/rhino/jstype/UnionType.java;169;192;0.11396057645963795
+14;com.google.javascript.jscomp$FunctionTypeBuilder.inferInheritance(JSDocInfo);com/google/javascript/jscomp/FunctionTypeBuilder.java;343;391;0.10846522890932808
+235;com.google.javascript.jscomp$TypeCheck.check(Node,boolean);com/google/javascript/jscomp/TypeCheck.java;367;378;0.02193699965359284
+861;com.google.javascript.jscomp$TypeCheck.checkDeclaredPropertyInheritance(NodeTraversal,Node,FunctionType,String,JSDocInfo,JSType);com/google/javascript/jscomp/TypeCheck.java;1008;1098;0.0
+861;com.google.javascript.jscomp$TypeCheck.visitInterfaceGetprop(NodeTraversal,Node,Node,String,Node,Node);com/google/javascript/jscomp/TypeCheck.java;1128;1165;0.0
+861;com.google.javascript.jscomp$TypeValidator.getNativeType(JSTypeNative);com/google/javascript/jscomp/TypeValidator.java;728;730;0.0
+861;com.google.javascript.jscomp.DisambiguateProperties$JSTypeSystem.recordInterfaces(JSType,JSType,DisambiguateProperties<JSType>.Property);com/google/javascript/jscomp/DisambiguateProperties.java;793;825;0.0

@@ -1,0 +1,3863 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 880
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3039,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3338,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 5529,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5248,
+          "input_tokens": 6253,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6016,
+          "input_tokens": 6384,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 6144,
+          "input_tokens": 9226,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10274,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 8960,
+          "input_tokens": 10587,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 10368,
+          "input_tokens": 11135,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11411,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream.getJsDocToken()",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visit(NodeTraversal,Node,Node)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 42624,
+        "cost_usd": 0.0023794620000000006,
+        "input_tokens": 79971,
+        "output_tokens": 1227
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 880
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3039,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3338,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 5529,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5248,
+          "input_tokens": 6253,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6016,
+          "input_tokens": 6384,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 6144,
+          "input_tokens": 9226,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10274,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 8960,
+          "input_tokens": 10587,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 10368,
+          "input_tokens": 11135,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11411,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 29
+        }
+      ],
+      "top5": [
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)"
+      ],
+      "top5_indices": [
+        4,
+        2,
+        1,
+        12,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 42624,
+        "cost_usd": 0.004702462,
+        "input_tokens": 79971,
+        "output_tokens": 1213
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 880
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3039,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3338,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 5529,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5248,
+          "input_tokens": 6253,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6016,
+          "input_tokens": 6384,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 6144,
+          "input_tokens": 9226,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10274,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 8960,
+          "input_tokens": 10587,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 10368,
+          "input_tokens": 11135,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11411,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 564
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream.getJsDocToken()",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()"
+      ],
+      "top5_indices": [
+        2,
+        3,
+        12,
+        11,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 42624,
+        "cost_usd": 0.005772462,
+        "input_tokens": 79971,
+        "output_tokens": 1748
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 880
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3039,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3338,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 5529,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5248,
+          "input_tokens": 6253,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6016,
+          "input_tokens": 6384,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 6144,
+          "input_tokens": 9226,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10274,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 8960,
+          "input_tokens": 10587,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 10368,
+          "input_tokens": 11135,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11411,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 314
+        }
+      ],
+      "top5": [
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)"
+      ],
+      "top5_indices": [
+        4,
+        8,
+        10,
+        12,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 42624,
+        "cost_usd": 0.005272462,
+        "input_tokens": 79971,
+        "output_tokens": 1498
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 880
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3039,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3338,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 5529,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5248,
+          "input_tokens": 6253,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6016,
+          "input_tokens": 6384,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 6144,
+          "input_tokens": 9226,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10274,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 8960,
+          "input_tokens": 10587,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 10368,
+          "input_tokens": 11135,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11411,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.jscomp.TypeCheck.visit(NodeTraversal,Node,Node)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        12,
+        5,
+        4,
+        2,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 42624,
+        "cost_usd": 0.016485462,
+        "input_tokens": 79971,
+        "output_tokens": 1227
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 880
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2048,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2375,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2688,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 3236,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4358,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4657,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 4827,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 5195,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 5455,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6195,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.TypeInference.updateTypeOfParametersOnClosure(Node,FunctionType)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        10,
+        2,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 15872,
+        "cost_usd": 0.00683665,
+        "input_tokens": 43829,
+        "output_tokens": 1171
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 880
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2048,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2375,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2688,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 3236,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4358,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4657,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 4827,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 5195,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 5455,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6195,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)"
+      ],
+      "top5_indices": [
+        4,
+        8,
+        11,
+        12,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 15872,
+        "cost_usd": 0.00814445,
+        "input_tokens": 43829,
+        "output_tokens": 1171
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 880
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 115
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2048,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 238
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2347,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2987,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3535,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 4657,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 331
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4711,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)"
+      ],
+      "top5_indices": [
+        4,
+        2,
+        8,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 13312,
+        "cost_usd": 0.004238700000000001,
+        "input_tokens": 25754,
+        "output_tokens": 1695
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 880
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 177
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2216,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 298
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2347,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 203
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2660,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2987,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 4109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 129
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4163,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream.getJsDocToken()"
+      ],
+      "top5_indices": [
+        2,
+        4,
+        10,
+        12,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 8704,
+        "cost_usd": 0.00442385,
+        "input_tokens": 21277,
+        "output_tokens": 1774
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 880
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2048,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2218,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2545,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3093,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3406,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 3460,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visit(NodeTraversal,Node,Node)",
+        "com.google.javascript.jscomp.TypeInference.updateTypeOfParametersOnClosure(Node,FunctionType)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        4,
+        5,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 12800,
+        "cost_usd": 0.009217145999999999,
+        "input_tokens": 19565,
+        "output_tokens": 1130
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 880
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2048,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2218,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2545,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3093,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3406,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3460,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        8,
+        11,
+        12,
+        4,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 11008,
+        "cost_usd": 0.013870649999999998,
+        "input_tokens": 19565,
+        "output_tokens": 1130
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 637
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2796,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 3095,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3819,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 3950,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 6141,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6195,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.TypeCheck.visit(NodeTraversal,Node,Node)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        5,
+        4,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 11520,
+        "cost_usd": 0.0024011600000000003,
+        "input_tokens": 28548,
+        "output_tokens": 873
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 637
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2796,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 3095,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3819,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 3950,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 6141,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6195,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        2,
+        11,
+        4,
+        8,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 11520,
+        "cost_usd": 0.0037089600000000003,
+        "input_tokens": 28548,
+        "output_tokens": 873
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 637
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1973,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2286,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2744,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2914,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4036,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4584,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6775,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6829,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.TypeCheck.visit(NodeTraversal,Node,Node)",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)",
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)"
+      ],
+      "top5_indices": [
+        2,
+        5,
+        8,
+        10,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 6272,
+        "cost_usd": 0.0082537,
+        "input_tokens": 37110,
+        "output_tokens": 911
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 637
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1973,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2286,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2744,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2914,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4036,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4584,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6775,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6829,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        2,
+        11,
+        4,
+        8,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 6272,
+        "cost_usd": 0.009688299999999999,
+        "input_tokens": 37110,
+        "output_tokens": 911
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 637
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1973,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2286,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2744,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2914,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4036,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4584,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6775,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6829,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 212
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        2,
+        11,
+        4,
+        8,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 6272,
+        "cost_usd": 0.010026299999999998,
+        "input_tokens": 37110,
+        "output_tokens": 1080
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 637
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1973,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2286,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2744,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2914,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4036,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4584,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6775,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6829,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 602
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        2,
+        11,
+        4,
+        8,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 6272,
+        "cost_usd": 0.0108063,
+        "input_tokens": 37110,
+        "output_tokens": 1470
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 637
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1973,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2286,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2744,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2914,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4036,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4584,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6775,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6829,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        12,
+        1,
+        4,
+        8,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 6272,
+        "cost_usd": 0.0168613,
+        "input_tokens": 37110,
+        "output_tokens": 911
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 637
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 67
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1973,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 64
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2286,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 4608,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 67
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4662,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        2,
+        11,
+        4,
+        8,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 3584,
+        "cost_usd": 0.0056621,
+        "input_tokens": 18498,
+        "output_tokens": 922
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 637
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 265
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1973,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 155
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2286,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 123
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2744,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2914,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 595
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 5105,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 196
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 5653,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1035
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5707,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        2,
+        11,
+        4,
+        8,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 10112,
+        "cost_usd": 0.01174855,
+        "input_tokens": 31351,
+        "output_tokens": 3093
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 637
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1987,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2118,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2445,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2615,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2914,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4036,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 6227,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6281,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)"
+      ],
+      "top5_indices": [
+        2,
+        11,
+        1,
+        4,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 13824,
+        "cost_usd": 0.020407750000000002,
+        "input_tokens": 31175,
+        "output_tokens": 959
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 637
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1987,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2118,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2445,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2615,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2914,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4036,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 6227,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6281,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)",
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)"
+      ],
+      "top5_indices": [
+        12,
+        4,
+        8,
+        10,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 13824,
+        "cost_usd": 0.02703275,
+        "input_tokens": 31175,
+        "output_tokens": 959
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 883
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1669,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2791,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 3090,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3814,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3945,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 6136,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6190,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream.getJsDocToken()",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visit(NodeTraversal,Node,Node)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 10368,
+        "cost_usd": 0.002954034,
+        "input_tokens": 28513,
+        "output_tokens": 1133
+      }
+    },
+    "M2R2-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 883
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1669,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2791,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 3090,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3814,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3945,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 6136,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6190,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 217
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        2,
+        8,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 10368,
+        "cost_usd": 0.004608834,
+        "input_tokens": 28513,
+        "output_tokens": 1307
+      }
+    },
+    "M2R2-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 883
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1669,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2791,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 3090,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3814,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3945,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 6136,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6190,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1277
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        11,
+        1,
+        2,
+        4,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 10368,
+        "cost_usd": 0.0067288339999999995,
+        "input_tokens": 28513,
+        "output_tokens": 2367
+      }
+    },
+    "M2R2-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 883
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1669,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2791,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 3090,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3814,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3945,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 6136,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6190,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        4,
+        10,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 10368,
+        "cost_usd": 0.010794834,
+        "input_tokens": 28513,
+        "output_tokens": 1133
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 883
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2791,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3104,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3235,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3562,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3861,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4031,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4085,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)"
+      ],
+      "top5_indices": [
+        11,
+        1,
+        4,
+        8,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 5760,
+        "cost_usd": 0.00779,
+        "input_tokens": 27216,
+        "output_tokens": 1141
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 883
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 124
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1982,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 85
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2281,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2412,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2739,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2909,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 84
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2963,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 210
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        2,
+        8,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.00600865,
+        "input_tokens": 17833,
+        "output_tokens": 1452
+      }
+    },
+    "M2R2-M2R2-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 883
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 124
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1982,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 85
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2281,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2412,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2739,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2909,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 84
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2963,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 398
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        2,
+        8,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.0063846499999999995,
+        "input_tokens": 17833,
+        "output_tokens": 1640
+      }
+    },
+    "M2R2-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 883
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 124
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1982,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 85
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2281,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2412,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2739,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2909,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 84
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2963,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        8,
+        11,
+        4,
+        2,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.00898165,
+        "input_tokens": 17833,
+        "output_tokens": 1285
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 883
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1669,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1982,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2113,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2412,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 4603,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4480,
+          "input_tokens": 4773,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4608,
+          "input_tokens": 5100,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4864,
+          "input_tokens": 5648,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5504,
+          "input_tokens": 6770,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6824,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)"
+      ],
+      "top5_indices": [
+        8,
+        11,
+        4,
+        1,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 26880,
+        "cost_usd": 0.027693,
+        "input_tokens": 42772,
+        "output_tokens": 1241
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1087,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2209,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2508,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3232,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3363,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 5554,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5376,
+          "input_tokens": 5881,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6141,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5632,
+          "input_tokens": 6311,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6144,
+          "input_tokens": 7359,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7413,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.parsing.JsDocTokenStream.getJsDocToken()",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visit(NodeTraversal,Node,Node)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 21376,
+        "cost_usd": 0.002771088,
+        "input_tokens": 51936,
+        "output_tokens": 810
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1087,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1218,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1545,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2667,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4858,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5171,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5719,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6018,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 6742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5888,
+          "input_tokens": 7002,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7056,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)"
+      ],
+      "top5_indices": [
+        4,
+        8,
+        12,
+        1,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 7552,
+        "cost_usd": 0.012271049999999999,
+        "input_tokens": 49961,
+        "output_tokens": 740
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1087,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1218,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 280
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1517,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 653
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1830,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 316
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2157,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 730
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2327,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 762
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2381,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1326
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeCheck.visit(NodeTraversal,Node,Node)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)"
+      ],
+      "top5_indices": [
+        8,
+        5,
+        4,
+        11,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.01206835,
+        "input_tokens": 13395,
+        "output_tokens": 4547
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1087,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1218,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1531,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1858,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2406,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2576,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4767,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4608,
+          "input_tokens": 5889,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 6188,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6016,
+          "input_tokens": 7236,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7290,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)"
+      ],
+      "top5_indices": [
+        8,
+        10,
+        11,
+        4,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 22656,
+        "cost_usd": 0.032145,
+        "input_tokens": 42924,
+        "output_tokens": 852
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1775,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2897,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3196,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3920,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4051,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 6242,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 9084,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 8832,
+          "input_tokens": 10132,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 9856,
+          "input_tokens": 10459,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 10240,
+          "input_tokens": 10719,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10773,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(Node,String,StaticScope<JSType>,boolean)",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visit(NodeTraversal,Node,Node)",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 40704,
+        "cost_usd": 0.010265851999999999,
+        "input_tokens": 74126,
+        "output_tokens": 1090
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1775,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2897,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3196,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3920,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4051,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 6242,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 9084,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 8832,
+          "input_tokens": 10132,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 9856,
+          "input_tokens": 10459,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 10240,
+          "input_tokens": 10719,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10773,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        4,
+        8,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 40704,
+        "cost_usd": 0.023606252,
+        "input_tokens": 74126,
+        "output_tokens": 1090
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1775,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2897,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3341,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 3668,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4216,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4515,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4883,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 5053,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5777,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6053,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 29
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        11,
+        12,
+        4,
+        8,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 9856,
+        "cost_usd": 0.0181889,
+        "input_tokens": 46266,
+        "output_tokens": 1029
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1775,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2897,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3341,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 3668,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4216,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4515,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4883,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 5053,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5777,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6053,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)"
+      ],
+      "top5_indices": [
+        12,
+        8,
+        4,
+        11,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 9856,
+        "cost_usd": 0.0246139,
+        "input_tokens": 46266,
+        "output_tokens": 1043
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1775,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 127
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2088,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2636,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2767,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4958,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 133
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 5285,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 53
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 5339,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        8,
+        4,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 11648,
+        "cost_usd": 0.0170981,
+        "input_tokens": 25726,
+        "output_tokens": 1160
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1775,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 272
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2088,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 178
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2636,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2767,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4958,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 185
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 5285,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1007
+        },
+        {
+          "cached_tokens": 5248,
+          "input_tokens": 5339,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        8,
+        11,
+        12,
+        4,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 15232,
+        "cost_usd": 0.015680100000000002,
+        "input_tokens": 25726,
+        "output_tokens": 2467
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1775,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2323,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2636,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2963,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3094,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5285,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5120,
+          "input_tokens": 5455,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5248,
+          "input_tokens": 6577,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 6631,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.parsing.JsDocInfoParser.parseParamTypeExpressionAnnotation(JsDocToken)",
+        "com.google.javascript.jscomp.TypeCheck.visit(NodeTraversal,Node,Node)",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()"
+      ],
+      "top5_indices": [
+        2,
+        5,
+        8,
+        10,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 20864,
+        "cost_usd": 0.027431218000000004,
+        "input_tokens": 37617,
+        "output_tokens": 1060
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1775,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2323,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2636,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2963,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3094,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5285,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5120,
+          "input_tokens": 5455,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5248,
+          "input_tokens": 6577,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6631,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        11,
+        12,
+        4,
+        8,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 19328,
+        "cost_usd": 0.02890225,
+        "input_tokens": 37617,
+        "output_tokens": 1060
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1775,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2323,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2636,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2963,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3094,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5285,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5120,
+          "input_tokens": 5455,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5248,
+          "input_tokens": 6577,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6631,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 375
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        11,
+        12,
+        8,
+        4,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 19328,
+        "cost_usd": 0.029566250000000002,
+        "input_tokens": 37617,
+        "output_tokens": 1392
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1775,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2323,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2636,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2963,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3094,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5285,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5120,
+          "input_tokens": 5455,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5248,
+          "input_tokens": 6577,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6631,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 291
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        11,
+        12,
+        4,
+        8,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 19328,
+        "cost_usd": 0.02939825,
+        "input_tokens": 37617,
+        "output_tokens": 1308
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 878,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1775,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2323,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2636,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2963,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3094,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5285,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5120,
+          "input_tokens": 5455,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5248,
+          "input_tokens": 6577,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6631,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.google.javascript.jscomp.TypeCheck.visitParameterList(NodeTraversal,Node,FunctionType)",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.addParameter(FunctionParamBuilder,JSType,boolean,boolean,boolean)",
+        "com.google.javascript.rhino.jstype.FunctionType.getMaxArguments()",
+        "com.google.javascript.jscomp.FunctionTypeBuilder.inferParameterTypes(Node,JSDocInfo)",
+        "com.google.javascript.jscomp.TypeValidator.expectArgumentMatchesParameter(NodeTraversal,Node,JSType,JSType,Node,int)"
+      ],
+      "top5_indices": [
+        8,
+        11,
+        4,
+        12,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 19328,
+        "cost_usd": 0.03587725,
+        "input_tokens": 37617,
+        "output_tokens": 1060
+      }
+    }
+  },
+  "schema_version": 1
+}

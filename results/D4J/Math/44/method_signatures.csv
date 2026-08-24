@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+org.apache.commons.math.analysis.solvers$BaseAbstractUnivariateRealSolver.getStartValue();org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java;118;123
+org.apache.commons.math.analysis.solvers$BracketingNthOrderBrentSolver.doSolve();org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java;139;345
+org.apache.commons.math.analysis.solvers$BracketingNthOrderBrentSolver.guessX(double,double[],double[],int,int);org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java;347;380
+org.apache.commons.math.analysis.solvers$BracketingNthOrderBrentSolver.solve(int,UnivariateRealFunction,double,double,AllowedSolution);org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java;382;387
+org.apache.commons.math.ode$AbstractIntegrator.addEventHandler(EventHandler,double,double,int);org/apache/commons/math/ode/AbstractIntegrator.java;123;131
+org.apache.commons.math.ode$AbstractIntegrator.acceptStep(AbstractStepInterpolator,double[],double[],double);org/apache/commons/math/ode/AbstractIntegrator.java;264;374
+org.apache.commons.math.ode$ExpandableStatefulODE.getTime();org/apache/commons/math/ode/ExpandableStatefulODE.java;177;182
+org.apache.commons.math.ode.events$EventState.reinitializeBegin(StepInterpolator);org/apache/commons/math/ode/events/EventState.java;149;179
+org.apache.commons.math.ode.events$EventState.stepAccepted(double,double[]);org/apache/commons/math/ode/events/EventState.java;290;310
+org.apache.commons.math.ode.events$EventState.reset(double,double[]);org/apache/commons/math/ode/events/EventState.java;320;342
+org.apache.commons.math.ode.nonstiff$AdamsBashforthIntegrator.integrate(ExpandableStatefulODE,double);org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java;190;318
+org.apache.commons.math.ode.nonstiff$AdamsMoultonIntegrator.integrate(ExpandableStatefulODE,double);org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java;207;336
+org.apache.commons.math.ode.nonstiff$AdaptiveStepsizeIntegrator.setInitialStepSize(double);org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java;197;214
+org.apache.commons.math.ode.nonstiff$AdaptiveStepsizeIntegrator.initializeStep(boolean,int,double[],double,double[],double[],double[],double[]);org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java;235;307
+org.apache.commons.math.ode.nonstiff$RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double);org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java;92;187
+org.apache.commons.math.util$FastMath.ceil(double);org/apache/commons/math/util/FastMath.java;3357;3380

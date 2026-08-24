@@ -1,0 +1,419 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 930,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 565
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1807,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1934,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2064,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2299,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2454,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2756,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2891,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 3621,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4334,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5064,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector.findNameForDeserialization(Annotated)",
+        "com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector.isOutputAsText(Annotated)",
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTextDeserializer.deserialize(JsonParser,DeserializationContext)",
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlBeanDeserializerModifier.modifyDeserializer(DeserializationConfig,BeanDescription,JsonDeserializer<?>)",
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTextDeserializer.XmlTextDeserializer(BeanDeserializerBase,SettableBeanProperty)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 15872,
+        "cost_usd": 0.001163936,
+        "input_tokens": 31808,
+        "output_tokens": 898
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 930,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 909
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1998,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2420,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2787,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 3517,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3672,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3796,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 5036,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4864,
+          "input_tokens": 5173,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4992,
+          "input_tokens": 5475,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5529,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream._next()",
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.nextTextValue()",
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTextDeserializer.deserialize(JsonParser,DeserializationContext)",
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlBeanDeserializerModifier.modifyDeserializer(DeserializationConfig,BeanDescription,JsonDeserializer<?>)",
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTextDeserializer.createContextual(DeserializationContext,BeanProperty)"
+      ],
+      "top5_indices": [
+        15,
+        11,
+        5,
+        6,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 24704,
+        "cost_usd": 0.006834849999999999,
+        "input_tokens": 40333,
+        "output_tokens": 1155
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 930,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 306
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1191,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1613,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 281
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1980,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2710,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2865,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 110
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4105,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 229
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4258,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 463
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4312,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 234
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.nextTextValue()",
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream._next()",
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.nextToken()",
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTextDeserializer.deserialize(JsonParser,DeserializationContext)",
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream._handleRepeatElement()"
+      ],
+      "top5_indices": [
+        11,
+        15,
+        14,
+        5,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 12032,
+        "cost_usd": 0.006661800000000001,
+        "input_tokens": 23964,
+        "output_tokens": 1689
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 930,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1501
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1863,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 152
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2018,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 113
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2142,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2279,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3009,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 4249,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4671,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4480,
+          "input_tokens": 5038,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1089
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5092,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 475
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream._next()",
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream._handleRepeatElement()",
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.nextToken()",
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.nextTextValue()",
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTextDeserializer.deserialize(JsonParser,DeserializationContext)"
+      ],
+      "top5_indices": [
+        15,
+        17,
+        14,
+        11,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 18176,
+        "cost_usd": 0.010613149999999998,
+        "input_tokens": 31291,
+        "output_tokens": 3440
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 930,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 863
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1952,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2374,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3104,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 4344,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4096,
+          "input_tokens": 4499,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4553,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream._next()",
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.nextToken()",
+        "com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.nextTextValue()",
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlTextDeserializer.deserialize(JsonParser,DeserializationContext)",
+        "com.fasterxml.jackson.dataformat.xml.deser.XmlBeanDeserializerModifier.modifyDeserializer(DeserializationConfig,BeanDescription,JsonDeserializer<?>)"
+      ],
+      "top5_indices": [
+        15,
+        14,
+        11,
+        5,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 8064,
+        "cost_usd": 0.028893000000000002,
+        "input_tokens": 21756,
+        "output_tokens": 1077
+      }
+    }
+  },
+  "schema_version": 1
+}

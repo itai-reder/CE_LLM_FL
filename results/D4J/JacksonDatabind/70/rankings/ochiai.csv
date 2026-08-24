@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;com.fasterxml.jackson.databind.deser.impl$BeanPropertyMap.remove(SettableBeanProperty);com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java;422;453;1.0
+2;com.fasterxml.jackson.databind$JsonDeserializer.unwrappingDeserializer(NameTransformer);com/fasterxml/jackson/databind/JsonDeserializer.java;158;169;0.4082482904638631
+2;com.fasterxml.jackson.databind.deser$SettableBeanProperty.SettableBeanProperty(SettableBeanProperty,PropertyName);com/fasterxml/jackson/databind/deser/SettableBeanProperty.java;230;245;0.4082482904638631
+2;com.fasterxml.jackson.databind.deser.impl$BeanPropertyMap._rename(SettableBeanProperty,NameTransformer);com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java;507;524;0.4082482904638631
+2;com.fasterxml.jackson.databind.deser.impl$BeanPropertyMap.renameAll(NameTransformer);com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java;237;262;0.4082482904638631
+2;com.fasterxml.jackson.databind.deser.impl$FieldProperty.FieldProperty(FieldProperty,PropertyName);com/fasterxml/jackson/databind/deser/impl/FieldProperty.java;49;53;0.4082482904638631
+2;com.fasterxml.jackson.databind.deser.impl$FieldProperty.withName(PropertyName);com/fasterxml/jackson/databind/deser/impl/FieldProperty.java;69;72;0.4082482904638631
+8;com.fasterxml.jackson.databind.deser$SettableBeanProperty.withSimpleName(String);com/fasterxml/jackson/databind/deser/SettableBeanProperty.java;271;278;0.3779644730092272
+9;com.fasterxml.jackson.databind$ObjectMapper.enable(MapperFeature);com/fasterxml/jackson/databind/ObjectMapper.java;1803;1811;0.3333333333333333
+10;com.fasterxml.jackson.databind.util$NameTransformer.simpleTransformer(String,String);com/fasterxml/jackson/databind/util/NameTransformer.java;35;93;0.30151134457776363
+13;com.fasterxml.jackson.databind.deser$BeanDeserializerBase.resolve(DeserializationContext);com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java;452;625;0.25
+214;com.fasterxml.jackson.databind.deser$DeserializerCache._createAndCache2(DeserializationContext,DeserializerFactory,JavaType);com/fasterxml/jackson/databind/deser/DeserializerCache.java;254;300;0.02816063585180762
+260;com.fasterxml.jackson.databind.deser.impl$CreatorCollector.constructValueInstantiator(DeserializationConfig);com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java;86;113;0.02727723627949905
+566;com.fasterxml.jackson.databind.deser$BeanDeserializerBuilder.buildBuilderBased(JavaType,String);com/fasterxml/jackson/databind/deser/BeanDeserializerBuilder.java;379;438;0.0
+566;com.fasterxml.jackson.databind.deser.std$StringArrayDeserializer.createContextual(DeserializationContext,BeanProperty);com/fasterxml/jackson/databind/deser/std/StringArrayDeserializer.java;52;79;0.0
+566;com.fasterxml.jackson.databind.deser.std$StringCollectionDeserializer.createContextual(DeserializationContext,BeanProperty);com/fasterxml/jackson/databind/deser/std/StringCollectionDeserializer.java;103;141;0.0

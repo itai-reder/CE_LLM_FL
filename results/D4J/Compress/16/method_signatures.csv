@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+org.apache.commons.compress.archivers$ArchiveStreamFactory.createArchiveInputStream(InputStream);org/apache/commons/compress/archivers/ArchiveStreamFactory.java;187;258
+org.apache.commons.compress.archivers.cpio$CpioArchiveInputStream.matches(byte[],int);org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java;432;487
+org.apache.commons.compress.archivers.dump$DumpArchiveInputStream.matches(byte[],int);org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java;502;521
+org.apache.commons.compress.archivers.tar$TarArchiveEntry.parseTarHeader(byte[],ZipEncoding,boolean);org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;941;1010
+org.apache.commons.compress.archivers.tar$TarArchiveEntry.evaluateType(byte[]);org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;1055;1069
+org.apache.commons.compress.archivers.tar$TarArchiveInputStream.close();org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java;124;131
+org.apache.commons.compress.archivers.tar$TarArchiveInputStream.getNextTarEntry();org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java;198;284
+org.apache.commons.compress.archivers.tar$TarArchiveInputStream.matches(byte[],int);org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java;550;595
+org.apache.commons.compress.archivers.tar$TarBuffer.readBlock();org/apache/commons/compress/archivers/tar/TarBuffer.java;210;269
+org.apache.commons.compress.archivers.tar$TarUtils.parseOctal(byte[],int,int);org/apache/commons/compress/archivers/tar/TarUtils.java;81;151
+org.apache.commons.compress.archivers.tar$TarUtils.parseOctalOrBinary(byte[],int,int);org/apache/commons/compress/archivers/tar/TarUtils.java;153;181
+org.apache.commons.compress.archivers.tar$TarUtils.parseBinaryLong(byte[],int,int,boolean);org/apache/commons/compress/archivers/tar/TarUtils.java;183;202
+org.apache.commons.compress.archivers.zip$Zip64ExtendedInformationExtraField.parseFromCentralDirectoryData(byte[],int,int);org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java;212;237
+org.apache.commons.compress.compressors$CompressorStreamFactory.createCompressorInputStream(InputStream);org/apache/commons/compress/compressors/CompressorStreamFactory.java;85;133
+org.apache.commons.compress.compressors.bzip2$BZip2CompressorInputStream.endBlock();org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java;333;350
+org.apache.commons.compress.compressors.gzip$GzipCompressorInputStream.read(byte[],int,int);org/apache/commons/compress/compressors/gzip/GzipCompressorInputStream.java;220;311

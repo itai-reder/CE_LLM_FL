@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;com.fasterxml.jackson.core.io$SerializedString.getValue();com/fasterxml/jackson/core/io/SerializedString.java;86;87;1.0
+2;com.fasterxml.jackson.core.json$WriterBasedJsonGenerator.writeRaw(String);com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java;402;420;0.9999211356466877
+3;com.fasterxml.jackson.core.json$WriterBasedJsonGenerator._verifyValueWrite(String);com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java;756;790;0.9994479495268139
+4;com.fasterxml.jackson.core.filter$FilteringParserDelegate._nextToken2();com/fasterxml/jackson/core/filter/FilteringParserDelegate.java;435;887;0.9992902208201893
+4;com.fasterxml.jackson.core.filter$FilteringParserDelegate.nextToken();com/fasterxml/jackson/core/filter/FilteringParserDelegate.java;221;887;0.9992902208201893
+6;com.fasterxml.jackson.core.filter$TokenFilterContext.createChildObjectContext(TokenFilter,boolean);com/fasterxml/jackson/core/filter/TokenFilterContext.java;112;119;0.9969242902208202
+7;com.fasterxml.jackson.core.filter$TokenFilterContext.reset(int,TokenFilter,boolean);com/fasterxml/jackson/core/filter/TokenFilterContext.java;80;90;0.9968454258675079
+9;com.fasterxml.jackson.core.filter$TokenFilterContext.checkValue(TokenFilter);com/fasterxml/jackson/core/filter/TokenFilterContext.java;133;148;0.9950315457413249
+23;com.fasterxml.jackson.core.filter$FilteringParserDelegate.FilteringParserDelegate(JsonParser,TokenFilter,boolean,boolean);com/fasterxml/jackson/core/filter/FilteringParserDelegate.java;114;124;0.9911671924290221
+405;com.fasterxml.jackson.core.filter$FilteringParserDelegate.hasToken(JsonToken);com/fasterxml/jackson/core/filter/FilteringParserDelegate.java;164;166;0.8764984227129338
+789;com.fasterxml.jackson.core.filter$FilteringGeneratorDelegate.FilteringGeneratorDelegate(JsonGenerator,TokenFilter,boolean,boolean);com/fasterxml/jackson/core/filter/FilteringGeneratorDelegate.java;92;103;0.6045741324921136
+962;com.fasterxml.jackson.core.filter$FilteringGeneratorDelegate._checkParentPath();com/fasterxml/jackson/core/filter/FilteringGeneratorDelegate.java;802;814;0.4866719242902208
+963;com.fasterxml.jackson.core.filter$FilteringGeneratorDelegate._checkPropertyParentPath();com/fasterxml/jackson/core/filter/FilteringGeneratorDelegate.java;816;837;0.486198738170347
+978;com.fasterxml.jackson.core.filter$TokenFilter.filterStartObject();com/fasterxml/jackson/core/filter/TokenFilter.java;42;67;0.47728706624605677
+979;com.fasterxml.jackson.core.filter$TokenFilter.filterStartArray();com/fasterxml/jackson/core/filter/TokenFilter.java;69;94;0.4772082018927445
+1151;com.fasterxml.jackson.core.json$UTF8StreamJsonParser._isNextTokenNameMaybe(int,SerializableString);com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java;1171;2630;0.2899842271293375

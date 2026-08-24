@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;com.fasterxml.jackson.core.json$ReaderBasedJsonParser._handleUnexpectedValue(int);com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java;1344;1394;1.0
+2;com.fasterxml.jackson.core.base$ParserBase.resetAsNaN(String,double);com/fasterxml/jackson/core/base/ParserBase.java;560;566;0.7071067811865475
+2;com.fasterxml.jackson.core.util$TextBuffer.resetWithString(String);com/fasterxml/jackson/core/util/TextBuffer.java;213;227;0.7071067811865475
+4;com.fasterxml.jackson.core.base$ParserBase.convertNumberToBigDecimal();com/fasterxml/jackson/core/base/ParserBase.java;944;969;0.5773502691896258
+4;com.fasterxml.jackson.core.base$ParserBase.getDecimalValue();com/fasterxml/jackson/core/base/ParserBase.java;706;718;0.5773502691896258
+4;com.fasterxml.jackson.core.io$NumberInput.parseBigDecimal(String);com/fasterxml/jackson/core/io/NumberInput.java;293;296;0.5773502691896258
+7;com.fasterxml.jackson.core.base$ParserBase.getDoubleValue();com/fasterxml/jackson/core/base/ParserBase.java;692;704;0.3333333333333333
+8;com.fasterxml.jackson.core$JsonFactory.isEnabled(JsonParser.Feature);com/fasterxml/jackson/core/JsonFactory.java;516;521;0.31622776601683794
+9;com.fasterxml.jackson.core$JsonFactory.configure(JsonParser.Feature,boolean);com/fasterxml/jackson/core/JsonFactory.java;490;496;0.2773500981126146
+23;com.fasterxml.jackson.core.base$ParserBase.getCurrentLocation();com/fasterxml/jackson/core/base/ParserBase.java;383;394;0.17677669529663687
+73;com.fasterxml.jackson.core.JsonParser$Feature.getMask();com/fasterxml/jackson/core/JsonParser.java;185;185;0.08084520834544433
+100;com.fasterxml.jackson.core.base$ParserBase._parseNumericValue(int);com/fasterxml/jackson/core/base/ParserBase.java;726;785;0.0
+100;com.fasterxml.jackson.core.base$ParserBase._parseSlowFloatValue(int);com/fasterxml/jackson/core/base/ParserBase.java;787;810;0.0
+100;com.fasterxml.jackson.core.io$NumberInput.parseBigDecimal(char[],int,int);com/fasterxml/jackson/core/io/NumberInput.java;302;306;0.0
+100;com.fasterxml.jackson.core.util$TextBuffer.contentsAsArray();com/fasterxml/jackson/core/util/TextBuffer.java;369;376;0.0
+100;com.fasterxml.jackson.core.util$TextBuffer.contentsAsDecimal();com/fasterxml/jackson/core/util/TextBuffer.java;378;399;0.0

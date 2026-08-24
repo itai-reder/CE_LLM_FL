@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;com.fasterxml.jackson.databind.ser.std$EnumSerializer._isShapeWrittenUsingIndex(Class<?>,JsonFormat.Value,boolean);com/fasterxml/jackson/databind/ser/std/EnumSerializer.java;212;239;1.0
+2;com.fasterxml.jackson.databind.ser.std$BeanSerializerBase.createContextual(SerializerProvider,BeanProperty);com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java;395;530;0.9893136477884615
+3;com.fasterxml.jackson.databind.ser.std$DateTimeSerializerBase.createContextual(SerializerProvider,BeanProperty);com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.java;48;79;0.8302686661399371
+4;com.fasterxml.jackson.databind.deser$BeanDeserializerBase.createContextual(DeserializationContext,BeanProperty);com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java;668;764;0.8156422698907504
+5;com.fasterxml.jackson.databind.ser$BasicSerializerFactory.buildCollectionSerializer(SerializerProvider,CollectionType,BeanDescription,boolean,TypeSerializer,JsonSerializer<Object>);com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java;632;707;0.814179730122124
+6;com.fasterxml.jackson.databind.ser.std$BeanSerializerBase.BeanSerializerBase(JavaType,BeanSerializerBuilder,BeanPropertyWriter[],BeanPropertyWriter[]);com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java;95;122;0.8021616310065088
+20;com.fasterxml.jackson.databind.ser.std$EnumSerializer.construct(Class<?>,SerializationConfig,BeanDescription,JsonFormat.Value);com/fasterxml/jackson/databind/ser/std/EnumSerializer.java;71;88;0.5948642533466828
+22;com.fasterxml.jackson.databind.ser.std$EnumSerializer.createContextual(SerializerProvider,BeanProperty);com/fasterxml/jackson/databind/ser/std/EnumSerializer.java;90;111;0.5906993665158843
+71;com.fasterxml.jackson.databind.introspect$BasicBeanDescription.findExpectedFormat(JsonFormat.Value);com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java;342;366;0.49957264152827124
+288;com.fasterxml.jackson.databind.ser.std$EnumSerializer.serialize(Enum<?>,JsonGenerator,SerializerProvider);com/fasterxml/jackson/databind/ser/std/EnumSerializer.java;127;142;0.37575213129707385
+1327;com.fasterxml.jackson.databind.type$TypeFactory.withModifier(TypeModifier);com/fasterxml/jackson/databind/type/TypeFactory.java;174;189;0.21308203888136348
+2779;com.fasterxml.jackson.databind.type$TypeFactory.TypeFactory(LRUMap<Object,JavaType>,TypeParser,TypeModifier[],ClassLoader);com/fasterxml/jackson/databind/type/TypeFactory.java;161;172;0.10913632911349212
+3341;com.fasterxml.jackson.databind.ser.std$EnumSerializer._serializeAsIndex(SerializerProvider);com/fasterxml/jackson/databind/ser/std/EnumSerializer.java;204;210;0.0839809408301376
+4691;com.fasterxml.jackson.databind$ObjectMapper.getTypeFactory();com/fasterxml/jackson/databind/ObjectMapper.java;761;764;0.023732180717052596
+4703;com.fasterxml.jackson.databind.type$TypeParser.withFactory(TypeFactory);com/fasterxml/jackson/databind/type/TypeParser.java;22;27;0.02358214532188369
+4711;com.fasterxml.jackson.databind.type$TypeFactory.withClassLoader(ClassLoader);com/fasterxml/jackson/databind/type/TypeFactory.java;191;193;0.02328769463413091

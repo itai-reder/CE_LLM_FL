@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;com.google.javascript.jscomp$Compiler.getNodeForCodeInsertion(JSModule);com/google/javascript/jscomp/Compiler.java;1568;1589;1.0
+1;com.google.javascript.jscomp$JSModuleGraph.getTransitiveDepsDeepestFirst(JSModule);com/google/javascript/jscomp/JSModuleGraph.java;201;218;1.0
+3;com.google.javascript.jscomp$CrossModuleCodeMotion.maybeProcessDeclaration(NodeTraversal,Node,Node,NamedInfo);com/google/javascript/jscomp/CrossModuleCodeMotion.java;319;394;0.35355339059327373
+3;com.google.javascript.jscomp$CrossModuleCodeMotion.processReference(NodeTraversal,NamedInfo,String);com/google/javascript/jscomp/CrossModuleCodeMotion.java;240;430;0.35355339059327373
+5;com.google.javascript.jscomp$JSModuleGraph.getDeepestCommonDependencyInclusive(JSModule,JSModule);com/google/javascript/jscomp/JSModuleGraph.java;170;188;0.24253562503633297
+6;com.google.javascript.jscomp.CrossModuleCodeMotion$NamedInfo.addUsedModule(JSModule);com/google/javascript/jscomp/CrossModuleCodeMotion.java;158;172;0.23570226039551587
+7;com.google.javascript.jscomp$JSModuleGraph.getDeepestCommonDependency(JSModule,JSModule);com/google/javascript/jscomp/JSModuleGraph.java;142;168;0.22941573387056174
+8;com.google.javascript.jscomp$CrossModuleCodeMotion.moveCode();com/google/javascript/jscomp/CrossModuleCodeMotion.java;89;141;0.19611613513818404
+9;com.google.javascript.jscomp$CrossModuleCodeMotion.hasConditionalAncestor(Node);com/google/javascript/jscomp/CrossModuleCodeMotion.java;208;226;0.17407765595569785
+9;com.google.javascript.jscomp$CrossModuleCodeMotion.visit(NodeTraversal,Node,Node);com/google/javascript/jscomp/CrossModuleCodeMotion.java;284;317;0.17407765595569785
+24;com.google.javascript.jscomp$Compiler.init(JSSourceFile[],JSModule[],CompilerOptions);com/google/javascript/jscomp/Compiler.java;256;282;0.09205746178983235
+50;com.google.javascript.jscomp$Compiler.reportCodeChange();com/google/javascript/jscomp/Compiler.java;1419;1429;0.027713699773684663
+61;com.google.javascript.jscomp.parsing$IRFactory.transformTokenType(int);com/google/javascript/jscomp/parsing/IRFactory.java;839;1151;0.022756677931351457
+222;com.google.javascript.jscomp$CompilerOptions.CompilerOptions();com/google/javascript/jscomp/CompilerOptions.java;557;689;0.016556654463313048
+366;com.google.javascript.jscomp$CompilerOptions.setChainCalls(boolean);com/google/javascript/jscomp/CompilerOptions.java;848;853;0.0

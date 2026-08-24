@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;com.google.javascript.jscomp$PureFunctionIdentifier.getDebugReport();com/google/javascript/jscomp/PureFunctionIdentifier.java;119;176;1.0
+2;com.google.javascript.jscomp$PureFunctionIdentifier.propagateSideEffects();com/google/javascript/jscomp/PureFunctionIdentifier.java;246;302;0.9999823324676242
+3;com.google.javascript.jscomp$NodeUtil.functionCallHasSideEffects(Node,AbstractCompiler);com/google/javascript/jscomp/NodeUtil.java;727;790;0.9999646649352485
+4;com.google.javascript.jscomp$PureFunctionIdentifier.markPureFunctionCalls();com/google/javascript/jscomp/PureFunctionIdentifier.java;304;365;0.9999469974028727
+5;com.google.javascript.jscomp$NodeUtil.evaluatesToLocalValue(Node);com/google/javascript/jscomp/NodeUtil.java;2411;2417;0.9998939948057455
+6;com.google.javascript.jscomp$NodeUtil.evaluatesToLocalValue(Node,Predicate<Node>);com/google/javascript/jscomp/NodeUtil.java;2419;2489;0.9998763272733697
+23;com.google.javascript.jscomp$PureFunctionIdentifier.process(Node,Node);com/google/javascript/jscomp/PureFunctionIdentifier.java;99;117;0.9977562233882794
+1291;com.google.javascript.jscomp$NodeUtil.getFunctionName(Node);com/google/javascript/jscomp/NodeUtil.java;221;254;0.8749492058444197
+2154;com.google.javascript.jscomp$SideEffectsAnalysis.process(Node,Node);com/google/javascript/jscomp/SideEffectsAnalysis.java;101;119;0.7729722089715729
+2156;com.google.javascript.jscomp$SideEffectsAnalysis.safeToMoveBefore(Node,AbstractMotionEnvironment,Node);com/google/javascript/jscomp/SideEffectsAnalysis.java;137;216;0.7726541933888094
+2162;com.google.javascript.jscomp$SideEffectsAnalysis.SideEffectsAnalysis(AbstractCompiler,LocationAbstractionMode);com/google/javascript/jscomp/SideEffectsAnalysis.java;81;95;0.7713114609282522
+3797;com.google.javascript.rhino$FunctionNode.getFunctionName();com/google/javascript/rhino/FunctionNode.java;56;58;0.19907775480998569
+4257;com.google.javascript.jscomp.PureFunctionIdentifier$SideEffectPropagationCallback.traverseEdge(FunctionInformation,Node,FunctionInformation);com/google/javascript/jscomp/PureFunctionIdentifier.java;777;835;0.11096977085210509
+4258;com.google.javascript.rhino.Node$SideEffectFlags.setMutatesThis();com/google/javascript/rhino/Node.java;2165;2167;0.11088143319022632
+4259;com.google.javascript.jscomp.PureFunctionIdentifier$FunctionAnalyzer.visitAssignmentOrUnaryOperator(FunctionInformation,Scope,Node,Node,Node);com/google/javascript/jscomp/PureFunctionIdentifier.java;516;577;0.11084609812547482
+4260;com.google.javascript.jscomp.PureFunctionIdentifier$FunctionAnalyzer.visit(NodeTraversal,Node,Node);com/google/javascript/jscomp/PureFunctionIdentifier.java;396;467;0.11072242539884454

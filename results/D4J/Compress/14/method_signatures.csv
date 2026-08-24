@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+org.apache.commons.compress.archivers.ar$ArArchiveEntry.ArArchiveEntry(String,long,int,int,int,long);org/apache/commons/compress/archivers/ar/ArArchiveEntry.java;89;107
+org.apache.commons.compress.archivers.tar$TarArchiveEntry.isGNULongNameEntry();org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;607;615
+org.apache.commons.compress.archivers.tar$TarArchiveEntry.isDirectory();org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;640;659
+org.apache.commons.compress.archivers.tar$TarArchiveEntry.parseTarHeader(byte[]);org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;800;866
+org.apache.commons.compress.archivers.tar$TarArchiveEntry.evaluateType(byte[]);org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;911;924
+org.apache.commons.compress.archivers.tar$TarArchiveEntry.TarArchiveEntry(byte[]);org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;305;315
+org.apache.commons.compress.archivers.tar$TarArchiveInputStream.close();org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java;85;92
+org.apache.commons.compress.archivers.tar$TarArchiveInputStream.getNextTarEntry();org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java;159;244
+org.apache.commons.compress.archivers.tar$TarBuffer.readBlock();org/apache/commons/compress/archivers/tar/TarBuffer.java;210;269
+org.apache.commons.compress.archivers.tar$TarBuffer.close();org/apache/commons/compress/archivers/tar/TarBuffer.java;386;407
+org.apache.commons.compress.archivers.tar$TarUtils.parseOctal(byte[],int,int);org/apache/commons/compress/archivers/tar/TarUtils.java;35;112
+org.apache.commons.compress.archivers.tar$TarUtils.exceptionMessage(byte[],int,int,int,byte);org/apache/commons/compress/archivers/tar/TarUtils.java;165;171
+org.apache.commons.compress.archivers.zip$ZipArchiveEntry.ZipArchiveEntry(java.util.zip.ZipEntry);org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java;101;124
+org.apache.commons.compress.archivers.zip$ZipArchiveInputStream.getNextZipEntry();org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java;166;248
+org.apache.commons.compress.archivers.zip$ZipArchiveOutputStream.handleSizesAndCrc(long,long,Zip64Mode);org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java;480;529
+org.apache.commons.compress.archivers.zip$ZipFile.readCentralDirectoryEntry(Map<ZipArchiveEntry,NameAndComment>);org/apache/commons/compress/archivers/zip/ZipFile.java;424;515

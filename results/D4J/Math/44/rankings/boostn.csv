@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;org.apache.commons.math.ode$AbstractIntegrator.acceptStep(AbstractStepInterpolator,double[],double[],double);org/apache/commons/math/ode/AbstractIntegrator.java;264;374;1.0
+2;org.apache.commons.math.ode.events$EventState.reinitializeBegin(StepInterpolator);org/apache/commons/math/ode/events/EventState.java;149;179;0.6528552076719439
+3;org.apache.commons.math.ode.nonstiff$AdamsBashforthIntegrator.integrate(ExpandableStatefulODE,double);org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java;190;318;0.6261563138134117
+4;org.apache.commons.math.ode.nonstiff$AdamsMoultonIntegrator.integrate(ExpandableStatefulODE,double);org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java;207;336;0.6029517468618557
+5;org.apache.commons.math.ode.events$EventState.stepAccepted(double,double[]);org/apache/commons/math/ode/events/EventState.java;290;310;0.5473523461987974
+6;org.apache.commons.math.ode.nonstiff$RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double);org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java;92;187;0.5444531987054945
+7;org.apache.commons.math.ode.events$EventState.reset(double,double[]);org/apache/commons/math/ode/events/EventState.java;320;342;0.5199284435415281
+24;org.apache.commons.math.ode$AbstractIntegrator.addEventHandler(EventHandler,double,double,int);org/apache/commons/math/ode/AbstractIntegrator.java;123;131;0.30452628573779905
+153;org.apache.commons.math.analysis.solvers$BracketingNthOrderBrentSolver.doSolve();org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java;139;345;0.09462908436579012
+177;org.apache.commons.math.ode.nonstiff$AdaptiveStepsizeIntegrator.setInitialStepSize(double);org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java;197;214;0.0832103298757928
+254;org.apache.commons.math.ode.nonstiff$AdaptiveStepsizeIntegrator.initializeStep(boolean,int,double[],double,double[],double[],double[],double[]);org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java;235;307;0.07461132521902378
+619;org.apache.commons.math.analysis.solvers$BaseAbstractUnivariateRealSolver.getStartValue();org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java;118;123;0.0
+619;org.apache.commons.math.analysis.solvers$BracketingNthOrderBrentSolver.guessX(double,double[],double[],int,int);org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java;347;380;0.0
+619;org.apache.commons.math.analysis.solvers$BracketingNthOrderBrentSolver.solve(int,UnivariateRealFunction,double,double,AllowedSolution);org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java;382;387;0.0
+619;org.apache.commons.math.ode$ExpandableStatefulODE.getTime();org/apache/commons/math/ode/ExpandableStatefulODE.java;177;182;0.0
+619;org.apache.commons.math.util$FastMath.ceil(double);org/apache/commons/math/util/FastMath.java;3357;3380;0.0

@@ -1,0 +1,20 @@
+corpus_id;path;startLine;endLine
+com.fasterxml.jackson.databind.deser$BasicDeserializerFactory._createEnumKeyDeserializer(DeserializationContext,JavaType);com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java;1385;1427
+com.fasterxml.jackson.databind.module$SimpleModule.addSerializer(Class<? extends T>,JsonSerializer<T>);com/fasterxml/jackson/databind/module/SimpleModule.java;267;274
+com.fasterxml.jackson.databind.module$SimpleModule.SimpleModule();com/fasterxml/jackson/databind/module/SimpleModule.java;89;101
+com.fasterxml.jackson.databind.module$SimpleSerializers.findSerializer(SerializationConfig,JavaType,BeanDescription);com/fasterxml/jackson/databind/module/SimpleSerializers.java;107;166
+com.fasterxml.jackson.databind.ser$BasicSerializerFactory.getFactoryConfig();com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java;141;150
+com.fasterxml.jackson.databind.ser$BasicSerializerFactory.withAdditionalSerializers(Serializers);com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java;164;171
+com.fasterxml.jackson.databind.ser$BasicSerializerFactory.buildContainerSerializer(SerializerProvider,JavaType,BeanDescription,boolean);com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java;541;628
+com.fasterxml.jackson.databind.ser$BasicSerializerFactory.buildCollectionSerializer(SerializationConfig,CollectionType,BeanDescription,boolean,TypeSerializer,JsonSerializer<Object>);com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java;630;701
+com.fasterxml.jackson.databind.ser$BasicSerializerFactory.isIndexedList(Class<?>);com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java;709;712
+com.fasterxml.jackson.databind.ser$BasicSerializerFactory.buildMapSerializer(SerializationConfig,MapType,BeanDescription,boolean,JsonSerializer<Object>,TypeSerializer,JsonSerializer<Object>);com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java;733;1105
+com.fasterxml.jackson.databind.ser$BasicSerializerFactory.buildArraySerializer(SerializationConfig,ArrayType,BeanDescription,boolean,TypeSerializer,JsonSerializer<Object>);com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java;827;874
+com.fasterxml.jackson.databind.ser$BeanSerializerBuilder.setFilterId(Object);com/fasterxml/jackson/databind/ser/BeanSerializerBuilder.java;116;118
+com.fasterxml.jackson.databind.ser$BeanSerializerBuilder.build();com/fasterxml/jackson/databind/ser/BeanSerializerBuilder.java;165;185
+com.fasterxml.jackson.databind.ser$BeanSerializerFactory._createSerializer2(SerializerProvider,JavaType,BeanDescription,boolean);com/fasterxml/jackson/databind/ser/BeanSerializerFactory.java;170;248
+com.fasterxml.jackson.databind.ser.std$JsonValueSerializer._notNullClass(Class<?>);com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java;87;90
+com.fasterxml.jackson.databind.ser.std$JsonValueSerializer.withResolved(BeanProperty,JsonSerializer<?>,boolean);com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java;92;100
+com.fasterxml.jackson.databind.ser.std$JsonValueSerializer.createContextual(SerializerProvider,BeanProperty);com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java;108;146
+com.fasterxml.jackson.databind.ser.std$JsonValueSerializer.isNaturalTypeWithStdHandling(Class<?>,JsonSerializer<?>);com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java;328;342
+com.fasterxml.jackson.databind.ser.std$JsonValueSerializer.JsonValueSerializer(JsonValueSerializer,BeanProperty,JsonSerializer<?>,boolean);com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java;76;85

@@ -1,0 +1,3377 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 525
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1706,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2183,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2237,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 1536,
+        "cost_usd": 0.000533768,
+        "input_tokens": 7148,
+        "output_tokens": 631
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 525
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1706,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2183,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2237,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.Solver.Solver(double[],RealMatrix,RealMatrix,boolean)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        16,
+        6,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1536,
+        "cost_usd": 0.001049968,
+        "input_tokens": 7148,
+        "output_tokens": 631
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 525
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1706,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2183,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2237,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 284
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        6,
+        2,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1536,
+        "cost_usd": 0.0015319679999999999,
+        "input_tokens": 7148,
+        "output_tokens": 872
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 525
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1706,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2183,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2237,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1072
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()"
+      ],
+      "top5_indices": [
+        16,
+        6,
+        1,
+        2,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1536,
+        "cost_usd": 0.003107968,
+        "input_tokens": 7148,
+        "output_tokens": 1660
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 525
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1706,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2183,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2237,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        6,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 1536,
+        "cost_usd": 0.003630968,
+        "input_tokens": 7148,
+        "output_tokens": 631
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 525
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1706,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1800,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2245,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2722,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2839,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2960,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3788,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 4083,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 4137,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 15872,
+        "cost_usd": 0.004856912,
+        "input_tokens": 33964,
+        "output_tokens": 849
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 525
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1706,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1800,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2245,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2722,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2839,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2960,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3788,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 4083,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4137,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.Solver.Solver(double[],RealMatrix,RealMatrix,boolean)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        5,
+        2,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 14848,
+        "cost_usd": 0.0058038,
+        "input_tokens": 33964,
+        "output_tokens": 849
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 525
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1706,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 122
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1800,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 87
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2245,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 155
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2366,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2499,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2976,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 106
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 351
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3788,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 87
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3842,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 16640,
+        "cost_usd": 0.005044324,
+        "input_tokens": 28906,
+        "output_tokens": 1542
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 525
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1706,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 389
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1800,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 211
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2245,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 526
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2722,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 3198,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 315
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3319,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 806
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3452,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 857
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1365
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3788,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2386
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 3842,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 19072,
+        "cost_usd": 0.01683223,
+        "input_tokens": 30663,
+        "output_tokens": 7445
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 525
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1706,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1800,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2245,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2366,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2843,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2960,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3436,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 3569,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 3623,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 17920,
+        "cost_usd": 0.011445988,
+        "input_tokens": 25570,
+        "output_tokens": 833
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 525
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1706,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1800,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2245,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2366,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2843,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2960,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3436,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 3569,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3623,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)"
+      ],
+      "top5_indices": [
+        1,
+        5,
+        2,
+        3,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 15744,
+        "cost_usd": 0.016314099999999998,
+        "input_tokens": 25570,
+        "output_tokens": 833
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1648,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2125,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2179,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 2432,
+        "cost_usd": 0.0014091160000000002,
+        "input_tokens": 6974,
+        "output_tokens": 573
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1648,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2125,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2179,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        1,
+        3,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 2432,
+        "cost_usd": 0.0019137160000000002,
+        "input_tokens": 6974,
+        "output_tokens": 573
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1648,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3140,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 3261,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3394,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3613,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3667,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.Solver.Solver(double[],RealMatrix,RealMatrix,boolean)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 3072,
+        "cost_usd": 0.00667285,
+        "input_tokens": 26689,
+        "output_tokens": 747
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1648,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3140,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 3261,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3394,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3613,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3667,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        16,
+        5,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 3072,
+        "cost_usd": 0.0074750500000000004,
+        "input_tokens": 26689,
+        "output_tokens": 747
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1648,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3140,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 3261,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3394,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3613,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3667,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 159
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        3,
+        16,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 3072,
+        "cost_usd": 0.00770705,
+        "input_tokens": 26689,
+        "output_tokens": 863
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1648,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3140,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 3261,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3394,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3613,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3667,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1328
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.Solver.Solver(double[],RealMatrix,RealMatrix,boolean)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        1,
+        5,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 3072,
+        "cost_usd": 0.01004505,
+        "input_tokens": 26689,
+        "output_tokens": 2032
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1648,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3140,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 3261,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3394,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3613,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3667,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.Solver.Solver(double[],RealMatrix,RealMatrix,boolean)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        5,
+        2,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 3072,
+        "cost_usd": 0.011486050000000001,
+        "input_tokens": 26689,
+        "output_tokens": 747
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1648,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 68
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 66
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2187,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2664,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2918,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3394,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 241
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3448,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        5,
+        2,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 11008,
+        "cost_usd": 0.00500895,
+        "input_tokens": 22159,
+        "output_tokens": 973
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1648,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 147
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 478
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2187,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 391
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2664,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2918,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1005
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3035,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 925
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3511,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1220
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3565,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        1,
+        5,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 12032,
+        "cost_usd": 0.013089800000000002,
+        "input_tokens": 25428,
+        "output_tokens": 4720
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1648,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2093,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2187,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2664,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2781,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 3257,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3390,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3444,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        5,
+        3,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 14464,
+        "cost_usd": 0.0105395,
+        "input_tokens": 22486,
+        "output_tokens": 725
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1648,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2093,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2187,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2664,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2781,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 3257,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3390,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3444,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        5,
+        2,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 15488,
+        "cost_usd": 0.0131755,
+        "input_tokens": 22486,
+        "output_tokens": 725
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 406
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1327,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1804,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1858,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.0012911259999999999,
+        "input_tokens": 6011,
+        "output_tokens": 484
+      }
+    },
+    "M2R2-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 406
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1327,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1804,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1858,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 265
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        2,
+        3,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.0021755259999999997,
+        "input_tokens": 6011,
+        "output_tokens": 706
+      }
+    },
+    "M2R2-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 406
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1327,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1804,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1858,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 798
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])"
+      ],
+      "top5_indices": [
+        16,
+        6,
+        1,
+        2,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.0032415259999999998,
+        "input_tokens": 6011,
+        "output_tokens": 1239
+      }
+    },
+    "M2R2-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 406
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1327,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1804,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1858,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.003933526,
+        "input_tokens": 6011,
+        "output_tokens": 484
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 406
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1327,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1772,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1866,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2343,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2819,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2940,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3073,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3292,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3346,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.Solver.Solver(double[],RealMatrix,RealMatrix,boolean)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        5,
+        12,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 6144,
+        "cost_usd": 0.0058556,
+        "input_tokens": 23800,
+        "output_tokens": 644
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 406
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1327,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 75
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1772,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1866,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2343,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2464,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 294
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3111,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 362
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        1,
+        5,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.00625655,
+        "input_tokens": 19543,
+        "output_tokens": 1247
+      }
+    },
+    "M2R2-M2R2-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 406
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1327,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 75
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1772,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1866,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2343,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2464,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 294
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3111,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1099
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        1,
+        5,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.00773055,
+        "input_tokens": 19543,
+        "output_tokens": 1984
+      }
+    },
+    "M2R2-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 406
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1327,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 75
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1772,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1866,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2343,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2464,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 294
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 3111,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)"
+      ],
+      "top5_indices": [
+        1,
+        5,
+        3,
+        2,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 6144,
+        "cost_usd": 0.007777549999999999,
+        "input_tokens": 19543,
+        "output_tokens": 928
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 406
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1327,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1772,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2249,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2370,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2487,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2963,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3096,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3190,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3244,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)"
+      ],
+      "top5_indices": [
+        1,
+        5,
+        2,
+        3,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 15744,
+        "cost_usd": 0.014948000000000003,
+        "input_tokens": 23720,
+        "output_tokens": 728
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 365
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1233,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1710,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1764,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.001212562,
+        "input_tokens": 5729,
+        "output_tokens": 471
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 365
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1233,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1678,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1772,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2249,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2487,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2963,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3096,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3315,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3872,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3926,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.Solver.Solver(double[],RealMatrix,RealMatrix,boolean)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()"
+      ],
+      "top5_indices": [
+        6,
+        5,
+        1,
+        12,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 10496,
+        "cost_usd": 0.0065121499999999995,
+        "input_tokens": 29983,
+        "output_tokens": 689
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 365
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1233,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1678,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 663
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1772,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1065
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1893,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1268
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2026,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 830
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2503,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 129
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2620,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 465
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3096,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 989
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3150,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1109
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        5,
+        2,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 9728,
+        "cost_usd": 0.016869449999999998,
+        "input_tokens": 20993,
+        "output_tokens": 6905
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 365
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1233,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1678,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1799,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2276,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2393,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2869,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3002,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3096,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3150,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)"
+      ],
+      "top5_indices": [
+        1,
+        5,
+        2,
+        3,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 14720,
+        "cost_usd": 0.0145155,
+        "input_tokens": 22518,
+        "output_tokens": 687
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 851
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2032,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2509,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2986,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3107,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3161,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 6144,
+        "cost_usd": 0.010238722,
+        "input_tokens": 14817,
+        "output_tokens": 1015
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 851
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2032,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2509,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2986,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3107,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3161,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])"
+      ],
+      "top5_indices": [
+        16,
+        2,
+        1,
+        3,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 5120,
+        "cost_usd": 0.01449541,
+        "input_tokens": 14817,
+        "output_tokens": 1015
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 851
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2126,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2571,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2692,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2825,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3302,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3778,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 3997,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4114,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4168,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()"
+      ],
+      "top5_indices": [
+        16,
+        6,
+        2,
+        1,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 12800,
+        "cost_usd": 0.015384750000000003,
+        "input_tokens": 32627,
+        "output_tokens": 1139
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 851
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2126,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2571,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2692,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2825,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3302,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3778,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 3997,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4114,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 4168,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.Solver.Solver(double[],RealMatrix,RealMatrix,boolean)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        5,
+        2,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 14592,
+        "cost_usd": 0.01788075,
+        "input_tokens": 32627,
+        "output_tokens": 1139
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 851
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 134
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2126,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 88
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2247,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2380,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 104
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2825,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 108
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3302,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3778,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 89
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3832,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        5,
+        2,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 12928,
+        "cost_usd": 0.0161772,
+        "input_tokens": 23544,
+        "output_tokens": 1461
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 851
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 181
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2126,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 158
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2247,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 202
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2692,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 453
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2825,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 145
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3302,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3778,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2462
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3895,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2027
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3949,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        5,
+        2,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 14720,
+        "cost_usd": 0.027944399999999998,
+        "input_tokens": 27868,
+        "output_tokens": 6544
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 851
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2126,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2247,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2841,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3317,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 3504,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 15872,
+        "cost_usd": 0.019622445999999998,
+        "input_tokens": 23263,
+        "output_tokens": 1109
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 851
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2126,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2247,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2841,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3317,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3504,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()"
+      ],
+      "top5_indices": [
+        16,
+        2,
+        3,
+        1,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 14080,
+        "cost_usd": 0.02048075,
+        "input_tokens": 23263,
+        "output_tokens": 1109
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 851
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2126,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2247,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2841,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3317,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3504,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 355
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])"
+      ],
+      "top5_indices": [
+        1,
+        5,
+        16,
+        2,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 14080,
+        "cost_usd": 0.02110475,
+        "input_tokens": 23263,
+        "output_tokens": 1421
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 851
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2126,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2247,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2841,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3317,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3504,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 719
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.SingularValueDecompositionImpl(RealMatrix,int)",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getSingularValues()"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        5,
+        2,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 14080,
+        "cost_usd": 0.021832749999999998,
+        "input_tokens": 23263,
+        "output_tokens": 1785
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1022,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 851
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2126,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2247,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2841,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3317,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3504,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getU()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getS()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getV()",
+        "org.apache.commons.math.linear.SingularValueDecompositionImpl.getVT()",
+        "org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(double[])"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        5,
+        3,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 14080,
+        "cost_usd": 0.024328749999999996,
+        "input_tokens": 23263,
+        "output_tokens": 1109
+      }
+    }
+  },
+  "schema_version": 1
+}

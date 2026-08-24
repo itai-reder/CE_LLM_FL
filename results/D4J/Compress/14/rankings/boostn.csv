@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;org.apache.commons.compress.archivers.tar$TarBuffer.readBlock();org/apache/commons/compress/archivers/tar/TarBuffer.java;210;269;1.0
+2;org.apache.commons.compress.archivers.zip$ZipFile.readCentralDirectoryEntry(Map<ZipArchiveEntry,NameAndComment>);org/apache/commons/compress/archivers/zip/ZipFile.java;424;515;0.8809839094772641
+3;org.apache.commons.compress.archivers.zip$ZipArchiveInputStream.getNextZipEntry();org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java;166;248;0.8250269420182722
+4;org.apache.commons.compress.archivers.zip$ZipArchiveEntry.ZipArchiveEntry(java.util.zip.ZipEntry);org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java;101;124;0.794020707043164
+5;org.apache.commons.compress.archivers.zip$ZipArchiveOutputStream.handleSizesAndCrc(long,long,Zip64Mode);org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java;480;529;0.7297129738523798
+13;org.apache.commons.compress.archivers.tar$TarArchiveInputStream.getNextTarEntry();org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java;159;244;0.38509775547136965
+18;org.apache.commons.compress.archivers.tar$TarArchiveEntry.parseTarHeader(byte[]);org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;800;866;0.34093901485124806
+28;org.apache.commons.compress.archivers.tar$TarArchiveEntry.TarArchiveEntry(byte[]);org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;305;315;0.283741819065453
+220;org.apache.commons.compress.archivers.ar$ArArchiveEntry.ArArchiveEntry(String,long,int,int,int,long);org/apache/commons/compress/archivers/ar/ArArchiveEntry.java;89;107;0.07728393850425269
+245;org.apache.commons.compress.archivers.tar$TarUtils.parseOctal(byte[],int,int);org/apache/commons/compress/archivers/tar/TarUtils.java;35;112;0.07688453502456995
+388;org.apache.commons.compress.archivers.tar$TarUtils.exceptionMessage(byte[],int,int,int,byte);org/apache/commons/compress/archivers/tar/TarUtils.java;165;171;0.03817112286157795
+396;org.apache.commons.compress.archivers.tar$TarBuffer.close();org/apache/commons/compress/archivers/tar/TarBuffer.java;386;407;0.03476185298918433
+439;org.apache.commons.compress.archivers.tar$TarArchiveEntry.isGNULongNameEntry();org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;607;615;0.030253957176663304
+505;org.apache.commons.compress.archivers.tar$TarArchiveEntry.evaluateType(byte[]);org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;911;924;0.016028835076543718
+508;org.apache.commons.compress.archivers.tar$TarArchiveEntry.isDirectory();org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;640;659;0.015786351885979544
+551;org.apache.commons.compress.archivers.tar$TarArchiveInputStream.close();org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java;85;92;0.01039235855696353

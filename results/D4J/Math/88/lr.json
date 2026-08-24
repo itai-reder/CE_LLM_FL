@@ -1,0 +1,3455 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 344
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1289,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1645,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.RealPointValuePair.getPoint()",
+        "org.apache.commons.math.linear.RealVectorImpl.checkVectorDimensions(int)",
+        "org.apache.commons.math.linear.RealVectorImpl.dotProduct(double[])"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.000394862,
+        "input_tokens": 5311,
+        "output_tokens": 450
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 344
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1289,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1645,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.getPivotColumn(SimplexTableau)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(SimplexTableau)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        16,
+        17,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.000792662,
+        "input_tokens": 5311,
+        "output_tokens": 450
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 344
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1289,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1645,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 211
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.RealPointValuePair.getPoint()",
+        "org.apache.commons.math.linear.RealVectorImpl.checkVectorDimensions(int)",
+        "org.apache.commons.math.linear.RealVectorImpl.dotProduct(double[])"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.001128662,
+        "input_tokens": 5311,
+        "output_tokens": 618
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 344
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1289,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1645,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 652
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        2,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.002010662,
+        "input_tokens": 5311,
+        "output_tokens": 1059
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 344
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1289,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1645,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.0027816620000000003,
+        "input_tokens": 5311,
+        "output_tokens": 450
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 344
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1289,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2189,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2340,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2424,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2566,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2740,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2922,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3152,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3275,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3417,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.RealPointValuePair.getPoint()",
+        "org.apache.commons.math.linear.RealVectorImpl.checkVectorDimensions(int)",
+        "org.apache.commons.math.linear.RealVectorImpl.dotProduct(double[])"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 10880,
+        "cost_usd": 0.004590950000000001,
+        "input_tokens": 28691,
+        "output_tokens": 663
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 344
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1289,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2189,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2340,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2424,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2566,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2740,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2922,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3152,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3275,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.getPivotColumn(SimplexTableau)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        9,
+        16,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 10880,
+        "cost_usd": 0.0053431500000000005,
+        "input_tokens": 28691,
+        "output_tokens": 663
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 344
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1289,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 51
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 46
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2189,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 75
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2273,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2424,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 257
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2566,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 536
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2620,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.RealPointValuePair.getPoint()",
+        "org.apache.commons.math.linear.RealVectorImpl.checkVectorDimensions(int)",
+        "org.apache.commons.math.linear.RealVectorImpl.dotProduct(double[])"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 7040,
+        "cost_usd": 0.004157524,
+        "input_tokens": 15738,
+        "output_tokens": 1374
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 344
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1289,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 155
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 84
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2189,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 877
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2340,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1589
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2424,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1675
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2478,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.RealPointValuePair.getPoint()",
+        "org.apache.commons.math.linear.RealVectorImpl.checkVectorDimensions(int)",
+        "org.apache.commons.math.linear.RealVectorImpl.dotProduct(double[])"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.010564538,
+        "input_tokens": 13097,
+        "output_tokens": 4767
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 344
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1289,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1591,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2189,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2340,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2482,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2784,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2838,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.RealPointValuePair.getPoint()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        9,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 9984,
+        "cost_usd": 0.009358037999999999,
+        "input_tokens": 16299,
+        "output_tokens": 594
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 344
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1289,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1591,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2189,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2340,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2482,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2784,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2838,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 7808,
+        "cost_usd": 0.01328415,
+        "input_tokens": 16299,
+        "output_tokens": 594
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 333
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1278,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1580,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1634,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.RealPointValuePair.getPoint()",
+        "org.apache.commons.math.linear.RealVectorImpl.checkVectorDimensions(int)",
+        "org.apache.commons.math.linear.RealVectorImpl.dotProduct(double[])",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        4,
+        5,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0011239,
+        "input_tokens": 5278,
+        "output_tokens": 425
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 333
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1278,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1580,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1634,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        2,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0015195,
+        "input_tokens": 5278,
+        "output_tokens": 425
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 333
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1278,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1580,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1731,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2329,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2471,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2645,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2827,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3141,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3246,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3300,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.RealPointValuePair.getPoint()",
+        "org.apache.commons.math.linear.RealVectorImpl.checkVectorDimensions(int)",
+        "org.apache.commons.math.linear.RealVectorImpl.dotProduct(double[])"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 6784,
+        "cost_usd": 0.00610055,
+        "input_tokens": 28391,
+        "output_tokens": 629
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 333
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1278,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1580,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1731,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2329,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2471,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2645,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2827,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3141,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3246,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 6784,
+        "cost_usd": 0.0068293500000000005,
+        "input_tokens": 28391,
+        "output_tokens": 629
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 333
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1278,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1580,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1731,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2329,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2471,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2645,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2827,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3141,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3246,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 314
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.getPivotColumn(SimplexTableau)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        16,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 6784,
+        "cost_usd": 0.0073713500000000005,
+        "input_tokens": 28391,
+        "output_tokens": 900
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 333
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1278,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1580,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1731,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2329,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2471,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2645,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2827,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3141,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3246,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1418
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(SimplexTableau)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.getPivotColumn(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        17,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 6784,
+        "cost_usd": 0.00957935,
+        "input_tokens": 28391,
+        "output_tokens": 2004
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 333
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1278,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1580,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1731,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2329,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2471,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2645,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2827,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3141,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3246,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3300,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 6784,
+        "cost_usd": 0.01047335,
+        "input_tokens": 28391,
+        "output_tokens": 629
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 333
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1278,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1580,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 58
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2178,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 53
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2329,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2471,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 331
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2653,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2827,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 395
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 3111,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        2,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 10752,
+        "cost_usd": 0.0057503,
+        "input_tokens": 22270,
+        "output_tokens": 1301
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 333
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1278,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1580,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 94
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2178,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2329,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 878
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2471,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 592
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2555,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1278
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2737,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1401
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2791,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        2,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.012648649999999999,
+        "input_tokens": 18705,
+        "output_tokens": 4663
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 333
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1278,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1580,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2178,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2329,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2471,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2645,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2809,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2991,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3589,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3891,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 3945,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.RealPointValuePair.getPoint()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        2,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 22144,
+        "cost_usd": 0.014066799999999999,
+        "input_tokens": 30492,
+        "output_tokens": 699
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 333
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1278,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1580,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2178,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2329,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2471,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2645,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2809,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2991,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3589,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3891,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3945,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 20352,
+        "cost_usd": 0.018758999999999998,
+        "input_tokens": 30492,
+        "output_tokens": 699
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 450
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1120,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1422,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2020,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2104,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2227,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2353,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2504,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2558,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.RealPointValuePair.getPoint()",
+        "org.apache.commons.math.linear.RealVectorImpl.checkVectorDimensions(int)",
+        "org.apache.commons.math.linear.RealVectorImpl.dotProduct(double[])"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.0017173080000000003,
+        "input_tokens": 17094,
+        "output_tokens": 708
+      }
+    },
+    "M2R2-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 450
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1120,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1422,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2020,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2104,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2227,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2353,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2504,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2558,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 160
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        2,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.002531708,
+        "input_tokens": 17094,
+        "output_tokens": 825
+      }
+    },
+    "M2R2-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 450
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1120,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1422,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2020,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2104,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2227,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2353,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2504,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2558,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 893
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.003997708000000001,
+        "input_tokens": 17094,
+        "output_tokens": 1558
+      }
+    },
+    "M2R2-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 450
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1120,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1422,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2020,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2104,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2227,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2353,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2504,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2558,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.005199708000000001,
+        "input_tokens": 17094,
+        "output_tokens": 708
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 450
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1120,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1422,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1573,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2171,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2313,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2495,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2899,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3148,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3202,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 5248,
+        "cost_usd": 0.0070722,
+        "input_tokens": 26820,
+        "output_tokens": 774
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 450
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1120,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1422,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 53
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2020,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2171,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2313,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2495,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 299
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 96
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2899,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 236
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2953,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 242
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.getPivotColumn(SimplexTableau)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        2,
+        16,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 10240,
+        "cost_usd": 0.005836,
+        "input_tokens": 20848,
+        "output_tokens": 1464
+      }
+    },
+    "M2R2-M2R2-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 450
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1120,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1422,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 53
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2020,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2171,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2313,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2495,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 299
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 96
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2899,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 236
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2953,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1054
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 11904,
+        "cost_usd": 0.007085599999999999,
+        "input_tokens": 20848,
+        "output_tokens": 2276
+      }
+    },
+    "M2R2-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 450
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1120,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1422,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 53
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2020,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2171,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2313,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2495,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 299
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 96
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2899,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 236
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2953,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.getPivotColumn(SimplexTableau)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        16,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 10240,
+        "cost_usd": 0.008735,
+        "input_tokens": 20848,
+        "output_tokens": 1265
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 450
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1120,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1422,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2020,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2171,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2313,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2495,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2549,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 6912,
+        "cost_usd": 0.013433,
+        "input_tokens": 14876,
+        "output_tokens": 700
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 355
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1144,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1446,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1500,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.RealPointValuePair.getPoint()",
+        "org.apache.commons.math.linear.RealVectorImpl.checkVectorDimensions(int)",
+        "org.apache.commons.math.optimization.linear.LinearObjectiveFunction.getValue(double[])",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        4,
+        8,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0011534,
+        "input_tokens": 4876,
+        "output_tokens": 461
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 355
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1144,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1446,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2044,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2195,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2337,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2511,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2741,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2923,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3087,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3181,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3235,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.getPivotColumn(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        2,
+        9,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 7552,
+        "cost_usd": 0.0065382999999999995,
+        "input_tokens": 27630,
+        "output_tokens": 665
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 355
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1144,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1446,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2044,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2195,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2552
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2337,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1110
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2567,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1830
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2741,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1148
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2825,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 973
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 3007,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1653
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3171,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1631
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3281,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1742
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(SimplexTableau)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.getPivotColumn(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        17,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 11648,
+        "cost_usd": 0.030385199999999998,
+        "input_tokens": 27544,
+        "output_tokens": 13060
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 355
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1144,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1446,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 2044,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2195,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2337,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2501,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2675,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2905,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2959,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.isOptimal(SimplexTableau)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.getPivotColumn(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        10,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 11776,
+        "cost_usd": 0.016135999999999998,
+        "input_tokens": 20992,
+        "output_tokens": 677
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 892
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1837,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2139,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2737,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2791,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.RealPointValuePair.getPoint()",
+        "org.apache.commons.math.linear.RealVectorImpl.checkVectorDimensions(int)",
+        "org.apache.commons.math.linear.RealVectorImpl.dotProduct(double[])"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 3584,
+        "cost_usd": 0.010257092,
+        "input_tokens": 10290,
+        "output_tokens": 1034
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 892
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1837,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2139,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2737,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2791,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        2,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 3584,
+        "cost_usd": 0.014019092,
+        "input_tokens": 10290,
+        "output_tokens": 1034
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 892
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1837,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2139,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2290,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2888,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3062,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3204,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3386,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3470,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3593,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3719,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3773,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        13,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 10496,
+        "cost_usd": 0.01652915,
+        "input_tokens": 34147,
+        "output_tokens": 1216
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 892
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1837,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2139,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2290,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2888,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3062,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3204,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3386,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3470,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3593,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3719,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3773,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        2,
+        13,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 12416,
+        "cost_usd": 0.01848615,
+        "input_tokens": 34147,
+        "output_tokens": 1216
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 892
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1837,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 59
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2139,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 59
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2737,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 50
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2888,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 184
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2942,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        2,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 7552,
+        "cost_usd": 0.013111049999999999,
+        "input_tokens": 13329,
+        "output_tokens": 1287
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 892
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1837,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 198
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2139,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 448
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2737,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 449
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2888,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2726
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 2942,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        2,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 7808,
+        "cost_usd": 0.01976105,
+        "input_tokens": 13329,
+        "output_tokens": 4756
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 892
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1837,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2139,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2737,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2888,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3030,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 3084,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.RealPointValuePair.getPoint()",
+        "org.apache.commons.math.linear.RealVectorImpl.checkVectorDimensions(int)",
+        "org.apache.commons.math.linear.RealVectorImpl.dotProduct(double[])"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 6144,
+        "cost_usd": 0.02341393,
+        "input_tokens": 16501,
+        "output_tokens": 1106
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 892
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1837,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2139,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2737,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2888,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3030,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3084,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 3584,
+        "cost_usd": 0.02422625,
+        "input_tokens": 16501,
+        "output_tokens": 1106
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 892
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1837,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2139,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2737,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2888,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3030,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3084,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 234
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 3584,
+        "cost_usd": 0.02460825,
+        "input_tokens": 16501,
+        "output_tokens": 1297
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 892
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1837,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2139,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2737,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2888,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3030,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3084,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 323
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 3584,
+        "cost_usd": 0.024786250000000003,
+        "input_tokens": 16501,
+        "output_tokens": 1386
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 892
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1837,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2139,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2737,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2888,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3030,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3084,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getSolution()",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.createTableau(boolean)",
+        "org.apache.commons.math.optimization.linear.SimplexTableau.getBasicRow(int)",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize()",
+        "org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexTableau)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 3584,
+        "cost_usd": 0.027654250000000002,
+        "input_tokens": 16501,
+        "output_tokens": 1106
+      }
+    }
+  },
+  "schema_version": 1
+}

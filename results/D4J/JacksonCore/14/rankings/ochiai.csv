@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;com.fasterxml.jackson.core.io$IOContext.wrongBuf();com/fasterxml/jackson/core/io/IOContext.java;282;285;1.0
+2;com.fasterxml.jackson.core.io$IOContext.allocReadIOBuffer();com/fasterxml/jackson/core/io/IOContext.java;140;148;0.10660035817780521
+2;com.fasterxml.jackson.core.io$IOContext.releaseReadIOBuffer(byte[]);com/fasterxml/jackson/core/io/IOContext.java;202;215;0.10660035817780521
+4;com.fasterxml.jackson.core.io$IOContext._verifyRelease(byte[],byte[]);com/fasterxml/jackson/core/io/IOContext.java;272;275;0.08838834764831843
+5;com.fasterxml.jackson.core.util$BufferRecycler.allocByteBuffer(int);com/fasterxml/jackson/core/util/BufferRecycler.java;82;87;0.08804509063256238
+5;com.fasterxml.jackson.core.util$BufferRecycler.allocByteBuffer(int,int);com/fasterxml/jackson/core/util/BufferRecycler.java;89;101;0.08804509063256238
+5;com.fasterxml.jackson.core.util$BufferRecycler.balloc(int);com/fasterxml/jackson/core/util/BufferRecycler.java;155;155;0.08804509063256238
+5;com.fasterxml.jackson.core.util$BufferRecycler.byteBufferLength(int);com/fasterxml/jackson/core/util/BufferRecycler.java;141;143;0.08804509063256238
+9;com.fasterxml.jackson.core.io$IOContext._verifyAlloc(Object);com/fasterxml/jackson/core/io/IOContext.java;268;270;0.062017367294604234
+10;com.fasterxml.jackson.core.io$IOContext.IOContext(BufferRecycler,Object,boolean);com/fasterxml/jackson/core/io/IOContext.java;101;106;0.05965499862718936
+13;com.fasterxml.jackson.core.io$IOContext._verifyRelease(char[],char[]);com/fasterxml/jackson/core/io/IOContext.java;277;280;0.0
+13;com.fasterxml.jackson.core.io$IOContext.allocBase64Buffer();com/fasterxml/jackson/core/io/IOContext.java;171;177;0.0
+13;com.fasterxml.jackson.core.io$IOContext.allocReadIOBuffer(int);com/fasterxml/jackson/core/io/IOContext.java;150;156;0.0

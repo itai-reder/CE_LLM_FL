@@ -1,0 +1,3083 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1056
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2324,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2622,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2676,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.util.FastMath.nextAfter(double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.DormandPrince853StepInterpolator(DormandPrince853StepInterpolator)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.doCopy()",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.reinitialize(AbstractIntegrator,double[],double[][],boolean,EquationsMapper,EquationsMapper[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.0007999740000000001,
+        "input_tokens": 8731,
+        "output_tokens": 1162
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1056
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2324,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2622,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2676,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.DormandPrince853StepInterpolator(DormandPrince853StepInterpolator)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)"
+      ],
+      "top5_indices": [
+        12,
+        7,
+        11,
+        2,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.001403974,
+        "input_tokens": 8731,
+        "output_tokens": 1162
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1056
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2324,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2622,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2676,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 381
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.reinitialize(AbstractIntegrator,double[],double[][],boolean,EquationsMapper,EquationsMapper[])"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        7,
+        5,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.002079974,
+        "input_tokens": 8731,
+        "output_tokens": 1500
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1056
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2324,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2622,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2676,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 939
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.reinitialize(AbstractIntegrator,double[],double[][],boolean,EquationsMapper,EquationsMapper[])"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        7,
+        11,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.003195974,
+        "input_tokens": 8731,
+        "output_tokens": 2058
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1056
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2324,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2622,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2676,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        13,
+        14,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.004423974000000001,
+        "input_tokens": 8731,
+        "output_tokens": 1162
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1056
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2324,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3544,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4350,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4613,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4911,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 6131,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6230,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6982,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5888,
+          "input_tokens": 7078,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7377,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 7431,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.util.FastMath.nextAfter(double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.reinitialize(AbstractIntegrator,double[],double[][],boolean,EquationsMapper,EquationsMapper[])",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        11,
+        12,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 11904,
+        "cost_usd": 0.012370912000000001,
+        "input_tokens": 62080,
+        "output_tokens": 1408
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1056
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2324,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3544,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4350,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4613,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4911,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 6131,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6230,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6982,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5888,
+          "input_tokens": 7078,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7377,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7431,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        11,
+        7,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 10880,
+        "cost_usd": 0.0139766,
+        "input_tokens": 62080,
+        "output_tokens": 1408
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1056
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2324,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 75
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3544,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 115
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3807,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4613,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 599
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 4667,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.util.FastMath.nextAfter(double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.DormandPrince853StepInterpolator(DormandPrince853StepInterpolator)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.doCopy()",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.reinitialize(AbstractIntegrator,double[],double[][],boolean,EquationsMapper,EquationsMapper[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 10368,
+        "cost_usd": 0.0041736640000000005,
+        "input_tokens": 20064,
+        "output_tokens": 1910
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1056
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2324,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 219
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3544,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 178
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4350,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 473
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4613,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1810
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 4667,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.util.FastMath.nextAfter(double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.DormandPrince853StepInterpolator(DormandPrince853StepInterpolator)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.doCopy()",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.reinitialize(AbstractIntegrator,double[],double[][],boolean,EquationsMapper,EquationsMapper[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 12416,
+        "cost_usd": 0.0077663260000000005,
+        "input_tokens": 20607,
+        "output_tokens": 3779
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1056
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2324,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3544,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 3807,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 4613,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 4880,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4608,
+          "input_tokens": 6100,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5888,
+          "input_tokens": 6398,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 6452,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.util.FastMath.nextAfter(double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.DormandPrince853StepInterpolator(DormandPrince853StepInterpolator)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.doCopy()",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.reinitialize(AbstractIntegrator,double[],double[][],boolean,EquationsMapper,EquationsMapper[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 28160,
+        "cost_usd": 0.015830726,
+        "input_tokens": 39227,
+        "output_tokens": 1342
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1056
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2324,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 3544,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 3807,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 4613,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 4880,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4608,
+          "input_tokens": 6100,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5888,
+          "input_tokens": 6398,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6452,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        14,
+        11,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 23808,
+        "cost_usd": 0.024201350000000003,
+        "input_tokens": 39227,
+        "output_tokens": 1342
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 394
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1662,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1960,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2014,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.util.FastMath.nextAfter(double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.DormandPrince853StepInterpolator(DormandPrince853StepInterpolator)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.doCopy()",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.reinitialize(AbstractIntegrator,double[],double[][],boolean,EquationsMapper,EquationsMapper[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.001338762,
+        "input_tokens": 6745,
+        "output_tokens": 500
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 394
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1662,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1960,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2014,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.doCopy()"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        11,
+        7,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.001810362,
+        "input_tokens": 6745,
+        "output_tokens": 500
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 394
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1662,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3688,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3951,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4249,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5469,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 5568,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 6320,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6374,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.util.FastMath.nextAfter(double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.DormandPrince853StepInterpolator(DormandPrince853StepInterpolator)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.doCopy()",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.reinitialize(AbstractIntegrator,double[],double[][],boolean,EquationsMapper,EquationsMapper[])"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        3,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 10112,
+        "cost_usd": 0.0080752,
+        "input_tokens": 41272,
+        "output_tokens": 688
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 394
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1662,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3688,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3951,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4249,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5469,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 5568,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 6320,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6374,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        11,
+        7,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 10112,
+        "cost_usd": 0.0094188,
+        "input_tokens": 41272,
+        "output_tokens": 688
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 394
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1662,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3688,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3951,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4249,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5469,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 5568,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 6320,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6374,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 256
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        13,
+        7,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 10112,
+        "cost_usd": 0.0098448,
+        "input_tokens": 41272,
+        "output_tokens": 901
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 394
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1662,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3688,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3951,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4249,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5469,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 5568,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 6320,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6374,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 961
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        13,
+        7,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 10112,
+        "cost_usd": 0.0112548,
+        "input_tokens": 41272,
+        "output_tokens": 1606
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 394
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1662,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3688,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3951,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4249,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5469,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 5568,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 6320,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 6374,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        14,
+        11,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 11264,
+        "cost_usd": 0.014840800000000001,
+        "input_tokens": 41272,
+        "output_tokens": 688
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 394
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1662,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 312
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3688,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 162
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3951,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 440
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4005,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.doCopy()"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        13,
+        7,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 5120,
+        "cost_usd": 0.00591825,
+        "input_tokens": 17297,
+        "output_tokens": 1373
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 394
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1662,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 154
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 500
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3688,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1450
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3787,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4050,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1259
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4203,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1681
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4257,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        13,
+        7,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 11776,
+        "cost_usd": 0.0147659,
+        "input_tokens": 25638,
+        "output_tokens": 5503
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 394
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1662,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2882,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3688,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3951,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4218,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 5438,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5248,
+          "input_tokens": 5591,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4096,
+          "input_tokens": 5708,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 5762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.doCopy()"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        13,
+        7,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 26496,
+        "cost_usd": 0.02033705,
+        "input_tokens": 40009,
+        "output_tokens": 716
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 394
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1662,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2882,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3688,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3951,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4218,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 5438,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5248,
+          "input_tokens": 5591,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4096,
+          "input_tokens": 5708,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 5762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        14,
+        11,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 23808,
+        "cost_usd": 0.02612625,
+        "input_tokens": 40009,
+        "output_tokens": 716
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 408
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1436,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1734,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2033,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2129,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2183,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.util.FastMath.nextAfter(double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.DormandPrince853StepInterpolator(DormandPrince853StepInterpolator)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.doCopy()",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.reinitialize(AbstractIntegrator,double[],double[][],boolean,EquationsMapper,EquationsMapper[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.001583176,
+        "input_tokens": 10624,
+        "output_tokens": 586
+      }
+    },
+    "M2R2-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 408
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1436,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1734,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2033,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2129,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2183,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 352
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        7,
+        11,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.002706576,
+        "input_tokens": 10624,
+        "output_tokens": 895
+      }
+    },
+    "M2R2-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 408
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1436,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1734,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2033,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2129,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2183,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 823
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.reinitialize(AbstractIntegrator,double[],double[][],boolean,EquationsMapper,EquationsMapper[])"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        13,
+        5,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.003648576,
+        "input_tokens": 10624,
+        "output_tokens": 1366
+      }
+    },
+    "M2R2-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 408
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1436,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1734,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2033,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2129,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2183,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        14,
+        11,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.004615576,
+        "input_tokens": 10624,
+        "output_tokens": 586
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 408
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1436,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2656,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3725,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4023,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 5243,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5342,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 5438,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5737,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5791,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.util.FastMath.nextAfter(double,double)"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        11,
+        7,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 8192,
+        "cost_usd": 0.010431550000000001,
+        "input_tokens": 43419,
+        "output_tokens": 710
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 408
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1436,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 77
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2656,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 180
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3462,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 479
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3516,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 344
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        13,
+        14,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.006020749999999999,
+        "input_tokens": 12179,
+        "output_tokens": 1488
+      }
+    },
+    "M2R2-M2R2-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 408
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1436,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 77
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2656,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 180
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3462,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 479
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3516,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1061
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.getOrder()"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        13,
+        14,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00745475,
+        "input_tokens": 12179,
+        "output_tokens": 2205
+      }
+    },
+    "M2R2-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 408
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1436,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 77
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2656,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 180
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3462,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 479
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3516,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        14,
+        7,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.007838749999999998,
+        "input_tokens": 12179,
+        "output_tokens": 1187
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 408
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1436,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2656,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 3462,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 3725,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3992,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 5212,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4992,
+          "input_tokens": 5510,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 5564,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        14,
+        11,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 20992,
+        "cost_usd": 0.0197835,
+        "input_tokens": 32666,
+        "output_tokens": 694
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2002
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2161,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2459,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2758,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 2854,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3113,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3212,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3964,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4117,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4205,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4317,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 4540,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.util.FastMath.nextAfter(double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.DormandPrince853StepInterpolator(DormandPrince853StepInterpolator)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.doCopy()",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.reinitialize(AbstractIntegrator,double[],double[][],boolean,EquationsMapper,EquationsMapper[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 24832,
+        "cost_usd": 0.005081466,
+        "input_tokens": 38809,
+        "output_tokens": 2363
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2002
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2161,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3381,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3679,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4485,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4539,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.doCopy()"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        13,
+        7,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.0085937,
+        "input_tokens": 19354,
+        "output_tokens": 2180
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2002
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2161,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 61
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3381,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 579
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4187,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1168
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4340,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 613
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4603,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1756
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4870,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 836
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4969,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1180
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5086,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1293
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5140,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 981
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.storeTime(double)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        13,
+        7,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 15488,
+        "cost_usd": 0.0274147,
+        "input_tokens": 39846,
+        "output_tokens": 10469
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2002
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2161,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3381,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 4187,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4450,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 4717,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4480,
+          "input_tokens": 4870,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4608,
+          "input_tokens": 6090,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6144,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        14,
+        7,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 20480,
+        "cost_usd": 0.028961249999999997,
+        "input_tokens": 37109,
+        "output_tokens": 2274
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 654
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1922,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2220,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2519,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2615,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2669,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.util.FastMath.nextAfter(double,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.DormandPrince853StepInterpolator(DormandPrince853StepInterpolator)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.reinitialize(AbstractIntegrator,double[],double[][],boolean,EquationsMapper,EquationsMapper[])",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        4,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 5760,
+        "cost_usd": 0.00830958,
+        "input_tokens": 13054,
+        "output_tokens": 832
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 654
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1922,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2220,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2519,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2615,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2669,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.AbstractIntegrator.computeDerivatives(double,double[],double[])"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        14,
+        11,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 4736,
+        "cost_usd": 0.011975868,
+        "input_tokens": 13054,
+        "output_tokens": 832
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 654
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1922,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3142,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3405,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4211,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4265,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.util.FastMath.nextAfter(double,double)"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        11,
+        14,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.012490500000000002,
+        "input_tokens": 18054,
+        "output_tokens": 818
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 654
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1922,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3142,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3405,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4211,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4265,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.AbstractIntegrator.computeDerivatives(double,double[],double[])"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        14,
+        11,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0170995,
+        "input_tokens": 18054,
+        "output_tokens": 818
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 654
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1922,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 75
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3142,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 103
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3405,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4211,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 278
+        },
+        {
+          "cached_tokens": 4096,
+          "input_tokens": 4265,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.AbstractIntegrator.computeDerivatives(double,double[],double[])"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        14,
+        11,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 11136,
+        "cost_usd": 0.011621499999999998,
+        "input_tokens": 18054,
+        "output_tokens": 1175
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 654
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1922,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 202
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3142,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1021
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3405,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 471
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4211,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1183
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4478,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 601
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4532,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.AbstractIntegrator.computeDerivatives(double,double[],double[])"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        14,
+        11,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 14720,
+        "cost_usd": 0.01838355,
+        "input_tokens": 22799,
+        "output_tokens": 4175
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 654
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1922,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3142,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3405,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4211,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4265,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.util.FastMath.nextAfter(double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.doCopy()",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.DormandPrince853StepInterpolator(DormandPrince853StepInterpolator)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        3,
+        2,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 4608,
+        "cost_usd": 0.021962332,
+        "input_tokens": 18054,
+        "output_tokens": 832
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 654
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1922,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3142,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3405,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4211,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4265,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.doCopy()",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator.reinitialize(AbstractIntegrator,double[],double[][],boolean,EquationsMapper,EquationsMapper[])"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        11,
+        3,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 2944,
+        "cost_usd": 0.0229665,
+        "input_tokens": 18054,
+        "output_tokens": 832
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 654
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1922,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3142,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3405,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4211,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4265,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 364
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.DormandPrince853Integrator(double,double,double,double)"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        14,
+        11,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 2944,
+        "cost_usd": 0.0236085,
+        "input_tokens": 18054,
+        "output_tokens": 1153
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 654
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1922,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3142,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3405,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4211,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4265,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 900
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.AbstractIntegrator.computeDerivatives(double,double[],double[])"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        14,
+        11,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 2944,
+        "cost_usd": 0.0246805,
+        "input_tokens": 18054,
+        "output_tokens": 1689
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1109,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 654
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1922,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3142,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3405,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4211,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4265,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double,double)",
+        "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator(String,boolean,double[],double[][],double[],RungeKuttaStepInterpolator,double,double,double[],double[])",
+        "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator.integrate(ExpandableStatefulODE,double)",
+        "org.apache.commons.math.ode.AbstractIntegrator.computeDerivatives(double,double[],double[])"
+      ],
+      "top5_indices": [
+        12,
+        13,
+        14,
+        11,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 2944,
+        "cost_usd": 0.0275755,
+        "input_tokens": 18054,
+        "output_tokens": 832
+      }
+    }
+  },
+  "schema_version": 1
+}

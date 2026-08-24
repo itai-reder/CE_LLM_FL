@@ -1,0 +1,3219 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 632
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1509,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1645,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.parser.HtmlTreeBuilder.insertNode(Node)",
+        "org.jsoup.parser.Parser.parse(String,String)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        3,
+        6,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.00050499,
+        "input_tokens": 5463,
+        "output_tokens": 738
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 632
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1509,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1645,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.parser.Parser.parse(String,String)"
+      ],
+      "top5_indices": [
+        16,
+        17,
+        15,
+        1,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.0009027899999999999,
+        "input_tokens": 5463,
+        "output_tokens": 738
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 632
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1509,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1645,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 191
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.parser.Parser.parse(String,String)"
+      ],
+      "top5_indices": [
+        16,
+        15,
+        17,
+        1,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.00119879,
+        "input_tokens": 5463,
+        "output_tokens": 886
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 632
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1509,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1645,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 768
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.parser.HtmlTreeBuilder.parse(String,String,ParseErrorList)",
+        "org.jsoup.parser.Parser.parse(String,String)"
+      ],
+      "top5_indices": [
+        16,
+        15,
+        17,
+        4,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.00235279,
+        "input_tokens": 5463,
+        "output_tokens": 1463
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 632
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1509,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1645,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.00289179,
+        "input_tokens": 5463,
+        "output_tokens": 738
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 632
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1509,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1825,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1938,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2021,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2208,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2288,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2395,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2531,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2618,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2672,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.parser.HtmlTreeBuilder.isFragmentParsing()",
+        "org.jsoup.parser.HtmlTreeBuilder.parse(String,String,ParseErrorList)",
+        "org.jsoup.parser.HtmlTreeBuilder.insertNode(Node)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        2,
+        4,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 5248,
+        "cost_usd": 0.0051237,
+        "input_tokens": 24826,
+        "output_tokens": 928
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 632
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1509,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1825,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1938,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2021,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2208,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2288,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2395,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2531,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2618,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2672,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.parser.HtmlTreeBuilder.insertNode(Node)",
+        "org.jsoup.Jsoup.parse(String)"
+      ],
+      "top5_indices": [
+        16,
+        15,
+        17,
+        3,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 5248,
+        "cost_usd": 0.005726900000000001,
+        "input_tokens": 24826,
+        "output_tokens": 928
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 632
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1509,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 97
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1825,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1938,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 78
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2021,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2239,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2319,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2406,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 176
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2562,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2667,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2934,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.parser.HtmlTreeBuilder.insertNode(Node)",
+        "org.jsoup.parser.HtmlTreeBuilder.isFragmentParsing()"
+      ],
+      "top5_indices": [
+        16,
+        43,
+        1,
+        3,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 13568,
+        "cost_usd": 0.00414401,
+        "input_tokens": 25241,
+        "output_tokens": 1180
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 632
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1509,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 220
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1622,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 145
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1938,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2021,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 350
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2128,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2208,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 302
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2290,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 628
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 2344,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.parser.HtmlTreeBuilder.insertNode(Node)",
+        "org.jsoup.parser.HtmlTreeBuilder.parse(String,String,ParseErrorList)",
+        "org.jsoup.parser.HtmlTreeBuilder.setHeadElement(Element)"
+      ],
+      "top5_indices": [
+        16,
+        43,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 7936,
+        "cost_usd": 0.00566914,
+        "input_tokens": 16778,
+        "output_tokens": 2364
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 632
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1509,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1622,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1938,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2021,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2075,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.parser.HtmlTreeBuilder.insertNode(Node)",
+        "org.jsoup.parser.TreeBuilder.parse(String,String,ParseErrorList)",
+        "org.jsoup.safety.Cleaner.clean(Document)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        3,
+        7,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.005726149999999999,
+        "input_tokens": 9883,
+        "output_tokens": 810
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 632
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1509,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1622,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1938,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2021,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2075,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.00862895,
+        "input_tokens": 9883,
+        "output_tokens": 810
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 570
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1447,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1529,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1583,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.parser.HtmlTreeBuilder.insertNode(Node)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        17,
+        11,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00158425,
+        "input_tokens": 5277,
+        "output_tokens": 662
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 570
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1447,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1529,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1583,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00196965,
+        "input_tokens": 5277,
+        "output_tokens": 662
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 570
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1447,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1560,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1876,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1959,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2041,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2154,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2470,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2553,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2607,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        17,
+        15,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 3456,
+        "cost_usd": 0.00512245,
+        "input_tokens": 19385,
+        "output_tokens": 822
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 570
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1447,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1560,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1876,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1959,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2041,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2154,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2470,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2553,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2607,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 3456,
+        "cost_usd": 0.00571265,
+        "input_tokens": 19385,
+        "output_tokens": 822
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 570
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1447,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1560,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1876,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1959,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2041,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2154,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2470,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2553,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2607,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 154
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 3456,
+        "cost_usd": 0.00593465,
+        "input_tokens": 19385,
+        "output_tokens": 933
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 570
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1447,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1560,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1876,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1959,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2041,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2154,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2470,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2553,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2607,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 310
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 3456,
+        "cost_usd": 0.00624665,
+        "input_tokens": 19385,
+        "output_tokens": 1089
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 570
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1447,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1560,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1876,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1959,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2041,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2154,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2470,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2553,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2607,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 3456,
+        "cost_usd": 0.00866365,
+        "input_tokens": 19385,
+        "output_tokens": 822
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 570
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1447,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 112
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1763,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 69
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1876,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1959,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2041,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2121,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2257,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2344,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 59
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2398,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 7296,
+        "cost_usd": 0.0050154,
+        "input_tokens": 18924,
+        "output_tokens": 963
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 570
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1447,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 202
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1560,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 95
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1876,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 145
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1959,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 445
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2013,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.0046444500000000005,
+        "input_tokens": 9573,
+        "output_tokens": 1500
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 570
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1447,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1560,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1876,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1959,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2013,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.00979525,
+        "input_tokens": 9573,
+        "output_tokens": 748
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 570
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1447,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1560,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1876,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1959,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2013,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1408,
+        "cost_usd": 0.012584250000000002,
+        "input_tokens": 9573,
+        "output_tokens": 748
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 952,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1268,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1584,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1638,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.parser.HtmlTreeBuilder.isFragmentParsing()",
+        "org.jsoup.parser.HtmlTreeBuilder.insertNode(Node)"
+      ],
+      "top5_indices": [
+        16,
+        15,
+        1,
+        2,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0009864000000000001,
+        "input_tokens": 6160,
+        "output_tokens": 381
+      }
+    },
+    "M2R2-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 952,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1268,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1584,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1638,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 374
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.parser.HtmlTreeBuilder.setHeadElement(Element)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        1,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0020448,
+        "input_tokens": 6160,
+        "output_tokens": 712
+      }
+    },
+    "M2R2-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 952,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1268,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1584,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1638,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1004
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.parse(String)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0033048,
+        "input_tokens": 6160,
+        "output_tokens": 1342
+      }
+    },
+    "M2R2-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 952,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1268,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1584,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1638,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0033648000000000003,
+        "input_tokens": 6160,
+        "output_tokens": 381
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 952,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1268,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1381,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1464,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1546,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1633,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1713,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1849,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1952,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2074,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2128,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.parse(String)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0056835,
+        "input_tokens": 18678,
+        "output_tokens": 507
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 952,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1268,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1381,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1464,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1546,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1849,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 215
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1903,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 248
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.parser.Parser.parse(String,String)"
+      ],
+      "top5_indices": [
+        16,
+        15,
+        17,
+        1,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.005329250000000001,
+        "input_tokens": 14469,
+        "output_tokens": 856
+      }
+    },
+    "M2R2-M2R2-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 952,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1268,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1381,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1464,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1546,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1849,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 215
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1903,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 647
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.parser.Parser.parse(String,String)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        1,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.006127250000000001,
+        "input_tokens": 14469,
+        "output_tokens": 1255
+      }
+    },
+    "M2R2-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 952,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1268,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1381,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1464,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1546,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1849,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 215
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1903,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.007166250000000001,
+        "input_tokens": 14469,
+        "output_tokens": 651
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 952,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1065,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1381,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1464,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1518,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.0091165,
+        "input_tokens": 7098,
+        "output_tokens": 417
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1472
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1466,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1782,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1836,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.parser.HtmlTreeBuilder.isFragmentParsing()",
+        "org.jsoup.parser.HtmlTreeBuilder.insertNode(Node)",
+        "org.jsoup.parser.HtmlTreeBuilder.parse(String,String,ParseErrorList)"
+      ],
+      "top5_indices": [
+        16,
+        1,
+        2,
+        3,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.00335674,
+        "input_tokens": 5802,
+        "output_tokens": 1578
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1472
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1466,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1782,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1895,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1978,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2060,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2167,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2254,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2334,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2470,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2524,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.parser.HtmlTreeBuilder.parse(String,String,ParseErrorList)"
+      ],
+      "top5_indices": [
+        16,
+        15,
+        17,
+        1,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0085856,
+        "input_tokens": 21648,
+        "output_tokens": 1774
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1472
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1466,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1579,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 73
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1895,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 116
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1978,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 299
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2060,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 142
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2167,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 672
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2272,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 168
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2326,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 601
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.parser.Parser.parse(String,String)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        1,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 7168,
+        "cost_usd": 0.00963245,
+        "input_tokens": 16461,
+        "output_tokens": 3565
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1472
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1466,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1579,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1895,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1978,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.011195,
+        "input_tokens": 9668,
+        "output_tokens": 1650
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1697,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2013,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2093,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2196,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2318,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2431,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2567,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2672,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2810,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2913,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.parser.HtmlTreeBuilder.insertNode(Node)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        15,
+        11,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 14976,
+        "cost_usd": 0.008946838000000002,
+        "input_tokens": 26043,
+        "output_tokens": 1099
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1697,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2013,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2093,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2196,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2318,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2431,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2567,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2672,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2810,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2913,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)",
+        "org.jsoup.nodes.Document.body()"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        12,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 14976,
+        "cost_usd": 0.012855238000000001,
+        "input_tokens": 26043,
+        "output_tokens": 1099
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1728,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2044,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2127,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2209,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2289,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2425,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2512,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2625,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2941,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2995,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 3072,
+        "cost_usd": 0.014555800000000004,
+        "input_tokens": 26228,
+        "output_tokens": 1034
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1728,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2044,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2127,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2209,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2289,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2425,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2512,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2625,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2941,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2995,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 4480,
+        "cost_usd": 0.016310800000000004,
+        "input_tokens": 26228,
+        "output_tokens": 1034
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 98
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1728,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2044,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2127,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 167
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2249,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2331,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 270
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2385,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.parse(String)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        17,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 6912,
+        "cost_usd": 0.012631050000000001,
+        "input_tokens": 15197,
+        "output_tokens": 1382
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 156
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1728,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2044,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 272
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2098,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01357675,
+        "input_tokens": 8203,
+        "output_tokens": 1231
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1728,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2044,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2127,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2181,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.parser.HtmlTreeBuilder.insertNode(Node)",
+        "org.jsoup.parser.TreeBuilder.parse(String,String,ParseErrorList)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        15,
+        3,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 2944,
+        "cost_usd": 0.01583425,
+        "input_tokens": 10413,
+        "output_tokens": 916
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1728,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2044,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2127,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2181,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.parse(String)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 2944,
+        "cost_usd": 0.01633925,
+        "input_tokens": 10413,
+        "output_tokens": 916
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1728,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2044,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2127,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2181,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 324
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)",
+        "org.jsoup.nodes.Document.body()"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        12,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 2944,
+        "cost_usd": 0.01690125,
+        "input_tokens": 10413,
+        "output_tokens": 1197
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1728,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2044,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2127,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2181,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 433
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 2944,
+        "cost_usd": 0.01711925,
+        "input_tokens": 10413,
+        "output_tokens": 1306
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 718,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 738
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1728,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2044,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2127,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2181,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "org.jsoup.safety.Cleaner.clean(Document)",
+        "org.jsoup.safety.Cleaner.copySafeNodes(Element,Element)",
+        "org.jsoup.nodes.Document.body()",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist)",
+        "org.jsoup.Jsoup.clean(String,String,Whitelist,Document.OutputSettings)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 2944,
+        "cost_usd": 0.01886425,
+        "input_tokens": 10413,
+        "output_tokens": 916
+      }
+    }
+  },
+  "schema_version": 1
+}

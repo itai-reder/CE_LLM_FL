@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;org.apache.commons.compress.archivers.tar$TarBuffer.readBlock();org/apache/commons/compress/archivers/tar/TarBuffer.java;212;271;1.0
+2;org.apache.commons.compress.archivers.tar$TarArchiveInputStream.paxHeaders();org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java;263;347;0.933645726075497
+3;org.apache.commons.compress.archivers.tar$TarArchiveOutputStream.putArchiveEntry(ArchiveEntry);org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java;160;212;0.7935968346713478
+4;org.apache.commons.compress.archivers.tar$TarArchiveInputStream.getNextTarEntry();org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java;159;233;0.7586432043027791
+5;org.apache.commons.compress.archivers.tar$TarArchiveOutputStream.write(byte[],int,int);org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java;252;331;0.7370234105714802
+6;org.apache.commons.compress.archivers.zip$ZipArchiveInputStream.readStoredEntry();org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java;641;688;0.7272916036560894
+7;org.apache.commons.compress.archivers.tar$TarArchiveOutputStream.TarArchiveOutputStream(OutputStream,int,int);org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java;81;94;0.7221002624715526
+9;org.apache.commons.compress.archivers.tar$TarArchiveOutputStream.closeArchiveEntry();org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java;214;250;0.6654850316404698
+16;org.apache.commons.compress.archivers$ArchiveStreamFactory.createArchiveOutputStream(String,OutputStream);org/apache/commons/compress/archivers/ArchiveStreamFactory.java;150;185;0.5780178052451264
+57;org.apache.commons.compress.archivers.tar$TarArchiveEntry.TarArchiveEntry(File,String);org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;263;298;0.4447215238265297
+68;org.apache.commons.compress.archivers.tar$TarArchiveEntry.TarArchiveEntry(File);org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;252;261;0.4176605003861792
+207;org.apache.commons.compress.archivers.tar$TarArchiveOutputStream.finish();org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java;110;132;0.2122805140707104
+402;org.apache.commons.compress.archivers.tar$TarArchiveEntry.normalizeFileName(String,boolean);org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;843;884;0.10896702167896913
+497;org.apache.commons.compress.archivers.tar$TarArchiveEntry.isDirectory();org/apache/commons/compress/archivers/tar/TarArchiveEntry.java;635;654;0.07915457912044485
+585;org.apache.commons.compress.archivers.tar$TarArchiveOutputStream.close();org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java;134;149;0.04319535764865363

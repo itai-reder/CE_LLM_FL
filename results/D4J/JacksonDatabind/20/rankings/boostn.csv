@@ -1,0 +1,21 @@
+rank;signature;path;startLine;endLine;score
+1;com.fasterxml.jackson.databind$ObjectMapper.setPropertyNamingStrategy(PropertyNamingStrategy);com/fasterxml/jackson/databind/ObjectMapper.java;1155;1162;1.0
+2;com.fasterxml.jackson.databind$ObjectMapper.setNamingStrategy(PropertyNamingStrategy);com/fasterxml/jackson/databind/ObjectMapper.java;800;803;0.9915762661519884
+3;com.fasterxml.jackson.databind.introspect$POJOPropertiesCollector._findNamingStrategy();com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java;913;944;0.9804016989517381
+4;com.fasterxml.jackson.databind.introspect$POJOPropertiesCollector.collect();com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java;234;282;0.9279915773223387
+5;com.fasterxml.jackson.databind.cfg$HandlerInstantiator.namingStrategyInstance(MapperConfig<?>,Annotated,Class<?>);com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java;132;141;0.8450841984819354
+6;com.fasterxml.jackson.databind.introspect$POJOPropertiesCollector._renameUsing(PropertyNamingStrategy);com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java;790;840;0.8397183048929379
+221;com.fasterxml.jackson.databind.node$ObjectNode.setAll(Map<String,? extends JsonNode>);com/fasterxml/jackson/databind/node/ObjectNode.java;314;334;0.35123720230392075
+538;com.fasterxml.jackson.databind.PropertyNamingStrategy$PropertyNamingStrategyBase.nameForField(MapperConfig<?>,AnnotatedField,String);com/fasterxml/jackson/databind/PropertyNamingStrategy.java;146;150;0.26844863942769
+823;com.fasterxml.jackson.databind.deser$DeserializerCache._createAndCache2(DeserializationContext,DeserializerFactory,JavaType);com/fasterxml/jackson/databind/deser/DeserializerCache.java;255;304;0.22367988175110723
+1122;com.fasterxml.jackson.databind.deser$DeserializerCache._createAndCacheValueDeserializer(DeserializationContext,DeserializerFactory,JavaType);com/fasterxml/jackson/databind/deser/DeserializerCache.java;214;253;0.19034415989561587
+1244;com.fasterxml.jackson.databind.deser$DeserializerCache.findConverter(DeserializationContext,Annotated);com/fasterxml/jackson/databind/deser/DeserializerCache.java;448;457;0.18043145549215472
+1459;com.fasterxml.jackson.databind.introspect$POJOPropertyBuilder.withMember(AnnotatedMember);com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java;434;437;0.16478123453789784
+1963;com.fasterxml.jackson.databind$ObjectMapper.readValue(String,Class<T>);com/fasterxml/jackson/databind/ObjectMapper.java;2562;2581;0.1306800891367187
+2221;com.fasterxml.jackson.databind.introspect$POJOPropertyBuilder.getSetter();com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java;251;299;0.11334834684412298
+2264;com.fasterxml.jackson.databind.deser$DeserializerCache._verifyAsClass(Object,String,Class<?>);com/fasterxml/jackson/databind/deser/DeserializerCache.java;573;586;0.11075959778267497
+2950;com.fasterxml.jackson.databind.PropertyNamingStrategy$LowerCaseStrategy.translate(String);com/fasterxml/jackson/databind/PropertyNamingStrategy.java;320;323;0.0722501204269026
+3439;com.fasterxml.jackson.databind.introspect$POJOPropertyBuilder._setterPriority(AnnotatedMethod);com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java;415;423;0.03600333451776756
+3878;com.fasterxml.jackson.databind$JsonMappingException.toString();com/fasterxml/jackson/databind/JsonMappingException.java;323;327;0.018218302908145367
+4033;com.fasterxml.jackson.databind.introspect$AnnotatedMethod.getFullName();com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java;179;182;0.014062468961825118
+4052;com.fasterxml.jackson.databind$PropertyName.hasSimpleName(String);com/fasterxml/jackson/databind/PropertyName.java;171;179;0.013873527482365977

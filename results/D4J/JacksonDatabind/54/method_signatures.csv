@@ -1,0 +1,16 @@
+corpus_id;path;startLine;endLine
+com.fasterxml.jackson.databind$AnnotationIntrospector.refineSerializationType(MapperConfig<?>,Annotated,JavaType);com/fasterxml/jackson/databind/AnnotationIntrospector.java;823;939
+com.fasterxml.jackson.databind$ObjectMapper.registerModule(Module);com/fasterxml/jackson/databind/ObjectMapper.java;696;896
+com.fasterxml.jackson.databind.deser.std$MapDeserializer.deserialize(JsonParser,DeserializationContext);com/fasterxml/jackson/databind/deser/std/MapDeserializer.java;325;357
+com.fasterxml.jackson.databind.deser.std$ObjectArrayDeserializer.handleNonArray(JsonParser,DeserializationContext);com/fasterxml/jackson/databind/deser/std/ObjectArrayDeserializer.java;251;297
+com.fasterxml.jackson.databind.deser.std$UntypedObjectDeserializer.mapObject(JsonParser,DeserializationContext);com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.java;385;442
+com.fasterxml.jackson.databind.ser$BeanPropertyWriter.serializeAsField(Object,JsonGenerator,SerializerProvider);com/fasterxml/jackson/databind/ser/BeanPropertyWriter.java;644;697
+com.fasterxml.jackson.databind.ser$PropertyBuilder.buildWriter(SerializerProvider,BeanPropertyDefinition,JavaType,JsonSerializer<?>,TypeSerializer,TypeSerializer,AnnotatedMember,boolean);com/fasterxml/jackson/databind/ser/PropertyBuilder.java;62;171
+com.fasterxml.jackson.databind.ser$PropertyBuilder.findSerializationType(Annotated,boolean,JavaType);com/fasterxml/jackson/databind/ser/PropertyBuilder.java;179;226
+com.fasterxml.jackson.databind.ser.std$AtomicReferenceSerializer._isValueEmpty(AtomicReference<?>);com/fasterxml/jackson/databind/ser/std/AtomicReferenceSerializer.java;57;60
+com.fasterxml.jackson.databind.ser.std$ReferenceTypeSerializer._useStatic(SerializerProvider,BeanProperty,JavaType);com/fasterxml/jackson/databind/ser/std/ReferenceTypeSerializer.java;170;201
+com.fasterxml.jackson.databind.ser.std$ReferenceTypeSerializer.isEmpty(SerializerProvider,T);com/fasterxml/jackson/databind/ser/std/ReferenceTypeSerializer.java;209;228
+com.fasterxml.jackson.databind.ser.std$ReferenceTypeSerializer.serialize(T,JsonGenerator,SerializerProvider);com/fasterxml/jackson/databind/ser/std/ReferenceTypeSerializer.java;241;261
+com.fasterxml.jackson.databind.type$ReferenceType.withStaticTyping();com/fasterxml/jackson/databind/type/ReferenceType.java;144;152
+com.fasterxml.jackson.databind.type$ReferenceType.equals(Object);com/fasterxml/jackson/databind/type/ReferenceType.java;266;279
+com.fasterxml.jackson.databind.type$TypeFactory._fromClass(ClassStack,Class<?>,TypeBindings);com/fasterxml/jackson/databind/type/TypeFactory.java;1192;1276
