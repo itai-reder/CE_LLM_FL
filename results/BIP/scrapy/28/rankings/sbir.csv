@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.pipelines.files$FilesPipeline.__init__(self,store_uri,download_func);scrapy/pipelines/files.py;162;166;0.9986039368979478
+2;scrapy.pipelines.files$FilesPipeline.from_settings(cls,settings);scrapy/pipelines/files.py;168;178;0.9982549211224347
+3;scrapy.pipelines.files$FilesPipeline._get_store(self,uri);scrapy/pipelines/files.py;180;186;0.9975568895714086
+4;scrapy.pipelines.files$FilesPipeline.media_to_download(self,request,info);scrapy/pipelines/files.py;188;224;0.997138070640793
+5;scrapy.pipelines.files$FilesPipeline.media_failed(self,failure,request,info);scrapy/pipelines/files.py;226;237;0.9951137791428173
+7;scrapy.dupefilters$RFPDupeFilter.__init__(self,path,debug);scrapy/dupefilters.py;31;39;0.993019684489739
+8;scrapy.dupefilters$RFPDupeFilter.request_seen(self,request);scrapy/dupefilters.py;46;52;0.9928800781795337
+9;scrapy.dupefilters$RFPDupeFilter.close(self,reason);scrapy/dupefilters.py;57;59;0.9928102750244311
+10;scrapy.dupefilters$RFPDupeFilter.request_fingerprint(self,request);scrapy/dupefilters.py;54;55;0.9920424403183024
+232;scrapy.core.downloader.handlers.s3$get_s3_connection();scrapy/core/downloader/handlers/s3.py;8;32;0.8331704593047605
+416;scrapy.dupefilters$BaseDupeFilter.open(self);scrapy/dupefilters.py;18;19;0.7193215133324026
+749;scrapy.log$msg(message,_level,**kw);scrapy/log.py;39;49;0.5646377216250175
+784;scrapy.pipelines.files$FilesPipeline.file_path(self,request,response,info);scrapy/pipelines/files.py;312;336;0.5418120899064638
+794;scrapy.pipelines.images$ImagesPipeline.file_path(self,request,response,info);scrapy/pipelines/images.py;117;143;0.535669412257434
+1159;scrapy.utils.response$open_in_browser(response,_openfunc);scrapy/utils/response.py;75;95;0.31348596956582436
+1465;scrapy.xlib.tx.interfaces$IReactorProcess.spawnProcess(processProtocol,executable,args,env,path,uid,gid,usePTY,childFDs);scrapy/xlib/tx/interfaces.py;976;1058;0.08571827446600587

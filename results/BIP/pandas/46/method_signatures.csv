@@ -1,0 +1,15 @@
+corpus_id;path;startLine;endLine
+pandas.core.algorithms$_ensure_data(values,dtype);pandas/core/algorithms.py;69;172
+pandas.core.arrays.categorical$Categorical.fillna(self,value,method,limit);pandas/core/arrays/categorical.py;1680;1768
+pandas.core.arrays.datetimelike$DatetimeLikeArrayMixin.freqstr(self);pandas/core/arrays/datetimelike.py;1024;1031
+pandas.core.arrays.datetimes$DatetimeArray._generate_range(cls,start,end,periods,freq,tz,normalize,ambiguous,nonexistent,closed);pandas/core/arrays/datetimes.py;337;442
+pandas.core.arrays.datetimes$_maybe_localize_point(ts,is_none,is_not_none,freq,tz,ambiguous,nonexistent);pandas/core/arrays/datetimes.py;2124;2154
+pandas.core.frame$DataFrame._sanitize_column(self,key,value,broadcast);pandas/core/frame.py;3358;3460
+pandas.core.groupby.groupby$GroupBy._reindex_output(self,output,fill_value);pandas/core/groupby/groupby.py;2453;2537
+pandas.core.indexes.base$Index.__new__(cls,data,dtype,copy,name,tupleize_cols,**kwargs);pandas/core/indexes/base.py;284;420
+pandas.core.indexes.base$Index._union(self,other,sort);pandas/core/indexes/base.py;2510;2576
+pandas.core.indexes.base$_maybe_cast_with_dtype(data,dtype,copy);pandas/core/indexes/base.py;5622;5673
+pandas.core.indexes.multi$MultiIndex.from_product(cls,iterables,sortorder,names);pandas/core/indexes/multi.py;513;569
+pandas.core.reshape.pivot$crosstab(index,columns,values,rownames,colnames,aggfunc,margins,margins_name,dropna,normalize);pandas/core/reshape/pivot.py;466;627
+pandas.core.reshape.util$cartesian_product(X);pandas/core/reshape/util.py;8;59
+pandas.io.pytables$GenericFixed.write_array(self,key,value,items);pandas/io/pytables.py;2881;2962

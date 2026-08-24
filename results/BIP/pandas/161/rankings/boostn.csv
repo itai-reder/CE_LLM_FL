@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.arrays.categorical$Categorical.isin(self,values);pandas/core/arrays/categorical.py;2442;2495;1.0
+2;pandas.core.arrays.interval$IntervalArray.fillna(self,value,method,limit);pandas/core/arrays/interval.py;522;568;0.8969577707306954
+3;pandas.core.arrays.categorical$Categorical.fillna(self,value,method,limit);pandas/core/arrays/categorical.py;1782;1866;0.8493992195937196
+4;pandas.core.groupby.generic$SeriesGroupBy.value_counts(self,normalize,sort,ascending,bins,dropna);pandas/core/groupby/generic.py;1200;1320;0.8172495707971088
+5;pandas.core.arrays.datetimes$maybe_convert_dtype(data,copy);pandas/core/arrays/datetimes.py;2078;2134;0.7717232070094878
+22;pandas.util.testing$raise_assert_detail(obj,message,left,right,diff);pandas/util/testing.py;909;933;0.6498023881240075
+306;pandas.io.formats.printing$pprint_thing(thing,_nest_lvl,escape_chars,default_escapes,quote_strings,max_seq_items);pandas/io/formats/printing.py;150;231;0.3548386742964646
+334;pandas.core.dtypes.missing$array_equivalent(left,right,strict_nan);pandas/core/dtypes/missing.py;389;473;0.3408234089557002
+1004;pandas.core.series$Series._reindex_indexer(self,new_index,indexer,copy);pandas/core/series.py;4060;4069;0.18428922604369918
+1915;pandas.core.series$Series._set_axis(self,axis,labels,fastpath);pandas/core/series.py;415;440;0.08782539861283273
+2005;pandas.core.series$Series._constructor_expanddim(self);pandas/core/series.py;402;406;0.0782895810493482
+2802;pandas._config.config$_select_options(pat);pandas/_config/config.py;535;550;0.0
+2802;pandas.core.dtypes.inference$is_sequence(obj);pandas/core/dtypes/inference.py;423;452;0.0
+2802;pandas.core.series$Series._update_inplace(self,result,**kwargs);pandas/core/series.py;448;450;0.0
+2802;pandas.core.series$Series.fillna(self,value,method,axis,inplace,limit,downcast,**kwargs);pandas/core/series.py;4286;4306;0.0
+2802;pandas.io.formats.printing$_pprint_seq(seq,_nest_lvl,max_seq_items,**kwds);pandas/io/formats/printing.py;84;116;0.0

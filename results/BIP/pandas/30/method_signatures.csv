@@ -1,0 +1,15 @@
+corpus_id;path;startLine;endLine
+pandas.core.computation.eval$eval(expr,parser,engine,truediv,local_dict,global_dict,resolvers,level,target,inplace);pandas/core/computation/eval.py;161;399
+pandas.core.generic$NDFrame.to_json(self,path_or_buf,orient,date_format,double_precision,force_ascii,date_unit,default_handler,lines,compression,index,indent);pandas/core/generic.py;2074;2348
+pandas.core.series$Series.__init__(self,data,index,dtype,name,copy,fastpath);pandas/core/series.py;203;328
+pandas.core.series$Series._set_axis(self,axis,labels,fastpath);pandas/core/series.py;393;419
+pandas.core.tools.datetimes$_adjust_to_origin(arg,origin,unit);pandas/core/tools/datetimes.py;472;546
+pandas.core.tools.datetimes$to_datetime(arg,errors,dayfirst,yearfirst,utc,format,exact,unit,infer_datetime_format,origin,cache);pandas/core/tools/datetimes.py;549;777
+pandas.io.json._json$read_json(path_or_buf,orient,typ,dtype,convert_axes,convert_dates,keep_default_dates,numpy,precise_float,date_unit,encoding,lines,chunksize,compression);pandas/io/json/_json.py;347;612
+pandas.io.json._json$Parser.__init__(self,json,orient,dtype,convert_axes,convert_dates,keep_default_dates,numpy,precise_float,date_unit);pandas/io/json/_json.py;801;838
+pandas.io.json._json$Parser.parse(self);pandas/io/json/_json.py;849;864
+pandas.io.json._json$Parser._try_convert_types(self);pandas/io/json/_json.py;877;878
+pandas.io.json._json$Parser._try_convert_to_date(self,data);pandas/io/json/_json.py;953;988
+pandas.io.json._json$SeriesParser._parse_no_numpy(self);pandas/io/json/_json.py;998;1006
+pandas.util._print_versions$_get_sys_info();pandas/util/_print_versions.py;25;44
+pandas.util._print_versions$_get_dependency_info();pandas/util/_print_versions.py;47;87

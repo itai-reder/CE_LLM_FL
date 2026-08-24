@@ -1,0 +1,9 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.pipelines.images$ImagesPipeline.convert_image(self,image,size);scrapy/pipelines/images.py;130;144;0.9090909090909091
+1;scrapy.utils.deprecate$create_deprecated_class(name,new_class,clsdict,warn_category,warn_once,old_class_path,new_class_path,subclass_warn_message,instance_warn_message);scrapy/utils/deprecate.py;15;117;0.9090909090909091
+3;scrapy.pipelines.files$FilesPipeline.__init__(self,store_uri,download_func,settings);scrapy/pipelines/files.py;226;252;0.3414802408943917
+3;scrapy.pipelines.images$ImagesPipeline.__init__(self,store_uri,download_func,settings);scrapy/pipelines/images.py;50;85;0.3414802408943917
+5;scrapy.pipelines.files$FSFilesStore.__init__(self,basedir);scrapy/pipelines/files.py;44;49;0.24390243902439027
+5;scrapy.pipelines.files$FSFilesStore._mkdir(self,dirname,domain);scrapy/pipelines/files.py;73;78;0.24390243902439027
+27;scrapy.pipelines.images$ImagesPipeline.file_path(self,request,response,info);scrapy/pipelines/images.py;154;180;0.0
+27;scrapy.pipelines.images$ImagesPipeline.thumb_path(self,request,thumb_id,response,info);scrapy/pipelines/images.py;182;205;0.0

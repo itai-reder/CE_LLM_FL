@@ -1,0 +1,3191 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 597
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1542,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1679,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1823,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2183,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2701,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2920,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3438,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4462,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4822,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4608,
+          "input_tokens": 5212,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5365,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.applications.FastAPI.openapi(self)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.applications.FastAPI.setup(self)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        7,
+        4,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 4608,
+        "cost_usd": 0.0020073540000000003,
+        "input_tokens": 36933,
+        "output_tokens": 972
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 597
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1542,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1679,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1823,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2183,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2701,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2920,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3438,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4462,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4822,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4608,
+          "input_tokens": 5212,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5365,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.dependencies.models.Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path)"
+      ],
+      "top5_indices": [
+        16,
+        11,
+        15,
+        4,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 4608,
+        "cost_usd": 0.0031491540000000004,
+        "input_tokens": 36933,
+        "output_tokens": 972
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 597
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1542,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1679,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1823,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2183,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2701,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2920,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3438,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4462,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4822,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4608,
+          "input_tokens": 5212,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5365,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 537
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.dependencies.models.Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        4,
+        3,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 4608,
+        "cost_usd": 0.0041371540000000005,
+        "input_tokens": 36933,
+        "output_tokens": 1466
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 597
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1542,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1679,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1823,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2183,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2701,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2920,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3438,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4462,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4822,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4608,
+          "input_tokens": 5212,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5365,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 724
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.dependencies.models.Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)"
+      ],
+      "top5_indices": [
+        16,
+        15,
+        4,
+        3,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 4608,
+        "cost_usd": 0.004511154000000001,
+        "input_tokens": 36933,
+        "output_tokens": 1653
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 597
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1542,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1679,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1823,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2183,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2701,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2920,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3438,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4462,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4822,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4608,
+          "input_tokens": 5212,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5365,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.dependencies.models.Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 4608,
+        "cost_usd": 0.008858154,
+        "input_tokens": 36933,
+        "output_tokens": 972
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 597
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1542,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2566,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2929,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3289,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3807,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3944,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4948,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5135,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5189,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.applications.FastAPI.openapi(self)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.encoders.jsonable_encoder(obj,include,exclude,by_alias,skip_defaults,exclude_unset,include_none,custom_encoder,sqlalchemy_safe)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        4,
+        9,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.0082042,
+        "input_tokens": 36920,
+        "output_tokens": 899
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 597
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1542,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2566,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2929,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3289,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3807,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3944,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4948,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5135,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5189,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.dependencies.models.Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        4,
+        3,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.009310800000000001,
+        "input_tokens": 36920,
+        "output_tokens": 899
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 597
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1542,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 68
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1761,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1905,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 65
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2265,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2783,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 322
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2837,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.applications.FastAPI.openapi(self)",
+        "fastapi.applications.FastAPI.openapi(self)",
+        "fastapi.applications.FastAPI.setup(self)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        2,
+        9,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.00325035,
+        "input_tokens": 13879,
+        "output_tokens": 1139
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 597
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1542,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 135
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1761,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 176
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1905,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2265,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2783,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 560
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2970,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1064
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3024,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.applications.FastAPI.openapi(self)",
+        "fastapi.applications.FastAPI.setup(self)",
+        "fastapi.dependencies.models.Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.007711,
+        "input_tokens": 17036,
+        "output_tokens": 2619
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 597
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1542,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1761,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1905,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2265,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3289,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3426,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3613,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3667,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.applications.FastAPI.openapi(self)",
+        "fastapi.dependencies.models.Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        4,
+        9,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.025159900000000002,
+        "input_tokens": 22254,
+        "output_tokens": 883
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 597
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1542,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1761,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1905,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2265,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3289,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3426,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3613,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3667,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        4,
+        11,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.029973100000000003,
+        "input_tokens": 22254,
+        "output_tokens": 883
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 400
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1345,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1482,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1986,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3010,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3064,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.applications.FastAPI.openapi(self)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        11,
+        4,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00170775,
+        "input_tokens": 13299,
+        "output_tokens": 614
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 400
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1345,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1482,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1986,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3010,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3064,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00238935,
+        "input_tokens": 13299,
+        "output_tokens": 614
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 400
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1345,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1564,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2732,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2869,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3056,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3416,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4089,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5147,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.applications.FastAPI.openapi(self)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        16,
+        9,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.00736185,
+        "input_tokens": 31805,
+        "output_tokens": 744
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 400
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1345,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1564,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2732,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2869,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3056,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3416,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4089,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5147,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        11,
+        16,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.00846005,
+        "input_tokens": 31805,
+        "output_tokens": 744
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 400
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1345,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1564,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2732,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2869,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3056,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3416,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4089,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5147,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 150
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.008674049999999999,
+        "input_tokens": 31805,
+        "output_tokens": 851
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 400
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1345,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1564,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2732,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2869,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3056,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3416,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4089,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5147,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 925
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.dependencies.models.Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.01022405,
+        "input_tokens": 31805,
+        "output_tokens": 1626
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 400
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1345,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1564,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2732,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2869,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3056,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3416,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4089,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5147,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.01395105,
+        "input_tokens": 31805,
+        "output_tokens": 744
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 400
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1345,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 65
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1564,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 61
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 59
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2732,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 79
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2869,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 69
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3229,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 118
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3747,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 280
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.dependencies.models.Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.00681405,
+        "input_tokens": 21781,
+        "output_tokens": 1174
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 400
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1345,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 219
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1564,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 102
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 129
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2732,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 228
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3092,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 114
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3229,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 841
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3416,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 692
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3934,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 852
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4324,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 735
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4378,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.applications.FastAPI.openapi(self)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        15,
+        16,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 10752,
+        "cost_usd": 0.013917800000000001,
+        "input_tokens": 30508,
+        "output_tokens": 4355
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 400
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1345,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1564,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2068,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3092,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3229,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3416,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3470,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0249075,
+        "input_tokens": 20678,
+        "output_tokens": 686
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 400
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1345,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1564,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2068,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3092,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3229,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3416,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3470,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0287215,
+        "input_tokens": 20678,
+        "output_tokens": 686
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1086
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1667,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1804,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2322,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2682,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2736,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.applications.FastAPI.openapi(self)",
+        "fastapi.applications.FastAPI.setup(self)",
+        "fastapi.dependencies.models.Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 1408,
+        "cost_usd": 0.0029305539999999997,
+        "input_tokens": 11997,
+        "output_tokens": 1264
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1086
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1667,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1886,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2030,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2390,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3414,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3551,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4069,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4796,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.models.Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        4,
+        11,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.00934395,
+        "input_tokens": 29331,
+        "output_tokens": 1380
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1086
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1667,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1886,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 80
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2030,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 58
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2390,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 107
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2908,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 101
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3932,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 334
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3986,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 424
+        }
+      ],
+      "top5": [
+        "fastapi.dependencies.models.Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)"
+      ],
+      "top5_indices": [
+        3,
+        4,
+        16,
+        15,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.008571450000000001,
+        "input_tokens": 19585,
+        "output_tokens": 2212
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1086
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1667,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1886,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2030,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2390,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3414,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3551,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3738,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3792,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        11,
+        4,
+        16,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.033313499999999996,
+        "input_tokens": 23254,
+        "output_tokens": 1372
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 498
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1194,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1331,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1385,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.applications.FastAPI.openapi(self)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        9,
+        16,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0014304,
+        "input_tokens": 4696,
+        "output_tokens": 604
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 498
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1194,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1413,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1557,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2435,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3459,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3596,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3783,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3837,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.models.Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        4,
+        11,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.007550249999999999,
+        "input_tokens": 23977,
+        "output_tokens": 778
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 498
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1194,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 189
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1413,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 96
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1557,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 228
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 289
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2941,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 297
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3459,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 476
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3596,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 762
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3783,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 484
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4787,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1288
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4841,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1412
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.dependencies.models.Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        4,
+        3,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 5376,
+        "cost_usd": 0.0185629,
+        "input_tokens": 30938,
+        "output_tokens": 6019
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 498
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1194,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1413,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1557,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2435,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3459,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3596,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3815,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3869,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.models.Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        4,
+        11,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.033481250000000004,
+        "input_tokens": 24041,
+        "output_tokens": 820
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 681
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1763,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2123,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2177,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.applications.FastAPI.openapi(self)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        16,
+        9,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1408,
+        "cost_usd": 0.008164054,
+        "input_tokens": 8475,
+        "output_tokens": 823
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 681
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1763,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2123,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2177,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1408,
+        "cost_usd": 0.011189254,
+        "input_tokens": 8475,
+        "output_tokens": 823
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 681
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1763,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2787,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3006,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3150,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3510,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4028,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4082,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.014268500000000002,
+        "input_tokens": 24738,
+        "output_tokens": 925
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 681
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1763,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2787,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3006,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3150,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3510,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4028,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4082,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.018694500000000003,
+        "input_tokens": 24738,
+        "output_tokens": 925
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 681
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 74
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1845,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 66
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1989,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 88
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2349,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 77
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3373,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 270
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 3427,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.012333350000000002,
+        "input_tokens": 15395,
+        "output_tokens": 1299
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 681
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 172
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1845,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 251
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1989,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 201
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2349,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 268
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3373,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 521
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3427,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.01775335,
+        "input_tokens": 15395,
+        "output_tokens": 2137
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 681
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1845,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1989,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3013,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3373,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3427,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.applications.FastAPI.openapi(self)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        11,
+        4,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.02449855,
+        "input_tokens": 16059,
+        "output_tokens": 895
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 681
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1845,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1989,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3013,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3373,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3427,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.02525275,
+        "input_tokens": 16059,
+        "output_tokens": 895
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 681
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1845,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1989,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3013,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3373,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3427,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 196
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.02555875,
+        "input_tokens": 16059,
+        "output_tokens": 1048
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 681
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1845,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1989,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3013,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3373,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3427,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 552
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.026270750000000002,
+        "input_tokens": 16059,
+        "output_tokens": 1404
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 681
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1626,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1845,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1989,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3013,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3373,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 3427,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "fastapi.openapi.utils.get_openapi_operation_parameters(all_route_params)",
+        "fastapi.openapi.utils.get_openapi_params(dependant)",
+        "fastapi.openapi.utils.get_openapi_path(route,model_name_map)",
+        "fastapi.dependencies.utils.get_flat_dependant(dependant,skip_repeats,visited)",
+        "fastapi.applications.FastAPI.openapi(self)"
+      ],
+      "top5_indices": [
+        15,
+        16,
+        11,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1792,
+        "cost_usd": 0.02700775,
+        "input_tokens": 16059,
+        "output_tokens": 895
+      }
+    }
+  },
+  "schema_version": 1
+}

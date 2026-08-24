@@ -1,0 +1,12 @@
+corpus_id;path;startLine;endLine
+tornado.auth$OAuth2Mixin._oauth_request_token_url(self,redirect_uri,client_id,client_secret,code,extra_params);tornado/auth.py;610;622
+tornado.auth$OAuth2Mixin.oauth2_request(self,url,callback,access_token,post_args,**args);tornado/auth.py;624;670
+tornado.auth$TwitterMixin.twitter_request(self,path,callback,access_token,post_args,**args);tornado/auth.py;749;813
+tornado.auth$GoogleOAuth2Mixin._on_access_token(self,future,response);tornado/auth.py;918;925
+tornado.auth$FacebookGraphMixin.get_authenticated_user(self,redirect_uri,client_id,client_secret,code,callback,extra_fields);tornado/auth.py;935;980
+tornado.auth$FacebookGraphMixin._on_access_token(self,redirect_uri,client_id,client_secret,future,fields,response);tornado/auth.py;982;1000
+tornado.auth$FacebookGraphMixin.facebook_request(self,path,callback,access_token,post_args,**args);tornado/auth.py;1014;1066
+tornado.concurrent$Future._set_done(self);tornado/concurrent.py;313;321
+tornado.platform.asyncio$BaseAsyncIOLoop.remove_timeout(self,timeout);tornado/platform/asyncio.py;139;140
+tornado.platform.asyncio$to_tornado_future(asyncio_future);tornado/platform/asyncio.py;191;198
+tornado.platform.asyncio$to_asyncio_future(tornado_future);tornado/platform/asyncio.py;201;208

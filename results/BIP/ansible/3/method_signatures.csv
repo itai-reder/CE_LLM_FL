@@ -1,0 +1,15 @@
+corpus_id;path;startLine;endLine
+ansible.module_utils.common.sys_info$get_distribution_version();ansible/module_utils/common/sys_info.py;43;81
+ansible.module_utils.distro._distro$id();ansible/module_utils/distro/_distro.py;181;256
+ansible.module_utils.distro._distro$name(pretty);ansible/module_utils/distro/_distro.py;259;295
+ansible.module_utils.distro._distro$version(pretty,best);ansible/module_utils/distro/_distro.py;298;339
+ansible.module_utils.facts.system.distribution$get_uname(module,flags);ansible/module_utils/facts/system/distribution.py;19;27
+ansible.module_utils.facts.system.distribution$DistributionFiles.__init__(self,module);ansible/module_utils/facts/system/distribution.py;93;94
+ansible.module_utils.facts.system.distribution$DistributionFiles._get_dist_file_content(self,path,allow_empty);ansible/module_utils/facts/system/distribution.py;99;105
+ansible.module_utils.facts.system.distribution$DistributionFiles._parse_dist_file(self,name,dist_file_content,path,collected_facts);ansible/module_utils/facts/system/distribution.py;107;142
+ansible.module_utils.facts.system.distribution$DistributionFiles._guess_distribution(self);ansible/module_utils/facts/system/distribution.py;151;162
+ansible.module_utils.facts.system.distribution$DistributionFiles.process_dist_files(self);ansible/module_utils/facts/system/distribution.py;164;205
+ansible.module_utils.facts.system.distribution$DistributionFiles.parse_distribution_file_SUSE(self,name,data,path,collected_facts);ansible/module_utils/facts/system/distribution.py;247;299
+ansible.module_utils.facts.system.distribution$DistributionFiles.parse_distribution_file_Debian(self,name,data,path,collected_facts);ansible/module_utils/facts/system/distribution.py;301;357
+ansible.module_utils.facts.system.distribution$DistributionFiles.parse_distribution_file_NA(self,name,data,path,collected_facts);ansible/module_utils/facts/system/distribution.py;375;384
+ansible.module_utils.facts.system.distribution$DistributionFiles.parse_distribution_file_ClearLinux(self,name,data,path,collected_facts);ansible/module_utils/facts/system/distribution.py;404;421

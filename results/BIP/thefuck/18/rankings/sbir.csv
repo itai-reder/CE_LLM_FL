@@ -1,0 +1,13 @@
+rank;signature;path;startLine;endLine;score
+1;thefuck.rules.sudo$match(command);thefuck/rules/sudo.py;23;28;1.0
+2;thefuck.rules.touch$get_new_command(command);thefuck/rules/touch.py;11;13;0.9986078886310905
+3;thefuck.rules.touch$match(command);thefuck/rules/touch.py;6;8;0.9962877030162413
+4;thefuck.rules.sudo$get_new_command(command);thefuck/rules/sudo.py;31;35;0.9948955916473318
+5;thefuck.rules.open$match(command);thefuck/rules/open.py;11;22;0.9832946635730858
+7;thefuck.rules.whois$match(command);thefuck/rules/whois.py;6;24;0.9763341067285383
+11;thefuck.types$Command.__repr__(self);thefuck/types.py;46;48;0.9587006960556844
+15;thefuck.types$Command.__init__(self,script,stdout,stderr);thefuck/types.py;16;26;0.9526682134570765
+182;thefuck.rules.python_command$match(command);thefuck/rules/python_command.py;7;13;0.4255220417633411
+281;thefuck.types$Command.script_parts(self);thefuck/types.py;28;37;0.1791183294663573
+283;thefuck.types$Command.update(self,**kwargs);thefuck/types.py;50;59;0.1726218097447796
+285;thefuck.types$Command._prepare_script(raw_script);thefuck/types.py;82;96;0.16334106728538283

@@ -1,0 +1,11 @@
+rank;signature;path;startLine;endLine;score
+1;luigi.scheduler$Task.can_disable(self);luigi/scheduler.py;212;214;0.9090909090909091
+2;luigi.scheduler$SimpleTaskState.get_necessary_tasks(self);luigi/scheduler.py;482;489;0.4280697349698977
+3;luigi.scheduler$CentralPlannerScheduler._prune_tasks(self);luigi/scheduler.py;544;560;0.3922353493794955
+3;luigi.scheduler$SimpleTaskState.inactivate_tasks(self,delete_tasks);luigi/scheduler.py;438;444;0.3922353493794955
+5;luigi.parameter$Parameter.serialize(self,x);luigi/parameter.py;224;232;0.36419904307075684
+13;luigi.scheduler$CentralPlannerScheduler.get_work(self,host,assistant,current_tasks,**kwargs);luigi/scheduler.py;714;824;0.30653430031715506
+17;luigi.scheduler$CentralPlannerScheduler._prune_workers(self);luigi/scheduler.py;535;542;0.23679256183741382
+22;luigi.scheduler$CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs);luigi/scheduler.py;583;661;0.2242706131406358
+28;luigi.scheduler$CentralPlannerScheduler._update_task_history(self,task,status,host);luigi/scheduler.py;1099;1109;0.14851669881133894
+35;luigi.scheduler$CentralPlannerScheduler.prune(self);luigi/scheduler.py;529;533;0.13677827564777803

@@ -1,0 +1,16 @@
+corpus_id;path;startLine;endLine
+keras.engine.base_layer$Layer.__call__(self,inputs,**kwargs);keras/engine/base_layer.py;382;508
+keras.engine.base_layer$Layer.compute_mask(self,inputs,mask);keras/engine/base_layer.py;593;621
+keras.engine.network$_map_graph_network(inputs,outputs);keras/engine/network.py;1315;1498
+keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;37;473
+keras.engine.training$Model._set_inputs(self,inputs,outputs,training);keras/engine/training.py;560;641
+keras.engine.training$Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,validation_freq,**kwargs);keras/engine/training.py;832;1056
+keras.engine.training_generator$evaluate_generator(model,generator,steps,callbacks,max_queue_size,workers,use_multiprocessing,verbose);keras/engine/training_generator.py;272;412
+keras.layers.core$Lambda.__init__(self,function,output_shape,mask,arguments,**kwargs);keras/layers/core.py;646;665
+keras.layers.core$Lambda.compute_output_shape(self,input_shape);keras/layers/core.py;667;706
+keras.layers.core$Lambda.call(self,inputs,mask);keras/layers/core.py;708;716
+keras.layers.merge$add(inputs,**kwargs);keras/layers/merge.py;530;555
+keras.layers.merge$multiply(inputs,**kwargs);keras/layers/merge.py;586;596
+keras.models$_clone_functional_model(model,input_tensors);keras/models.py;26;169
+keras.models$clone_model(model,input_tensors);keras/models.py;226;251
+keras.utils.multi_gpu_utils$multi_gpu_model(model,gpus,cpu_merge,cpu_relocation);keras/utils/multi_gpu_utils.py;24;258

@@ -1,0 +1,13 @@
+rank;signature;path;startLine;endLine;score
+1;fastapi.dependencies.utils$get_flat_dependant(dependant);fastapi/dependencies/utils.py;106;123;1.0
+2;fastapi.exception_handlers$http_exception_handler(request,exc);fastapi/exception_handlers.py;8;15;0.9973753280839895
+3;fastapi.exceptions$HTTPException.__init__(self,status_code,detail,headers);fastapi/exceptions.py;8;12;0.9968128983877015
+4;fastapi.security.http$HTTPBearer.__call__(self,request);fastapi/security/http.py;102;119;0.9964379452568429
+5;fastapi.security.utils$get_authorization_scheme_param(authorization_header_value);fastapi/security/utils.py;4;8;0.9956880389951256
+6;fastapi.dependencies.utils$is_coroutine_callable(call);fastapi/dependencies/utils.py;269;275;0.9953130858642669
+234;docs.src.security.tutorial005$get_current_user(security_scopes,token);docs/src/security/tutorial005.py;106;137;0.5877390326209224
+334;fastapi.security.http$HTTPBase.__call__(self,request);fastapi/security/http.py;35;47;0.05586801649793776
+336;fastapi.security.http$HTTPBasic.__call__(self,request);fastapi/security/http.py;59;87;0.05268091488563929
+337;fastapi.security.http$HTTPBearer.__init__(self,bearerFormat,scheme_name,auto_error);fastapi/security/http.py;91;100;0.047806524184476944
+339;fastapi.security.http$HTTPDigest.__call__(self,request);fastapi/security/http.py;128;145;0.04443194600674916
+343;fastapi.security.oauth2$OAuth2PasswordBearer.__call__(self,request);fastapi/security/oauth2.py;151;163;0.03562054743157105

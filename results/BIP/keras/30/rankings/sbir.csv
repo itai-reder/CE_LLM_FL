@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;549;956;1.0
+2;keras.backend.common$cast_to_floatx(x);keras/backend/common.py;86;110;0.99972024059309
+3;keras.backend.tensorflow_backend$sum(x,axis,keepdims);keras/backend/tensorflow_backend.py;1252;1266;0.9996922646523989
+4;keras.engine.topology$Layer.add_loss(self,losses,inputs);keras/engine/topology.py;1096;1128;0.999664288711708
+5;keras.engine.topology$Layer.get_losses_for(self,inputs);keras/engine/topology.py;1173;1180;0.9994125052454889
+6;keras.engine.topology$Layer.add_weight(self,name,shape,dtype,initializer,regularizer,trainable,constraint);keras/engine/topology.py;385;423;0.9993845293047978
+8;keras.engine.training$Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs);keras/engine/training.py;1503;1705;0.9989928661351238
+9;keras.engine.training$Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch);keras/engine/training.py;1950;2279;0.9989648901944328
+27;keras.engine.training$Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps);keras/engine/training.py;1707;1779;0.9975660931598825
+51;keras.layers.core$Dropout.call(self,inputs,training);keras/layers/core.py;116;125;0.9878304657994125
+75;keras.engine.training$_slice_arrays(arrays,start,stop);keras/engine/training.py;358;396;0.9848929920268569
+195;keras.engine.topology$Layer.compute_output_shape(self,input_shape);keras/engine/topology.py;727;746;0.951070079731431
+199;keras.engine.training$Model.evaluate_generator(self,generator,steps,max_queue_size,workers,use_multiprocessing,verbose);keras/engine/training.py;2281;2430;0.9445237096097356
+966;keras.engine.topology$Node.get_config(self);keras/engine/topology.py;179;189;0.44906979997202406
+1514;keras.models$Sequential.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch);keras/models.py;1168;1300;0.11945726675059448
+1531;keras.models$Sequential.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs);keras/models.py;861;987;0.10546929640509162

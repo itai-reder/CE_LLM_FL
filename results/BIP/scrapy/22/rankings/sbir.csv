@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.exporters$BaseItemExporter._get_serialized_fields(self,item,default_value,include_empty);scrapy/exporters.py;55;79;1.0
+2;scrapy.exporters$BaseItemExporter.serialize_field(self,field,name,value);scrapy/exporters.py;45;47;0.9997941398476635
+3;scrapy.exporters$BaseItemExporter._configure(self,options,dont_fail);scrapy/exporters.py;31;40;0.999176559390654
+4;scrapy.exporters$BaseItemExporter.__init__(self,**kwargs);scrapy/exporters.py;28;29;0.9989020791875386
+5;scrapy.exporters$BaseItemExporter.export_item(self,item);scrapy/exporters.py;42;43;0.9987648390859809
+6;scrapy.exporters$XmlItemExporter._xg_characters(self,serialized_value);scrapy/exporters.py;157;160;0.9984217388320867
+7;scrapy.exporters$XmlItemExporter.start_exporting(self);scrapy/exporters.py;125;127;0.998353118781308
+8;scrapy.exporters$XmlItemExporter.export_item(self,item);scrapy/exporters.py;129;133;0.9982158786797503
+9;scrapy.exporters$XmlItemExporter._export_xml_field(self,name,serialized_value);scrapy/exporters.py;139;149;0.9980100185274137
+10;scrapy.exporters$XmlItemExporter.__init__(self,file,**kwargs);scrapy/exporters.py;119;123;0.9976669182735195
+19;scrapy.exporters$CsvItemExporter.export_item(self,item);scrapy/exporters.py;188;196;0.9958827969532698
+21;scrapy.exporters$CsvItemExporter._write_headers_and_set_fields_to_export(self,item);scrapy/exporters.py;205;215;0.9951965964454814
+635;scrapy.http.headers$Headers.iteritems(self);scrapy/http/headers.py;72;73;0.6301379263020654

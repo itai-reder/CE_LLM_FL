@@ -1,0 +1,14 @@
+corpus_id;path;startLine;endLine
+ansible.cli$CLI.run(self);ansible/cli/__init__.py;80;105
+ansible.cli$CLI.split_vault_id(vault_id);ansible/cli/__init__.py;107;116
+ansible.cli$CLI.build_vault_ids(vault_ids,vault_password_files,ask_vault_pass,create_new_password,auto_prompt);ansible/cli/__init__.py;118;142
+ansible.executor.module_common$recursive_finder(name,module_fqn,data,py_module_names,py_module_cache,zf);ansible/executor/module_common.py;664;882
+ansible.executor.task_executor$TaskExecutor._execute(self,variables);ansible/executor/task_executor.py;510;785
+ansible.module_utils._text$to_text(obj,encoding,errors,nonstring);ansible/module_utils/_text.py;169;257
+ansible.module_utils.common.validation$check_required_arguments(argument_spec,module_parameters);ansible/module_utils/common/validation.py;169;195
+ansible.module_utils.common.validation$check_type_list(value);ansible/module_utils/common/validation.py;359;379
+ansible.module_utils.common.validation$check_type_path(value);ansible/module_utils/common/validation.py;498;503
+ansible.module_utils.common.validation$check_type_bytes(value);ansible/module_utils/common/validation.py;512;520
+ansible.playbook.conditional$Conditional._check_conditional(self,conditional,templar,all_vars);ansible/playbook/conditional.py;102;223
+ansible.plugins.loader$Jinja2Loader.all(self,*args,**kwargs);ansible/plugins/loader.py;736;762
+ansible.template$_escape_backslashes(data,jinja_env);ansible/template/__init__.py;121;161

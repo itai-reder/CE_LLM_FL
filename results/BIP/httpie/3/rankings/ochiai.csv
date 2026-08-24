@@ -1,0 +1,12 @@
+rank;signature;path;startLine;endLine;score
+1;httpie.core$main(args,env,error);httpie/core.py;70;202;0.9090909090909091
+1;httpie.downloads$Download.__init__(self,output_file,resume,progress_file);httpie/downloads.py;149;171;0.9090909090909091
+1;httpie.downloads$Download.failed(self);httpie/downloads.py;267;268;0.9090909090909091
+1;httpie.downloads$Download.pre_request(self,request_headers);httpie/downloads.py;173;189;0.9090909090909091
+1;httpie.downloads$ProgressReporterThread.__init__(self,status,output,tick,update_interval);httpie/downloads.py;328;343;0.9090909090909091
+11;httpie.sessions$Session.update_headers(self,request_headers);httpie/sessions.py;95;112;0.4280697349698977
+11;httpie.sessions$get_response(requests_session,session_name,config_dir,args,read_only);httpie/sessions.py;23;74;0.4280697349698977
+14;httpie.client$get_requests_kwargs(args,base_headers);httpie/client.py;94;147;0.3922353493794955
+14;httpie.client$get_response(args,config_dir);httpie/client.py;39;58;0.3922353493794955
+14;httpie.input$HTTPieArgumentParser.parse_args(self,env,args,namespace);httpie/input.py;119;155;0.3922353493794955
+14;httpie.sessions$Session._get_path(self);httpie/sessions.py;92;93;0.3922353493794955

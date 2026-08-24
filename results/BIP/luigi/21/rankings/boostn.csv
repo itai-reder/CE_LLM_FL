@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;luigi.contrib.hadoop_jar$HadoopJarJobRunner.run_job(self,job);luigi/contrib/hadoop_jar.py;70;111;1.0
+1;luigi.contrib.scalding$ScaldingJobRunner.run_job(self,job);luigi/contrib/scalding.py;196;222;1.0
+3;luigi.scheduler$SimpleTaskState.prune(self,task,config,assistants);luigi/scheduler.py;418;451;0.7667044855513284
+4;luigi.contrib.hadoop_jar$fix_paths(job);luigi/contrib/hadoop_jar.py;31;55;0.7658900454134437
+5;luigi.scheduler$Failures.num_failures(self);luigi/scheduler.py;145;154;0.5325945309647723
+8;luigi.interface$Interface.run(tasks,worker_scheduler_factory,override_defaults);luigi/interface.py;126;175;0.4674054690352278
+8;luigi.interface$run(cmdline_args,main_task_cls,worker_scheduler_factory,use_dynamic_argparse,local_scheduler);luigi/interface.py;327;349;0.4674054690352278
+29;luigi.worker$Worker.__init__(self,scheduler,worker_id,worker_processes,assistant,**kwargs);luigi/worker.py;280;312;0.23410995458655623
+133;luigi.configuration$LuigiConfigParser._get_with_default(self,method,section,option,default,expected_type,**kwargs);luigi/configuration.py;66;82;0.23329551444867147
+133;luigi.configuration$LuigiConfigParser.instance(cls,*args,**kwargs);luigi/configuration.py;52;60;0.23329551444867147
+133;luigi.configuration$get_config();luigi/configuration.py;109;113;0.23329551444867147
+238;luigi.configuration$LuigiConfigParser.get(self,section,option,default,**kwargs);luigi/configuration.py;84;85;0.0
+238;luigi.configuration$LuigiConfigParser.getintdict(self,section);luigi/configuration.py;96;100;0.0
+238;luigi.worker$Worker._generate_worker_info(self);luigi/worker.py;331;354;0.0

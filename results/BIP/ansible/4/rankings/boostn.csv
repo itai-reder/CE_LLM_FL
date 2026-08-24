@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;ansible.cli.galaxy$GalaxyCLI.execute_init(self);ansible/cli/galaxy.py;760;888;1.0
+2;ansible.cli.galaxy$GalaxyCLI.execute_install(self);ansible/cli/galaxy.py;950;1091;0.9848815464131542
+3;ansible.playbook.helpers$load_list_of_tasks(ds,play,block,role,task_include,use_handlers,variable_manager,loader);ansible/playbook/helpers.py;85;368;0.9234114012418666
+4;ansible.cli.galaxy$GalaxyCLI.init_parser(self);ansible/cli/galaxy.py;114;187;0.8336972124224528
+5;ansible.playbook.role.definition$RoleDefinition._load_role_path(self,role_name);ansible/playbook/role/definition.py;136;201;0.8195547972321501
+86;ansible.playbook.collectionsearch$_ensure_default_collection(collection_list);ansible/playbook/collectionsearch.py;12;29;0.48002285836952946
+98;ansible.cli.galaxy$GalaxyCLI.add_init_options(self,parser,parents);ansible/cli/galaxy.py;208;233;0.4645427293624013
+161;ansible.cli.galaxy$GalaxyCLI.add_download_options(self,parser,parents);ansible/cli/galaxy.py;189;206;0.395694367489954
+170;ansible.cli.galaxy$GalaxyCLI.__init__(self,args);ansible/cli/galaxy.py;102;112;0.38928270907956924
+178;ansible.playbook.collectionsearch$CollectionSearch._load_collections(self,attr,ds);ansible/playbook/collectionsearch.py;37;44;0.3836968985521047
+229;ansible.utils.collection_loader$AnsibleCollectionLoader.default_collection(self);ansible/utils/collection_loader.py;111;113;0.3371455050217658
+1023;ansible.module_utils.connection$Connection.__getattr__(self,name);ansible/module_utils/connection.py;124;130;0.08183033133435696
+1616;ansible.module_utils.facts.compat$get_all_facts(module);ansible/module_utils/facts/compat.py;37;46;0.03471809391682619
+2115;ansible.module_utils.common.collections$ImmutableDict.__iter__(self);ansible/module_utils/common/collections.py;22;23;0.0
+2115;ansible.playbook$Playbook.get_loader(self);ansible/playbook/__init__.py;109;110;0.0
+2115;ansible.utils.singleton$Singleton.__call__(cls,*args,**kw);ansible/utils/singleton.py;21;29;0.0

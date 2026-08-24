@@ -1,0 +1,15 @@
+corpus_id;path;startLine;endLine
+pandas._testing$assert_index_equal(left,right,exact,check_names,check_less_precise,check_exact,check_categorical,obj);pandas/_testing.py;584;713
+pandas.core.arrays.categorical$_cat_compare_op(op);pandas/core/arrays/categorical.py;65;144
+pandas.core.arrays.categorical$Categorical.__array__(self,dtype);pandas/core/arrays/categorical.py;1268;1287
+pandas.core.arrays.categorical$Categorical.__array_ufunc__(self,ufunc,method,*inputs,**kwargs);pandas/core/arrays/categorical.py;1289;1302
+pandas.core.arrays.categorical$Categorical._internal_get_values(self);pandas/core/arrays/categorical.py;1465;1482
+pandas.core.arrays.categorical$Categorical.equals(self,other);pandas/core/arrays/categorical.py;2280;2301
+pandas.core.arrays.categorical$Categorical.isin(self,values);pandas/core/arrays/categorical.py;2359;2410
+pandas.core.arrays.datetimes$DatetimeArray.__iter__(self);pandas/core/arrays/datetimes.py;554;575
+pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;6899;7037
+pandas.core.indexes.base$_maybe_cast_data_without_dtype(subarr);pandas/core/indexes/base.py;5662;5730
+pandas.core.indexes.datetimelike$DatetimeIndexOpsMixin.equals(self,other);pandas/core/indexes/datetimelike.py;130;153
+pandas.core.indexes.datetimes$bdate_range(start,end,periods,freq,tz,normalize,name,weekmask,holidays,closed,**kwargs);pandas/core/indexes/datetimes.py;958;1063
+pandas.core.indexes.extension$ExtensionIndex.__iter__(self);pandas/core/indexes/extension.py;222;223
+pandas.core.reshape.pivot$crosstab(index,columns,values,rownames,colnames,aggfunc,margins,margins_name,dropna,normalize);pandas/core/reshape/pivot.py;464;625

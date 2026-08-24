@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;fastapi.openapi.docs$get_swagger_ui_oauth2_redirect_html();fastapi/openapi/docs.py;105;175;1.0
+2;fastapi.routing$get_request_handler(dependant,body_field,status_code,response_class,response_field,response_model_include,response_model_exclude,response_model_by_alias,response_model_exclude_unset,dependency_overrides_provider);fastapi/routing.py;84;152;0.9832596976913366
+3;fastapi.dependencies.utils$request_body_to_args(required_params,received_body);fastapi/dependencies/utils.py;617;685;0.7198187475813431
+3;fastapi.routing$APIRoute.__init__(self,path,endpoint,response_model,status_code,tags,dependencies,summary,description,response_description,responses,deprecated,name,methods,operation_id,response_model_include,response_model_exclude,response_model_by_alias,response_model_exclude_unset,include_in_schema,response_class,dependency_overrides_provider,callbacks);fastapi/routing.py;197;343;0.7198187475813431
+5;fastapi.utils$create_cloned_field(field);fastapi/utils.py;89;154;0.6958062575762038
+10;fastapi.dependencies.utils$solve_dependencies(request,dependant,body,background_tasks,response,dependency_overrides_provider,dependency_cache);fastapi/dependencies/utils.py;433;566;0.45473717442214967
+11;fastapi.dependencies.utils$request_params_to_args(required_params,received_params);fastapi/dependencies/utils.py;569;614;0.43236530746621044
+56;fastapi.encoders$generate_encoders_by_class_tuples(type_encoder_map);fastapi/encoders.py;14;23;0.1672837343070169
+56;fastapi.encoders$jsonable_encoder(obj,include,exclude,by_alias,skip_defaults,exclude_unset,include_none,custom_encoder,sqlalchemy_safe);fastapi/encoders.py;29;156;0.1672837343070169
+56;fastapi.openapi.utils$get_openapi_params(dependant);fastapi/openapi/utils.py;67;74;0.1672837343070169
+115;fastapi.applications$FastAPI.__call__(self,scope,receive,send);fastapi/applications.py;136;142;0.0
+115;fastapi.routing$APIRouter.websocket(self,path,name);fastapi/routing.py;499;504;0.0
+115;fastapi.security.http$HTTPBase.__call__(self,request);fastapi/security/http.py;35;47;0.0
+115;fastapi.utils$get_field_info(field);fastapi/utils.py;30;34;0.0

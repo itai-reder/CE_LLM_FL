@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;tornado.ioloop$IOLoop.run_in_executor(self,executor,func,*args);tornado/ioloop.py;642;659;1.0
+2;tornado.concurrent$run_on_executor(*args,**kwargs);tornado/concurrent.py;375;414;0.9218070632885182
+3;tornado.curl_httpclient$CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers);tornado/curl_httpclient.py;293;481;0.7643293384339723
+4;tornado.netutil$ExecutorResolver.resolve(self,host,port,family);tornado/netutil.py;387;398;0.6961235553389128
+5;tornado.gen$with_timeout(timeout,future,quiet_exceptions);tornado/gen.py;866;927;0.6344383860972272
+6;tornado.gen$_make_coroutine_wrapper(func,replace_callback);tornado/gen.py;265;334;0.6318876394354633
+12;tornado.gen$Runner.__init__(self,gen,result_future,first_yielded);tornado/gen.py;978;997;0.5575177048468168
+12;tornado.gen$Runner.handle_yield(self,yielded);tornado/gen.py;1098;1150;0.5575177048468168
+111;tornado.concurrent$Future.result(self,timeout);tornado/concurrent.py;225;242;0.3399970502814171
+112;tornado.gen$Runner.run(self);tornado/gen.py;1031;1096;0.33744630361965305
+167;tornado.concurrent$Future.done(self);tornado/concurrent.py;215;217;0.267906237588912
+288;tornado.gen$multi_future(children,quiet_exceptions);tornado/gen.py;788;842;0.19226404753919443
+511;tornado.gen$isawaitable(x);tornado/gen.py;128;129;0.0
+511;tornado.iostream$IOStream.fileno(self);tornado/iostream.py;1043;1044;0.0

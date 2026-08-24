@@ -1,0 +1,2849 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1699,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2130,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2184,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.Runner.run(self)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.Runner.__init__(self,gen,result_future,first_yielded)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0006094,
+        "input_tokens": 7012,
+        "output_tokens": 647
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1699,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2130,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2184,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.isawaitable(x)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.Runner.handle_yield(self,yielded)"
+      ],
+      "top5_indices": [
+        5,
+        11,
+        18,
+        3,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0011149999999999999,
+        "input_tokens": 7012,
+        "output_tokens": 647
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1699,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2130,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2184,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 238
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.Runner.__init__(self,gen,result_future,first_yielded)",
+        "tornado.gen.isawaitable(x)"
+      ],
+      "top5_indices": [
+        5,
+        3,
+        9,
+        4,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0015049999999999998,
+        "input_tokens": 7012,
+        "output_tokens": 842
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1699,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2130,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2184,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 804
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.Runner.__init__(self,gen,result_future,first_yielded)",
+        "tornado.gen.isawaitable(x)"
+      ],
+      "top5_indices": [
+        5,
+        3,
+        9,
+        4,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.002637,
+        "input_tokens": 7012,
+        "output_tokens": 1408
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1699,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2130,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2184,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.Runner.handle_yield(self,yielded)"
+      ],
+      "top5_indices": [
+        5,
+        11,
+        17,
+        3,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.003643,
+        "input_tokens": 7012,
+        "output_tokens": 647
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1699,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1931,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2362,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2445,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2677,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3354,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3774,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3986,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4514,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4568,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.Runner.run(self)",
+        "tornado.gen.multi_future(children,quiet_exceptions)"
+      ],
+      "top5_indices": [
+        5,
+        11,
+        3,
+        6,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.0069946500000000016,
+        "input_tokens": 32309,
+        "output_tokens": 857
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1699,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1931,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2362,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2445,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2677,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3354,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3774,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3986,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4514,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4568,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.Runner.run(self)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.multi_future(children,quiet_exceptions)"
+      ],
+      "top5_indices": [
+        5,
+        3,
+        6,
+        9,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.007977050000000001,
+        "input_tokens": 32309,
+        "output_tokens": 857
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1699,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 76
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1931,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 84
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2608,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3039,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3271,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 128
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3354,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 86
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3629,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4049,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 278
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4261,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4096,
+          "input_tokens": 4493,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 56
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 4547,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.Runner.__init__(self,gen,result_future,first_yielded)",
+        "tornado.gen.Runner.handle_yield(self,yielded)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        3,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 18304,
+        "cost_usd": 0.0063824960000000005,
+        "input_tokens": 37880,
+        "output_tokens": 1380
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1699,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 153
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1931,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 342
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2014,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 273
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2691,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2966,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3494,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 763
+        },
+        {
+          "cached_tokens": 3328,
+          "input_tokens": 3914,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 210
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4345,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 745
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4399,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.Runner.__init__(self,gen,result_future,first_yielded)",
+        "tornado.gen.multi_future(children,quiet_exceptions)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        3,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 6528,
+        "cost_usd": 0.0098582,
+        "input_tokens": 28452,
+        "output_tokens": 3114
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1699,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1931,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2362,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2594,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2677,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2731,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.isawaitable(x)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        1,
+        7,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.016078850000000002,
+        "input_tokens": 14993,
+        "output_tokens": 742
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1699,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1931,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2362,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2594,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2677,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2731,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.isawaitable(x)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.Runner.handle_yield(self,yielded)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        18,
+        3,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01976885,
+        "input_tokens": 14993,
+        "output_tokens": 742
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 501
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1659,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2090,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2144,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.Runner.run(self)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)"
+      ],
+      "top5_indices": [
+        1,
+        7,
+        2,
+        3,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0015888,
+        "input_tokens": 6892,
+        "output_tokens": 607
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 501
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1659,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2090,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2144,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.isawaitable(x)"
+      ],
+      "top5_indices": [
+        5,
+        1,
+        9,
+        7,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0020864,
+        "input_tokens": 6892,
+        "output_tokens": 607
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 501
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1659,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2825,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3111,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.multi_future(children,quiet_exceptions)"
+      ],
+      "top5_indices": [
+        5,
+        11,
+        7,
+        3,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0042833,
+        "input_tokens": 18606,
+        "output_tokens": 723
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 501
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1659,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2825,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3111,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.isawaitable(x)",
+        "tornado.gen.Runner.run(self)"
+      ],
+      "top5_indices": [
+        5,
+        1,
+        9,
+        18,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0049743,
+        "input_tokens": 18606,
+        "output_tokens": 723
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 501
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1659,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2825,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3111,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 230
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.isawaitable(x)",
+        "tornado.gen.Runner.run(self)"
+      ],
+      "top5_indices": [
+        5,
+        1,
+        9,
+        18,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0053483,
+        "input_tokens": 18606,
+        "output_tokens": 910
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 501
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1659,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2825,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3111,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1105
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.isawaitable(x)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)"
+      ],
+      "top5_indices": [
+        5,
+        9,
+        1,
+        18,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0070983,
+        "input_tokens": 18606,
+        "output_tokens": 1785
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 501
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1659,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2825,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3111,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.isawaitable(x)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        9,
+        1,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0084293,
+        "input_tokens": 18606,
+        "output_tokens": 723
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 501
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1659,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 61
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 72
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 250
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2796,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.Runner.run(self)",
+        "tornado.gen.Runner.__init__(self,gen,result_future,first_yielded)"
+      ],
+      "top5_indices": [
+        5,
+        1,
+        9,
+        2,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00500025,
+        "input_tokens": 12409,
+        "output_tokens": 949
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 501
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1659,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 120
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 102
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 412
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 760
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2825,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 660
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3100,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 998
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3154,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.isawaitable(x)",
+        "tornado.gen.Runner.run(self)"
+      ],
+      "top5_indices": [
+        5,
+        1,
+        9,
+        18,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0114906,
+        "input_tokens": 18692,
+        "output_tokens": 3596
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 501
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1659,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1891,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2742,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2825,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3353,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4030,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4084,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.Runner.run(self)",
+        "tornado.gen.isawaitable(x)"
+      ],
+      "top5_indices": [
+        5,
+        1,
+        9,
+        6,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.02803625,
+        "input_tokens": 23905,
+        "output_tokens": 759
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 501
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1659,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1891,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2742,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2825,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3353,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4030,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4084,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.multi_future(children,quiet_exceptions)"
+      ],
+      "top5_indices": [
+        5,
+        11,
+        17,
+        9,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.03246425,
+        "input_tokens": 23905,
+        "output_tokens": 759
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1178
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1830,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2261,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2315,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.Runner.run(self)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.Runner.__init__(self,gen,result_future,first_yielded)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00296845,
+        "input_tokens": 7405,
+        "output_tokens": 1284
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1178
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1830,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2062,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2493,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2576,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2851,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3271,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3948,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4160,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4214,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.isawaitable(x)"
+      ],
+      "top5_indices": [
+        5,
+        9,
+        1,
+        3,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.0090098,
+        "input_tokens": 28404,
+        "output_tokens": 1444
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1178
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1830,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 63
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2062,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 117
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2145,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 309
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2199,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 256
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.isawaitable(x)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)"
+      ],
+      "top5_indices": [
+        5,
+        18,
+        9,
+        1,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0061547500000000005,
+        "input_tokens": 9235,
+        "output_tokens": 1923
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1178
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1830,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2062,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2493,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2913,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2996,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3050,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.multi_future(children,quiet_exceptions)"
+      ],
+      "top5_indices": [
+        5,
+        11,
+        17,
+        9,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.02364575,
+        "input_tokens": 16343,
+        "output_tokens": 1364
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 779
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1347,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1579,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1633,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)"
+      ],
+      "top5_indices": [
+        5,
+        11,
+        1,
+        7,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0020725,
+        "input_tokens": 5558,
+        "output_tokens": 871
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 779
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1347,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1579,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2010,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2097,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2180,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2708,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2940,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3152,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3572,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4249,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4793,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.isawaitable(x)"
+      ],
+      "top5_indices": [
+        5,
+        9,
+        3,
+        1,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.0090113,
+        "input_tokens": 31626,
+        "output_tokens": 1042
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 779
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1347,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 154
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1579,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 305
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1662,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 415
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2339,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2770,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1180
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3298,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 915
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3993,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1045
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4047,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1024
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.isawaitable(x)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.Runner.run(self)",
+        "tornado.gen.Runner.handle_yield(self,yielded)"
+      ],
+      "top5_indices": [
+        5,
+        18,
+        3,
+        2,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.0175552,
+        "input_tokens": 25752,
+        "output_tokens": 5861
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 779
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1347,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1579,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1662,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2190,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2621,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3041,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3718,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3772,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.isawaitable(x)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.multi_future(children,quiet_exceptions)"
+      ],
+      "top5_indices": [
+        5,
+        18,
+        9,
+        3,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 2816,
+        "cost_usd": 0.02641225,
+        "input_tokens": 20929,
+        "output_tokens": 1065
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 596
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2185,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2239,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)"
+      ],
+      "top5_indices": [
+        1,
+        5,
+        7,
+        3,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00756005,
+        "input_tokens": 7177,
+        "output_tokens": 702
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 596
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2185,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2239,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)"
+      ],
+      "top5_indices": [
+        5,
+        11,
+        17,
+        9,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01065965,
+        "input_tokens": 7177,
+        "output_tokens": 702
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 596
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1986,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2649,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3177,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3597,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3680,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4357,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4411,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 29
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.isawaitable(x)"
+      ],
+      "top5_indices": [
+        5,
+        1,
+        9,
+        3,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.01437335,
+        "input_tokens": 29027,
+        "output_tokens": 862
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 596
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1986,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2649,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3177,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3597,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3680,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4357,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4411,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.isawaitable(x)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        18,
+        9,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01953075,
+        "input_tokens": 29027,
+        "output_tokens": 876
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 596
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 57
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1986,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 67
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2069,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 80
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2500,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 118
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3177,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3597,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4125,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 119
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4179,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.isawaitable(x)",
+        "tornado.gen.multi_future(children,quiet_exceptions)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        11,
+        18,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 7680,
+        "cost_usd": 0.0169065,
+        "input_tokens": 24386,
+        "output_tokens": 1124
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 596
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 200
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1986,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 273
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2069,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2746,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 399
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3021,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3441,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 399
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3653,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 927
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3707,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)"
+      ],
+      "top5_indices": [
+        5,
+        11,
+        17,
+        9,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.0214572,
+        "input_tokens": 23376,
+        "output_tokens": 3272
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 596
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1986,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2417,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2500,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3177,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3705,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 4125,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4179,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.Runner.run(self)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)",
+        "tornado.gen.Runner.__init__(self,gen,result_future,first_yielded)",
+        "tornado.gen.Runner.run(self)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        3,
+        4,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 3456,
+        "cost_usd": 0.0304169,
+        "input_tokens": 24842,
+        "output_tokens": 868
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 596
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1986,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2417,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2500,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3177,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3705,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 4125,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4179,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 29
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.isawaitable(x)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)"
+      ],
+      "top5_indices": [
+        5,
+        1,
+        18,
+        9,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 3456,
+        "cost_usd": 0.0312935,
+        "input_tokens": 24842,
+        "output_tokens": 854
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 596
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1986,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2417,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2500,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3177,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3705,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 4125,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4179,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 222
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.isawaitable(x)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)"
+      ],
+      "top5_indices": [
+        5,
+        18,
+        1,
+        9,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 3456,
+        "cost_usd": 0.0316795,
+        "input_tokens": 24842,
+        "output_tokens": 1047
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 596
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1986,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2417,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2500,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3177,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3705,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 4125,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4179,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 784
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.isawaitable(x)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)"
+      ],
+      "top5_indices": [
+        5,
+        18,
+        9,
+        1,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 3456,
+        "cost_usd": 0.0328035,
+        "input_tokens": 24842,
+        "output_tokens": 1609
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 999,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 596
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1986,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2417,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2500,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3177,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3705,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 4125,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 4179,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.ioloop.IOLoop.run_in_executor(self,executor,func,*args)",
+        "tornado.gen.multi_future(children,quiet_exceptions)",
+        "tornado.gen.Runner.handle_yield(self,yielded)",
+        "tornado.gen._make_coroutine_wrapper(func,replace_callback)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        1,
+        9,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 5248,
+        "cost_usd": 0.0338285,
+        "input_tokens": 24842,
+        "output_tokens": 868
+      }
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;luigi.db_task_history$_upgrade_schema(engine);luigi/db_task_history.py;243;256;1.0
+2;luigi.db_task_history$DbTaskHistory._get_task(self,task,status,host);luigi/db_task_history.py;102;110;0.9999217894572189
+3;luigi.db_task_history$DbTaskHistory._add_task_event(self,task,event);luigi/db_task_history.py;112;114;0.9998435789144376
+4;luigi.db_task_history$DbTaskHistory._find_or_create_task(self,task);luigi/db_task_history.py;116;132;0.9997653683716565
+5;luigi.db_task_history$DbTaskHistory.find_all_by_parameters(self,task_name,session,**task_params);luigi/db_task_history.py;134;149;0.9996871578288753
+11;luigi.db_task_history$DbTaskHistory._session(self,session);luigi/db_task_history.py;65;77;0.9992178945721883
+12;luigi.db_task_history$DbTaskHistory.__init__(self);luigi/db_task_history.py;79;87;0.999061473486626
+19;luigi.interface$_WorkerSchedulerFactory.create_local_scheduler(self);luigi/interface.py;133;134;0.998122946973252
+21;luigi.scheduler$CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs);luigi/scheduler.py;520;542;0.9979665258876896
+57;luigi.scheduler$CentralPlannerScheduler._rank(self,task);luigi/scheduler.py;695;702;0.9849053652432348
+59;luigi.scheduler$CentralPlannerScheduler.get_work(self,host,assistant,current_tasks,**kwargs);luigi/scheduler.py;716;825;0.9846707336148913
+83;luigi.interface$_schedule_and_run(tasks,worker_scheduler_factory,override_defaults);luigi/interface.py;144;199;0.9727045205693727
+85;luigi.interface$_run(cmdline_args,main_task_cls,worker_scheduler_factory,use_dynamic_argparse,local_scheduler);luigi/interface.py;213;238;0.9690286250586579
+86;luigi.interface$build(tasks,worker_scheduler_factory,**env_params);luigi/interface.py;241;264;0.9673862036602534
+1149;luigi.six$remove_move(name);luigi/six.py;479;487;0.17753793211324886
+1304;luigi.util$delegates(task_that_delegates);luigi/util.py;157;196;0.06358517128108869

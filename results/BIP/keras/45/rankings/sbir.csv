@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;keras.activations$tanh(x);keras/activations.py;63;64;1.0
+2;keras.activations$hard_sigmoid(x);keras/activations.py;71;72;0.9999681559086712
+3;keras.activations$serialize(activation);keras/activations.py;79;80;0.9999363118173423
+4;keras.activations$deserialize(name,custom_objects);keras/activations.py;83;87;0.9999044677260135
+5;keras.activations$get(identifier);keras/activations.py;90;107;0.999777091360698
+34;keras.backend.tensorflow_backend$rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length);keras/backend/tensorflow_backend.py;2391;2629;0.9967200585931281
+162;keras.engine.training$Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs);keras/engine/training.py;1448;1631;0.9563417507881412
+194;keras.layers.recurrent$GRU.call(self,inputs,mask,training,initial_state);keras/layers/recurrent.py;1502;1508;0.9457695124669617
+218;keras.layers.recurrent$LSTM.__init__(self,units,activation,recurrent_activation,use_bias,kernel_initializer,recurrent_initializer,bias_initializer,unit_forget_bias,kernel_regularizer,recurrent_regularizer,bias_regularizer,activity_regularizer,kernel_constraint,recurrent_constraint,bias_constraint,dropout,recurrent_dropout,implementation,return_sequences,return_state,go_backwards,stateful,unroll,**kwargs);keras/layers/recurrent.py;1932;1996;0.9404197051237143
+219;keras.layers.recurrent$LSTM.call(self,inputs,mask,training,initial_state);keras/layers/recurrent.py;1998;2004;0.9395599146578353
+243;keras.layers.recurrent$LSTMCell.call(self,inputs,states,training);keras/layers/recurrent.py;1786;1853;0.9357386236983728
+485;keras.applications.inception_resnet_v2$inception_resnet_block(x,scale,block_type,block_idx,activation);keras/applications/inception_resnet_v2.py;95;171;0.750597076712416
+519;keras.backend.cntk_backend$repeat(x,n);keras/backend/cntk_backend.py;1164;1182;0.6870044263286947
+1215;keras.layers.merge$concatenate(inputs,axis,**kwargs);keras/layers/merge.py;616;627;0.2578416074897303
+1511;keras.utils.conv_utils$convert_kernel(kernel);keras/utils/conv_utils.py;67;87;0.04544151832627456

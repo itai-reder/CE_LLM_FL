@@ -1,0 +1,2627 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 339
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1832,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1886,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)",
+        "keras.activations.sigmoid(x)"
+      ],
+      "top5_indices": [
+        18,
+        11,
+        1,
+        12,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0005102,
+        "input_tokens": 6636,
+        "output_tokens": 446
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 339
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1832,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1886,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        1,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0009562,
+        "input_tokens": 6636,
+        "output_tokens": 446
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 339
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1832,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1886,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 553
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.tensorflow_backend.get_uid(prefix)"
+      ],
+      "top5_indices": [
+        18,
+        12,
+        11,
+        1,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0019762,
+        "input_tokens": 6636,
+        "output_tokens": 956
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 339
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1832,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1886,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2182
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.backend.tensorflow_backend.get_session()"
+      ],
+      "top5_indices": [
+        18,
+        12,
+        16,
+        11,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0052342000000000005,
+        "input_tokens": 6636,
+        "output_tokens": 2585
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 339
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1832,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1886,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        17,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0031862,
+        "input_tokens": 6636,
+        "output_tokens": 446
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 339
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1832,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1961,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2448,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2627,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2751,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2934,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        1,
+        2,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.003982581999999999,
+        "input_tokens": 20351,
+        "output_tokens": 583
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 339
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1832,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1961,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2448,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2627,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2751,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2934,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        1,
+        2,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.00472055,
+        "input_tokens": 20351,
+        "output_tokens": 583
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 339
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 72
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1832,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 845
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3540,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 585
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3594,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.backend.backend()"
+      ],
+      "top5_indices": [
+        18,
+        11,
+        12,
+        2,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0050846319999999995,
+        "input_tokens": 11884,
+        "output_tokens": 1884
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 339
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1708,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 132
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1832,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1108
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1961,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1269
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 3669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1591
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7500,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 3113
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7554,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.backend.tensorflow_backend.get_session()"
+      ],
+      "top5_indices": [
+        18,
+        11,
+        12,
+        2,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.018925300000000003,
+        "input_tokens": 25434,
+        "output_tokens": 7595
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 339
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1708,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1832,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1961,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2448,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2574,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2681,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2735,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.backend()",
+        "keras.activations.deserialize(name,custom_objects)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)"
+      ],
+      "top5_indices": [
+        18,
+        1,
+        9,
+        4,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 6272,
+        "cost_usd": 0.011869050000000003,
+        "input_tokens": 17149,
+        "output_tokens": 589
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 339
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1708,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1832,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1961,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2448,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2574,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2681,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2735,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.backend()",
+        "keras.activations.deserialize(name,custom_objects)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        1,
+        9,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 6272,
+        "cost_usd": 0.015563850000000002,
+        "input_tokens": 17149,
+        "output_tokens": 589
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 353
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1722,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2209,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2333,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4041,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4220,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8051,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8175,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8662,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8716,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.backend.backend()"
+      ],
+      "top5_indices": [
+        1,
+        18,
+        11,
+        2,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.0034811259999999998,
+        "input_tokens": 49339,
+        "output_tokens": 661
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 353
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1722,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2209,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2333,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4041,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4220,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8051,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8175,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8662,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8716,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        1,
+        2,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.005293126,
+        "input_tokens": 49339,
+        "output_tokens": 661
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 353
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1722,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1846,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2462,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2748,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2872,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3001,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3055,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.activations.deserialize(name,custom_objects)"
+      ],
+      "top5_indices": [
+        1,
+        18,
+        16,
+        2,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 2432,
+        "cost_usd": 0.0058200000000000005,
+        "input_tokens": 23460,
+        "output_tokens": 591
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 353
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1722,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1846,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2462,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2748,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2872,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3001,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3055,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        1,
+        2,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 4096,
+        "cost_usd": 0.0061254000000000005,
+        "input_tokens": 23460,
+        "output_tokens": 591
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 353
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1722,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1846,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2462,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2748,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2872,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3001,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3055,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 399
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)",
+        "keras.backend.tensorflow_backend.get_session()"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        11,
+        12,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 2432,
+        "cost_usd": 0.0072118,
+        "input_tokens": 23460,
+        "output_tokens": 947
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 353
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1722,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1846,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2462,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2748,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2872,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3001,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3055,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1688
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)",
+        "keras.backend.tensorflow_backend.get_session()"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        17,
+        12,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 2432,
+        "cost_usd": 0.009789800000000001,
+        "input_tokens": 23460,
+        "output_tokens": 2236
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 353
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1722,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1846,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2462,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2748,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2872,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3001,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3055,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.backend.backend()"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        1,
+        2,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 2432,
+        "cost_usd": 0.0098988,
+        "input_tokens": 23460,
+        "output_tokens": 591
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 353
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1722,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 107
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1846,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 274
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1900,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.activations.deserialize(name,custom_objects)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        1,
+        2,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0032235,
+        "input_tokens": 6678,
+        "output_tokens": 777
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 353
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1722,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 202
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1846,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 772
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1088
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2029,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        1,
+        2,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.006737099999999999,
+        "input_tokens": 8782,
+        "output_tokens": 2458
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 353
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1722,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1846,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1975,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2462,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2588,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2712,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2766,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.backend()",
+        "keras.backend.tensorflow_backend.get_uid(prefix)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        1,
+        9,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 7296,
+        "cost_usd": 0.012279250000000002,
+        "input_tokens": 17281,
+        "output_tokens": 603
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 353
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1722,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1846,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1975,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2462,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2588,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2712,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2766,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.backend()",
+        "keras.losses.get(identifier)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        1,
+        9,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 8448,
+        "cost_usd": 0.014093250000000002,
+        "input_tokens": 17281,
+        "output_tokens": 603
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1270
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2101,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2588,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2712,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2766,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.activations.deserialize(name,custom_objects)"
+      ],
+      "top5_indices": [
+        1,
+        18,
+        11,
+        2,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0033252819999999997,
+        "input_tokens": 11377,
+        "output_tokens": 1412
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1270
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2101,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2225,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2404,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2533,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3020,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3144,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3268,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3392,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3446,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        2,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 7040,
+        "cost_usd": 0.00811775,
+        "input_tokens": 26743,
+        "output_tokens": 1508
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1270
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2101,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 70
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2225,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 224
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2354,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2533,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3020,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3144,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 118
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3198,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 389
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.theano_backend.argmax(x,axis)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        17,
+        19,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.00824105,
+        "input_tokens": 19785,
+        "output_tokens": 2137
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1270
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2101,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2225,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2354,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2408,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)",
+        "keras.backend.theano_backend.argmax(x,axis)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        11,
+        12,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 3200,
+        "cost_usd": 0.0120225,
+        "input_tokens": 10298,
+        "output_tokens": 1412
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1160
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1458,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1582,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1689,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1813,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2300,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2354,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        18,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 2304,
+        "cost_usd": 0.003137052,
+        "input_tokens": 12406,
+        "output_tokens": 1332
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1160
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1458,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1582,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1711,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2198,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2377,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2501,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2630,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2754,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2883,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2937,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        1,
+        2,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00849785,
+        "input_tokens": 24241,
+        "output_tokens": 1406
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1160
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1458,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1582,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2425
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3290,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 998
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3419,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1516
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3473,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1315
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        18,
+        12,
+        16,
+        17,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01848,
+        "input_tokens": 14432,
+        "output_tokens": 7436
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1160
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1458,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1582,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1711,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2198,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2290,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2414,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2468,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.theano_backend.argmax(x,axis)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        1,
+        19,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 7680,
+        "cost_usd": 0.01413375,
+        "input_tokens": 15331,
+        "output_tokens": 1410
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 554
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1923,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2410,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2464,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.activations.deserialize(name,custom_objects)"
+      ],
+      "top5_indices": [
+        1,
+        18,
+        11,
+        2,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.007377725999999999,
+        "input_tokens": 8007,
+        "output_tokens": 660
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 554
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1923,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2410,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2464,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        1,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.010747326,
+        "input_tokens": 8007,
+        "output_tokens": 660
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 554
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1923,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2047,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2303,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2790,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6621,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 6675,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.activations.get(identifier)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        18,
+        2,
+        16,
+        5,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.012639850000000001,
+        "input_tokens": 23569,
+        "output_tokens": 740
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 554
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1923,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2047,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2303,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2790,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6621,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 6675,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.activations.get(identifier)",
+        "keras.backend.tensorflow_backend.get_session()"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        11,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.01873725,
+        "input_tokens": 23569,
+        "output_tokens": 740
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 554
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1923,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 74
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2047,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 721
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2101,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.backend()",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.losses.get(identifier)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        9,
+        11,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01269125,
+        "input_tokens": 7281,
+        "output_tokens": 1392
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 554
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1923,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 198
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2047,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 970
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2176,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2663,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 882
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2717,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.theano_backend.argmax(x,axis)",
+        "keras.losses.get(identifier)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        19,
+        20,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.015353,
+        "input_tokens": 12736,
+        "output_tokens": 2669
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 554
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1923,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2047,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2101,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.backend.tensorflow_backend.get_session()",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.activations.sigmoid(x)",
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        8,
+        18,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.01147125,
+        "input_tokens": 7281,
+        "output_tokens": 660
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 554
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1923,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2047,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2101,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.tensorflow_backend.get_uid(prefix)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.activations.get(identifier)",
+        "keras.backend.tensorflow_backend.get_session()"
+      ],
+      "top5_indices": [
+        18,
+        2,
+        16,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.01196025,
+        "input_tokens": 7281,
+        "output_tokens": 660
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 554
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1923,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2047,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2101,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 461
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.theano_backend.argmax(x,axis)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        17,
+        19,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.01279625,
+        "input_tokens": 7281,
+        "output_tokens": 1078
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 554
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1923,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2047,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2101,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1201
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.backend.theano_backend.argmax(x,axis)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        18,
+        12,
+        16,
+        19,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.01427625,
+        "input_tokens": 7281,
+        "output_tokens": 1818
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1210,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 554
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1923,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2047,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2101,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.metrics.sparse_top_k_categorical_accuracy(y_true,y_pred,k)",
+        "keras.backend.cntk_backend.in_top_k(predictions,targets,k)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size)",
+        "keras.losses.get(identifier)"
+      ],
+      "top5_indices": [
+        18,
+        16,
+        11,
+        12,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 3200,
+        "cost_usd": 0.01210125,
+        "input_tokens": 7281,
+        "output_tokens": 660
+      }
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;keras.engine.training_utils$standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix);keras/engine/training_utils.py;32;139;0.660408825313113
+2;keras.layers.recurrent$RNN.get_losses_for(self,inputs);keras/layers/recurrent.py;744;748;0.47619047619047616
+2;keras.layers.recurrent$RNN.losses(self);keras/layers/recurrent.py;737;742;0.47619047619047616
+2;keras.layers.recurrent$RNN.trainable_weights(self);keras/layers/recurrent.py;721;727;0.47619047619047616
+5;keras.layers.recurrent$StackedRNNCells.state_size(self);keras/layers/recurrent.py;59;74;0.3414802408943917
+6;keras.optimizers$RMSprop.__init__(self,lr,rho,epsilon,decay,**kwargs);keras/optimizers.py;240;251;0.3278688524590164
+15;keras.layers.recurrent$RNN.call(self,inputs,mask,training,initial_state,constants);keras/layers/recurrent.py;544;642;0.22113443955492335
+15;keras.layers.recurrent$RNN.get_initial_state(self,inputs);keras/layers/recurrent.py;484;493;0.22113443955492335
+49;keras.backend.tensorflow_backend$rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length);keras/backend/tensorflow_backend.py;2740;2983;0.18889150798620813
+58;keras.layers.recurrent$RNN.compute_output_shape(self,input_shape);keras/layers/recurrent.py;409;428;0.1839870611995691
+116;keras.layers.recurrent$GRUCell.__init__(self,units,activation,recurrent_activation,use_bias,kernel_initializer,recurrent_initializer,bias_initializer,kernel_regularizer,recurrent_regularizer,bias_regularizer,kernel_constraint,recurrent_constraint,bias_constraint,dropout,recurrent_dropout,implementation,reset_after,**kwargs);keras/layers/recurrent.py;1182;1224;0.0
+116;keras.layers.recurrent$LSTMCell.__init__(self,units,activation,recurrent_activation,use_bias,kernel_initializer,recurrent_initializer,bias_initializer,unit_forget_bias,kernel_regularizer,recurrent_regularizer,bias_regularizer,kernel_constraint,recurrent_constraint,bias_constraint,dropout,recurrent_dropout,implementation,**kwargs);keras/layers/recurrent.py;1757;1799;0.0
+116;keras.layers.recurrent$SimpleRNNCell.__init__(self,units,activation,use_bias,kernel_initializer,recurrent_initializer,bias_initializer,kernel_regularizer,recurrent_regularizer,bias_regularizer,kernel_constraint,recurrent_constraint,bias_constraint,dropout,recurrent_dropout,**kwargs);keras/layers/recurrent.py;795;831;0.0
+116;keras.layers.recurrent$StackedRNNCells.build(self,input_shape);keras/layers/recurrent.py;106;121;0.0
+116;keras.layers.recurrent$StackedRNNCells.call(self,inputs,states,constants,**kwargs);keras/layers/recurrent.py;76;104;0.0

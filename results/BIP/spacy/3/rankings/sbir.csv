@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;bin.wiki_entity_linking.wikipedia_processor$_process_wp_text(article_title,article_text,wp_to_id);bin/wiki_entity_linking/wikipedia_processor.py;282;299;0.9988055137485368
+2;bin.wiki_entity_linking.wikipedia_processor$_get_clean_wp_text(article_text);bin/wiki_entity_linking/wikipedia_processor.py;302;357;0.9987218997109343
+3;bin.wiki_entity_linking.wikipedia_processor$_remove_links(clean_text,wp_to_id);bin/wiki_entity_linking/wikipedia_processor.py;360;426;0.9983993884230392
+4;bin.cythonize$save_hashes(hash_db,filename);bin/cythonize.py;99;101;0.997790200434793
+5;bin.cythonize$get_hash(path);bin/cythonize.py;104;105;0.9977663107097637
+105;bin.wiki_entity_linking.wikidata_train_entity_linker$main(dir_kb,output_dir,loc_training,epochs,dropout,lr,l2,train_articles,dev_articles,labels_discard);bin/wiki_entity_linking/wikidata_train_entity_linker.py;29;167;0.9733868463173989
+202;examples.training.pretrain_kb$main(model,output_dir,n_iter);examples/training/pretrain_kb.py;34;117;0.9500585298263217
+330;spacy.cli.debug_data$debug_data(lang,train_path,dev_path,tag_map_path,base_model,pipeline,ignore_warnings,verbose,no_format);spacy/cli/debug_data.py;25;543;0.9166009699228362
+359;spacy.cli.pretrain$pretrain(texts_loc,vectors_model,output_dir,width,conv_depth,bilstm_depth,cnn_pieces,sa_depth,use_chars,cnn_window,embed_rows,loss_func,use_vectors,dropout,n_iter,batch_size,max_length,min_length,seed,n_save_every,init_tok2vec,epoch_start);spacy/cli/pretrain.py;26;255;0.9030435509687283
+370;spacy.cli.train$train(lang,output_path,train_path,dev_path,raw_text,base_model,pipeline,replace_components,vectors,width,conv_depth,cnn_window,cnn_pieces,use_chars,bilstm_depth,embed_rows,n_iter,n_early_stopping,n_examples,use_gpu,version,meta_path,init_tok2vec,parser_multitasks,entity_multitasks,noise_level,orth_variant_level,eval_beam_widths,gold_preproc,learn_tokens,textcat_multilabel,textcat_arch,textcat_positive_label,tag_map_path,verbose,debug);spacy/cli/train.py;25;599;0.8986597864258582
+431;spacy.lang.en$_return_en(_);spacy/lang/en/__init__.py;19;20;0.7876920136649227
+433;spacy.lang.en.syntax_iterators$noun_chunks(obj);spacy/lang/en/syntax_iterators.py;7;47;0.761425260995246
+454;spacy.lang.fr.tokenizer_exceptions$upper_first_letter(text);spacy/lang/fr/tokenizer_exceptions.py;16;21;0.5320958455768174
+461;spacy.lang.hi.lex_attrs$norm(string);spacy/lang/hi/lex_attrs.py;59;74;0.5215843665639408
+522;spacy.lang.ru.lemmatizer$oc2ud(oc_tag);spacy/lang/ru/lemmatizer.py;112;194;0.135359182015815

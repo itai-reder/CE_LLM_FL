@@ -1,0 +1,12 @@
+rank;signature;path;startLine;endLine;score
+1;pysnooper.pysnooper$get_write_function(output);pysnooper/pysnooper.py;19;33;1.0
+2;pysnooper.pysnooper$snoop(output,variables,depth,prefix);pysnooper/pysnooper.py;37;74;0.9830508474576272
+3;pysnooper.tracer$Tracer.__init__(self,target_code_object,write,variables,depth,prefix);pysnooper/tracer.py;99;108;0.6991525423728814
+4;pysnooper.tracer$Tracer.__enter__(self);pysnooper/tracer.py;116;118;0.6652542372881356
+5;pysnooper.tracer$get_shortish_repr(item);pysnooper/tracer.py;12;16;0.6567796610169492
+6;pysnooper.tracer$get_local_reprs(frame,variables);pysnooper/tracer.py;18;39;0.6398305084745762
+7;pysnooper.tracer$get_source_from_frame(frame);pysnooper/tracer.py;44;96;0.559322033898305
+9;pysnooper.utils$WritableStream.__subclasshook__(cls,C);pysnooper/utils.py;27;31;0.5127118644067796
+10;pysnooper.pycompat$PathLike.__fspath__(self);pysnooper/pycompat.py;25;28;0.4279661016949153
+12;pysnooper.tracer$Tracer.write(self,s);pysnooper/tracer.py;110;114;0.2584745762711864
+15;pysnooper.utils$WritableStream.write(self,s);pysnooper/utils.py;23;25;0.029661016949152543

@@ -1,0 +1,14 @@
+corpus_id;path;startLine;endLine
+scrapy.commands.fetch$Command.add_options(self,parser);scrapy/commands/fetch.py;25;32
+scrapy.commands.shell$Command.add_options(self,parser);scrapy/commands/shell.py;33;40
+scrapy.core.downloader.webclient$ScrapyHTTPClientFactory.__init__(self,request,timeout);scrapy/core/downloader/webclient.py;108;140
+scrapy.downloadermiddlewares.ajaxcrawl$AjaxCrawlMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/ajaxcrawl.py;36;58
+scrapy.http.request.form$FormRequest.__init__(self,*args,**kwargs);scrapy/http/request/form.py;19;33
+scrapy.http.request.form$FormRequest.from_response(cls,response,formname,formid,formnumber,formdata,clickdata,dont_click,formxpath,formcss,**kwargs);scrapy/http/request/form.py;35;49
+scrapy.http.request.form$_get_form_url(form,url);scrapy/http/request/form.py;52;55
+scrapy.http.request.form$_get_form(response,formname,formid,formnumber,formxpath);scrapy/http/request/form.py;65;106
+scrapy.http.request.form$_get_inputs(form,formdata,dont_click,clickdata,response);scrapy/http/request/form.py;109;133
+scrapy.http.request.form$_get_clickable(clickdata,form);scrapy/http/request/form.py;159;203
+scrapy.item$DictItem.copy(self);scrapy/item.py;96;97
+scrapy.utils.boto$is_botocore();scrapy/utils/boto.py;9;21
+scrapy.utils.python$flatten(x);scrapy/utils/python.py;15;32

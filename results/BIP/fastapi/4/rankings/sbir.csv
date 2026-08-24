@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;fastapi.applications$FastAPI.openapi(self);fastapi/applications.py;81;91;1.0
+2;fastapi.applications$FastAPI.setup(self);fastapi/applications.py;93;134;0.9986255345143555
+3;fastapi.dependencies.models$Dependant.__init__(self,path_params,query_params,header_params,cookie_params,body_params,dependencies,security_schemes,name,call,request_param_name,websocket_param_name,response_param_name,background_tasks_param_name,security_scopes_param_name,security_scopes,use_cache,path);fastapi/dependencies/models.py;21;61;0.9984728161270617
+4;fastapi.dependencies.utils$get_flat_dependant(dependant,skip_repeats,visited);fastapi/dependencies/utils.py;154;183;0.9958766035430666
+5;fastapi.encoders$jsonable_encoder(obj,include,exclude,by_alias,skip_defaults,exclude_unset,include_none,custom_encoder,sqlalchemy_safe);fastapi/encoders.py;30;159;0.9923640806353085
+6;fastapi.openapi.utils$get_openapi_operation_parameters(all_route_params);fastapi/openapi/utils.py;92;110;0.9845754428833231
+9;fastapi.openapi.utils$get_openapi_operation_metadata(route,method);fastapi/openapi/utils.py;145;155;0.9825901038485033
+10;fastapi.openapi.utils$get_openapi_path(route,model_name_map);fastapi/openapi/utils.py;158;268;0.9815210751374466
+12;fastapi.openapi.utils$get_openapi_params(dependant);fastapi/openapi/utils.py;67;74;0.9694563225412339
+17;fastapi.applications$FastAPI.__call__(self,scope,receive,send);fastapi/applications.py;136;142;0.9642638973732437
+350;fastapi.dependencies.utils$get_typed_signature(call);fastapi/dependencies/utils.py;215;228;0.42364080635308493
+358;fastapi.dependencies.utils$request_body_to_args(required_params,received_body);fastapi/dependencies/utils.py;617;678;0.38744654856444716
+394;fastapi.routing$APIRoute.__init__(self,path,endpoint,response_model,status_code,tags,dependencies,summary,description,response_description,responses,deprecated,name,methods,operation_id,response_model_include,response_model_exclude,response_model_by_alias,response_model_exclude_unset,include_in_schema,response_class,dependency_overrides_provider,callbacks);fastapi/routing.py;204;348;0.18142944410507025
+433;fastapi.security.oauth2$SecurityScopes.__init__(self,scopes);fastapi/security/oauth2.py;204;206;0.027794746487477092
+437;fastapi.utils$create_cloned_field(field);fastapi/utils.py;89;151;0.023518631643249847

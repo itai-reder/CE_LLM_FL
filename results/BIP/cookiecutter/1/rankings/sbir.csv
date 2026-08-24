@@ -1,0 +1,11 @@
+rank;signature;path;startLine;endLine;score
+1;cookiecutter.generate$generate_context(context_file,default_context,extra_context);cookiecutter/generate.py;70;111;1.0
+2;cookiecutter.generate$apply_overwrites_to_context(context,overwrite_context);cookiecutter/generate.py;48;67;0.9923769923769924
+3;cookiecutter.generate$generate_file(project_dir,infile,context,env,skip_if_file_exists);cookiecutter/generate.py;114;189;0.9799029799029799
+4;cookiecutter.generate$is_copy_only_path(path,context);cookiecutter/generate.py;28;45;0.9487179487179487
+5;cookiecutter.cli$main(template,extra_context,no_input,checkout,verbose,replay,overwrite_if_exists,output_dir,config_file,default_config,debug_file,directory,skip_if_file_exists,accept_hooks);cookiecutter/cli.py;46;181;0.9223839223839224
+11;cookiecutter.config$get_config(config_path);cookiecutter/config.py;55;79;0.7976437976437977
+22;cookiecutter.generate$ensure_dir_is_templated(dirname);cookiecutter/generate.py;221;226;0.6451836451836452
+24;cookiecutter.generate$generate_files(repo_dir,context,output_dir,overwrite_if_exists,skip_if_file_exists,accept_hooks);cookiecutter/generate.py;255;380;0.6299376299376299
+31;cookiecutter.main$cookiecutter(template,checkout,no_input,extra_context,replay,overwrite_if_exists,output_dir,config_file,default_config,password,directory,skip_if_file_exists,accept_hooks);cookiecutter/main.py;21;115;0.4885654885654886
+58;cookiecutter.zipfile$unzip(zip_uri,is_url,clone_to_dir,no_input,password);cookiecutter/zipfile.py;13;112;0.16077616077616078

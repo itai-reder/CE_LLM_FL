@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.indexes.period$PeriodIndex.get_loc(self,key,method,tolerance);pandas/core/indexes/period.py;548;606;1.0
+2;pandas.core.indexes.multi$MultiIndex.get_value(self,series,key);pandas/core/indexes/multi.py;1459;1519;0.9860087149348076
+3;pandas.core.indexes.datetimes$DatetimeIndex.get_loc(self,key,method,tolerance);pandas/core/indexes/datetimes.py;672;718;0.9620314005263573
+4;pandas.core.indexes.interval$IntervalIndex.get_loc(self,key,method,tolerance);pandas/core/indexes/interval.py;683;750;0.9327741809333374
+5;pandas.core.indexes.interval$IntervalIndex.get_indexer(self,target,method,limit,tolerance);pandas/core/indexes/interval.py;752;824;0.8842496626183228
+7;pandas.core.indexes.base$Index.get_loc(self,key,method,tolerance);pandas/core/indexes/base.py;2892;2910;0.8658974375988242
+19;pandas.core.indexes.datetimes$DatetimeIndex.get_value(self,series,key);pandas/core/indexes/datetimes.py;639;666;0.7762128562298307
+32;pandas.core.indexes.multi$MultiIndex.get_loc_level(self,key,level,drop_level);pandas/core/indexes/multi.py;2694;2832;0.701646317626956
+52;pandas.core.series$Series.__setitem__(self,key,value);pandas/core/series.py;967;1003;0.6463750533463368
+347;pandas.core.indexes.datetimes$DatetimeIndex._get_string_slice(self,key,use_lhs,use_rhs);pandas/core/indexes/datetimes.py;768;772;0.35595465635641177
+356;pandas.core.groupby.grouper$get_grouper(obj,key,axis,level,sort,observed,mutated,validate);pandas/core/groupby/grouper.py;426;638;0.35098546454269125
+396;pandas.core.indexes.base$Index._get_fill_indexer(self,target,method,limit,tolerance);pandas/core/indexes/base.py;3021;3037;0.33237814341976013
+565;pandas.core.indexes.datetimes$DatetimeIndex._parsed_string_to_bounds(self,reso,parsed);pandas/core/indexes/datetimes.py;492;581;0.2802086601145017
+1220;pandas.core.indexes.base$ensure_index(index_like,copy);pandas/core/indexes/base.py;5539;5603;0.1770109387595241
+1438;pandas.core.indexes.datetimelike$DatetimeIndexOpsMixin._convert_tolerance(self,tolerance,target);pandas/core/indexes/datetimelike.py;228;233;0.1618289379508887
+3304;pandas.core.indexing$need_slice(obj);pandas/core/indexing.py;2312;2322;0.0

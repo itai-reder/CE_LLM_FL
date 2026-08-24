@@ -1,0 +1,2975 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 517
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2008,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2227,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3294,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3424,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3478,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)",
+        "keras.backend.theano_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        13,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.0009274940000000003,
+        "input_tokens": 15763,
+        "output_tokens": 681
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 517
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2008,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2227,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3294,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3424,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3478,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        4,
+        19,
+        13,
+        1,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.0016918940000000002,
+        "input_tokens": 15763,
+        "output_tokens": 681
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 517
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2008,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2227,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3294,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3424,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3478,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 313
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.RNN.losses(self)"
+      ],
+      "top5_indices": [
+        4,
+        13,
+        19,
+        1,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.0022318940000000003,
+        "input_tokens": 15763,
+        "output_tokens": 951
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 517
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2008,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2227,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3294,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3424,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3478,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1604
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)"
+      ],
+      "top5_indices": [
+        4,
+        13,
+        19,
+        11,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.004813894000000001,
+        "input_tokens": 15763,
+        "output_tokens": 2242
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 517
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2008,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2227,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3294,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3424,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3478,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)"
+      ],
+      "top5_indices": [
+        4,
+        13,
+        19,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.005513894,
+        "input_tokens": 15763,
+        "output_tokens": 681
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 517
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2008,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2227,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2435,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3502,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4320,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4539,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4593,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)"
+      ],
+      "top5_indices": [
+        4,
+        19,
+        1,
+        13,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.005664,
+        "input_tokens": 24956,
+        "output_tokens": 753
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 517
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2008,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2227,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2435,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3502,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4320,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4539,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4593,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)"
+      ],
+      "top5_indices": [
+        4,
+        19,
+        13,
+        1,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0066514,
+        "input_tokens": 24956,
+        "output_tokens": 753
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 517
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2008,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 62
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2227,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 87
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2435,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 62
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3502,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 271
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4320,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 359
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 4374,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)",
+        "keras.backend.theano_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)"
+      ],
+      "top5_indices": [
+        4,
+        1,
+        13,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.0057509399999999995,
+        "input_tokens": 20198,
+        "output_tokens": 1401
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 517
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2008,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 104
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2227,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1012
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3294,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 460
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4112,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 565
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4320,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1133
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4434,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1801
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6557,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1746
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6611,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)",
+        "keras.layers.recurrent.RNN.losses(self)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        13,
+        11,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 6400,
+        "cost_usd": 0.01956115,
+        "input_tokens": 34895,
+        "output_tokens": 7381
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 517
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2008,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2227,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3045,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3253,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 4320,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 4434,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4488,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)",
+        "keras.backend.theano_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        11,
+        12,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 7168,
+        "cost_usd": 0.018639750000000004,
+        "input_tokens": 25107,
+        "output_tokens": 768
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 517
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2008,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2227,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3045,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3253,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 4320,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 4434,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 4488,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)"
+      ],
+      "top5_indices": [
+        4,
+        13,
+        19,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 9216,
+        "cost_usd": 0.022134150000000002,
+        "input_tokens": 25107,
+        "output_tokens": 768
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 379
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2937,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3156,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4223,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4277,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.losses(self)",
+        "keras.layers.recurrent.RNN.losses(self)"
+      ],
+      "top5_indices": [
+        1,
+        7,
+        4,
+        2,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.00192199,
+        "input_tokens": 17795,
+        "output_tokens": 557
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 379
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2937,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3156,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4223,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4277,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.RNN.losses(self)"
+      ],
+      "top5_indices": [
+        4,
+        13,
+        19,
+        1,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.00284619,
+        "input_tokens": 17795,
+        "output_tokens": 557
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 379
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2937,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3156,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3364,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4182,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4236,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)",
+        "keras.backend.theano_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)",
+        "keras.layers.recurrent.RNN.losses(self)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        11,
+        12,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.00490645,
+        "input_tokens": 21077,
+        "output_tokens": 579
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 379
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2937,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3156,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3364,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4182,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4236,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.RNN.losses(self)"
+      ],
+      "top5_indices": [
+        4,
+        19,
+        13,
+        1,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 5376,
+        "cost_usd": 0.00521765,
+        "input_tokens": 21077,
+        "output_tokens": 579
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 379
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2937,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3156,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3364,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4182,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4236,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 463
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)"
+      ],
+      "top5_indices": [
+        4,
+        19,
+        13,
+        1,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.0066624499999999994,
+        "input_tokens": 21077,
+        "output_tokens": 999
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 379
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2937,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3156,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3364,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4182,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4236,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1161
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)"
+      ],
+      "top5_indices": [
+        4,
+        19,
+        13,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.00805845,
+        "input_tokens": 21077,
+        "output_tokens": 1697
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 379
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2937,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3156,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3364,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4182,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4236,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        19,
+        13,
+        4,
+        1,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.01040245,
+        "input_tokens": 21077,
+        "output_tokens": 579
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 379
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 87
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2937,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 102
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3145,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3364,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 137
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 4182,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 259
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4236,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        4,
+        13,
+        19,
+        1,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 3200,
+        "cost_usd": 0.0066045,
+        "input_tokens": 21066,
+        "output_tokens": 1029
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 379
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 220
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2937,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 105
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3755,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 98
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3963,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 112
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4182,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1805
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4296,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1215
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4426,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1806
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4480,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        1,
+        19,
+        4,
+        13,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.018397049999999998,
+        "input_tokens": 31241,
+        "output_tokens": 5783
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 379
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1870,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2937,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3755,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3963,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 4182,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4296,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 4426,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 6549,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7616,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7670,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)"
+      ],
+      "top5_indices": [
+        4,
+        19,
+        13,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 14720,
+        "cost_usd": 0.039187,
+        "input_tokens": 48596,
+        "output_tokens": 738
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 379
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1870,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2937,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3755,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3963,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 4182,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4296,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 4426,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 6549,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7616,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7670,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)"
+      ],
+      "top5_indices": [
+        13,
+        19,
+        4,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 14720,
+        "cost_usd": 0.047201,
+        "input_tokens": 48596,
+        "output_tokens": 738
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 897
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2109,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3176,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3395,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4462,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4681,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4900,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4954,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)",
+        "keras.layers.recurrent.RNN.losses(self)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        11,
+        2,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 3968,
+        "cost_usd": 0.0034032339999999998,
+        "input_tokens": 29009,
+        "output_tokens": 1119
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 897
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3176,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3994,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4202,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4421,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4551,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4770,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5837,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)"
+      ],
+      "top5_indices": [
+        13,
+        19,
+        4,
+        15,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 10112,
+        "cost_usd": 0.010149549999999999,
+        "input_tokens": 40283,
+        "output_tokens": 1177
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 897
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 106
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2927,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 135
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3146,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3354,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 406
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4421,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 74
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4475,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 385
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)"
+      ],
+      "top5_indices": [
+        13,
+        19,
+        4,
+        11,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.0085118,
+        "input_tokens": 21764,
+        "output_tokens": 2025
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 897
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2109,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 2927,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3135,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3354,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3468,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3598,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3652,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)"
+      ],
+      "top5_indices": [
+        13,
+        4,
+        19,
+        11,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 12544,
+        "cost_usd": 0.01832875,
+        "input_tokens": 23575,
+        "output_tokens": 1148
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 639
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1544,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 2611,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2830,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3049,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4116,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4335,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4465,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6588,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6807,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6921,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8004,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)",
+        "keras.layers.recurrent.RNN.losses(self)"
+      ],
+      "top5_indices": [
+        1,
+        7,
+        4,
+        11,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.00424994,
+        "input_tokens": 52602,
+        "output_tokens": 986
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 639
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1544,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2362,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2570,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2789,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3856,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3910,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        4,
+        19,
+        13,
+        1,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0058943500000000005,
+        "input_tokens": 18363,
+        "output_tokens": 839
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 639
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1544,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 557
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2362,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 527
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2570,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1278
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2789,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 605
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3856,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1162
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3970,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1015
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4100,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2073
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4154,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1421
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)"
+      ],
+      "top5_indices": [
+        4,
+        19,
+        13,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 7040,
+        "cost_usd": 0.02363925,
+        "input_tokens": 26677,
+        "output_tokens": 9277
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 639
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1544,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 2362,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2476,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2684,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3751,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 3881,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4100,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4154,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        4,
+        13,
+        19,
+        1,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 12032,
+        "cost_usd": 0.022125000000000002,
+        "input_tokens": 26284,
+        "output_tokens": 925
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 950
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2441,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3508,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3727,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4794,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4848,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)",
+        "keras.layers.recurrent.RNN.losses(self)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        11,
+        2,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.01213874,
+        "input_tokens": 20650,
+        "output_tokens": 1128
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 950
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2441,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3508,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3727,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4794,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4848,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.RNN.losses(self)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        13,
+        4,
+        19,
+        2,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.01836914,
+        "input_tokens": 20650,
+        "output_tokens": 1128
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 950
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2441,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3508,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4326,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4534,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4753,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5571,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5685,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 5815,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5376,
+          "input_tokens": 6034,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6088,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)"
+      ],
+      "top5_indices": [
+        13,
+        19,
+        4,
+        1,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 9088,
+        "cost_usd": 0.02188495,
+        "input_tokens": 50087,
+        "output_tokens": 1238
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 950
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2441,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3508,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4326,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4534,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4753,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5571,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5685,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 5815,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5376,
+          "input_tokens": 6034,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 4608,
+          "input_tokens": 6088,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.RNN.losses(self)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        13,
+        4,
+        19,
+        2,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 13696,
+        "cost_usd": 0.023132950000000003,
+        "input_tokens": 50087,
+        "output_tokens": 1238
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 950
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2441,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 77
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3508,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 114
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4326,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4534,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 66
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4753,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 105
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4867,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 93
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4997,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 215
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 5051,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.RNN.losses(self)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        13,
+        4,
+        19,
+        2,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.024374049999999998,
+        "input_tokens": 35809,
+        "output_tokens": 1685
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 950
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2441,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 221
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3259,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 106
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3467,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 444
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3686,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1108
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4753,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 743
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4867,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 494
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4997,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1022
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 7120,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1299
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7174,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.backend.tensorflow_backend.rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length)"
+      ],
+      "top5_indices": [
+        13,
+        4,
+        19,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 6400,
+        "cost_usd": 0.038644,
+        "input_tokens": 43096,
+        "output_tokens": 6430
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 950
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2441,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3259,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3467,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 4534,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 4753,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4480,
+          "input_tokens": 4867,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 4997,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5051,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.losses(self)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        2,
+        7,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 15872,
+        "cost_usd": 0.03141625,
+        "input_tokens": 34701,
+        "output_tokens": 1237
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 950
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2441,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3259,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3467,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 4534,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 4753,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4480,
+          "input_tokens": 4867,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 4997,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5051,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.RNN.losses(self)"
+      ],
+      "top5_indices": [
+        13,
+        19,
+        4,
+        1,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 15872,
+        "cost_usd": 0.032495249999999996,
+        "input_tokens": 34701,
+        "output_tokens": 1237
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 950
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2441,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3259,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3467,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 4534,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 4753,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4480,
+          "input_tokens": 4867,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 4997,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5051,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 608
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.RNN.losses(self)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)"
+      ],
+      "top5_indices": [
+        13,
+        19,
+        2,
+        3,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 15872,
+        "cost_usd": 0.033625249999999995,
+        "input_tokens": 34701,
+        "output_tokens": 1802
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 950
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2441,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3259,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3467,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 4534,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 4753,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4480,
+          "input_tokens": 4867,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 4997,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5051,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 876
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.layers.recurrent.RNN.losses(self)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)"
+      ],
+      "top5_indices": [
+        13,
+        19,
+        2,
+        3,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 15872,
+        "cost_usd": 0.03416125,
+        "input_tokens": 34701,
+        "output_tokens": 2070
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1332,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 950
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2441,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3259,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3467,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 4534,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 4753,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4480,
+          "input_tokens": 4867,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 4997,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5051,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.recurrent.RNN.call(self,inputs,mask,training,initial_state,constants)",
+        "keras.layers.recurrent.StackedRNNCells.state_size(self)",
+        "keras.layers.recurrent.RNN.get_initial_state(self,inputs)",
+        "keras.engine.training_utils.standardize_input_data(data,names,shapes,check_batch_axis,exception_prefix)",
+        "keras.layers.recurrent.RNN.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        13,
+        4,
+        19,
+        1,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 15872,
+        "cost_usd": 0.03789025,
+        "input_tokens": 34701,
+        "output_tokens": 1237
+      }
+    }
+  },
+  "schema_version": 1
+}

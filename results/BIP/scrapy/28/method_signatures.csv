@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+scrapy.core.downloader.handlers.s3$get_s3_connection();scrapy/core/downloader/handlers/s3.py;8;32
+scrapy.dupefilters$BaseDupeFilter.open(self);scrapy/dupefilters.py;18;19
+scrapy.dupefilters$RFPDupeFilter.__init__(self,path,debug);scrapy/dupefilters.py;31;39
+scrapy.dupefilters$RFPDupeFilter.request_seen(self,request);scrapy/dupefilters.py;46;52
+scrapy.dupefilters$RFPDupeFilter.request_fingerprint(self,request);scrapy/dupefilters.py;54;55
+scrapy.dupefilters$RFPDupeFilter.close(self,reason);scrapy/dupefilters.py;57;59
+scrapy.log$msg(message,_level,**kw);scrapy/log.py;39;49
+scrapy.pipelines.files$FilesPipeline.__init__(self,store_uri,download_func);scrapy/pipelines/files.py;162;166
+scrapy.pipelines.files$FilesPipeline.from_settings(cls,settings);scrapy/pipelines/files.py;168;178
+scrapy.pipelines.files$FilesPipeline._get_store(self,uri);scrapy/pipelines/files.py;180;186
+scrapy.pipelines.files$FilesPipeline.media_to_download(self,request,info);scrapy/pipelines/files.py;188;224
+scrapy.pipelines.files$FilesPipeline.media_failed(self,failure,request,info);scrapy/pipelines/files.py;226;237
+scrapy.pipelines.files$FilesPipeline.file_path(self,request,response,info);scrapy/pipelines/files.py;312;336
+scrapy.pipelines.images$ImagesPipeline.file_path(self,request,response,info);scrapy/pipelines/images.py;117;143
+scrapy.utils.response$open_in_browser(response,_openfunc);scrapy/utils/response.py;75;95
+scrapy.xlib.tx.interfaces$IReactorProcess.spawnProcess(processProtocol,executable,args,env,path,uid,gid,usePTY,childFDs);scrapy/xlib/tx/interfaces.py;976;1058

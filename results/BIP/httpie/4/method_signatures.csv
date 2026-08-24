@@ -1,0 +1,16 @@
+corpus_id;path;startLine;endLine
+httpie.cli$HTTPieHelpFormatter.__init__(self,max_help_position,*args,**kwargs);httpie/cli.py;34;37
+httpie.cli$HTTPieHelpFormatter._split_lines(self,text,width);httpie/cli.py;39;41
+httpie.client$get_response(args,config_dir);httpie/client.py;18;34
+httpie.client$encode_headers(headers);httpie/client.py;42;48
+httpie.client$get_default_headers(args);httpie/client.py;51;67
+httpie.client$get_requests_kwargs(args,base_headers);httpie/client.py;70;123
+httpie.downloads$parse_content_range(content_range,resumed_from);httpie/downloads.py;40;96
+httpie.input$Parser.parse_args(self,env,args,namespace);httpie/input.py;113;149
+httpie.input$AuthCredentials.prompt_password(self,host);httpie/input.py;510;516
+httpie.models$HTTPRequest.iter_body(self,chunk_size);httpie/models.py;88;89
+httpie.models$HTTPRequest.iter_lines(self,chunk_size);httpie/models.py;91;92
+httpie.models$HTTPRequest.headers(self);httpie/models.py;94;118
+httpie.models$HTTPRequest.encoding(self);httpie/models.py;120;122
+httpie.models$HTTPRequest.body(self);httpie/models.py;124;130
+httpie.sessions$get_response(session_name,config_dir,args,read_only);httpie/sessions.py;24;73

@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.indexes.base$ensure_index(index_like,copy);pandas/core/indexes/base.py;5539;5603;1.0
+2;pandas.core.indexes.base$Index.get_loc(self,key,method,tolerance);pandas/core/indexes/base.py;2892;2910;0.999963280518479
+3;pandas.core.indexes.base$Index._get_fill_indexer(self,target,method,limit,tolerance);pandas/core/indexes/base.py;3021;3037;0.9999082012961977
+4;pandas.core.indexes.datetimelike$DatetimeIndexOpsMixin._convert_tolerance(self,tolerance,target);pandas/core/indexes/datetimelike.py;228;233;0.9998898415554373
+5;pandas.core.indexes.datetimes$DatetimeIndex._parsed_string_to_bounds(self,reso,parsed);pandas/core/indexes/datetimes.py;492;581;0.999880661685057
+7;pandas.core.indexes.datetimes$DatetimeIndex.get_loc(self,key,method,tolerance);pandas/core/indexes/datetimes.py;672;718;0.9995960857032699
+8;pandas.core.indexes.datetimes$DatetimeIndex._get_string_slice(self,key,use_lhs,use_rhs);pandas/core/indexes/datetimes.py;768;772;0.9995869058328897
+301;pandas.core.indexes.datetimes$DatetimeIndex.get_value(self,series,key);pandas/core/indexes/datetimes.py;639;666;0.9840821047606808
+3180;pandas.core.groupby.grouper$get_grouper(obj,key,axis,level,sort,observed,mutated,validate);pandas/core/groupby/grouper.py;426;638;0.5777810417316908
+3597;pandas.core.indexes.interval$IntervalIndex.get_loc(self,key,method,tolerance);pandas/core/indexes/interval.py;683;750;0.5099142600106487
+3598;pandas.core.indexes.interval$IntervalIndex.get_indexer(self,target,method,limit,tolerance);pandas/core/indexes/interval.py;752;824;0.509528705454679
+3643;pandas.core.indexes.multi$MultiIndex.get_value(self,series,key);pandas/core/indexes/multi.py;1459;1519;0.5044155176528907
+3682;pandas.core.indexes.multi$MultiIndex.get_loc_level(self,key,level,drop_level);pandas/core/indexes/multi.py;2694;2832;0.49739291681201464
+3773;pandas.core.indexes.period$PeriodIndex.get_loc(self,key,method,tolerance);pandas/core/indexes/period.py;548;606;0.4828428222593497
+3853;pandas.core.indexing$need_slice(obj);pandas/core/indexing.py;2312;2322;0.4733508362861916
+4462;pandas.core.series$Series.__setitem__(self,key,value);pandas/core/series.py;967;1003;0.35674812271650724

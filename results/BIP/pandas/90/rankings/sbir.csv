@@ -1,0 +1,13 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.io.common$get_handle(path_or_buf,mode,encoding,compression,memory_map,is_text);pandas/io/common.py;314;458;1.0
+2;pandas.io.common$_expand_user(filepath_or_buffer);pandas/io/common.py;58;75;0.9999816653374036
+3;pandas._testing$getCols(k);pandas/_testing.py;1557;1558;0.9999724980061054
+4;pandas._testing$makeStringIndex(k,name);pandas/_testing.py;1562;1563;0.9999633306748072
+5;pandas._testing$getSeriesData();pandas/_testing.py;1780;1782;0.9999541633435091
+107;pandas.io.common$get_compression_method(compression);pandas/io/common.py;226;256;0.9958105295967291
+111;pandas.io.common$infer_compression(filepath_or_buffer,compression);pandas/io/common.py;259;311;0.9956271829707654
+117;pandas.io.pickle$read_pickle(path,compression);pandas/io/pickle.py;78;161;0.9952879917127325
+118;pandas.core.generic$NDFrame.to_pickle(self,path,compression,protocol);pandas/core/generic.py;2643;2702;0.9951963183997506
+119;pandas.io.pickle$to_pickle(obj,path,compression,protocol);pandas/io/pickle.py;10;75;0.9951779837371543
+1691;pandas._testing$round_trip_pickle(obj,path);pandas/_testing.py;104;124;0.9146154762886975
+5226;pandas.io.orc$read_orc(path,columns,**kwargs);pandas/io/orc.py;14;57;0.20125959132037072

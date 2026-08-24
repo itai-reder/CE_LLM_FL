@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;tornado.http1connection$HTTP1Connection._read_message(self,delegate);tornado/http1connection.py;180;300;1.0
+2;tornado.http1connection$HTTP1ServerConnection.close(self);tornado/http1connection.py;781;793;0.9998804471277423
+3;tornado.httpserver$HTTPServer.close_all_connections(self);tornado/httpserver.py;204;221;0.9997011178193556
+4;tornado.ioloop$IOLoop.run_sync(self,func,timeout);tornado/ioloop.py;459;531;0.9995815649470978
+5;tornado.routing$_RoutingDelegate.on_connection_close(self);tornado/routing.py;270;272;0.9994022356387112
+11;tornado.http1connection$HTTP1Connection.write_headers(self,start_line,headers,chunk);tornado/http1connection.py;376;462;0.9988044712774224
+61;tornado.http1connection$HTTP1Connection.close(self);tornado/http1connection.py;340;345;0.986251419690358
+117;tornado.httputil$HTTPHeaders.parse(cls,headers);tornado/httputil.py;211;229;0.9628788331639667
+131;tornado.simple_httpclient$_HTTPConnection.run(self);tornado/simple_httpclient.py;289;441;0.9570805188594655
+135;tornado.http1connection$HTTP1Connection.__init__(self,stream,is_client,params,context);tornado/http1connection.py;112;163;0.9542710263614084
+148;tornado.httpserver$HTTPServer.configurable_base(cls);tornado/httpserver.py;196;198;0.9479347241317473
+231;tornado.httpclient$HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options);tornado/httpclient.py;356;543;0.9141012612828023
+453;tornado.curl_httpclient$CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers);tornado/curl_httpclient.py;318;526;0.7137904238149322
+495;tornado.httpclient$HTTPClient.__del__(self);tornado/httpclient.py;110;111;0.6410425010460876
+544;tornado.ioloop$IOLoop.instance();tornado/ioloop.py;180;200;0.5706856357223983

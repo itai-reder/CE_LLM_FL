@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.arrays.datetimelike$DatetimeLikeArrayMixin._validate_frequency(cls,index,freq,**kwargs);pandas/core/arrays/datetimelike.py;865;905;1.0
+2;pandas.tseries.offsets$BusinessHourMixin.apply(self,other);pandas/tseries/offsets.py;857;948;0.9999541212849711
+3;pandas.tseries.frequencies$_FrequencyInferer.deltas_asi8(self);pandas/tseries/frequencies.py;328;330;0.9999265940559536
+4;pandas.tseries.frequencies$_FrequencyInferer.is_unique_asi8(self);pandas/tseries/frequencies.py;336;338;0.9999174183129479
+5;pandas.tseries.frequencies$_FrequencyInferer.get_freq(self);pandas/tseries/frequencies.py;340;383;0.9999082425699422
+6;pandas.tseries.frequencies$_FrequencyInferer.hour_deltas(self);pandas/tseries/frequencies.py;389;391;0.9998898910839306
+13;pandas.tseries.offsets$BusinessHourMixin._get_closing_time(self,dt);pandas/tseries/offsets.py;836;855;0.9993944009616179
+60;pandas.core.indexes.datetimes$DatetimeIndex.__new__(cls,data,freq,tz,normalize,closed,ambiguous,dayfirst,yearfirst,dtype,copy,name);pandas/core/indexes/datetimes.py;221;258;0.9972381013552573
+164;pandas.core.indexes.datetimes$bdate_range(start,end,periods,freq,tz,normalize,name,weekmask,holidays,closed,**kwargs);pandas/core/indexes/datetimes.py;1234;1339;0.9911454079994128
+1897;pandas.core.arrays.datetimelike$TimelikeOps.round(self,freq,ambiguous,nonexistent);pandas/core/arrays/datetimelike.py;303;305;0.847847829477992
+2797;pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;6905;7040;0.6859326683978235
+3521;pandas.core.indexes.datetimes$DatetimeIndex._wrap_setop_result(self,other,result);pandas/core/indexes/datetimes.py;431;433;0.5240817375186956
+3847;pandas.core.indexes.timedeltas$timedelta_range(start,end,periods,freq,name,closed);pandas/core/indexes/timedeltas.py;457;530;0.4781112650596882

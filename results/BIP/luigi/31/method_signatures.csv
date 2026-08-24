@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+luigi.interface$Interface.run(tasks,worker_scheduler_factory,override_defaults);luigi/interface.py;137;185
+luigi.parameter$Parameter.value(self);luigi/parameter.py;212;227
+luigi.scheduler$Worker.add_info(self,info);luigi/scheduler.py;215;216
+luigi.scheduler$Worker.assistant(self);luigi/scheduler.py;228;230
+luigi.scheduler$SimpleTaskState.prune(self,task,config,assistants);luigi/scheduler.py;359;392
+luigi.scheduler$CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs);luigi/scheduler.py;435;455
+luigi.scheduler$CentralPlannerScheduler.update(self,worker_id,worker_reference);luigi/scheduler.py;483;488
+luigi.scheduler$CentralPlannerScheduler._update_priority(self,task,prio,worker);luigi/scheduler.py;490;501
+luigi.scheduler$CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs);luigi/scheduler.py;503;566
+luigi.scheduler$CentralPlannerScheduler.add_worker(self,worker,info,**kwargs);luigi/scheduler.py;568;569
+luigi.scheduler$CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs);luigi/scheduler.py;624;708
+luigi.scheduler$CentralPlannerScheduler._update_task_history(self,task_id,status,host);luigi/scheduler.py;894;904
+luigi.task_history$NopHistory.task_started(self,task_id,worker_host);luigi/task_history.py;73;74
+luigi.tools.deps$get_task_requires(task);luigi/tools/deps.py;48;49
+luigi.worker$Worker._get_work(self);luigi/worker.py;580;614
+luigi.worker$Worker._handle_next_task(self);luigi/worker.py;658;720

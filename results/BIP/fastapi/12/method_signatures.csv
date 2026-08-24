@@ -1,0 +1,13 @@
+corpus_id;path;startLine;endLine
+docs.src.security.tutorial005$get_current_user(security_scopes,token);docs/src/security/tutorial005.py;106;137
+fastapi.dependencies.utils$get_flat_dependant(dependant);fastapi/dependencies/utils.py;106;123
+fastapi.dependencies.utils$is_coroutine_callable(call);fastapi/dependencies/utils.py;269;275
+fastapi.exception_handlers$http_exception_handler(request,exc);fastapi/exception_handlers.py;8;15
+fastapi.exceptions$HTTPException.__init__(self,status_code,detail,headers);fastapi/exceptions.py;8;12
+fastapi.security.http$HTTPBase.__call__(self,request);fastapi/security/http.py;35;47
+fastapi.security.http$HTTPBasic.__call__(self,request);fastapi/security/http.py;59;87
+fastapi.security.http$HTTPBearer.__init__(self,bearerFormat,scheme_name,auto_error);fastapi/security/http.py;91;100
+fastapi.security.http$HTTPBearer.__call__(self,request);fastapi/security/http.py;102;119
+fastapi.security.http$HTTPDigest.__call__(self,request);fastapi/security/http.py;128;145
+fastapi.security.oauth2$OAuth2PasswordBearer.__call__(self,request);fastapi/security/oauth2.py;151;163
+fastapi.security.utils$get_authorization_scheme_param(authorization_header_value);fastapi/security/utils.py;4;8

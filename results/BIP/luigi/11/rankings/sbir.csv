@@ -1,0 +1,12 @@
+rank;signature;path;startLine;endLine;score
+1;luigi.scheduler$Scheduler._upstream_status(self,task_id,upstream_status_table);luigi/scheduler.py;978;1003;1.0
+2;luigi.scheduler$Scheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,worker,batchable,batch_id,retry_policy_dict,**kwargs);luigi/scheduler.py;649;747;0.9995928891301398
+3;luigi.scheduler$Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,tracking_url,status_message,retry_policy);luigi/scheduler.py;200;230;0.9993893336952097
+4;luigi.scheduler$Scheduler._update_priority(self,task,prio,worker);luigi/scheduler.py;632;643;0.9993214818835663
+5;luigi.scheduler$Scheduler.get_work(self,host,assistant,current_tasks,worker,**kwargs);luigi/scheduler.py;818;971;0.9991857782602795
+7;luigi.scheduler$Scheduler.add_task_batcher(self,worker,task_family,batched_args,max_batch_size);luigi/scheduler.py;645;647;0.9978287420274121
+59;luigi.scheduler$Scheduler._serialize_task(self,task_id,include_deps,deps);luigi/scheduler.py;1005;1026;0.9770660876645406
+69;luigi.scheduler$Scheduler._prune_tasks(self);luigi/scheduler.py;611;622;0.9708237209933506
+102;luigi.worker$Worker.__init__(self,scheduler,worker_id,worker_processes,assistant,**kwargs);luigi/worker.py;369;420;0.9567783959831727
+1502;luigi.worker$Worker._get_work_task_id(self,get_work_response);luigi/worker.py;710;728;0.020423395304654635
+1503;luigi.worker$Worker._get_work(self);luigi/worker.py;730;775;0.01926991450671733

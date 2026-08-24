@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;tornado.web$Application.log_request(self,handler);tornado/web.py;2087;2106;1.0
+2;tornado.ioloop$PollIOLoop.start(self);tornado/ioloop.py;926;1085;0.9713304221638922
+3;tornado.iostream$BaseIOStream._run_callback(self,callback,*args);tornado/iostream.py;696;729;0.964795628347303
+4;tornado.ioloop$IOLoop.run_sync(self,func,timeout);tornado/ioloop.py;518;581;0.9641006260830602
+5;tornado.autoreload$main();tornado/autoreload.py;259;333;0.8548158616174991
+97;tornado.concurrent$future_set_exc_info(future,exc_info);tornado/concurrent.py;611;624;0.4140564893810084
+128;tornado.ioloop$PeriodicCallback.__init__(self,callback,callback_time);tornado/ioloop.py;1172;1178;0.3421184287969079
+145;tornado.ioloop$PeriodicCallback._run(self);tornado/ioloop.py;1204;1212;0.316838531181273
+148;tornado.ioloop$PeriodicCallback._update_next(self,current_time);tornado/ioloop.py;1219;1223;0.3121732390529038
+161;tornado.ioloop$PeriodicCallback._schedule_next(self);tornado/ioloop.py;1214;1217;0.2952537003753937
+242;tornado.ioloop$IOLoop.time(self);tornado/ioloop.py;583;596;0.19140299427281157
+413;tornado.concurrent$future_add_done_callback(future,callback);tornado/concurrent.py;627;641;0.10750300528760011
+658;tornado.concurrent$future_set_result_unless_cancelled(future,value);tornado/concurrent.py;599;608;0.0404919667330236
+960;tornado.concurrent$is_future(x);tornado/concurrent.py;379;380;0.0

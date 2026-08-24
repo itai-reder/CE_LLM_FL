@@ -1,0 +1,12 @@
+rank;signature;path;startLine;endLine;score
+1;keras.callbacks$ReduceLROnPlateau.__init__(self,monitor,factor,patience,verbose,mode,epsilon,cooldown,min_lr);keras/callbacks.py;908;927;0.784470698758991
+1;keras.callbacks$ReduceLROnPlateau._reset(self);keras/callbacks.py;929;945;0.784470698758991
+3;keras.callbacks$ReduceLROnPlateau.on_epoch_end(self,epoch,logs);keras/callbacks.py;950;981;0.660408825313113
+4;keras.callbacks$ReduceLROnPlateau.in_cooldown(self);keras/callbacks.py;983;984;0.47619047619047616
+5;keras.backend.tensorflow_backend$get_value(x);keras/backend/tensorflow_backend.py;2302;2311;0.3414802408943917
+10;keras.callbacks$Callback.on_train_begin(self,logs);keras/callbacks.py;195;196;0.0
+10;keras.callbacks$ReduceLROnPlateau.on_train_begin(self,logs);keras/callbacks.py;947;948;0.0
+10;keras.engine.training$Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs);keras/engine/training.py;1503;1705;0.0
+10;keras.engine.training$Model.train_on_batch(self,x,y,sample_weight,class_weight);keras/engine/training.py;1837;1886;0.0
+10;keras.models$Sequential.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs);keras/models.py;837;963;0.0
+10;keras.optimizers$Optimizer.get_gradients(self,loss,params);keras/optimizers.py;77;90;0.0

@@ -1,0 +1,2843 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 715
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2583,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2983,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3383,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3804,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3904,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3958,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.initializers.Ones.__call__(self,shape,dtype)",
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        2,
+        5,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.001323464,
+        "input_tokens": 22324,
+        "output_tokens": 930
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 715
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2583,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2983,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3383,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3804,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3904,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3958,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.002183864,
+        "input_tokens": 22324,
+        "output_tokens": 930
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 715
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2583,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2983,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3383,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3804,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3904,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3958,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 201
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.002499864,
+        "input_tokens": 22324,
+        "output_tokens": 1088
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 715
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2583,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2983,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3383,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3804,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3904,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3958,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 460
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.0030178640000000003,
+        "input_tokens": 22324,
+        "output_tokens": 1347
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 715
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2583,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2983,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3383,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3804,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3904,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3958,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        2,
+        5,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.006485864000000001,
+        "input_tokens": 22324,
+        "output_tokens": 930
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 715
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2583,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2983,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3268,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3689,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4212,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4312,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4366,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.005741932,
+        "input_tokens": 27122,
+        "output_tokens": 923
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 715
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2583,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2983,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3268,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3689,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4212,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4312,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4366,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        2,
+        5,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.0061614999999999994,
+        "input_tokens": 27122,
+        "output_tokens": 923
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 715
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2583,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 62
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2983,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3268,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3689,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4212,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 66
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4312,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 63
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4366,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 7040,
+        "cost_usd": 0.0047986999999999995,
+        "input_tokens": 27122,
+        "output_tokens": 1015
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 715
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2583,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 77
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2983,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3268,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3689,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 194
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4212,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 911
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4266,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0068633,
+        "input_tokens": 22710,
+        "output_tokens": 1984
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 715
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2583,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2983,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3404,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3927,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 4212,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4312,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 4366,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 14720,
+        "cost_usd": 0.015921808,
+        "input_tokens": 27496,
+        "output_tokens": 965
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 715
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2583,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2983,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3404,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3927,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 4212,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4312,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4366,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        2,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 11904,
+        "cost_usd": 0.0217132,
+        "input_tokens": 27496,
+        "output_tokens": 965
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 329
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2197,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2482,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2582,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2982,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3403,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3803,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3857,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        8,
+        2,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.002156982,
+        "input_tokens": 23015,
+        "output_tokens": 551
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 329
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2197,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2482,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2582,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2982,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3403,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3803,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3857,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.002622782,
+        "input_tokens": 23015,
+        "output_tokens": 551
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 329
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2197,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2597,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3303,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 3826,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3880,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        4,
+        5,
+        2,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 7424,
+        "cost_usd": 0.0035573,
+        "input_tokens": 20394,
+        "output_tokens": 487
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 329
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2197,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2597,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3303,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 3826,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 7424,
+        "cost_usd": 0.0044021,
+        "input_tokens": 20394,
+        "output_tokens": 487
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 329
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2197,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2597,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3303,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 3826,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 204
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 7424,
+        "cost_usd": 0.0047241,
+        "input_tokens": 20394,
+        "output_tokens": 648
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 329
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2197,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2597,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3303,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 3826,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 731
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 9088,
+        "cost_usd": 0.005403699999999999,
+        "input_tokens": 20394,
+        "output_tokens": 1175
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 329
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2197,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2597,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3303,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 3826,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3880,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        2,
+        4,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 9088,
+        "cost_usd": 0.0067541,
+        "input_tokens": 20394,
+        "output_tokens": 487
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 329
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2197,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2597,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3303,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3826,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 277
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 8448,
+        "cost_usd": 0.004671700000000001,
+        "input_tokens": 20394,
+        "output_tokens": 737
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 329
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2197,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2597,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2882,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3303,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 80
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3826,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 852
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        2,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 6656,
+        "cost_usd": 0.006340900000000001,
+        "input_tokens": 20394,
+        "output_tokens": 1370
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 329
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2197,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2597,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2882,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3303,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3826,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 3926,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3980,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 16128,
+        "cost_usd": 0.0119352,
+        "input_tokens": 24420,
+        "output_tokens": 580
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 329
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2197,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2597,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2882,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3303,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3826,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 3926,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3980,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        2,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 13440,
+        "cost_usd": 0.016864,
+        "input_tokens": 24420,
+        "output_tokens": 580
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 834
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2459,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2559,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2959,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3013,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.initializers.Ones.__call__(self,shape,dtype)",
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        2,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.0025368139999999996,
+        "input_tokens": 12699,
+        "output_tokens": 976
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 834
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2459,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2859,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3382,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3803,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4088,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4188,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4242,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        2,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 10368,
+        "cost_usd": 0.0064337000000000005,
+        "input_tokens": 26730,
+        "output_tokens": 1042
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 834
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2459,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 176
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2859,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3382,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3803,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 90
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4088,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 286
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4188,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 285
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4242,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 206
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        2,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 7040,
+        "cost_usd": 0.008940499999999999,
+        "input_tokens": 26730,
+        "output_tokens": 1921
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 834
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2459,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2859,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3382,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3803,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 4088,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4611,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4711,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4765,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        2,
+        4,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 13440,
+        "cost_usd": 0.02818275,
+        "input_tokens": 32387,
+        "output_tokens": 1120
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1106
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2362,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2462,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2862,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3283,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3568,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4091,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4491,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4776,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4876,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4930,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)"
+      ],
+      "top5_indices": [
+        3,
+        9,
+        5,
+        2,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.004491564000000001,
+        "input_tokens": 39410,
+        "output_tokens": 1436
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1106
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2362,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3183,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3706,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3991,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4091,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4614,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 5035,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5089,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        2,
+        5,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 12672,
+        "cost_usd": 0.009000300000000001,
+        "input_tokens": 36542,
+        "output_tokens": 1358
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1106
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2362,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 213
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 75
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3183,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 56
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3706,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 195
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3991,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 604
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4091,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 605
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4207,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 809
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4261,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 493
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.layers.convolutional.Conv2DTranspose.get_config(self)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        2,
+        4,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 13440,
+        "cost_usd": 0.012856000000000003,
+        "input_tokens": 30272,
+        "output_tokens": 4156
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1106
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2362,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 3285,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3706,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3991,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4091,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4614,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4668,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        2,
+        4,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 18048,
+        "cost_usd": 0.022054,
+        "input_tokens": 31188,
+        "output_tokens": 1393
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 635
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2503,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2603,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2657,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.initializers.Ones.__call__(self,shape,dtype)",
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        8,
+        2,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.008911200000000001,
+        "input_tokens": 9472,
+        "output_tokens": 727
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 635
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2503,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2603,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2657,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        4,
+        2,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0125124,
+        "input_tokens": 9472,
+        "output_tokens": 727
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 635
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2503,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2903,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3426,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3847,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4132,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4186,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        4,
+        2,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.0133307,
+        "input_tokens": 22706,
+        "output_tokens": 807
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 635
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2503,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2903,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3426,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3847,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4132,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4186,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        4,
+        2,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.0178607,
+        "input_tokens": 22706,
+        "output_tokens": 807
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 635
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2503,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 95
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2903,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 61
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3426,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3847,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 115
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4132,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 131
+        },
+        {
+          "cached_tokens": 4096,
+          "input_tokens": 4186,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        4,
+        2,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 11136,
+        "cost_usd": 0.0130075,
+        "input_tokens": 22706,
+        "output_tokens": 1102
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 635
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2503,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 112
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2903,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 90
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3426,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3847,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 303
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4132,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 315
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4232,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 721
+        },
+        {
+          "cached_tokens": 3968,
+          "input_tokens": 4286,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        4,
+        2,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 7296,
+        "cost_usd": 0.017447699999999997,
+        "input_tokens": 27038,
+        "output_tokens": 2241
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 635
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2503,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2903,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3426,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 3847,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4132,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 4232,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4286,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        8,
+        2,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 11776,
+        "cost_usd": 0.025643132000000003,
+        "input_tokens": 27038,
+        "output_tokens": 886
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 635
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2503,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2903,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3426,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 3847,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4132,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 4232,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4286,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        4,
+        2,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 10112,
+        "cost_usd": 0.0266515,
+        "input_tokens": 27038,
+        "output_tokens": 886
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 635
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2503,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2903,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3426,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 3847,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4132,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 4232,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4286,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 183
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        4,
+        2,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 10112,
+        "cost_usd": 0.026931500000000004,
+        "input_tokens": 27038,
+        "output_tokens": 1026
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 635
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2503,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2903,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3426,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 3847,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4132,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 4232,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4286,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 434
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.initializers.Ones.__call__(self,shape,dtype)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        4,
+        2,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 10112,
+        "cost_usd": 0.027433500000000003,
+        "input_tokens": 27038,
+        "output_tokens": 1277
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1709,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 635
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2503,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2903,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3426,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 3847,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4132,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3584,
+          "input_tokens": 4232,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 4286,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.layers.convolutional.Conv2DTranspose.call(self,inputs)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)",
+        "keras.layers.convolutional.Conv2DTranspose.compute_output_shape(self,input_shape)",
+        "keras.utils.conv_utils.deconv_length(dim_size,stride_size,kernel_size,padding,output_padding)",
+        "keras.backend.tensorflow_backend.conv2d_transpose(x,kernel,output_shape,strides,padding,data_format)"
+      ],
+      "top5_indices": [
+        3,
+        5,
+        4,
+        2,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 14336,
+        "cost_usd": 0.026529500000000004,
+        "input_tokens": 27038,
+        "output_tokens": 886
+      }
+    }
+  },
+  "schema_version": 1
+}

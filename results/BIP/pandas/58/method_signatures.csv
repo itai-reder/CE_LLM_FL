@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+pandas.core.arrays.base$ExtensionArray.factorize(self,na_sentinel);pandas/core/arrays/base.py;721;767
+pandas.core.arrays.categorical$Categorical.categories(self);pandas/core/arrays/categorical.py;396;425
+pandas.core.arrays.categorical$Categorical.categories(self,categories);pandas/core/arrays/categorical.py;427;437
+pandas.core.arrays.categorical$Categorical.copy(self);pandas/core/arrays/categorical.py;469;475
+pandas.core.arrays.categorical$Categorical.from_codes(cls,codes,categories,ordered,dtype);pandas/core/arrays/categorical.py;592;654
+pandas.core.arrays.categorical$Categorical.isin(self,values);pandas/core/arrays/categorical.py;2361;2413
+pandas.core.arrays.categorical$CategoricalAccessor.codes(self);pandas/core/arrays/categorical.py;2525;2532
+pandas.core.arrays.datetimes$maybe_convert_dtype(data,copy);pandas/core/arrays/datetimes.py;1884;1934
+pandas.core.arrays.integer$_IntegerDtype.construct_array_type(cls);pandas/core/arrays/integer.py;86;95
+pandas.core.arrays.integer$integer_array(values,dtype,copy);pandas/core/arrays/integer.py;121;141
+pandas.core.arrays.integer$safe_cast(values,dtype,copy);pandas/core/arrays/integer.py;144;162
+pandas.core.arrays.integer$coerce_to_array(values,dtype,mask,copy);pandas/core/arrays/integer.py;165;260
+pandas.core.arrays.integer$IntegerArray.__init__(self,values,mask,copy);pandas/core/arrays/integer.py;340;351
+pandas.core.arrays.integer$IntegerArray._from_sequence(cls,scalars,dtype,copy);pandas/core/arrays/integer.py;353;355
+pandas.core.indexes.base$Index.__new__(cls,data,dtype,copy,name,tupleize_cols,**kwargs);pandas/core/indexes/base.py;284;447
+pandas.core.reshape.pivot$crosstab(index,columns,values,rownames,colnames,aggfunc,margins,margins_name,dropna,normalize);pandas/core/reshape/pivot.py;464;626

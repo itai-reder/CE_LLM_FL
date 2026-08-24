@@ -1,0 +1,10 @@
+rank;signature;path;startLine;endLine;score
+1;sanic.app$Sanic._run_response_middleware(self,request,response,request_name);sanic/app.py;1309;1324;0.9090909090909091
+1;sanic.app$Sanic.register_named_middleware(self,middleware,route_names,attach_to);sanic/app.py;642;656;0.9090909090909091
+3;sanic.blueprints$Blueprint.middleware(self,*args,**kwargs);sanic/blueprints.py;322;349;0.660408825313113
+3;sanic.blueprints$Blueprint.register(self,app,options);sanic/blueprints.py;95;174;0.660408825313113
+5;sanic.router$Router.add(self,uri,methods,handler,host,strict_slashes,version,name);sanic/router.py;121;185;0.280575614273374
+7;sanic.app$Sanic.handle_request(self,request,write_callback,stream_callback);sanic/app.py;917;1039;0.20425539466345022
+9;sanic.app$Sanic.route(self,uri,methods,host,strict_slashes,stream,version,name);sanic/app.py;164;230;0.2000408289106443
+14;sanic.testing$SanicTestClient._sanic_endpoint_test(self,method,uri,gather_request,debug,server_kwargs,host,*request_args,**request_kwargs);sanic/testing.py;65;150;0.18547704973666243
+69;sanic.blueprints$Blueprint.listener(self,event);sanic/blueprints.py;310;320;0.0

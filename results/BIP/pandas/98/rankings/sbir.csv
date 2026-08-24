@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.indexes.base$Index.__new__(cls,data,dtype,copy,name,tupleize_cols,**kwargs);pandas/core/indexes/base.py;271;407;1.0
+2;pandas.core.dtypes.dtypes$PeriodDtype.construct_array_type(cls);pandas/core/dtypes/dtypes.py;940;951;0.9999816269349134
+3;pandas.core.dtypes.inference$is_sequence(obj);pandas/core/dtypes/inference.py;395;424;0.9999632538698269
+4;pandas.core.indexes.base$Index._formatter_func(self);pandas/core/indexes/base.py;886;891;0.9999448808047402
+5;pandas.io.formats.printing$pprint_thing(thing,_nest_lvl,escape_chars,default_escapes,quote_strings,max_seq_items);pandas/io/formats/printing.py;162;232;0.999935694272197
+77;pandas.core.indexes.period$PeriodIndex.__new__(cls,data,ordinal,freq,tz,dtype,copy,name,**fields);pandas/core/indexes/period.py;163;221;0.9970235634559735
+120;pandas.core.arrays.datetimes$DatetimeArray.__init__(self,values,dtype,freq,copy);pandas/core/arrays/datetimes.py;310;384;0.9948463552432134
+189;pandas.core.indexes.base$_maybe_cast_data_without_dtype(subarr);pandas/core/indexes/base.py;5452;5520;0.991052317302834
+258;pandas.core.series$Series.__init__(self,data,index,dtype,name,copy,fastpath);pandas/core/series.py;181;309;0.9881401864866106
+1880;pandas.core.arrays.datetimes$maybe_convert_dtype(data,copy);pandas/core/arrays/datetimes.py;2003;2053;0.8596849019337651
+1966;pandas.core.arrays.interval$IntervalArray.__new__(cls,data,closed,dtype,copy,verify_integrity);pandas/core/arrays/interval.py;148;181;0.8425612052730697
+2498;pandas.core.construction$array(data,dtype,copy);pandas/core/construction.py;55;334;0.7756832483579074
+4364;pandas.core.reshape.tile$cut(x,bins,right,labels,retbins,precision,include_lowest,duplicates);pandas/core/reshape/tile.py;30;266;0.3796793900142391

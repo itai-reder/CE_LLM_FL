@@ -1,0 +1,3107 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 849
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1925,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2626,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2680,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.util.testing.assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj)",
+        "pandas.util.testing.raise_assert_detail(obj,message,left,right,diff)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.core.construction.sanitize_array(data,index,dtype,copy,raise_cast_failure)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0007894000000000001,
+        "input_tokens": 8148,
+        "output_tokens": 955
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 849
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1925,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2626,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2680,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)"
+      ],
+      "top5_indices": [
+        19,
+        16,
+        17,
+        8,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0013942000000000002,
+        "input_tokens": 8148,
+        "output_tokens": 955
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 849
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1925,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2626,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2680,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 196
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)",
+        "pandas.plotting._matplotlib.core.BarPlot._args_adjust(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)"
+      ],
+      "top5_indices": [
+        19,
+        17,
+        18,
+        20,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0017002000000000002,
+        "input_tokens": 8148,
+        "output_tokens": 1108
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 849
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1925,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2626,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2680,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 447
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot._args_adjust(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)"
+      ],
+      "top5_indices": [
+        19,
+        20,
+        17,
+        18,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0022022,
+        "input_tokens": 8148,
+        "output_tokens": 1359
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 849
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1925,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2626,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2680,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)"
+      ],
+      "top5_indices": [
+        19,
+        16,
+        17,
+        18,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0044182,
+        "input_tokens": 8148,
+        "output_tokens": 955
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 849
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1925,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2876,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3023,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3137,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3604,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4670,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4804,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5440,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5494,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.util.testing.assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj)",
+        "pandas.util.testing.raise_assert_detail(obj,message,left,right,diff)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.core.construction.sanitize_array(data,index,dtype,copy,raise_cast_failure)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 5376,
+        "cost_usd": 0.007902500000000002,
+        "input_tokens": 38190,
+        "output_tokens": 1137
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 849
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1925,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2876,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3023,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3137,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3604,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4670,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4804,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5440,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 5494,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._args_adjust(self)"
+      ],
+      "top5_indices": [
+        19,
+        16,
+        17,
+        3,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 7040,
+        "cost_usd": 0.0086957,
+        "input_tokens": 38190,
+        "output_tokens": 1137
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 849
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1925,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 84
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2876,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3010,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3157,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 64
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3271,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 57
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3325,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)",
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot._args_adjust(self)"
+      ],
+      "top5_indices": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00487125,
+        "input_tokens": 20781,
+        "output_tokens": 1163
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 849
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1925,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 220
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2876,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3010,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3157,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3271,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 229
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3738,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1090
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3792,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.util.testing.assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        16,
+        17,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.008782444,
+        "input_tokens": 24986,
+        "output_tokens": 2519
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 849
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1925,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2300,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2876,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3023,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3137,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3271,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3738,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3792,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.util.testing.assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj)",
+        "pandas.util.testing.raise_assert_detail(obj,message,left,right,diff)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.core.construction.sanitize_array(data,index,dtype,copy,raise_cast_failure)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 5632,
+        "cost_usd": 0.02188375,
+        "input_tokens": 24979,
+        "output_tokens": 1121
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 849
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1925,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2300,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2876,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3023,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3137,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3271,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3738,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3792,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)"
+      ],
+      "top5_indices": [
+        19,
+        3,
+        16,
+        17,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 5632,
+        "cost_usd": 0.02684695,
+        "input_tokens": 24979,
+        "output_tokens": 1121
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 332
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1408,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2109,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2576,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2630,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.util.testing.assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.core.construction.sanitize_array(data,index,dtype,copy,raise_cast_failure)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        4,
+        5,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0013862000000000002,
+        "input_tokens": 9640,
+        "output_tokens": 474
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 332
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1408,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2109,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2576,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2630,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._args_adjust(self)"
+      ],
+      "top5_indices": [
+        19,
+        3,
+        16,
+        17,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.001981,
+        "input_tokens": 9640,
+        "output_tokens": 474
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 332
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1408,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1555,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1930,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2506,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2973,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3087,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4153,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4287,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4754,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.util.testing.assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.core.construction.sanitize_array(data,index,dtype,copy,raise_cast_failure)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        4,
+        5,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0072089,
+        "input_tokens": 32378,
+        "output_tokens": 634
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 332
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1408,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1555,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1930,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2506,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2973,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3087,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4153,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4287,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4754,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._args_adjust(self)"
+      ],
+      "top5_indices": [
+        19,
+        16,
+        3,
+        17,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0082393,
+        "input_tokens": 32378,
+        "output_tokens": 634
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 332
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1408,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1555,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1930,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2506,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2973,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3087,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4153,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4287,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4754,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 256
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)"
+      ],
+      "top5_indices": [
+        19,
+        17,
+        3,
+        16,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.008665299999999999,
+        "input_tokens": 32378,
+        "output_tokens": 847
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 332
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1408,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1555,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1930,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2506,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2973,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3087,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4153,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4287,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4754,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1236
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)"
+      ],
+      "top5_indices": [
+        19,
+        3,
+        5,
+        17,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0106253,
+        "input_tokens": 32378,
+        "output_tokens": 1827
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 332
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1408,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1555,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1930,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2506,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2973,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3087,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4153,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4287,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4754,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4808,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)"
+      ],
+      "top5_indices": [
+        19,
+        3,
+        16,
+        17,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0133913,
+        "input_tokens": 32378,
+        "output_tokens": 634
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 332
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1408,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 68
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1555,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1930,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2506,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2973,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3087,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4153,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 86
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4207,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._args_adjust(self)"
+      ],
+      "top5_indices": [
+        19,
+        16,
+        17,
+        3,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0069619999999999994,
+        "input_tokens": 22736,
+        "output_tokens": 639
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 332
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1408,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 288
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1555,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 249
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2131,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2265,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2379,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2846,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 342
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3221,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 148
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3659,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 138
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3713,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)"
+      ],
+      "top5_indices": [
+        19,
+        16,
+        3,
+        17,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.0078819,
+        "input_tokens": 24094,
+        "output_tokens": 1606
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 332
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1408,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1555,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1930,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2506,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2640,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2754,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 3221,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3659,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3713,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._args_adjust(self)"
+      ],
+      "top5_indices": [
+        19,
+        16,
+        3,
+        17,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 7680,
+        "cost_usd": 0.02036875,
+        "input_tokens": 24303,
+        "output_tokens": 626
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 332
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1408,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1555,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1930,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2506,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2640,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2754,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 3221,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3659,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3713,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)"
+      ],
+      "top5_indices": [
+        19,
+        16,
+        17,
+        3,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 7680,
+        "cost_usd": 0.02442575,
+        "input_tokens": 24303,
+        "output_tokens": 626
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 429
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1229,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1930,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1984,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.util.testing.assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.core.construction.sanitize_array(data,index,dtype,copy,raise_cast_failure)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)",
+        "pandas.util.testing.assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0013867999999999999,
+        "input_tokens": 6060,
+        "output_tokens": 535
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 429
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1229,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1376,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1490,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1865,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2908,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3042,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4108,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4809,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4863,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._args_adjust(self)"
+      ],
+      "top5_indices": [
+        19,
+        16,
+        3,
+        17,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00832235,
+        "input_tokens": 28939,
+        "output_tokens": 731
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 429
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1229,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1376,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 79
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1490,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1865,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2441,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2908,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 80
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3346,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 303
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3400,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 417
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)"
+      ],
+      "top5_indices": [
+        19,
+        3,
+        16,
+        17,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.006930199999999999,
+        "input_tokens": 18972,
+        "output_tokens": 1396
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 429
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1229,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1376,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1490,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1865,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 2441,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2575,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3042,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3480,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3200,
+          "input_tokens": 4116,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4170,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)"
+      ],
+      "top5_indices": [
+        19,
+        3,
+        16,
+        17,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 7808,
+        "cost_usd": 0.027973249999999998,
+        "input_tokens": 26701,
+        "output_tokens": 773
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 441
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1153,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1854,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2555,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3621,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4197,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4331,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4385,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.util.testing.assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj)",
+        "pandas.util.testing.assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.core.construction.sanitize_array(data,index,dtype,copy,raise_cast_failure)",
+        "pandas.core.dtypes.missing.array_equivalent(left,right,strict_nan)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        3,
+        4,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00231045,
+        "input_tokens": 23013,
+        "output_tokens": 677
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 441
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1153,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1620,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1767,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2142,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2832,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2966,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4086,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)"
+      ],
+      "top5_indices": [
+        3,
+        19,
+        16,
+        17,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00744425,
+        "input_tokens": 24233,
+        "output_tokens": 693
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 441
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1153,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 106
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1620,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 303
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1767,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 457
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2142,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 564
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 470
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3156,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 559
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3290,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 711
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3404,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1808
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3551,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 461
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3605,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 863
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)"
+      ],
+      "top5_indices": [
+        19,
+        3,
+        16,
+        17,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.019337550000000002,
+        "input_tokens": 27323,
+        "output_tokens": 6743
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 441
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1153,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1620,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1767,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2142,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2718,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2852,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2966,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3020,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)"
+      ],
+      "top5_indices": [
+        19,
+        16,
+        17,
+        3,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 1536,
+        "cost_usd": 0.02504075,
+        "input_tokens": 19155,
+        "output_tokens": 727
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 551
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1627,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2328,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2795,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3861,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4236,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4370,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4517,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 4955,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5531,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6232,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6286,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.util.testing.assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        16,
+        19,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.008912926000000002,
+        "input_tokens": 47655,
+        "output_tokens": 889
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 551
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1627,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2328,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2795,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3861,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4236,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4370,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4517,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 4955,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5531,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6232,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6286,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot._args_adjust(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)"
+      ],
+      "top5_indices": [
+        19,
+        20,
+        17,
+        16,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.016868926,
+        "input_tokens": 47655,
+        "output_tokens": 889
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 551
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1627,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1774,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1888,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2464,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2598,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3065,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3119,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot._args_adjust(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)"
+      ],
+      "top5_indices": [
+        19,
+        20,
+        17,
+        18,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.011178,
+        "input_tokens": 17452,
+        "output_tokens": 745
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 551
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1627,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1774,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1888,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2464,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2598,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3065,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3119,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._args_adjust(self)"
+      ],
+      "top5_indices": [
+        19,
+        17,
+        18,
+        3,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.014641000000000001,
+        "input_tokens": 17452,
+        "output_tokens": 745
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 551
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1627,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 84
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1774,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1888,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2464,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2839,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2973,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 305
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3440,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 50
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3494,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)"
+      ],
+      "top5_indices": [
+        19,
+        16,
+        3,
+        17,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 2304,
+        "cost_usd": 0.014166999999999999,
+        "input_tokens": 21416,
+        "output_tokens": 1121
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 551
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1627,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 219
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1774,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 152
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1888,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 575
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2730,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 270
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3168,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 157
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3744,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3878,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 155
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3932,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)"
+      ],
+      "top5_indices": [
+        19,
+        16,
+        17,
+        3,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.019808450000000002,
+        "input_tokens": 25921,
+        "output_tokens": 2166
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 551
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1627,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1774,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1888,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2464,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2598,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 3065,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3119,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.util.testing.assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj)",
+        "pandas.util.testing.raise_assert_detail(obj,message,left,right,diff)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.core.construction.sanitize_array(data,index,dtype,copy,raise_cast_failure)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 3840,
+        "cost_usd": 0.021349399999999998,
+        "input_tokens": 17452,
+        "output_tokens": 801
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 551
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1627,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1774,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1888,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2464,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2598,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 3065,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 3119,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 29
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._args_adjust(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)"
+      ],
+      "top5_indices": [
+        19,
+        17,
+        3,
+        20,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 6912,
+        "cost_usd": 0.021322799999999996,
+        "input_tokens": 17452,
+        "output_tokens": 787
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 551
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1627,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1774,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1888,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2464,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2598,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 3065,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3119,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 223
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot._args_adjust(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)",
+        "pandas.plotting._matplotlib.core.MPLPlot._setup_subplots(self)"
+      ],
+      "top5_indices": [
+        19,
+        20,
+        17,
+        18,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 3840,
+        "cost_usd": 0.022402,
+        "input_tokens": 17452,
+        "output_tokens": 981
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 551
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1627,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1774,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1888,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2464,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2598,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 3065,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3119,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1124
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._args_adjust(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)"
+      ],
+      "top5_indices": [
+        19,
+        3,
+        17,
+        20,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 3840,
+        "cost_usd": 0.024203999999999996,
+        "input_tokens": 17452,
+        "output_tokens": 1882
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 551
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1627,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1774,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1888,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2464,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2598,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 3065,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3119,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.plotting._matplotlib.core.BarPlot._decorate_ticks(self,ax,name,ticklabels,start_edge,end_edge)",
+        "pandas.plotting._matplotlib.core.BarPlot.__init__(self,data,**kwargs)",
+        "pandas.plotting._matplotlib.core.BarPlot._make_plot(self)",
+        "pandas.plotting._matplotlib.core.MPLPlot._adorn_subplots(self)",
+        "pandas.plotting._matplotlib.core.BarPlot._plot(cls,ax,x,y,w,start,log,**kwds)"
+      ],
+      "top5_indices": [
+        19,
+        16,
+        17,
+        3,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 3840,
+        "cost_usd": 0.025504999999999996,
+        "input_tokens": 17452,
+        "output_tokens": 801
+      }
+    }
+  },
+  "schema_version": 1
+}

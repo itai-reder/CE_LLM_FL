@@ -1,0 +1,3611 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 694
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1661,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1871,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1982,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2447,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2748,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3122,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3443,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3744,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4081,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent.download_request(self,request)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00195245,
+        "input_tokens": 30945,
+        "output_tokens": 1013
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 694
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1661,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1871,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1982,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2447,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2748,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3122,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3443,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3744,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4081,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent.download_request(self,request)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        5,
+        7,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00246305,
+        "input_tokens": 30945,
+        "output_tokens": 1013
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 694
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1661,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1871,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1982,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2447,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2748,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3122,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3443,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3744,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4081,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 213
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent.download_request(self,request)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        2,
+        5,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00317745,
+        "input_tokens": 30945,
+        "output_tokens": 1183
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 694
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1661,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1871,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1982,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2447,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2748,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3122,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3443,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3744,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4081,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 779
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent.download_request(self,request)"
+      ],
+      "top5_indices": [
+        3,
+        1,
+        2,
+        5,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.004309449999999999,
+        "input_tokens": 30945,
+        "output_tokens": 1749
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 694
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1661,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1871,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1982,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2447,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2748,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3122,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3443,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3744,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4081,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent.download_request(self,request)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent.__init__(self,reactor,proxyConf,contextFactory,connectTimeout,bindAddress,pool)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        5,
+        7,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00726245,
+        "input_tokens": 30945,
+        "output_tokens": 1013
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 694
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1661,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1871,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1982,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2336,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2657,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2867,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3188,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3352,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3488,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3542,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent.download_request(self,request)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0063051,
+        "input_tokens": 29878,
+        "output_tokens": 1004
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 694
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1661,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1871,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1982,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2336,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2657,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2867,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3188,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3352,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3488,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3542,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent.__init__(self,reactor,proxyConf,contextFactory,connectTimeout,bindAddress,pool)"
+      ],
+      "top5_indices": [
+        12,
+        3,
+        1,
+        5,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.007082300000000001,
+        "input_tokens": 29878,
+        "output_tokens": 1004
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 694
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1661,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 49
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1871,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1982,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2336,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2500,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 74
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2821,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 82
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3246,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 466
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3382,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 68
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 3436,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        5,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 5504,
+        "cost_usd": 0.0067857379999999995,
+        "input_tokens": 26169,
+        "output_tokens": 1564
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 694
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1661,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 93
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1871,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 116
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1982,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2336,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2657,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 130
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2821,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 615
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3246,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1145
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3547,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1339
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3601,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 6656,
+        "cost_usd": 0.0115874,
+        "input_tokens": 26656,
+        "output_tokens": 4241
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 694
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1661,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1871,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1982,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2447,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2583,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2793,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3003,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3167,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3221,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        5,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 8192,
+        "cost_usd": 0.02339646,
+        "input_tokens": 25662,
+        "output_tokens": 1038
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 694
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1661,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1871,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1982,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2447,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2583,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2793,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3003,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3167,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3221,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        4,
+        5,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 6272,
+        "cost_usd": 0.027769500000000003,
+        "input_tokens": 25662,
+        "output_tokens": 1038
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 453
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1420,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1630,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1741,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1885,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2095,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2416,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2737,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3038,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3202,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3338,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3564,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.002489732,
+        "input_tokens": 27874,
+        "output_tokens": 730
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 453
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1420,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1630,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1741,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1885,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2095,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2416,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2737,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3038,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3202,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3338,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3564,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent.download_request(self,request)"
+      ],
+      "top5_indices": [
+        12,
+        3,
+        1,
+        5,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0033537000000000003,
+        "input_tokens": 27874,
+        "output_tokens": 730
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 453
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1420,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1630,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1741,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1885,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2095,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2305,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2515,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2679,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2815,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3472,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3526,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        3,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 5632,
+        "cost_usd": 0.006095550000000001,
+        "input_tokens": 26891,
+        "output_tokens": 707
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 453
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1420,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1630,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1741,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1885,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2095,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2305,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2515,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2679,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2815,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3472,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3526,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)"
+      ],
+      "top5_indices": [
+        12,
+        3,
+        1,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 7296,
+        "cost_usd": 0.006495150000000001,
+        "input_tokens": 26891,
+        "output_tokens": 707
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 453
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1420,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1630,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1741,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1885,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2095,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2305,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2515,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2679,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2815,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3472,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3526,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 204
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        2,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 5632,
+        "cost_usd": 0.0071915500000000005,
+        "input_tokens": 26891,
+        "output_tokens": 868
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 453
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1420,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1630,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1741,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1885,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2095,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2305,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2515,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2679,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2815,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3472,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3526,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 29
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)"
+      ],
+      "top5_indices": [
+        12,
+        3,
+        2,
+        1,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 5632,
+        "cost_usd": 0.006841550000000001,
+        "input_tokens": 26891,
+        "output_tokens": 693
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 453
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1420,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1630,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1741,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1885,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2095,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2305,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2515,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2679,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2815,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3472,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3526,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent.__init__(self,reactor,proxyConf,contextFactory,connectTimeout,bindAddress,pool)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        2,
+        9,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 5632,
+        "cost_usd": 0.01073955,
+        "input_tokens": 26891,
+        "output_tokens": 707
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 453
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1420,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1630,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1741,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1885,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2095,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2305,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2730,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 3387,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 175
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3441,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.webclient.ScrapyHTTPClientFactory.__init__(self,request,timeout)"
+      ],
+      "top5_indices": [
+        12,
+        3,
+        1,
+        4,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 4224,
+        "cost_usd": 0.0060601000000000006,
+        "input_tokens": 21442,
+        "output_tokens": 825
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 453
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1420,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 173
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1630,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1741,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1885,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2095,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2416,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2737,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 501
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2873,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 236
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3298,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3955,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4181,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 29
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        4,
+        5,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 13696,
+        "cost_usd": 0.0072701499999999995,
+        "input_tokens": 29039,
+        "output_tokens": 1546
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 453
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1420,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1630,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1741,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1885,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2095,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2416,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2552,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2972,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3026,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)"
+      ],
+      "top5_indices": [
+        12,
+        2,
+        3,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 7040,
+        "cost_usd": 0.021241749999999997,
+        "input_tokens": 23307,
+        "output_tokens": 783
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 453
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1420,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1630,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1741,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1885,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2095,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2416,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2552,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2972,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3026,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        5,
+        9,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 7040,
+        "cost_usd": 0.024611749999999998,
+        "input_tokens": 23307,
+        "output_tokens": 783
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1214,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1424,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1478,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0012766000000000001,
+        "input_tokens": 4924,
+        "output_tokens": 520
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1214,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1424,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1634,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1778,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1889,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2099,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2399,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 3056,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3110,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        4,
+        12,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 5888,
+        "cost_usd": 0.0055236999999999994,
+        "input_tokens": 21674,
+        "output_tokens": 715
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1214,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1424,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 71
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1535,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1679,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 103
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1889,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 204
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2025,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 75
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2346,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 317
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2647,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 145
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2857,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 54
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2911,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 341
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent.download_request(self,request)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)"
+      ],
+      "top5_indices": [
+        3,
+        1,
+        7,
+        2,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 3840,
+        "cost_usd": 0.008003749999999999,
+        "input_tokens": 21335,
+        "output_tokens": 1767
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1214,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1424,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1535,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1679,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1889,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2099,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2309,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2445,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2766,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2930,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2984,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        5,
+        2,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.028314500000000003,
+        "input_tokens": 24082,
+        "output_tokens": 794
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 555
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1233,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1443,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1554,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1608,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent.download_request(self,request)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        7,
+        2,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0016551,
+        "input_tokens": 6646,
+        "output_tokens": 683
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 555
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1233,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1443,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1653,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1863,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2007,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2118,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2282,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 2418,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2472,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)"
+      ],
+      "top5_indices": [
+        12,
+        3,
+        1,
+        9,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 2944,
+        "cost_usd": 0.0054978499999999994,
+        "input_tokens": 18297,
+        "output_tokens": 793
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 555
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1233,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 96
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1443,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1554,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1698,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1908,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2229,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2550,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 241
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2686,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 145
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2987,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1677
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3041,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1056
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        4,
+        9,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.012171050000000001,
+        "input_tokens": 22137,
+        "output_tokens": 3880
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 555
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1233,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1443,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1587,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1698,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1908,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2044,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2365,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2575,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2739,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2793,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)"
+      ],
+      "top5_indices": [
+        3,
+        1,
+        5,
+        9,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 8320,
+        "cost_usd": 0.02102325,
+        "input_tokens": 21193,
+        "output_tokens": 914
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 658
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1625,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1835,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1889,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00789985,
+        "input_tokens": 6157,
+        "output_tokens": 764
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 658
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1625,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1835,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1889,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        2,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01057945,
+        "input_tokens": 6157,
+        "output_tokens": 764
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 658
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1625,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1835,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1946,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2090,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2510,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2831,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3041,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3177,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3602,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        2,
+        11,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 8448,
+        "cost_usd": 0.01347895,
+        "input_tokens": 29527,
+        "output_tokens": 963
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 658
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1625,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1835,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1946,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2090,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2510,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2831,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3041,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3177,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3602,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        2,
+        9,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 6784,
+        "cost_usd": 0.01795935,
+        "input_tokens": 29527,
+        "output_tokens": 963
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 658
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1625,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 58
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1835,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1946,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2090,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2621,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 199
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2921,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 133
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3222,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 231
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3276,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        2,
+        9,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 7680,
+        "cost_usd": 0.01718525,
+        "input_tokens": 25429,
+        "output_tokens": 1432
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 658
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1625,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 155
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1835,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1946,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2090,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2300,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2510,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1033
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2564,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        2,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0168535,
+        "input_tokens": 15678,
+        "output_tokens": 1977
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 658
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1625,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1835,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1979,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2090,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2226,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2436,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2646,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2856,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3020,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3074,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        2,
+        9,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 7936,
+        "cost_usd": 0.027884150000000003,
+        "input_tokens": 24595,
+        "output_tokens": 1017
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 658
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1625,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1835,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1979,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2090,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2226,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2436,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2646,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2856,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3020,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3074,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)"
+      ],
+      "top5_indices": [
+        12,
+        3,
+        2,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 7936,
+        "cost_usd": 0.028567750000000003,
+        "input_tokens": 24595,
+        "output_tokens": 1017
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 658
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1625,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1835,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1979,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2090,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2226,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2436,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2646,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2856,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3020,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3074,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 221
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        9,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 7936,
+        "cost_usd": 0.02892375,
+        "input_tokens": 24595,
+        "output_tokens": 1195
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 658
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1625,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1835,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1979,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2090,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2226,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2436,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2646,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2856,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3020,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3074,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 305
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress)",
+        "scrapy.core.downloader.handlers.http11.ScrapyAgent._get_agent(self,request,timeout)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 7936,
+        "cost_usd": 0.029091750000000003,
+        "input_tokens": 24595,
+        "output_tokens": 1279
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 808,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 658
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1625,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1835,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1979,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2090,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2226,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2436,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2646,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2856,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3020,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3074,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connect(self,protocolFactory)",
+        "scrapy.core.downloader.handlers.http11.TunnelingTCP4ClientEndpoint.connectFailed(self,reason)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent._getEndpoint(self,uri)",
+        "scrapy.core.downloader.handlers.http11.TunnelingAgent.__init__(self,reactor,proxyConf,contextFactory,connectTimeout,bindAddress,pool)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        2,
+        9,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 9600,
+        "cost_usd": 0.03011375,
+        "input_tokens": 24595,
+        "output_tokens": 1017
+      }
+    }
+  },
+  "schema_version": 1
+}

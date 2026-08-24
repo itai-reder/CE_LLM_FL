@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+luigi.hadoop$run_and_track_hadoop_job(arglist,tracking_url_callback,env);luigi/hadoop.py;230;320
+luigi.notifications$email_type();luigi/notifications.py;43;44
+luigi.notifications$wrap_traceback(traceback);luigi/notifications.py;73;76
+luigi.notifications$send_error_email(subject,message);luigi/notifications.py;160;180
+luigi.scheduler$SimpleTaskState.set_status(self,task,new_status,config);luigi/scheduler.py;313;351
+luigi.scheduler$CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,**kwargs);luigi/scheduler.py;497;560
+luigi.task$Task.event_handler(cls,event);luigi/task.py;127;135
+luigi.task$Task.trigger_event(self,event,*args,**kwargs);luigi/task.py;137;151
+luigi.task$Task.task_module(self);luigi/task.py;153;157
+luigi.task$Task.task_family(self);luigi/task.py;159;164
+luigi.task$Task.get_param_values(cls,params,args,kwargs);luigi/task.py;184;234
+luigi.task$Task.run(self);luigi/task.py;435;441
+luigi.worker$ExternalTaskProcess.run(self);luigi/worker.py;97;134
+luigi.worker$TaskProcess.run(self);luigi/worker.py;168;219
+luigi.worker$Worker.stop(self);luigi/worker.py;367;382
+luigi.worker$Worker._handle_next_task(self);luigi/worker.py;641;703

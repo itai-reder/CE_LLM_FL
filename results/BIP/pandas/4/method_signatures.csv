@@ -1,0 +1,16 @@
+corpus_id;path;startLine;endLine
+asv_bench.benchmarks.indexing$IndexSingleRow.setup(self,unique_cols);asv_bench/benchmarks/indexing.py;315;327
+pandas._testing$_check_isinstance(left,right,cls);pandas/_testing.py;391;416
+pandas.core.algorithms$_ensure_data(values,dtype);pandas/core/algorithms.py;69;175
+pandas.core.algorithms$_check_object_for_strings(values);pandas/core/algorithms.py;272;293
+pandas.core.dtypes.cast$maybe_infer_to_datetimelike(value,convert_dates);pandas/core/dtypes/cast.py;1185;1290
+pandas.core.frame$DataFrame.set_index(self,keys,drop,append,inplace,verify_integrity);pandas/core/frame.py;4231;4417
+pandas.core.indexes.base$Index._left_indexer(self,left,right);pandas/core/indexes/base.py;246;247
+pandas.core.indexes.base$Index._join_multi(self,other,how,return_indexers);pandas/core/indexes/base.py;3479;3552
+pandas.core.indexes.base$Index._join_monotonic(self,other,how,return_indexers);pandas/core/indexes/base.py;3722;3768
+pandas.core.indexes.interval$IntervalIndex.get_loc(self,key,method,tolerance);pandas/core/indexes/interval.py;670;735
+pandas.core.indexes.multi$MultiIndex._validate_codes(self,level,code);pandas/core/indexes/multi.py;304;323
+pandas.core.indexes.multi$MultiIndex._set_codes(self,codes,level,copy,validate,verify_integrity);pandas/core/indexes/multi.py;874;902
+pandas.core.indexes.multi$MultiIndex._get_level_indexer(self,key,level,indexer);pandas/core/indexes/multi.py;2882;2978
+pandas.core.reshape.concat$concat(objs,axis,join,ignore_index,keys,levels,names,verify_integrity,sort,copy);pandas/core/reshape/concat.py;35;48
+pandas.core.reshape.merge$merge_asof(left,right,on,left_on,right_on,left_index,right_index,by,left_by,right_by,suffixes,tolerance,allow_exact_matches,direction);pandas/core/reshape/merge.py;291;563

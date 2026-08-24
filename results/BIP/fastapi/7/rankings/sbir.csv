@@ -1,0 +1,13 @@
+rank;signature;path;startLine;endLine;score
+1;fastapi.encoders$jsonable_encoder(obj,include,exclude,by_alias,skip_defaults,exclude_unset,include_none,custom_encoder,sqlalchemy_safe);fastapi/encoders.py;13;133;1.0
+2;fastapi.dependencies.utils$request_body_to_args(required_params,received_body);fastapi/dependencies/utils.py;617;685;0.9902493606138107
+3;fastapi.exception_handlers$request_validation_exception_handler(request,exc);fastapi/exception_handlers.py;18;23;0.9900895140664961
+4;fastapi.exceptions$RequestValidationError.__init__(self,errors);fastapi/exceptions.py;24;28;0.989769820971867
+5;fastapi.routing$get_request_handler(dependant,body_field,status_code,response_class,response_field,response_model_include,response_model_exclude,response_model_by_alias,response_model_exclude_unset,dependency_overrides_provider);fastapi/routing.py;84;152;0.9894501278772379
+7;fastapi.dependencies.utils$request_params_to_args(required_params,received_params);fastapi/dependencies/utils.py;569;614;0.9835358056265985
+23;fastapi.routing$serialize_response(field,response,include,exclude,by_alias,exclude_unset);fastapi/routing.py;50;81;0.9480498721227621
+25;fastapi.utils$get_flat_models_from_routes(routes);fastapi/utils.py;48;67;0.9470907928388747
+321;fastapi.concurrency$contextmanager_in_threadpool(cm);fastapi/concurrency.py;37;46;0.4531649616368286
+345;fastapi.openapi.docs$get_swagger_ui_html(openapi_url,title,swagger_js_url,swagger_css_url,swagger_favicon_url,oauth2_redirect_url,init_oauth);fastapi/openapi/docs.py;8;60;0.3537404092071611
+359;fastapi.params$Depends.__init__(self,dependency,use_cache);fastapi/params.py;315;317;0.22921994884910485
+409;fastapi.utils$create_cloned_field(field);fastapi/utils.py;88;153;0.0239769820971867

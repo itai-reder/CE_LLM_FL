@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;keras.engine.network$_map_graph_network(inputs,outputs);keras/engine/network.py;1314;1497;1.0
+2;keras.applications.nasnet$NASNet(input_shape,penultimate_filters,num_blocks,stem_block_filters,skip_reduction,filter_multiplier,include_top,weights,input_tensor,pooling,classes,default_size);keras/applications/nasnet.py;69;308;0.970810607059717
+3;keras.engine.training$Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs);keras/engine/training.py;823;1037;0.9603857011066554
+4;keras.models$_clone_functional_model(model,input_tensors);keras/models.py;26;169;0.957492250412874
+5;keras.utils.layer_utils$print_summary(model,line_length,positions,print_fn);keras/utils/layer_utils.py;24;185;0.9515827014371666
+7;keras.callbacks$TensorBoard.set_model(self,model);keras/callbacks.py;734;831;0.9420211686066773
+32;keras.engine.base_layer$Layer.__call__(self,inputs,**kwargs);keras/engine/base_layer.py;376;508;0.7209978337536871
+47;keras.engine.input_layer$InputLayer.__init__(self,input_shape,batch_size,batch_input_shape,dtype,input_tensor,sparse,name);keras/engine/input_layer.py;32;102;0.6516140852758211
+65;keras.engine.base_layer$_collect_previous_mask(input_tensors);keras/engine/base_layer.py;1305;1326;0.5758082780739973
+68;keras.engine.base_layer$Layer._get_node_attribute_at_index(self,node_index,attr,attr_name);keras/engine/base_layer.py;635;669;0.5756026358627753
+119;keras.backend.tensorflow_backend$batch_dot(x,y,axes);keras/backend/tensorflow_backend.py;1085;1176;0.4556783609642132
+154;keras.engine.base_layer$Layer.assert_input_compatibility(self,inputs);keras/engine/base_layer.py;256;362;0.39981073810889955
+199;keras.engine.base_layer$_collect_input_shape(input_tensors);keras/engine/base_layer.py;1339;1357;0.3514911319761608
+668;keras.backend.tensorflow_backend$identity(x,name);keras/backend/tensorflow_backend.py;814;824;0.10607823459455057
+1110;keras.layers.core$Lambda.call(self,inputs,mask);keras/layers/core.py;688;692;0.0
+1110;keras.losses$sparse_categorical_crossentropy(y_true,y_pred);keras/losses.py;72;73;0.0

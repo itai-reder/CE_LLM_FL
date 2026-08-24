@@ -1,0 +1,3053 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 543
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1805,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2021,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2075,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.Task.can_disable(self)"
+      ],
+      "top5_indices": [
+        1,
+        8,
+        3,
+        4,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0006098000000000001,
+        "input_tokens": 7004,
+        "output_tokens": 649
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 543
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1805,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2021,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2075,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.execution_summary._populate_unknown_statuses(set_tasks)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        9,
+        4,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0010936000000000001,
+        "input_tokens": 7004,
+        "output_tokens": 649
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 543
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1805,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2021,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2075,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 209
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_workers(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.Task.can_disable(self)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        4,
+        5,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0014256,
+        "input_tokens": 7004,
+        "output_tokens": 815
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 543
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1805,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2021,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2075,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 914
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)"
+      ],
+      "top5_indices": [
+        1,
+        5,
+        4,
+        3,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0028355999999999998,
+        "input_tokens": 7004,
+        "output_tokens": 1520
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 543
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1805,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2021,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2075,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,host,assistant,current_tasks,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        5,
+        4,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0035126000000000003,
+        "input_tokens": 7004,
+        "output_tokens": 649
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 543
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1805,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2021,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2199,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2342,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2583,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2678,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2894,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3042,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3852,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 3906,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_workers(self)"
+      ],
+      "top5_indices": [
+        1,
+        8,
+        4,
+        3,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 7680,
+        "cost_usd": 0.006139237999999999,
+        "input_tokens": 30875,
+        "output_tokens": 853
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 543
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1805,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2021,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2199,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2342,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2583,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2678,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2894,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3042,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3852,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3906,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        5,
+        4,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 5504,
+        "cost_usd": 0.0070969499999999994,
+        "input_tokens": 30875,
+        "output_tokens": 853
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 543
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1805,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 59
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2021,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2199,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2342,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 182
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2545,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2678,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 238
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2732,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        3,
+        6,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 4480,
+        "cost_usd": 0.004876645999999999,
+        "input_tokens": 19875,
+        "output_tokens": 1153
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 543
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1805,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 138
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2021,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2164,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2342,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 607
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2450,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2971,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1018
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3025,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.CentralPlannerScheduler._traverse_graph(self,root_task_id,seen,dep_func,include_done)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        5,
+        16,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.00678825,
+        "input_tokens": 17881,
+        "output_tokens": 2415
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 543
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1805,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2021,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2199,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2342,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2558,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2736,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2844,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2992,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3208,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3262,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_workers(self)"
+      ],
+      "top5_indices": [
+        1,
+        8,
+        3,
+        4,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 4096,
+        "cost_usd": 0.028477212000000002,
+        "input_tokens": 27070,
+        "output_tokens": 901
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 543
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1805,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2021,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2199,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2342,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2558,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2736,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2844,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2992,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3208,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3262,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_workers(self)"
+      ],
+      "top5_indices": [
+        1,
+        5,
+        4,
+        16,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 3072,
+        "cost_usd": 0.0328551,
+        "input_tokens": 27070,
+        "output_tokens": 901
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 289
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1551,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1767,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1862,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1916,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.CentralPlannerScheduler._update_task_history(self,task,status,host)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)"
+      ],
+      "top5_indices": [
+        1,
+        8,
+        16,
+        18,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00126015,
+        "input_tokens": 8199,
+        "output_tokens": 418
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 289
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1551,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1767,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1862,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1916,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        8,
+        9,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00171215,
+        "input_tokens": 8199,
+        "output_tokens": 418
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 289
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1551,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1767,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1875,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2053,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2196,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2329,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3139,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3412,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3466,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.Task.can_disable(self)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        4,
+        9,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00654885,
+        "input_tokens": 26125,
+        "output_tokens": 577
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 289
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1551,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1767,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1875,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2053,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2196,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2329,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3139,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3412,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3466,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        5,
+        4,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.00693645,
+        "input_tokens": 26125,
+        "output_tokens": 577
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 289
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1551,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1767,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1875,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2053,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2196,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2329,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3139,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3412,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3466,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 492
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)"
+      ],
+      "top5_indices": [
+        4,
+        1,
+        5,
+        11,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00820885,
+        "input_tokens": 26125,
+        "output_tokens": 1026
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 289
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1551,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1767,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1875,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2053,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2196,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2329,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3139,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3412,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3466,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1304
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)"
+      ],
+      "top5_indices": [
+        4,
+        1,
+        5,
+        11,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00983285,
+        "input_tokens": 26125,
+        "output_tokens": 1838
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 289
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1551,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1767,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1875,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2053,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2196,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2329,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3139,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3412,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3466,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        4,
+        5,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.011120850000000002,
+        "input_tokens": 26125,
+        "output_tokens": 577
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 289
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1551,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 48
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1767,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1875,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2053,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2196,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 76
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2329,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 202
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2383,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.execution_summary._populate_unknown_statuses(set_tasks)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        5,
+        4,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00488785,
+        "input_tokens": 15257,
+        "output_tokens": 724
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 289
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1551,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 90
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1767,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1875,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 184
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2053,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 148
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2196,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 877
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2329,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 779
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2383,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.execution_summary._populate_unknown_statuses(set_tasks)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        5,
+        4,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00830385,
+        "input_tokens": 15257,
+        "output_tokens": 2432
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 289
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1551,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1767,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1945,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2088,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2196,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2344,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3427,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3481,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.execution_summary._populate_unknown_statuses(set_tasks)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        5,
+        4,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 3072,
+        "cost_usd": 0.019931499999999998,
+        "input_tokens": 19902,
+        "output_tokens": 575
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 289
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1551,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1767,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1945,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2088,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2196,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2344,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3427,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3481,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,host,assistant,current_tasks,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        5,
+        4,
+        16,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 4096,
+        "cost_usd": 0.0226045,
+        "input_tokens": 19902,
+        "output_tokens": 575
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 218
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1327,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1543,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1597,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)"
+      ],
+      "top5_indices": [
+        1,
+        8,
+        3,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.0009268120000000001,
+        "input_tokens": 5570,
+        "output_tokens": 324
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 218
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1327,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1543,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1651,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1794,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1972,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2105,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2159,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.execution_summary._populate_unknown_statuses(set_tasks)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        4,
+        5,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0042375,
+        "input_tokens": 13654,
+        "output_tokens": 412
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 218
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1327,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1543,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 168
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1721,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1854,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 134
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1997,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 216
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2105,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 105
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2159,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 455
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.execution_summary._populate_unknown_statuses(set_tasks)"
+      ],
+      "top5_indices": [
+        4,
+        1,
+        16,
+        5,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00575785,
+        "input_tokens": 13809,
+        "output_tokens": 1340
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 218
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1327,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1543,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1686,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1864,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1972,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2120,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2215,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2269,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        5,
+        16,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 6144,
+        "cost_usd": 0.01540475,
+        "input_tokens": 16099,
+        "output_tokens": 504
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 253
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1352,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1568,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1663,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1717,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        6,
+        8,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.000977614,
+        "input_tokens": 7403,
+        "output_tokens": 367
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 253
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1352,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1568,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1676,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1854,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1997,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2130,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2225,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2441,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2536,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3111,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler._traverse_graph(self,root_task_id,seen,dep_func,include_done)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        5,
+        4,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0062093,
+        "input_tokens": 25050,
+        "output_tokens": 535
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 253
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1352,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1568,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 259
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1711,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1889,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1997,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2145,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 235
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2278,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 722
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 859
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.execution_summary._populate_unknown_statuses(set_tasks)"
+      ],
+      "top5_indices": [
+        4,
+        1,
+        16,
+        5,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.008176949999999999,
+        "input_tokens": 16375,
+        "output_tokens": 2416
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 253
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1352,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1568,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1746,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1889,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1997,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2213,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2267,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        5,
+        4,
+        16,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 3072,
+        "cost_usd": 0.01611575,
+        "input_tokens": 14135,
+        "output_tokens": 503
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 520
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1782,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1998,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2214,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2362,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2416,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.Task.can_disable(self)"
+      ],
+      "top5_indices": [
+        1,
+        8,
+        3,
+        4,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.007137862000000002,
+        "input_tokens": 11875,
+        "output_tokens": 698
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 520
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1782,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1998,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2214,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2362,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2416,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        5,
+        9,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.010449862,
+        "input_tokens": 11875,
+        "output_tokens": 698
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 520
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1782,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1998,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2106,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2284,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2512,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3538,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3681,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3735,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        5,
+        4,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.0130193,
+        "input_tokens": 28478,
+        "output_tokens": 808
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 520
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1782,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1998,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2106,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2284,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2512,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3538,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3681,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3735,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        5,
+        16,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.0174727,
+        "input_tokens": 28478,
+        "output_tokens": 808
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 520
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1782,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 90
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1998,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2106,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2284,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 63
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2471,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_workers(self)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        5,
+        2,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.012807849999999999,
+        "input_tokens": 14161,
+        "output_tokens": 782
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 520
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1782,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 103
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1998,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2106,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 166
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2284,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 352
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2560,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 892
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2614,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_workers(self)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        5,
+        16,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.015525,
+        "input_tokens": 16864,
+        "output_tokens": 2120
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 520
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1782,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1998,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2176,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2319,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2427,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2575,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3385,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3601,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3655,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler._prune_workers(self)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        4,
+        2,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.032593449999999996,
+        "input_tokens": 25021,
+        "output_tokens": 842
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 520
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1782,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1998,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2176,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2319,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2427,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2575,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3385,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3601,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3655,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        5,
+        4,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.03339325,
+        "input_tokens": 25021,
+        "output_tokens": 842
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 520
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1782,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1998,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2176,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2319,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2427,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2575,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3385,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3601,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3655,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 165
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        5,
+        16,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.03363725,
+        "input_tokens": 25021,
+        "output_tokens": 964
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 520
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1782,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1998,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2176,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2319,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2427,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2575,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3385,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3601,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3655,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 916
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        5,
+        16,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.03513925,
+        "input_tokens": 25021,
+        "output_tokens": 1715
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1103,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 520
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1782,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1998,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2176,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2319,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2427,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2575,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3385,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3601,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3655,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._prune_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.prune(self)",
+        "luigi.scheduler.SimpleTaskState.inactivate_tasks(self,delete_tasks)",
+        "luigi.scheduler.SimpleTaskState.get_necessary_tasks(self)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        5,
+        4,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.03739225,
+        "input_tokens": 25021,
+        "output_tokens": 842
+      }
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;37;473;1.0
+2;keras.wrappers.scikit_learn$BaseWrapper.fit(self,x,y,**kwargs);keras/wrappers/scikit_learn.py;118;154;0.9994165353871288
+3;keras.wrappers.scikit_learn$BaseWrapper.check_params(self,params);keras/wrappers/scikit_learn.py;64;90;0.9993873621564852
+4;keras.backend.tensorflow_backend$mean(x,axis,keepdims);keras/backend/tensorflow_backend.py;1513;1531;0.9993581889258416
+5;keras.backend.tensorflow_backend$abs(x);keras/backend/tensorflow_backend.py;1606;1615;0.999329015695198
+7;keras.backend.tensorflow_backend$identity(x,name);keras/backend/tensorflow_backend.py;829;839;0.999270669233911
+9;keras.engine.training_utils$standardize_single_array(x);keras/engine/training_utils.py;17;30;0.9991539763113367
+12;keras.wrappers.scikit_learn$KerasRegressor.predict(self,x,**kwargs);keras/wrappers/scikit_learn.py;308;323;0.9990664566194061
+114;keras.engine.training$Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs);keras/engine/training.py;826;1040;0.9746776358013887
+115;keras.engine.training$Model.predict(self,x,batch_size,verbose,steps);keras/engine/training.py;1116;1170;0.9740066514965867
+182;keras.engine.training$Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps);keras/engine/training.py;1042;1114;0.952826886049361
+190;keras.wrappers.scikit_learn$KerasClassifier.predict_proba(self,x,**kwargs);keras/wrappers/scikit_learn.py;236;262;0.949442791294708
+800;keras.backend.theano_backend$rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length);keras/backend/theano_backend.py;1446;1652;0.6071532761538013
+991;keras.datasets.imdb$load_data(path,num_words,skip_top,maxlen,seed,start_char,oov_char,index_from,**kwargs);keras/datasets/imdb.py;14;104;0.5248264192776708
+1073;keras.engine.training$Model._set_inputs(self,inputs,outputs,training);keras/engine/training.py;560;641;0.4282338526168388
+1274;keras.layers.core$SpatialDropout1D.__init__(self,rate,**kwargs);keras/layers/core.py;166;169;0.271223525293191

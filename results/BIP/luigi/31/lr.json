@@ -1,0 +1,3179 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1007
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1967,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2069,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2916,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3018,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3102,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3156,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.update(self,worker_id,worker_reference)",
+        "luigi.scheduler.CentralPlannerScheduler._update_task_history(self,task_id,status,host)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        3,
+        9,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00133425,
+        "input_tokens": 17029,
+        "output_tokens": 1207
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1007
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1967,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2069,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2916,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3018,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3102,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3156,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.update(self,worker_id,worker_reference)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.Worker.add_info(self,info)"
+      ],
+      "top5_indices": [
+        6,
+        5,
+        3,
+        1,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00203425,
+        "input_tokens": 17029,
+        "output_tokens": 1207
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1007
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1967,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2069,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2916,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3018,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3102,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3156,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 159
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler._update_priority(self,task,prio,worker)",
+        "luigi.scheduler.Worker.add_info(self,info)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)"
+      ],
+      "top5_indices": [
+        6,
+        5,
+        4,
+        8,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00226625,
+        "input_tokens": 17029,
+        "output_tokens": 1323
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1007
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1967,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2069,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2916,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3018,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3102,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3156,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 385
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler._update_priority(self,task,prio,worker)",
+        "luigi.scheduler.Worker.add_info(self,info)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)"
+      ],
+      "top5_indices": [
+        6,
+        5,
+        4,
+        8,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00271825,
+        "input_tokens": 17029,
+        "output_tokens": 1549
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1007
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1967,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2069,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2916,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3018,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3102,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3156,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)"
+      ],
+      "top5_indices": [
+        6,
+        13,
+        5,
+        12,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00553425,
+        "input_tokens": 17029,
+        "output_tokens": 1207
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1007
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1967,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2814,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3512,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3631,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3822,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3924,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4008,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4447,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4501,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.update(self,worker_id,worker_reference)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        3,
+        5,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 7552,
+        "cost_usd": 0.006463149999999999,
+        "input_tokens": 33427,
+        "output_tokens": 1273
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1007
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1967,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2814,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3512,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3631,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3822,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3924,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4008,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3840,
+          "input_tokens": 4447,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4501,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler._update_priority(self,task,prio,worker)",
+        "luigi.scheduler.Worker.add_info(self,info)"
+      ],
+      "top5_indices": [
+        6,
+        5,
+        1,
+        4,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 7552,
+        "cost_usd": 0.0074321499999999985,
+        "input_tokens": 33427,
+        "output_tokens": 1273
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1007
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1967,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 88
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2814,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3512,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3631,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3822,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 225
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3924,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4008,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4447,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 68
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 4501,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.update(self,worker_id,worker_reference)",
+        "luigi.scheduler.CentralPlannerScheduler._update_priority(self,task,prio,worker)"
+      ],
+      "top5_indices": [
+        6,
+        5,
+        1,
+        3,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 8704,
+        "cost_usd": 0.007503726,
+        "input_tokens": 33427,
+        "output_tokens": 1541
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1007
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1967,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 134
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2814,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 106
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3512,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3614,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3805,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3892,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 608
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4331,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 476
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4415,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4534,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 531
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4588,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.update(self,worker_id,worker_reference)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        13,
+        3,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 16512,
+        "cost_usd": 0.009081249999999999,
+        "input_tokens": 38273,
+        "output_tokens": 2993
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1007
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1967,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2814,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3512,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3951,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4070,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4971,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.update(self,worker_id,worker_reference)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        3,
+        5,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.029317349999999995,
+        "input_tokens": 27003,
+        "output_tokens": 1257
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 1007
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1967,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2814,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3512,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3951,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4070,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4917,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 4971,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)"
+      ],
+      "top5_indices": [
+        6,
+        13,
+        5,
+        12,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 1792,
+        "cost_usd": 0.03367935,
+        "input_tokens": 27003,
+        "output_tokens": 1257
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1501,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 2348,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3195,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3249,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.Worker.assistant(self)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        13,
+        5,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.0017903399999999999,
+        "input_tokens": 11094,
+        "output_tokens": 683
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1501,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 2348,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3195,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3249,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.Worker.assistant(self)"
+      ],
+      "top5_indices": [
+        6,
+        15,
+        5,
+        1,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.00250894,
+        "input_tokens": 11094,
+        "output_tokens": 683
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1501,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2348,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2787,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3485,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3587,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3793,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3877,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4778,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.update(self,worker_id,worker_reference)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)"
+      ],
+      "top5_indices": [
+        6,
+        13,
+        5,
+        3,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 6400,
+        "cost_usd": 0.008032349999999999,
+        "input_tokens": 35355,
+        "output_tokens": 829
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1501,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2348,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2787,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3485,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3587,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3793,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3877,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4778,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.Worker.assistant(self)"
+      ],
+      "top5_indices": [
+        6,
+        15,
+        5,
+        1,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 6400,
+        "cost_usd": 0.009056749999999999,
+        "input_tokens": 35355,
+        "output_tokens": 829
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1501,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2348,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2787,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3485,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3587,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3793,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3877,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4778,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 348
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.Worker.assistant(self)"
+      ],
+      "top5_indices": [
+        6,
+        15,
+        5,
+        1,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 6400,
+        "cost_usd": 0.00966675,
+        "input_tokens": 35355,
+        "output_tokens": 1134
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1501,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2348,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2787,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3485,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3587,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3793,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3877,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4778,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 801
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.Worker.assistant(self)"
+      ],
+      "top5_indices": [
+        6,
+        15,
+        5,
+        1,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 6400,
+        "cost_usd": 0.010572749999999999,
+        "input_tokens": 35355,
+        "output_tokens": 1587
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1501,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2348,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2787,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3485,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3587,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3793,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3877,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4778,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)"
+      ],
+      "top5_indices": [
+        6,
+        13,
+        5,
+        15,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 6400,
+        "cost_usd": 0.01417875,
+        "input_tokens": 35355,
+        "output_tokens": 829
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1501,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 52
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2348,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 192
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2402,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.Worker.assistant(self)"
+      ],
+      "top5_indices": [
+        6,
+        15,
+        5,
+        1,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.003419,
+        "input_tokens": 7052,
+        "output_tokens": 828
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1501,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 124
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2348,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 138
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2787,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 630
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3485,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 189
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3587,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 180
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 704
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3758,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 833
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3812,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.Worker.assistant(self)"
+      ],
+      "top5_indices": [
+        6,
+        15,
+        5,
+        1,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 9728,
+        "cost_usd": 0.01101345,
+        "input_tokens": 25753,
+        "output_tokens": 3382
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1501,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2348,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2787,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3485,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3587,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3706,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4113,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4215,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4269,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.Worker.assistant(self)"
+      ],
+      "top5_indices": [
+        6,
+        15,
+        5,
+        1,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.036798199999999996,
+        "input_tokens": 30812,
+        "output_tokens": 863
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1501,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2348,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2787,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3485,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3587,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3706,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4113,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4215,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4269,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.worker.Worker._get_work(self)"
+      ],
+      "top5_indices": [
+        6,
+        5,
+        15,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.042016,
+        "input_tokens": 30812,
+        "output_tokens": 863
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 474
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1361,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2208,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2310,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3157,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3855,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4702,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5400,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5519,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5835,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5937,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6360,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)"
+      ],
+      "top5_indices": [
+        6,
+        13,
+        5,
+        1,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1920,
+        "cost_usd": 0.00354101,
+        "input_tokens": 47445,
+        "output_tokens": 863
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 474
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1361,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2208,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2647,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3345,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3432,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3839,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3893,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.worker.Worker._get_work(self)",
+        "luigi.scheduler.Worker.assistant(self)"
+      ],
+      "top5_indices": [
+        6,
+        15,
+        5,
+        11,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.006427100000000001,
+        "input_tokens": 21526,
+        "output_tokens": 710
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 474
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1361,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2208,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 58
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2647,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 156
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2701,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 291
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.Worker.assistant(self)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)"
+      ],
+      "top5_indices": [
+        6,
+        15,
+        5,
+        16,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0044315,
+        "input_tokens": 9718,
+        "output_tokens": 1001
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 474
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1361,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2208,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2647,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3345,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3661,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4508,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4610,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4664,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)"
+      ],
+      "top5_indices": [
+        6,
+        13,
+        5,
+        12,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.03776325,
+        "input_tokens": 27805,
+        "output_tokens": 760
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 451
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1030,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1132,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1979,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2677,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3524,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3840,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3894,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler._update_task_history(self,task_id,status,host)"
+      ],
+      "top5_indices": [
+        6,
+        1,
+        13,
+        5,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00210605,
+        "input_tokens": 18877,
+        "output_tokens": 701
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 451
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1030,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1877,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2575,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3014,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3133,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3235,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4223,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.update(self,worker_id,worker_reference)"
+      ],
+      "top5_indices": [
+        6,
+        5,
+        1,
+        15,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00796035,
+        "input_tokens": 27379,
+        "output_tokens": 745
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 451
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1030,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 117
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1877,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 210
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2575,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 419
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2677,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2796,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 219
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 655
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2934,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 978
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.Worker.add_info(self,info)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)"
+      ],
+      "top5_indices": [
+        6,
+        5,
+        1,
+        8,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.010534499999999999,
+        "input_tokens": 17570,
+        "output_tokens": 3071
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 451
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1030,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1877,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2575,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3014,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3116,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3235,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 4082,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4136,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)"
+      ],
+      "top5_indices": [
+        6,
+        13,
+        5,
+        15,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 3072,
+        "cost_usd": 0.029337500000000002,
+        "input_tokens": 23866,
+        "output_tokens": 737
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1418,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1520,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2367,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3065,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3472,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3526,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.update(self,worker_id,worker_reference)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        13,
+        5,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.006378226000000001,
+        "input_tokens": 16169,
+        "output_tokens": 672
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1418,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1520,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 2367,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3065,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3472,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3526,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)"
+      ],
+      "top5_indices": [
+        6,
+        13,
+        15,
+        5,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.011022226,
+        "input_tokens": 16169,
+        "output_tokens": 672
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1418,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2265,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2704,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2806,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2925,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3772,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4470,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4557,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5404,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5595,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5649,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.Worker.assistant(self)"
+      ],
+      "top5_indices": [
+        6,
+        15,
+        5,
+        1,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.0152949,
+        "input_tokens": 42366,
+        "output_tokens": 796
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1418,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2265,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2704,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2806,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2925,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3772,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4470,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4557,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5404,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5595,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5649,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)"
+      ],
+      "top5_indices": [
+        6,
+        13,
+        5,
+        15,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.0212879,
+        "input_tokens": 42366,
+        "output_tokens": 796
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1418,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 86
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2265,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 142
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2704,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 93
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3402,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 229
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3504,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3623,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 357
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3710,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 174
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3794,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 78
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3848,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.update(self,worker_id,worker_reference)"
+      ],
+      "top5_indices": [
+        6,
+        5,
+        15,
+        1,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 9472,
+        "cost_usd": 0.01715705,
+        "input_tokens": 29069,
+        "output_tokens": 1682
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1418,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 279
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2265,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 370
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2963,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 347
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3402,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 373
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3504,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 482
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 410
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 3645,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)"
+      ],
+      "top5_indices": [
+        6,
+        13,
+        5,
+        15,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 3968,
+        "cost_usd": 0.01733045,
+        "input_tokens": 21589,
+        "output_tokens": 2762
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1418,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2265,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2704,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3402,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3504,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3623,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3939,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4840,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)"
+      ],
+      "top5_indices": [
+        6,
+        13,
+        1,
+        15,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 3456,
+        "cost_usd": 0.036793700000000006,
+        "input_tokens": 31282,
+        "output_tokens": 780
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1418,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2265,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2704,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3402,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3504,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3623,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3939,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.update(self,worker_id,worker_reference)"
+      ],
+      "top5_indices": [
+        6,
+        15,
+        5,
+        1,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 3456,
+        "cost_usd": 0.0378305,
+        "input_tokens": 31282,
+        "output_tokens": 780
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1418,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2265,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2704,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3402,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3504,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3623,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3939,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 141
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.update(self,worker_id,worker_reference)"
+      ],
+      "top5_indices": [
+        6,
+        15,
+        5,
+        1,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 3456,
+        "cost_usd": 0.038026500000000005,
+        "input_tokens": 31282,
+        "output_tokens": 878
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1418,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2265,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2704,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3402,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3504,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3623,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3939,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 755
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler._update_priority(self,task,prio,worker)"
+      ],
+      "top5_indices": [
+        6,
+        5,
+        15,
+        1,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 3456,
+        "cost_usd": 0.039254500000000005,
+        "input_tokens": 31282,
+        "output_tokens": 1492
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 801,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1418,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2265,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2704,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3402,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3504,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3623,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3456,
+          "input_tokens": 3939,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.get_work(self,worker,host,assistant,**kwargs)",
+        "luigi.scheduler.CentralPlannerScheduler.add_task(self,worker,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.prune(self,task,config,assistants)",
+        "luigi.scheduler.CentralPlannerScheduler.add_worker(self,worker,info,**kwargs)"
+      ],
+      "top5_indices": [
+        6,
+        13,
+        5,
+        15,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 3456,
+        "cost_usd": 0.043014500000000004,
+        "input_tokens": 31282,
+        "output_tokens": 780
+      }
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas._config.config$_select_options(pat);pandas/_config/config.py;535;550;1.0
+2;pandas.io.formats.printing$_pprint_seq(seq,_nest_lvl,max_seq_items,**kwds);pandas/io/formats/printing.py;86;118;0.9999724735287101
+3;pandas.io.formats.printing$pprint_thing(thing,_nest_lvl,escape_chars,default_escapes,quote_strings,max_seq_items);pandas/io/formats/printing.py;152;223;0.9998898941148404
+4;pandas.util.testing$assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj);pandas/util/testing.py;934;1014;0.9998164901914007
+5;pandas.util.testing$raise_assert_detail(obj,message,left,right,diff);pandas/util/testing.py;907;931;0.9997706127392509
+14;pandas.core.indexes.range$RangeIndex.get_indexer(self,target,method,limit,tolerance);pandas/core/indexes/range.py;381;407;0.999238434294313
+40;pandas.core.indexes.range$RangeIndex.__len__(self);pandas/core/indexes/range.py;700;704;0.9982107793661571
+47;pandas.core.indexes.range$RangeIndex._validate_dtype(dtype);pandas/core/indexes/range.py;170;174;0.9980272695575578
+388;pandas.core.indexes.range$RangeIndex._constructor(self);pandas/core/indexes/range.py;176;179;0.9809241553961059
+390;pandas.core.indexes.range$RangeIndex._int64index(self);pandas/core/indexes/range.py;196;198;0.9808782779439561
+2042;pandas.core.arrays.datetimelike$DatetimeLikeArrayMixin._validate_frequency(cls,index,freq,**kwargs);pandas/core/arrays/datetimelike.py;848;890;0.8554126218046355
+2867;pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;6897;7037;0.6974932560145339
+3484;pandas.core.indexes.datetimes$bdate_range(start,end,periods,freq,tz,normalize,name,weekmask,holidays,closed,**kwargs);pandas/core/indexes/datetimes.py;1582;1687;0.5442075128915641
+3818;pandas.core.indexes.timedeltas$timedelta_range(start,end,periods,freq,name,closed);pandas/core/indexes/timedeltas.py;711;784;0.4935496302277357
+3820;pandas.core.indexes.timedeltas$TimedeltaIndex.__new__(cls,data,unit,freq,start,end,periods,closed,dtype,copy,name,verify_integrity);pandas/core/indexes/timedeltas.py;180;251;0.49247609784742996

@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;keras.engine.network$_map_graph_network(inputs,outputs);keras/engine/network.py;1315;1498;1.0
+2;keras.utils.multi_gpu_utils$multi_gpu_model(model,gpus,cpu_merge,cpu_relocation);keras/utils/multi_gpu_utils.py;24;258;0.8800596744099495
+3;keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;37;473;0.8589866125918886
+4;keras.engine.training$Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,validation_freq,**kwargs);keras/engine/training.py;832;1056;0.7918493676003955
+5;keras.engine.training_generator$evaluate_generator(model,generator,steps,callbacks,max_queue_size,workers,use_multiprocessing,verbose);keras/engine/training_generator.py;272;412;0.780275338848547
+7;keras.models$_clone_functional_model(model,input_tensors);keras/models.py;26;169;0.7487847747470553
+10;keras.engine.training$Model._set_inputs(self,inputs,outputs,training);keras/engine/training.py;560;641;0.7173568746580481
+30;keras.models$clone_model(model,input_tensors);keras/models.py;226;251;0.5168567798726749
+79;keras.layers.merge$add(inputs,**kwargs);keras/layers/merge.py;530;555;0.3577458799609906
+118;keras.engine.base_layer$Layer.__call__(self,inputs,**kwargs);keras/engine/base_layer.py;382;508;0.2916006994685973
+345;keras.layers.core$Lambda.compute_output_shape(self,input_shape);keras/layers/core.py;667;706;0.10243834066246939
+529;keras.layers.core$Lambda.__init__(self,function,output_shape,mask,arguments,**kwargs);keras/layers/core.py;646;665;0.07488878054200968
+545;keras.engine.base_layer$Layer.compute_mask(self,inputs,mask);keras/engine/base_layer.py;593;621;0.0716666562033559
+571;keras.layers.merge$multiply(inputs,**kwargs);keras/layers/merge.py;586;596;0.05832124457957321
+721;keras.layers.core$Lambda.call(self,inputs,mask);keras/layers/core.py;708;716;0.03077168445911349

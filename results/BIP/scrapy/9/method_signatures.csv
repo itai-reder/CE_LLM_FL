@@ -1,0 +1,16 @@
+corpus_id;path;startLine;endLine
+scrapy.loader$ItemLoader.get_value(self,value,*processors,**kw);scrapy/loader/__init__.py;99;110
+scrapy.loader$ItemLoader.load_item(self);scrapy/loader/__init__.py;112;119
+scrapy.loader$ItemLoader.get_output_value(self,field_name);scrapy/loader/__init__.py;121;128
+scrapy.loader$ItemLoader.get_collected_values(self,field_name);scrapy/loader/__init__.py;130;131
+scrapy.loader$ItemLoader.get_input_processor(self,field_name);scrapy/loader/__init__.py;133;138
+scrapy.loader.processors$MapCompose.__call__(self,value,loader_context);scrapy/loader/processors.py;18;30
+scrapy.mail$MailSender.__init__(self,smtphost,mailfrom,smtpuser,smtppass,smtpport,smtptls,smtpssl,debug);scrapy/mail.py;29;38
+scrapy.mail$MailSender.from_settings(cls,settings);scrapy/mail.py;40;44
+scrapy.mail$MailSender.send(self,to,subject,body,cc,attachs,mimetype,charset,_callback);scrapy/mail.py;46;90
+scrapy.mail$MailSender._sent_ok(self,result,to,cc,subject,nattachs);scrapy/mail.py;92;96
+scrapy.mail$MailSender._sendmail(self,to_addrs,msg);scrapy/mail.py;106;121
+scrapy.pipelines.media$MediaPipeline.process_item(self,item,spider);scrapy/pipelines/media.py;60;65
+scrapy.utils.misc$arg_to_iter(arg);scrapy/utils/misc.py;17;28
+scrapy.utils.python$flatten(x);scrapy/utils/python.py;15;32
+scrapy.xlib.tx.client$ProxyAgent.request(self,method,uri,headers,bodyProducer);scrapy/xlib/tx/client.py;722;735

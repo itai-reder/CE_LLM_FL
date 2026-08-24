@@ -1,0 +1,15 @@
+corpus_id;path;startLine;endLine
+pandas.core.frame$DataFrame.__init__(self,data,index,columns,dtype,copy);pandas/core/frame.py;393;483
+pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;6920;7060
+pandas.core.frame$DataFrame.corrwith(self,other,axis,drop,method);pandas/core/frame.py;7578;7663
+pandas.core.generic$NDFrame._is_level_reference(self,key,axis);pandas/core/generic.py;1572;1600
+pandas.core.groupby.generic$DataFrameGroupBy._iterate_column_groupbys(self);pandas/core/groupby/generic.py;1577;1584
+pandas.core.groupby.grouper$Grouper.__init__(self,key,level,freq,axis,sort);pandas/core/groupby/grouper.py;104;115
+pandas.core.groupby.grouper$_get_grouper(obj,key,axis,level,sort,observed,mutated,validate);pandas/core/groupby/grouper.py;425;659
+pandas.core.groupby.ops$BaseGrouper._get_grouper(self);pandas/core/groupby/ops.py;170;177
+pandas.core.groupby.ops$BaseGrouper.groups(self);pandas/core/groupby/ops.py;278;286
+pandas.core.indexes.numeric$IntegerIndex.__contains__(self,key);pandas/core/indexes/numeric.py;207;217
+pandas.core.internals.construction$_get_axes(N,K,index,columns);pandas/core/internals/construction.py;409;422
+pandas.core.reshape.concat$concat(objs,axis,join,join_axes,ignore_index,keys,levels,names,verify_integrity,sort,copy);pandas/core/reshape/concat.py;31;258
+pandas.plotting._core$boxplot(data,column,by,ax,fontsize,rot,grid,figsize,layout,return_type,**kwds);pandas/plotting/_core.py;203;391
+pandas.plotting._misc$parallel_coordinates(frame,class_column,cols,ax,color,use_columns,xticks,colormap,axvlines,axvlines_kwds,sort_labels,**kwds);pandas/plotting/_misc.py;316;391

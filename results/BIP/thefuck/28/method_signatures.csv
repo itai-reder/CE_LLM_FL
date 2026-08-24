@@ -1,0 +1,13 @@
+corpus_id;path;startLine;endLine
+thefuck.conf$get_settings(user_dir);thefuck/conf.py;106;126
+thefuck.corrector$load_rule(rule,settings);thefuck/corrector.py;8;18
+thefuck.corrector$get_loaded_rules(rules,settings);thefuck/corrector.py;21;27
+thefuck.corrector$get_rules(user_dir,settings);thefuck/corrector.py;30;37
+thefuck.corrector$get_matched_rules(command,rules,settings);thefuck/corrector.py;40;55
+thefuck.corrector$make_corrected_commands(command,rules,settings);thefuck/corrector.py;58;66
+thefuck.main$setup_user_dir();thefuck/main.py;18;25
+thefuck.rules.fix_file$_search(stderr);thefuck/rules/fix_file.py;44;49
+thefuck.rules.fix_file$match(command,settings);thefuck/rules/fix_file.py;52;56
+thefuck.rules.fix_file$get_new_command(command,settings);thefuck/rules/fix_file.py;59;67
+thefuck.rules.git_checkout$get_branches();thefuck/rules/git_checkout.py;13;23
+thefuck.utils$memoize(fn);thefuck/utils.py;111;123

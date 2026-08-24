@@ -1,0 +1,14 @@
+corpus_id;path;startLine;endLine
+pandas._testing$raise_assert_detail(obj,message,left,right,diff,index_values);pandas/_testing.py;891;918
+pandas._testing$assert_frame_equal(left,right,check_dtype,check_index_type,check_column_type,check_frame_type,check_less_precise,check_names,by_blocks,check_exact,check_datetimelike_compat,check_categorical,check_like,obj);pandas/_testing.py;1215;1389
+pandas.core.base$IndexOpsMixin.shape(self);pandas/core/base.py;622;627
+pandas.core.dtypes.base$ExtensionDtype.is_dtype(cls,dtype);pandas/core/dtypes/base.py;254;295
+pandas.core.dtypes.inference$is_hashable(obj);pandas/core/dtypes/inference.py;322;357
+pandas.core.frame$DataFrame.__repr__(self);pandas/core/frame.py;672;700
+pandas.core.frame$DataFrame.__matmul__(self,other);pandas/core/frame.py;1160;1164
+pandas.core.frame$DataFrame.query(self,expr,inplace,**kwargs);pandas/core/frame.py;2894;3054
+pandas.core.frame$DataFrame.drop(self,labels,axis,index,columns,level,inplace,errors);pandas/core/frame.py;3720;3860
+pandas.core.generic$NDFrame._maybe_cache_changed(self,item,value);pandas/core/generic.py;3204;3208
+pandas.core.ops.methods$add_special_arithmetic_methods(cls);pandas/core/ops/methods.py;72;129
+pandas.core.ops.methods$_create_methods(cls,arith_method,comp_method,bool_method,special);pandas/core/ops/methods.py;159;222
+pandas.core.series$Series.drop_duplicates(self,keep,inplace);pandas/core/series.py;1808;1883

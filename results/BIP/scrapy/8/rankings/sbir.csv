@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.utils.conf$get_sources(use_closest);scrapy/utils/conf.py;93;101;0.9998200791651674
+2;scrapy.utils.conf$build_component_list(compdict,custom,convert);scrapy/utils/conf.py;13;47;0.9996401583303347
+3;scrapy.utils.conf$arglist_to_dict(arglist);scrapy/utils/conf.py;50;54;0.9971212666426772
+4;scrapy.utils.conf$closest_scrapy_cfg(path,prevpath);scrapy/utils/conf.py;57;67;0.9967614249730119
+5;scrapy.utils.conf$init_env(project,set_syspath);scrapy/utils/conf.py;70;82;0.9958618207988486
+7;scrapy.item$ItemMeta.__new__(mcs,class_name,bases,attrs);scrapy/item.py;27;42;0.9934328895286074
+13;scrapy.item$DictItem.__init__(self,*args,**kwargs);scrapy/item.py;49;53;0.9899244332493703
+14;scrapy.item$DictItem.__getitem__(self,key);scrapy/item.py;55;56;0.9896545519971213
+16;scrapy.item$DictItem.__getattr__(self,name);scrapy/item.py;68;71;0.9892047499100396
+19;scrapy.item$DictItem.__iter__(self);scrapy/item.py;82;83;0.9886649874055415
+186;scrapy.core.downloader.contextfactory$ScrapyClientContextFactory.getContext(self,hostname,port);scrapy/core/downloader/contextfactory.py;100;105;0.819449442245412
+206;scrapy.core.downloader.handlers.http$HttpDownloadHandler.__init__(self,*args,**kwargs);scrapy/core/downloader/handlers/http.py;13;19;0.8037963296149694
+331;scrapy.crawler$Crawler.crawl(self,*args,**kwargs);scrapy/crawler.py;65;91;0.6881971932349766
+827;scrapy.pipelines.files$S3FilesStore._get_boto_bucket(self);scrapy/pipelines/files.py;121;125;0.35102554875854625
+1041;scrapy.utils.console$_embed_ipython_shell(namespace,banner);scrapy/utils/console.py;4;24;0.17308384310903202
+1105;scrapy.utils.deprecate$create_deprecated_class(name,new_class,clsdict,warn_category,warn_once,old_class_path,new_class_path,subclass_warn_message,instance_warn_message);scrapy/utils/deprecate.py;15;117;0.1388089240734077

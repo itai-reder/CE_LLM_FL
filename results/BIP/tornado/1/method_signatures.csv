@@ -1,0 +1,15 @@
+corpus_id;path;startLine;endLine
+tornado.autoreload$main();tornado/autoreload.py;272;358
+tornado.concurrent$future_set_exception_unless_cancelled(future,exc);tornado/concurrent.py;188;207
+tornado.concurrent$future_set_exc_info(future,exc_info);tornado/concurrent.py;210;231
+tornado.gen$Runner.run(self);tornado/gen.py;710;762
+tornado.http1connection$HTTP1Connection.finish(self);tornado/http1connection.py;501;531
+tornado.http1connection$HTTP1Connection._finish_request(self,future);tornado/http1connection.py;566;575
+tornado.httpclient$HTTPClient.fetch(self,request,**kwargs);tornado/httpclient.py;120;135
+tornado.ioloop$IOLoop.run_sync(self,func,timeout);tornado/ioloop.py;460;532
+tornado.testing$gen_test(timeout);tornado/testing.py;509;513
+tornado.web$RequestHandler._log(self);tornado/web.py;1725;1732
+tornado.websocket$WebSocketHandler.set_nodelay(self,value);tornado/websocket.py;547;562
+tornado.websocket$WebSocketProtocol._receive_frame_loop(self);tornado/websocket.py;713;715
+tornado.websocket$WebSocketProtocol13._accept_connection(self,handler);tornado/websocket.py;911;960
+tornado.websocket$WebSocketProtocol13.periodic_ping(self);tornado/websocket.py;1321;1346

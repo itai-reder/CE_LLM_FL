@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.utils.misc$arg_to_iter(arg);scrapy/utils/misc.py;17;28;1.0
+2;scrapy.loader.processors$MapCompose.__call__(self,value,loader_context);scrapy/loader/processors.py;18;30;0.8811708160989582
+3;scrapy.utils.python$flatten(x);scrapy/utils/python.py;15;32;0.7870570881869107
+4;scrapy.xlib.tx.client$ProxyAgent.request(self,method,uri,headers,bodyProducer);scrapy/xlib/tx/client.py;722;735;0.783693901781496
+5;scrapy.pipelines.media$MediaPipeline.process_item(self,item,spider);scrapy/pipelines/media.py;60;65;0.7490743185585221
+10;scrapy.loader$ItemLoader.get_value(self,value,*processors,**kw);scrapy/loader/__init__.py;99;110;0.6586529093392997
+31;scrapy.loader$ItemLoader.get_output_value(self,field_name);scrapy/loader/__init__.py;121;128;0.47349357946747395
+156;scrapy.loader$ItemLoader.get_collected_values(self,field_name);scrapy/loader/__init__.py;130;131;0.22251790675965855
+156;scrapy.loader$ItemLoader.load_item(self);scrapy/loader/__init__.py;112;119;0.22251790675965855
+297;scrapy.mail$MailSender.send(self,to,subject,body,cc,attachs,mimetype,charset,_callback);scrapy/mail.py;46;90;0.1779545237148702
+413;scrapy.loader$ItemLoader.get_input_processor(self,field_name);scrapy/loader/__init__.py;133;138;0.0
+413;scrapy.mail$MailSender.__init__(self,smtphost,mailfrom,smtpuser,smtppass,smtpport,smtptls,smtpssl,debug);scrapy/mail.py;29;38;0.0
+413;scrapy.mail$MailSender._sendmail(self,to_addrs,msg);scrapy/mail.py;106;121;0.0
+413;scrapy.mail$MailSender._sent_ok(self,result,to,cc,subject,nattachs);scrapy/mail.py;92;96;0.0
+413;scrapy.mail$MailSender.from_settings(cls,settings);scrapy/mail.py;40;44;0.0

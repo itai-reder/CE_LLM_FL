@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;pandas._testing$assert_frame_equal(left,right,check_dtype,check_index_type,check_column_type,check_frame_type,check_less_precise,check_names,by_blocks,check_exact,check_datetimelike_compat,check_categorical,check_like,obj);pandas/_testing.py;1215;1389;1.0
+2;pandas._testing$raise_assert_detail(obj,message,left,right,diff,index_values);pandas/_testing.py;891;918;0.9999818571065714
+3;pandas.core.base$IndexOpsMixin.shape(self);pandas/core/base.py;622;627;0.9998729997459995
+4;pandas.core.dtypes.base$ExtensionDtype.is_dtype(cls,dtype);pandas/core/dtypes/base.py;254;295;0.9998639282992852
+5;pandas.core.generic$NDFrame._maybe_cache_changed(self,item,value);pandas/core/generic.py;3204;3208;0.9998457854058566
+15;pandas.core.ops.methods$add_special_arithmetic_methods(cls);pandas/core/ops/methods.py;72;129;0.9996189992379985
+23;pandas.core.frame$DataFrame.drop(self,labels,axis,index,columns,level,inplace,errors);pandas/core/frame.py;3720;3860;0.9994194274102834
+237;pandas.core.dtypes.inference$is_hashable(obj);pandas/core/dtypes/inference.py;322;357;0.9900304800609602
+3117;pandas.core.frame$DataFrame.__matmul__(self,other);pandas/core/frame.py;1160;1164;0.6947004608294931
+3142;pandas.core.frame$DataFrame.query(self,expr,inplace,**kwargs);pandas/core/frame.py;2894;3054;0.6845857977430241
+3182;pandas.core.frame$DataFrame.__repr__(self);pandas/core/frame.py;672;700;0.6627145397147937
+4303;pandas.core.ops.methods$_create_methods(cls,arith_method,comp_method,bool_method,special);pandas/core/ops/methods.py;159;222;0.4017743749773214
+4486;pandas.core.series$Series.drop_duplicates(self,keep,inplace);pandas/core/series.py;1808;1883;0.3537410646249864

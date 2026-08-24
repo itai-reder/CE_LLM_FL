@@ -1,0 +1,16 @@
+corpus_id;path;startLine;endLine
+matplotlib.axes._axes$Axes._parse_scatter_color_args(c,edgecolors,kwargs,xshape,yshape,get_next_color_func);matplotlib/axes/_axes.py;4156;4310
+matplotlib.collections$Collection._set_facecolor(self,c);matplotlib/collections.py;651;662
+matplotlib.collections$Collection._set_edgecolor(self,c);matplotlib/collections.py;689;715
+matplotlib.collections$LineCollection.__init__(self,segments,linewidths,colors,antialiaseds,linestyles,offsets,transOffset,norm,cmap,pickradius,zorder,facecolors,**kwargs);matplotlib/collections.py;1226;1333
+matplotlib.collections$LineCollection.set_segments(self,segments);matplotlib/collections.py;1335;1349
+matplotlib.collections$EventCollection.__init__(self,positions,orientation,lineoffset,linelength,linewidth,color,linestyle,antialiased,**kwargs);matplotlib/collections.py;1415;1505
+matplotlib.collections$EventCollection.set_positions(self,positions);matplotlib/collections.py;1515;1536
+matplotlib.collections$EventCollection.is_horizontal(self);matplotlib/collections.py;1550;1554
+matplotlib.collections$EventCollection.set_orientation(self,orientation);matplotlib/collections.py;1575;1591
+matplotlib.collections$EventCollection.set_linelength(self,linelength);matplotlib/collections.py;1599;1612
+matplotlib.collections$CircleCollection.__init__(self,sizes,**kwargs);matplotlib/collections.py;1654;1665
+matplotlib.image$_ImageBase._make_image(self,A,in_bbox,out_bbox,clip_bbox,magnification,unsampled,round_to_pixel_border);matplotlib/image.py;255;551
+matplotlib.image$_ImageBase.contains(self,mouseevent);matplotlib/image.py;625;654
+matplotlib.image$_ImageBase.set_data(self,A);matplotlib/image.py;663;711
+mpl_toolkits.mplot3d.axes3d$Axes3D.quiver(self,*args,length,arrow_length_ratio,pivot,normalize,**kwargs);mpl_toolkits/mplot3d/axes3d.py;2587;2740

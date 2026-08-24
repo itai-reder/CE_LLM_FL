@@ -1,0 +1,13 @@
+corpus_id;path;startLine;endLine
+examples.image_ocr$train(run_name,start_epoch,stop_epoch,img_w);examples/image_ocr.py;408;498
+keras.datasets.reuters$load_data(path,num_words,skip_top,maxlen,test_split,seed,start_char,oov_char,index_from,**kwargs);keras/datasets/reuters.py;15;88
+keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;549;956
+keras.preprocessing.text$text_to_word_sequence(text,filters,lower,split);keras/preprocessing/text.py;24;48
+keras.preprocessing.text$one_hot(text,n,filters,lower,split);keras/preprocessing/text.py;51;74
+keras.preprocessing.text$hashing_trick(text,n,hash_function,filters,lower,split);keras/preprocessing/text.py;77;116
+keras.preprocessing.text$Tokenizer.__init__(self,num_words,filters,lower,split,char_level,oov_token,**kwargs);keras/preprocessing/text.py;148;172
+keras.preprocessing.text$Tokenizer.fit_on_texts(self,texts);keras/preprocessing/text.py;174;218
+keras.preprocessing.text$Tokenizer.fit_on_sequences(self,sequences);keras/preprocessing/text.py;220;237
+keras.preprocessing.text$Tokenizer.texts_to_sequences(self,texts);keras/preprocessing/text.py;239;254
+keras.preprocessing.text$Tokenizer.texts_to_sequences_generator(self,texts);keras/preprocessing/text.py;256;291
+keras.preprocessing.text$Tokenizer.sequences_to_matrix(self,sequences,mode);keras/preprocessing/text.py;306;362

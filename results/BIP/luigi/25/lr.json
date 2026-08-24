@@ -1,0 +1,3401 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1267,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1355,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1614,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1873,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2071,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2159,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2247,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2335,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2666,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2826,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2928,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)",
+        "luigi.contrib.redshift.RedshiftManifestTask.run(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.run(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        1,
+        17,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0015247000000000004,
+        "input_tokens": 23982,
+        "output_tokens": 814
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1267,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1355,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1614,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1873,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2071,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2159,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2247,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2335,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2666,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2826,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2928,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.six.iteritems(d,**kw)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        8,
+        7,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0021791000000000002,
+        "input_tokens": 23982,
+        "output_tokens": 814
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1267,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1355,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1614,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1873,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2071,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2159,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2247,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2335,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2666,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2826,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2928,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 301
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.task.Task.get_params(cls)",
+        "luigi.six.iteritems(d,**kw)"
+      ],
+      "top5_indices": [
+        6,
+        8,
+        9,
+        10,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0026951,
+        "input_tokens": 23982,
+        "output_tokens": 1072
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1267,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1355,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1614,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1873,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2071,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2159,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2247,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2335,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2666,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2826,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2928,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 751
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.task.Task.get_params(cls)",
+        "luigi.six.iteritems(d,**kw)"
+      ],
+      "top5_indices": [
+        6,
+        8,
+        9,
+        10,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0035951000000000004,
+        "input_tokens": 23982,
+        "output_tokens": 1522
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1267,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1355,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1614,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1873,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2071,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2159,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2247,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2335,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2666,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2826,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2928,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.task.Task.get_params(cls)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        8,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0054511,
+        "input_tokens": 23982,
+        "output_tokens": 814
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1267,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1526,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1873,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2132,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2220,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2308,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2396,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2504,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2835,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2889,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)",
+        "luigi.contrib.redshift.RedshiftManifestTask.run(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.run(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        1,
+        17,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0049188,
+        "input_tokens": 24376,
+        "output_tokens": 735
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1267,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1526,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1873,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2132,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2220,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2308,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2396,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2504,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2835,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2889,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.update_id(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        8,
+        5,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0055654,
+        "input_tokens": 24376,
+        "output_tokens": 735
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1267,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 84
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1526,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 182
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1873,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2132,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 185
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2330,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 129
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2418,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2506,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 228
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2837,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3432,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 182
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3486,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.database(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.user(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        1,
+        2,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 8320,
+        "cost_usd": 0.006220849999999999,
+        "input_tokens": 26233,
+        "output_tokens": 1588
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1267,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 174
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1526,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 604
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1983,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 537
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2314,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 649
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2506,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 357
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2886,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 720
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2974,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 727
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1051
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3623,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.run(self)",
+        "luigi.contrib.redshift.RedshiftManifestTask.run(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        1,
+        18,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.013932849999999998,
+        "input_tokens": 25013,
+        "output_tokens": 5351
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1267,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1526,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1785,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1983,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2071,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2451,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2710,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2764,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.RedshiftManifestTask.run(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.run(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        17,
+        1,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 2176,
+        "cost_usd": 0.0175975,
+        "input_tokens": 17198,
+        "output_tokens": 753
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 467
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1267,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1526,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1785,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1983,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2071,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2451,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2710,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2764,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.RedshiftManifestTask.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        17,
+        8,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 2176,
+        "cost_usd": 0.021327099999999998,
+        "input_tokens": 17198,
+        "output_tokens": 753
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 175
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 975,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1376,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.database(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.user(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        1,
+        2,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0008012000000000001,
+        "input_tokens": 5548,
+        "output_tokens": 289
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 175
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 975,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1376,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        8,
+        9,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0011452,
+        "input_tokens": 5548,
+        "output_tokens": 289
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 175
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1493,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1757,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1845,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1953,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2039,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2424,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.database(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.user(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        1,
+        2,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.005355650000000001,
+        "input_tokens": 19981,
+        "output_tokens": 457
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 175
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1493,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1757,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1845,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1953,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2039,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2424,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.update_id(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        8,
+        1,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0059092500000000004,
+        "input_tokens": 19981,
+        "output_tokens": 457
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 175
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1493,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1757,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1845,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1953,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2039,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2424,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 454
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.task.Task.get_params(cls)",
+        "luigi.six.iteritems(d,**kw)"
+      ],
+      "top5_indices": [
+        6,
+        8,
+        9,
+        10,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00673125,
+        "input_tokens": 19981,
+        "output_tokens": 868
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 175
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1493,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1757,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1845,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1953,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2039,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2424,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1017
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.task.Task.get_params(cls)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)"
+      ],
+      "top5_indices": [
+        6,
+        8,
+        9,
+        10,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00785725,
+        "input_tokens": 19981,
+        "output_tokens": 1431
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 175
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1493,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1757,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1845,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1953,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2039,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2424,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.task.Task.get_params(cls)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        8,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.008677250000000001,
+        "input_tokens": 19981,
+        "output_tokens": 457
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 175
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1493,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 170
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1757,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1845,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1953,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 423
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2007,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        8,
+        9,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.005674749999999999,
+        "input_tokens": 15155,
+        "output_tokens": 943
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 175
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 141
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 289
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1141
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1635,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.database(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.user(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        1,
+        2,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.0052098000000000005,
+        "input_tokens": 7388,
+        "output_tokens": 1811
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 175
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 975,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1493,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1691,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1779,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2159,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2213,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 29
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.parameter.TimeDeltaParameter.parse(self,input)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        8,
+        9,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01485525,
+        "input_tokens": 12185,
+        "output_tokens": 411
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 175
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 975,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1234,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1493,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1691,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1779,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2159,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2213,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.RedshiftManifestTask.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        17,
+        8,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01744025,
+        "input_tokens": 12185,
+        "output_tokens": 425
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 222
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 906,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1165,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1424,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1683,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1771,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1825,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.database(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.user(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        1,
+        2,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0011285499999999999,
+        "input_tokens": 9415,
+        "output_tokens": 436
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 222
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 906,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1165,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1424,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1512,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1771,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1857,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2188,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2783,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2871,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2959,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3063,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        8,
+        9,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0065766,
+        "input_tokens": 23140,
+        "output_tokens": 583
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 222
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 906,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 76
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1165,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 235
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1424,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 288
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1755,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 435
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2350,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 366
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2438,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 319
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2818,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 432
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3016,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 308
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3070,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 296
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.six.iteritems(d,**kw)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        8,
+        9,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.010475350000000001,
+        "input_tokens": 19583,
+        "output_tokens": 2977
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 222
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 906,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1165,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1424,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1622,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1710,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2090,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2349,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2403,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.RedshiftManifestTask.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        17,
+        8,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0205505,
+        "input_tokens": 14310,
+        "output_tokens": 508
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 328
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 890,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1149,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1237,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1496,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1584,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1638,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.database(self)",
+        "luigi.six.iteritems(d,**kw)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        1,
+        2,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.0012396620000000003,
+        "input_tokens": 8635,
+        "output_tokens": 514
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 328
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 890,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1149,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1408,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1496,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1755,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1931,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2019,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2350,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2945,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3047,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.six.iteritems(d,**kw)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        8,
+        9,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.006260099999999999,
+        "input_tokens": 21474,
+        "output_tokens": 633
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 328
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 890,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 176
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1149,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 935
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1744,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 557
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2075,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1011
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2267,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1143
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2353,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1479
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2407,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 942
+        }
+      ],
+      "top5": [
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.task.Task.get_params(cls)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.six.iteritems(d,**kw)"
+      ],
+      "top5_indices": [
+        8,
+        9,
+        10,
+        6,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.016523499999999997,
+        "input_tokens": 13526,
+        "output_tokens": 6571
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 328
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 890,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1149,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1408,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1496,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1694,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1953,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2333,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2387,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.RedshiftManifestTask.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        17,
+        8,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.020313750000000002,
+        "input_tokens": 13951,
+        "output_tokens": 614
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 522
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1410,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1464,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.database(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.user(self)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        16,
+        2,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.006216426,
+        "input_tokens": 4837,
+        "output_tokens": 628
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 522
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1410,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1464,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.task.Task.get_params(cls)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        8,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 1152,
+        "cost_usd": 0.008386026,
+        "input_tokens": 4837,
+        "output_tokens": 628
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 522
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1928,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2518,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 3113,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3201,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3289,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3377,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3431,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.parameter.TimeDeltaParameter.parse(self,input)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.update_id(self)"
+      ],
+      "top5_indices": [
+        6,
+        8,
+        9,
+        11,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 4480,
+        "cost_usd": 0.012496,
+        "input_tokens": 28428,
+        "output_tokens": 790
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 522
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1928,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2518,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 3113,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3201,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3289,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3377,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3431,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.task.Task.get_params(cls)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        8,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 2816,
+        "cost_usd": 0.0166454,
+        "input_tokens": 28428,
+        "output_tokens": 790
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 522
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 66
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1928,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 142
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2782,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 56
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2836,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.task.Task.get_params(cls)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        8,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.013191850000000001,
+        "input_tokens": 15117,
+        "output_tokens": 895
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 522
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 360
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1581,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 178
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2038,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2297,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 286
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2628,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2716,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 505
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3311,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 357
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3399,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 972
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3453,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.RedshiftManifestTask.run(self)"
+      ],
+      "top5_indices": [
+        6,
+        8,
+        9,
+        16,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 8832,
+        "cost_usd": 0.0195113,
+        "input_tokens": 25226,
+        "output_tokens": 3289
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 522
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1581,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2038,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2506,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2765,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3096,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3150,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.host(self)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.run(self)",
+        "luigi.contrib.redshift.RedshiftManifestTask.run(self)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        1,
+        18,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.03057845,
+        "input_tokens": 21065,
+        "output_tokens": 844
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 522
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1581,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2038,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2506,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2765,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3096,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3150,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.parameter.TimeDeltaParameter.parse(self,input)",
+        "luigi.contrib.redshift.KillOpenRedshiftSessions.update_id(self)"
+      ],
+      "top5_indices": [
+        6,
+        8,
+        9,
+        11,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.03127725,
+        "input_tokens": 21065,
+        "output_tokens": 844
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 522
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1581,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2038,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2506,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2765,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3096,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3150,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 283
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.task.Task.get_params(cls)",
+        "luigi.contrib.redshift.RedshiftManifestTask.run(self)"
+      ],
+      "top5_indices": [
+        6,
+        8,
+        9,
+        10,
+        17
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.03175725,
+        "input_tokens": 21065,
+        "output_tokens": 1084
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 522
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1581,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2038,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2506,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2765,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3096,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3150,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 701
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.task.Task.get_params(cls)",
+        "luigi.six.iteritems(d,**kw)"
+      ],
+      "top5_indices": [
+        6,
+        8,
+        9,
+        10,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.03259325,
+        "input_tokens": 21065,
+        "output_tokens": 1502
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 641,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 522
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1581,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2038,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2126,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2506,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2765,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3096,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3150,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.contrib.redshift.S3CopyToTable.run(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.task.Task.get_param_values(cls,params,args,kwargs)",
+        "luigi.task.Task.get_params(cls)"
+      ],
+      "top5_indices": [
+        6,
+        16,
+        8,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.034771250000000004,
+        "input_tokens": 21065,
+        "output_tokens": 844
+      }
+    }
+  },
+  "schema_version": 1
+}

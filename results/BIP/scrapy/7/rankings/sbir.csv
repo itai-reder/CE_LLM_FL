@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.http.request.form$_get_form(response,formname,formid,formnumber,formxpath);scrapy/http/request/form.py;65;106;1.0
+2;scrapy.http.request.form$_get_inputs(form,formdata,dont_click,clickdata,response);scrapy/http/request/form.py;109;133;0.9999103782039792
+3;scrapy.http.request.form$_get_clickable(clickdata,form);scrapy/http/request/form.py;159;203;0.9993726474278545
+4;scrapy.http.request.form$_get_form_url(form,url);scrapy/http/request/form.py;52;55;0.9989245384477505
+5;scrapy.http.request.form$FormRequest.from_response(cls,response,formname,formid,formnumber,formdata,clickdata,dont_click,formxpath,formcss,**kwargs);scrapy/http/request/form.py;35;49;0.9974905897114178
+21;scrapy.http.request.form$FormRequest.__init__(self,*args,**kwargs);scrapy/http/request/form.py;19;33;0.9897831152536297
+117;scrapy.commands.fetch$Command.add_options(self,parser);scrapy/commands/fetch.py;25;32;0.9228356336260979
+163;scrapy.commands.shell$Command.add_options(self,parser);scrapy/commands/shell.py;33;40;0.8834020433769493
+276;scrapy.core.downloader.webclient$ScrapyHTTPClientFactory.__init__(self,request,timeout);scrapy/core/downloader/webclient.py;108;140;0.7459222082810539
+382;scrapy.downloadermiddlewares.ajaxcrawl$AjaxCrawlMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/ajaxcrawl.py;36;58;0.66176734181753
+706;scrapy.item$DictItem.copy(self);scrapy/item.py;96;97;0.4573400250941029
+1047;scrapy.utils.boto$is_botocore();scrapy/utils/boto.py;9;21;0.1795124574296469
+1161;scrapy.utils.python$flatten(x);scrapy/utils/python.py;15;32;0.08083886001075462

@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.generic$NDFrame.astype(self,dtype,copy,errors);pandas/core/generic.py;5779;5920;1.0
+2;pandas.core.generic$NDFrame.groupby(self,by,axis,level,as_index,sort,group_keys,squeeze,observed,**kwargs);pandas/core/generic.py;7774;7911;0.9567878203628241
+3;pandas.core.frame$DataFrame.stack(self,level,dropna);pandas/core/frame.py;5986;6154;0.9352317833836338
+4;pandas.core.generic$NDFrame.rename_axis(self,mapper,**kwargs);pandas/core/generic.py;1168;1337;0.9006650628788425
+5;pandas.core.frame$DataFrame.round(self,decimals,*args,**kwargs);pandas/core/frame.py;7246;7355;0.8894108791362476
+102;pandas.core.groupby.grouper$Grouping.__init__(self,index,grouper,obj,name,level,sort,observed,in_axis);pandas/core/groupby/grouper.py;246;366;0.6008025387474166
+350;pandas.core.groupby.generic$NDFrameGroupBy._cython_agg_blocks(self,how,alt,numeric_only,min_count);pandas/core/groupby/generic.py;158;235;0.37256450180450607
+737;pandas.core.groupby.generic$NDFrameGroupBy.aggregate(self,func,*args,**kwargs);pandas/core/groupby/generic.py;237;286;0.25874726110753243
+1464;pandas.core.base$SelectionMixin._aggregate_multiple_funcs(self,arg,_level,_axis);pandas/core/base.py;552;613;0.1613778315442892
+1624;pandas.core.groupby.ops$BaseGrouper._cython_operation(self,kind,values,how,axis,min_count,**kwargs);pandas/core/groupby/ops.py;456;598;0.14148978380067861
+1650;pandas.core.dtypes.cast$maybe_downcast_numeric(result,dtype,do_round);pandas/core/dtypes/cast.py;162;233;0.1387545113441264
+2834;pandas.core.groupby.ops$BaseGrouper._get_grouper(self);pandas/core/groupby/ops.py;171;178;0.06270970354351116
+2850;pandas.core.groupby.ops$BaseGrouper._aggregate(self,result,counts,values,comp_ids,agg_func,is_numeric,is_datetimelike,min_count);pandas/core/groupby/ops.py;608;625;0.06221777380582988
+3104;pandas.core.groupby.ops$BaseGrouper._get_group_keys(self);pandas/core/groupby/ops.py;180;187;0.052152567449214184
+4221;pandas._config.config$_select_options(pat);pandas/_config/config.py;535;550;0.0
+4221;pandas.core.groupby.ops$BaseGrouper.aggregate(self,values,how,axis,min_count);pandas/core/groupby/ops.py;600;603;0.0

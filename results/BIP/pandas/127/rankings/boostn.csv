@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.util._print_versions$show_versions(as_json);pandas/util/_print_versions.py;64;126;1.0
+2;pandas.core.generic$NDFrame.reindex_like(self,other,method,copy,limit,tolerance);pandas/core/generic.py;3855;3958;0.8450524963350339
+3;pandas.core.generic$NDFrame.describe(self,percentiles,include,exclude);pandas/core/generic.py;9972;10317;0.7866956945160131
+4;pandas.util._print_versions$get_sys_info();pandas/util/_print_versions.py;13;61;0.780148809441971
+5;pandas.core.generic$NDFrame.resample(self,rule,how,axis,fill_method,closed,label,convention,kind,loffset,limit,base,on,level);pandas/core/generic.py;8187;8501;0.7545957600625144
+51;pandas.core.generic$NDFrame.pct_change(self,periods,fill_method,limit,freq,**kwargs);pandas/core/generic.py;10436;10450;0.5330313687836558
+315;pandas.core.indexes.base$Index.reindex(self,target,method,level,limit,tolerance);pandas/core/indexes/base.py;3278;3336;0.3490066445104261
+366;pandas.core.construction$sanitize_array(data,index,dtype,copy,raise_cast_failure);pandas/core/construction.py;367;487;0.3310961577633287
+426;pandas.core.algorithms$take_nd(arr,indexer,axis,out,fill_value,allow_fill);pandas/core/algorithms.py;1576;1677;0.3135729558457963
+1109;pandas.core.generic$NDFrame.shift(self,periods,freq,axis,fill_value);pandas/core/generic.py;9417;9430;0.19148050938118702
+1279;pandas.core.indexes.base$Index._can_reindex(self,indexer);pandas/core/indexes/base.py;3261;3276;0.17629169251617455
+3913;pandas.core.indexes.base$Index._join_monotonic(self,other,how,return_indexers);pandas/core/indexes/base.py;3759;3802;0.0500927702909825
+5136;pandas.core.generic$NDFrame._info_axis(self);pandas/core/generic.py;541;543;0.020001970249517203
+5342;pandas.core.arrays.datetimelike$DatetimeLikeArrayMixin._is_monotonic_decreasing(self);pandas/core/arrays/datetimelike.py;896;898;0.0
+5342;pandas.core.indexes.base$Index._get_names(self);pandas/core/indexes/base.py;1282;1283;0.0

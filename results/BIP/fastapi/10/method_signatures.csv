@@ -1,0 +1,9 @@
+corpus_id;path;startLine;endLine
+fastapi.dependencies.utils$is_scalar_field(field);fastapi/dependencies/utils.py;146;157
+fastapi.dependencies.utils$solve_dependencies(request,dependant,body,background_tasks,response,dependency_overrides_provider,dependency_cache);fastapi/dependencies/utils.py;314;427
+fastapi.dependencies.utils$request_params_to_args(required_params,received_params);fastapi/dependencies/utils.py;430;464
+fastapi.encoders$jsonable_encoder(obj,include,exclude,by_alias,skip_defaults,include_none,custom_encoder,sqlalchemy_safe);fastapi/encoders.py;9;111
+fastapi.routing$serialize_response(field,response,include,exclude,by_alias,skip_defaults);fastapi/routing.py;37;63
+fastapi.routing$get_app(dependant,body_field,status_code,response_class,response_field,response_model_include,response_model_exclude,response_model_by_alias,response_model_skip_defaults,dependency_overrides_provider);fastapi/routing.py;66;134
+fastapi.routing$APIRoute.__init__(self,path,endpoint,response_model,status_code,tags,dependencies,summary,description,response_description,responses,deprecated,name,methods,operation_id,response_model_include,response_model_exclude,response_model_by_alias,response_model_skip_defaults,include_in_schema,response_class,dependency_overrides_provider);fastapi/routing.py;179;308
+fastapi.utils$create_cloned_field(field);fastapi/utils.py;53;95

@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;keras.backend.tensorflow_backend$get_session();keras/backend/tensorflow_backend.py;156;211;1.0
+2;keras.backend.tensorflow_backend$get_uid(prefix);keras/backend/tensorflow_backend.py;64;78;0.9999698885877748
+3;keras.activations$sigmoid(x);keras/activations.py;131;134;0.9998193315266486
+4;keras.activations$deserialize(name,custom_objects);keras/activations.py;171;176;0.9997892201144234
+5;keras.activations$get(identifier);keras/activations.py;179;207;0.9996687744655224
+6;keras.backend$backend();keras/backend/__init__.py;111;124;0.9995483288166215
+8;keras.backend.common$epsilon();keras/backend/common.py;13;25;0.9994278831677206
+122;keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;37;470;0.9747967479674797
+137;keras.engine.training$Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size);keras/engine/training.py;639;819;0.9662752183077387
+173;keras.losses$get(identifier);keras/losses.py;117;140;0.94838903944595
+190;keras.metrics$sparse_top_k_categorical_accuracy(y_true,y_pred,k);keras/metrics.py;47;49;0.9474254742547426
+463;keras.backend.cntk_backend$in_top_k(predictions,targets,k);keras/backend/cntk_backend.py;2193;2196;0.7285757302017465
+829;keras.backend.theano_backend$argmax(x,axis);keras/backend/theano_backend.py;626;627;0.5759108702198134
+917;keras.datasets.imdb$load_data(path,num_words,skip_top,maxlen,seed,start_char,oov_char,index_from,**kwargs);keras/datasets/imdb.py;14;102;0.5333634447455585
+921;keras.datasets.reuters$load_data(path,num_words,skip_top,maxlen,test_split,seed,start_char,oov_char,index_from,**kwargs);keras/datasets/reuters.py;15;88;0.5299909665763324
+1625;keras.utils.multi_gpu_utils$multi_gpu_model(model,gpus,cpu_merge,cpu_relocation);keras/utils/multi_gpu_utils.py;24;255;0.01978319783197832

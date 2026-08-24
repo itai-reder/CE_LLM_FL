@@ -1,0 +1,2819 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 478
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1399,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1611,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2658,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2870,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2997,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3051,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.construction.sanitize_array(data,index,dtype,copy,raise_cast_failure)",
+        "pandas.core.indexes.base.Index.format(self,name,formatter,**kwargs)",
+        "pandas.core.series.Series.__repr__(self)",
+        "pandas.core.series.Series.to_string(self,buf,na_rep,float_format,header,index,length,dtype,name,max_rows,min_rows)"
+      ],
+      "top5_indices": [
+        16,
+        1,
+        2,
+        3,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0010386,
+        "input_tokens": 15348,
+        "output_tokens": 678
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 478
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1399,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1611,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2658,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2870,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2997,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3051,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.series.Series.__repr__(self)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0017176000000000001,
+        "input_tokens": 15348,
+        "output_tokens": 678
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 478
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1399,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1611,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2658,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2870,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2997,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3051,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 277
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        18,
+        17,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0021856,
+        "input_tokens": 15348,
+        "output_tokens": 912
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 478
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1399,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1611,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2658,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2870,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2997,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3051,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 658
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0029476,
+        "input_tokens": 15348,
+        "output_tokens": 1293
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 478
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1399,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1611,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2658,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2870,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2997,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3051,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0051126,
+        "input_tokens": 15348,
+        "output_tokens": 678
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 478
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1399,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1611,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1757,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2380,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2434,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexes.base.Index.format(self,name,formatter,**kwargs)"
+      ],
+      "top5_indices": [
+        16,
+        18,
+        13,
+        17,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00242495,
+        "input_tokens": 10343,
+        "output_tokens": 656
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 478
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1399,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1611,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1757,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2380,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2434,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00298055,
+        "input_tokens": 10343,
+        "output_tokens": 656
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 478
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1399,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 68
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1611,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 79
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1757,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 237
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1811,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexes.base.Index.format(self,name,formatter,**kwargs)",
+        "pandas.core.indexes.base.Index.format(self,name,formatter,**kwargs)",
+        "pandas.core.series.Series.__repr__(self)",
+        "pandas.core.construction.sanitize_array(data,index,dtype,copy,raise_cast_failure)"
+      ],
+      "top5_indices": [
+        16,
+        7,
+        2,
+        3,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0022968000000000003,
+        "input_tokens": 7340,
+        "output_tokens": 905
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 478
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1399,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 205
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1611,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 404
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1757,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 613
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1884,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2105,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1103
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2159,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexes.base.Index.format(self,name,formatter,**kwargs)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        18,
+        17,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 1408,
+        "cost_usd": 0.007167754,
+        "input_tokens": 11677,
+        "output_tokens": 2868
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 478
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1399,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1611,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1757,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1978,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2105,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2317,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2371,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.frame.DataFrame._set_value(self,index,col,value,takeable)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1536,
+        "cost_usd": 0.0146658,
+        "input_tokens": 14300,
+        "output_tokens": 728
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 478
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1399,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1611,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1757,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1978,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2105,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2317,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2371,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)"
+      ],
+      "top5_indices": [
+        16,
+        17,
+        13,
+        18,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 1536,
+        "cost_usd": 0.0179238,
+        "input_tokens": 14300,
+        "output_tokens": 728
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 401
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1534,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1588,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0012571,
+        "input_tokens": 5206,
+        "output_tokens": 507
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 401
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1534,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1588,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        18,
+        17,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0016434999999999998,
+        "input_tokens": 5206,
+        "output_tokens": 507
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 401
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1534,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1680,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1807,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2028,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2316,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2528,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2655,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2782,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2836,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0063605,
+        "input_tokens": 22250,
+        "output_tokens": 717
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 401
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1534,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1680,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1807,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2028,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2316,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2528,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2655,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2782,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2836,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.006996499999999999,
+        "input_tokens": 22250,
+        "output_tokens": 717
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 401
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1534,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1680,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1807,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2028,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2316,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2528,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2655,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2782,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2836,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 253
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        18,
+        17,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0074164999999999995,
+        "input_tokens": 22250,
+        "output_tokens": 927
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 401
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1534,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1680,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1807,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2028,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2316,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2528,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2655,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2782,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2836,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 261
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0074325,
+        "input_tokens": 22250,
+        "output_tokens": 935
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 401
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1534,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1680,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1807,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2028,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2316,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2528,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2655,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2782,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2836,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0101765,
+        "input_tokens": 22250,
+        "output_tokens": 717
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 401
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 52
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1534,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 58
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1680,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 73
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1807,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2028,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 247
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2082,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00459575,
+        "input_tokens": 11215,
+        "output_tokens": 896
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 401
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 90
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1534,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 80
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1680,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 170
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1807,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2028,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 457
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2316,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 911
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.007802750000000001,
+        "input_tokens": 13819,
+        "output_tokens": 2174
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 401
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1534,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1680,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1901,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2028,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2316,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 4736,
+        "cost_usd": 0.01188925,
+        "input_tokens": 13913,
+        "output_tokens": 651
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 401
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1322,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1534,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1680,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1901,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2028,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2316,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2370,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 4736,
+        "cost_usd": 0.01460325,
+        "input_tokens": 13913,
+        "output_tokens": 651
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 658
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1415,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1627,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1848,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1975,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2029,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexes.base.Index.format(self,name,formatter,**kwargs)"
+      ],
+      "top5_indices": [
+        16,
+        17,
+        18,
+        13,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0020223999999999997,
+        "input_tokens": 9656,
+        "output_tokens": 836
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 658
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1415,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1627,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1773,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1994,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2121,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2409,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3456,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3510,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.006570749999999999,
+        "input_tokens": 19067,
+        "output_tokens": 902
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 658
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1415,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 83
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1627,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 59
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1773,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 85
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1900,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2121,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 79
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2409,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 343
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2463,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 163
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.0058527,
+        "input_tokens": 14470,
+        "output_tokens": 1492
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 658
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1415,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1627,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1773,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1994,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2121,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2175,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        17,
+        13,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 1536,
+        "cost_usd": 0.01579975,
+        "input_tokens": 11867,
+        "output_tokens": 872
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2154
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2006,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2218,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2272,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        18,
+        17,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0048657,
+        "input_tokens": 7258,
+        "output_tokens": 2260
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2154
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2006,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2218,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2364,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2491,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2712,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3000,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3054,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        17,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.00897095,
+        "input_tokens": 18607,
+        "output_tokens": 2390
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2154
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2006,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 157
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2218,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 251
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2364,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 419
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2491,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2712,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 762
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2766,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 275
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        13,
+        18,
+        17,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.01153535,
+        "input_tokens": 15319,
+        "output_tokens": 4040
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2154
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2006,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2218,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2364,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2585,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2712,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2766,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.dtypes.inference.is_hashable(obj)"
+      ],
+      "top5_indices": [
+        16,
+        17,
+        18,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 6528,
+        "cost_usd": 0.01760825,
+        "input_tokens": 15413,
+        "output_tokens": 2368
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 610
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1531,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2578,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2790,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3094,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3327,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3539,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3593,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.series.Series.to_string(self,buf,na_rep,float_format,header,index,length,dtype,name,max_rows,min_rows)",
+        "pandas.io.formats.format.SeriesFormatter.__init__(self,series,buf,length,header,index,na_rep,name,float_format,dtype,max_rows,min_rows)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)"
+      ],
+      "top5_indices": [
+        16,
+        4,
+        5,
+        13,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00832975,
+        "input_tokens": 24131,
+        "output_tokens": 882
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 610
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1531,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2578,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2790,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3094,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3327,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3539,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3593,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)"
+      ],
+      "top5_indices": [
+        16,
+        17,
+        18,
+        13,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01305415,
+        "input_tokens": 24131,
+        "output_tokens": 882
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 610
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1531,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1743,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2016,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2237,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2449,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2661,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2715,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.series.Series.__repr__(self)"
+      ],
+      "top5_indices": [
+        16,
+        17,
+        18,
+        13,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.011902,
+        "input_tokens": 17984,
+        "output_tokens": 882
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 610
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1531,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1743,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2016,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2237,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2449,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2661,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2715,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)"
+      ],
+      "top5_indices": [
+        16,
+        17,
+        18,
+        13,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.014960999999999999,
+        "input_tokens": 17984,
+        "output_tokens": 882
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 610
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1531,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 55
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1743,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 76
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2016,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 156
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2237,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 148
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2291,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)"
+      ],
+      "top5_indices": [
+        16,
+        17,
+        18,
+        13,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 3840,
+        "cost_usd": 0.010787099999999999,
+        "input_tokens": 12450,
+        "output_tokens": 1110
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 610
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1531,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 245
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1743,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 563
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2016,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 182
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2237,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1578
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2291,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.frame.DataFrame._set_value(self,index,col,value,takeable)"
+      ],
+      "top5_indices": [
+        16,
+        17,
+        18,
+        13,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0175011,
+        "input_tokens": 12450,
+        "output_tokens": 3243
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 610
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1531,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1743,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1964,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2110,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2164,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.construction.sanitize_array(data,index,dtype,copy,raise_cast_failure)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        17,
+        13,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 1792,
+        "cost_usd": 0.0156969,
+        "input_tokens": 10274,
+        "output_tokens": 788
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 610
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1531,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1743,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1964,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2110,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2164,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.construction.sanitize_array(data,index,dtype,copy,raise_cast_failure)"
+      ],
+      "top5_indices": [
+        16,
+        17,
+        13,
+        18,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1792,
+        "cost_usd": 0.0161985,
+        "input_tokens": 10274,
+        "output_tokens": 788
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 610
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1531,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1743,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1964,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2110,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2164,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 299
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)"
+      ],
+      "top5_indices": [
+        16,
+        18,
+        17,
+        13,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 1792,
+        "cost_usd": 0.0167105,
+        "input_tokens": 10274,
+        "output_tokens": 1044
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 610
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1531,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1743,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1964,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2110,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2164,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 711
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)"
+      ],
+      "top5_indices": [
+        16,
+        18,
+        17,
+        13,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 1792,
+        "cost_usd": 0.0175345,
+        "input_tokens": 10274,
+        "output_tokens": 1456
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 762,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 610
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1531,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1743,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1964,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2110,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2164,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.indexing._iLocIndexer._is_scalar_access(self,key)",
+        "pandas.core.indexing._LocationIndexer.__getitem__(self,key)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)",
+        "pandas.core.generic.NDFrame._iget_item_cache(self,item)",
+        "pandas.core.indexing._iLocIndexer._getitem_tuple(self,tup)"
+      ],
+      "top5_indices": [
+        16,
+        17,
+        18,
+        13,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 1792,
+        "cost_usd": 0.0187065,
+        "input_tokens": 10274,
+        "output_tokens": 788
+      }
+    }
+  },
+  "schema_version": 1
+}

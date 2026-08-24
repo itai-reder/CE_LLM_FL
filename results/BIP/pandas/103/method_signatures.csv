@@ -1,0 +1,16 @@
+corpus_id;path;startLine;endLine
+pandas.core.arrays.interval$IntervalArray.fillna(self,value,method,limit);pandas/core/arrays/interval.py;550;594
+pandas.core.construction$sanitize_array(data,index,dtype,copy,raise_cast_failure);pandas/core/construction.py;388;508
+pandas.core.dtypes.missing$_isna_ndarraylike(obj);pandas/core/dtypes/missing.py;225;268
+pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;6733;6868
+pandas.core.generic$NDFrame.droplevel(self,level,axis);pandas/core/generic.py;671;729
+pandas.core.generic$NDFrame.__neg__(self);pandas/core/generic.py;1408;1420
+pandas.core.generic$NDFrame.__getattr__(self,name);pandas/core/generic.py;5186;5203
+pandas.core.generic$NDFrame.pct_change(self,periods,fill_method,limit,freq,**kwargs);pandas/core/generic.py;9922;9937
+pandas.core.groupby.generic$SeriesGroupBy.pct_change(self,periods,fill_method,limit,freq);pandas/core/groupby/generic.py;803;816
+pandas.core.groupby.groupby$GroupBy._fill(self,direction,limit);pandas/core/groupby/groupby.py;1585;1619
+pandas.core.groupby.groupby$GroupBy._get_cythonized_result(self,how,cython_dtype,aggregate,needs_values,needs_mask,needs_ngroups,result_is_index,pre_processing,post_processing,**kwargs);pandas/core/groupby/groupby.py;2197;2309
+pandas.core.groupby.groupby$GroupBy.pct_change(self,periods,fill_method,limit,freq,axis);pandas/core/groupby/groupby.py;2344;2368
+pandas.core.groupby.grouper$get_grouper(obj,key,axis,level,sort,observed,mutated,validate);pandas/core/groupby/grouper.py;426;638
+pandas.core.ops$_align_method_SERIES(left,right,align_asobject);pandas/core/ops/__init__.py;424;442
+pandas.core.series$Series.diff(self,periods);pandas/core/series.py;2173;2235

@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;sanic.app$Sanic.route(self,uri,methods,host,strict_slashes,stream,version,name);sanic/app.py;163;227;1.0
+2;sanic.app$Sanic.url_for(self,view_name,**kwargs);sanic/app.py;798;925;0.9966475095785441
+3;sanic.router$Router.add(self,uri,methods,handler,host,strict_slashes,version,name);sanic/router.py;121;185;0.9932950191570882
+4;sanic.router$Router._add(self,uri,methods,handler,host,name);sanic/router.py;187;334;0.9902618135376756
+5;sanic.router$Router.find_route_by_view_name(self,view_name,name);sanic/router.py;386;400;0.984514687100894
+9;sanic.blueprints$Blueprint.group(*blueprints,url_prefix);sanic/blueprints.py;67;93;0.9717432950191571
+20;examples.blueprints$index(request);examples/blueprints.py;20;22;0.9525862068965517
+101;sanic.app$Sanic.loop(self);sanic/app.py;93;104;0.8401979565772669
+272;sanic.request$Request.forwarded(self);sanic/request.py;412;420;0.3903256704980843
+282;sanic.request$Request.url_for(self,view_name,**kwargs);sanic/request.py;515;545;0.3791507024265645
+310;sanic.router$url_hash(url);sanic/router.py;34;35;0.31720945083014046
+361;sanic.static$register(app,uri,file_or_directory,pattern,use_modified_since,use_content_range,stream_large_files,name,host,strict_slashes,content_type);sanic/static.py;18;145;0.16075989782886335
+366;sanic.testing$SanicTestClient._sanic_endpoint_test(self,method,uri,gather_request,debug,server_kwargs,host,*request_args,**request_kwargs);sanic/testing.py;63;150;0.13537675606641125

@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.frame$DataFrame.__init__(self,data,index,columns,dtype,copy);pandas/core/frame.py;403;500;1.0
+2;pandas.core.generic$NDFrame.interpolate(self,method,axis,limit,inplace,limit_direction,limit_area,downcast,**kwargs);pandas/core/generic.py;7034;7128;0.9999908699979001
+3;pandas.core.construction$sanitize_array(data,index,dtype,copy,raise_cast_failure);pandas/core/construction.py;368;488;0.9999817399958002
+4;pandas.core.indexes.base$Index._try_convert_to_int_index(cls,data,copy,name,dtype);pandas/core/indexes/base.py;3971;4013;0.9999634799916004
+5;pandas.core.indexes.base$Index.__new__(cls,data,dtype,copy,name,fastpath,tupleize_cols,**kwargs);pandas/core/indexes/base.py;261;476;0.9999178299811009
+207;pandas.core.arrays.interval$IntervalArray._shallow_copy(self,left,right,closed);pandas/core/arrays/interval.py;669;707;0.9896100576103133
+3121;pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;6870;7010;0.6815090067470716
+3129;pandas.core.frame$DataFrame.corrwith(self,other,axis,drop,method);pandas/core/frame.py;7534;7622;0.6771266057391193
+3358;pandas.core.groupby.groupby$GroupBy.quantile(self,q,interpolation);pandas/core/groupby/groupby.py;1821;1933;0.5895607555989738
+3384;pandas.core.groupby.groupby$_GroupBy._get_index(self,name);pandas/core/groupby/groupby.py;487;491;0.5848040245049256
+3398;pandas.core.groupby.groupby$_GroupBy.transform(self,func,*args,**kwargs);pandas/core/groupby/groupby.py;751;752;0.583580604223539
+5777;pandas.plotting._core$boxplot(data,column,by,ax,fontsize,rot,grid,figsize,layout,return_type,**kwargs);pandas/plotting/_core.py;195;383;0.11837960722730967
+5987;pandas.plotting._misc$parallel_coordinates(frame,class_column,cols,ax,color,use_columns,xticks,colormap,axvlines,axvlines_kwds,sort_labels,**kwargs);pandas/plotting/_misc.py;314;387;0.0774132878050562

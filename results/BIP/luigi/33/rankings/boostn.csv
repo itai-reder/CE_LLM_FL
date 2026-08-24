@@ -1,0 +1,13 @@
+rank;signature;path;startLine;endLine;score
+1;luigi.hadoop$run_and_track_hadoop_job(arglist,tracking_url_callback,env);luigi/hadoop.py;223;313;1.0
+2;luigi.task$Task.get_param_values(cls,params,args,kwargs);luigi/task.py;313;363;0.8724286939096666
+3;luigi.hadoop$HadoopJobRunner.run_job(self,job);luigi/hadoop.py;382;497;0.8302764484873288
+4;luigi.task$Task.__init__(self,*args,**kwargs);luigi/task.py;365;397;0.7604471537117228
+5;luigi.tools.parse_task$id_to_name_and_params(task_id);luigi/tools/parse_task.py;21;68;0.747387751798578
+18;luigi.parameter$Parameter.__init__(self,default,is_list,is_boolean,is_global,significant,description,config_path);luigi/parameter.py;99;154;0.5462023456060007
+57;luigi.task$Task.get_params(cls);luigi/task.py;295;311;0.4022591955757361
+175;luigi.notifications$send_error_email(subject,message);luigi/notifications.py;148;168;0.23186401387717553
+267;luigi.parameter$Parameter.serialize(self,x);luigi/parameter.py;259;269;0.1724050003219675
+402;luigi.task$Register.__new__(metacls,classname,bases,classdict);luigi/task.py;71;85;0.0725661109616842
+537;luigi.task$Task.task_family(self);luigi/task.py;288;293;0.02610152871773118
+597;luigi.notifications$email_type();luigi/notifications.py;31;32;0.0

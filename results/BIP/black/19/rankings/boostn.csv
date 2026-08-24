@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;black$assert_equivalent(src,dst);black.py;2327;2387;1.0
+2;docs.conf$get_version();docs/conf.py;27;32;0.9206884908316563
+2;setup$get_version();setup.py;19;24;0.9206884908316563
+4;black$main(ctx,line_length,check,diff,fast,quiet,src);black.py;119;215;0.7671340774080655
+5;black$shutdown(loop);black.py;2438;2457;0.7128300526754394
+7;black$whitespace(leaf);black.py;1308;1518;0.6298456047039752
+8;black$generate_comments(leaf);black.py;1605;1659;0.6244448103492684
+12;blib2to3.pgen2.tokenize$generate_tokens(readline);blib2to3/pgen2/tokenize.py;337;562;0.49647426149060436
+35;black$EmptyLineTracker._maybe_empty_lines(self,current_line);black.py;1019;1070;0.24279621137827614
+35;black$LineGenerator.visit_decorators(self,node);black.py;1222;1226;0.24279621137827614
+46;black$Line.append_comment(self,comment);black.py;877;897;0.19378869466275792
+50;black$LineGenerator.visit_default(self,node);black.py;1113;1151;0.178560220751839
+69;black$Line.__str__(self);black.py;921;934;0.11610101488754197
+92;black$dump_to_file(*output);black.py;2406;2417;0.06382568679799139
+114;black$DebugVisitor.visit_default(self,node);black.py;502;520;0.0
+114;black$read_cache();black.py;2473;2487;0.0

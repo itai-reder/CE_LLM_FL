@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;luigi.contrib.hdfs.clients$get_autoconfig_client();luigi/contrib/hdfs/clients.py;34;48;1.0
+2;luigi.configuration$LuigiConfigParser.instance(cls,*args,**kwargs);luigi/configuration.py;63;71;0.9995794195990467
+3;luigi.configuration$LuigiConfigParser.reload(cls);luigi/configuration.py;73;82;0.99936912939857
+4;luigi.parameter$Parameter.serialize(self,x);luigi/parameter.py;225;235;0.9991588391980933
+5;luigi.task$task_id_str(task_family,params);luigi/task.py;70;87;0.9989485489976168
+6;luigi.task$Task.task_family(self);luigi/task.py;196;201;0.9985279685966634
+7;luigi.task$Task.__init__(self,*args,**kwargs);luigi/task.py;277;293;0.9984578718631711
+31;luigi.contrib.hdfs.snakebite_client$SnakebiteHdfsClient.get_bite(self);luigi/contrib/hdfs/snakebite_client.py;59;82;0.9864713304360017
+316;luigi.contrib.hadoop$HadoopJobRunner.run_job(self,job,tracking_url_callback);luigi/contrib/hadoop.py;420;565;0.7743586148885462
+427;luigi.contrib.hdfs.target$HdfsTarget.fs(self);luigi/contrib/hdfs/target.py;99;101;0.7035609140614048
+437;luigi.contrib.hdfs.target$HdfsTarget.__init__(self,path,format,is_tmp,fs);luigi/contrib/hdfs/target.py;34;92;0.7000560773867938
+438;luigi.contrib.hdfs.target$HdfsTarget.__del__(self);luigi/contrib/hdfs/target.py;94;97;0.697252208047105
+789;luigi.contrib.target$CascadingClient._chained_call(self,method_name,*args,**kwargs);luigi/contrib/target.py;61;76;0.48268610682742186

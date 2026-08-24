@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.dtypes.missing$_isna_ndarraylike(obj,inf_as_na);pandas/core/dtypes/missing.py;192;231;1.0
+2;pandas.core.generic$NDFrame._clear_item_cache(self);pandas/core/generic.py;3269;3270;0.9999820284489653
+3;pandas.core.generic$NDFrame.reindex(self,*args,**kwargs);pandas/core/generic.py;4235;4478;0.9999730426734479
+4;pandas.core.generic$NDFrame.copy(self,deep);pandas/core/generic.py;5643;5750;0.9999550711224132
+5;pandas.core.indexers$check_array_indexer(array,indexer);pandas/core/indexers.py;348;484;0.9999281137958611
+13;pandas.core.internals.blocks$ExtensionBlock.putmask(self,mask,new,inplace,axis,transpose);pandas/core/internals/blocks.py;1590;1608;0.9996046258772363
+45;pandas.core.arrays.numpy_$PandasArray.__setitem__(self,key,value);pandas/core/arrays/numpy_.py;270;279;0.9986431478968792
+115;pandas.core.internals.managers$BlockManager.putmask(self,mask,new,align,axis);pandas/core/internals/managers.py;533;552;0.9961361165275369
+283;pandas.core.internals.blocks$Block.putmask(self,mask,new,inplace,axis,transpose);pandas/core/internals/blocks.py;878;1000;0.9877703595208784
+1875;pandas.core.arrays.base$ExtensionArray.factorize(self,na_sentinel);pandas/core/arrays/base.py;709;755;0.8718089264693989
+1969;pandas.core.arrays.categorical$Categorical.isin(self,values);pandas/core/arrays/categorical.py;2303;2354;0.8553919145991895
+2718;pandas.core.construction$array(data,dtype,copy);pandas/core/construction.py;56;335;0.7522891263130465
+2935;pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;7357;7495;0.6768894839469121
+3455;pandas.core.indexes.base$Index.putmask(self,mask,value);pandas/core/indexes/base.py;4134;4158;0.5402248241034443
+4426;pandas.core.reshape.pivot$crosstab(index,columns,values,rownames,colnames,aggfunc,margins,margins_name,dropna,normalize);pandas/core/reshape/pivot.py;466;624;0.37239749476578576

@@ -1,0 +1,16 @@
+corpus_id;path;startLine;endLine
+thefuck.main$fix_command();thefuck/main.py;14;31
+thefuck.main$main();thefuck/main.py;59;79
+thefuck.rules.cargo_no_command$get_new_command(command);thefuck/rules/cargo_no_command.py;11;15
+thefuck.rules.dirty_unzip$_is_bad_zip(file);thefuck/rules/dirty_unzip.py;6;8
+thefuck.rules.dirty_unzip$_zip_file(command);thefuck/rules/dirty_unzip.py;11;21
+thefuck.rules.dirty_unzip$match(command);thefuck/rules/dirty_unzip.py;24;27
+thefuck.rules.dirty_unzip$get_new_command(command);thefuck/rules/dirty_unzip.py;30;31
+thefuck.shells$Generic.split_command(self,command);thefuck/shells.py;80;82
+thefuck.shells$split_command(command);thefuck/shells.py;304;305
+thefuck.types$Command.__repr__(self);thefuck/types.py;48;50
+thefuck.types$Rule.__init__(self,name,match,get_new_command,enabled_by_default,side_effect,priority,requires_output);thefuck/types.py;134;154
+thefuck.types$Rule.__eq__(self,other);thefuck/types.py;156;165
+thefuck.types$Rule.__repr__(self);thefuck/types.py;167;173
+thefuck.types$Rule.from_path(cls,path);thefuck/types.py;175;192
+thefuck.types$Rule.is_enabled(self);thefuck/types.py;194;208

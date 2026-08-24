@@ -1,0 +1,11 @@
+rank;signature;path;startLine;endLine;score
+1;keras.backend.tensorflow_backend$separable_conv1d(x,depthwise_kernel,pointwise_kernel,strides,padding,data_format,dilation_rate);keras/backend/tensorflow_backend.py;3391;3439;1.0
+2;keras.applications.mobilenet$MobileNet(input_shape,alpha,depth_multiplier,dropout,include_top,weights,input_tensor,pooling,classes);keras/applications/mobilenet.py;298;542;0.8521452460807734
+3;keras.applications.nasnet$NASNet(input_shape,penultimate_filters,num_blocks,stem_block_filters,skip_reduction,filter_multiplier,include_top,weights,input_tensor,pooling,classes,default_size);keras/applications/nasnet.py;69;300;0.8368810748541584
+4;keras.backend.cntk_backend$separable_conv1d(x,depthwise_kernel,pointwise_kernel,strides,padding,data_format,dilation_rate);keras/backend/cntk_backend.py;1508;1510;0.8064194273031742
+4;keras.backend.theano_backend$separable_conv1d(x,depthwise_kernel,pointwise_kernel,strides,padding,data_format,dilation_rate);keras/backend/theano_backend.py;1978;1980;0.8064194273031742
+7;keras.layers.convolutional$_SeparableConv.call(self,inputs);keras/layers/convolutional.py;1213;1241;0.7274967723807
+11;keras.layers.convolutional$SeparableConv1D.__init__(self,filters,kernel_size,strides,padding,data_format,depth_multiplier,activation,use_bias,depthwise_initializer,pointwise_initializer,bias_initializer,depthwise_regularizer,pointwise_regularizer,bias_regularizer,activity_regularizer,depthwise_constraint,pointwise_constraint,bias_constraint,**kwargs);keras/layers/convolutional.py;1342;1381;0.6692082751650862
+48;keras.backend.tensorflow_backend$_preprocess_conv1d_input(x,data_format);keras/backend/tensorflow_backend.py;3170;3188;0.4325450298228481
+92;keras.backend.tensorflow_backend$bias_add(x,bias,data_format);keras/backend/tensorflow_backend.py;3716;3782;0.292111330960959
+1088;keras.layers.convolutional$UpSampling1D.compute_output_shape(self,input_shape);keras/layers/convolutional.py;1535;1537;0.0

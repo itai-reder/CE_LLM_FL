@@ -1,0 +1,14 @@
+corpus_id;path;startLine;endLine
+scrapy.core.downloader.handlers.http11$ScrapyAgent._get_agent(self,request,timeout);scrapy/core/downloader/handlers/http11.py;280;314
+scrapy.core.downloader.handlers.http11$ScrapyAgent.download_request(self,request);scrapy/core/downloader/handlers/http11.py;316;354
+scrapy.core.downloader.webclient$ScrapyHTTPClientFactory.__init__(self,request,timeout);scrapy/core/downloader/webclient.py;108;140
+scrapy.downloadermiddlewares.redirect$RedirectMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/redirect.py;62;82
+scrapy.downloadermiddlewares.retry$RetryMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/retry.py;48;54
+scrapy.http.headers$Headers.__getitem__(self,key);scrapy/http/headers.py;39;43
+scrapy.http.response$Response._set_body(self,body);scrapy/http/response/__init__.py;52;61
+scrapy.http.response$Response.follow(self,url,callback,method,headers,body,cookies,meta,encoding,priority,dont_filter,errback,cb_kwargs);scrapy/http/response/__init__.py;107;136
+scrapy.utils.curl$curl_to_request_kwargs(curl_command,ignore_unknown_options);scrapy/utils/curl.py;39;95
+scrapy.utils.datatypes$CaselessDict.__getitem__(self,key);scrapy/utils/datatypes.py;202;203
+scrapy.utils.datatypes$CaselessDict.__contains__(self,key);scrapy/utils/datatypes.py;211;212
+scrapy.utils.python$to_bytes(text,encoding,errors);scrapy/utils/python.py;100;110
+scrapy.utils.url$escape_ajax(url);scrapy/utils/url.py;47;73

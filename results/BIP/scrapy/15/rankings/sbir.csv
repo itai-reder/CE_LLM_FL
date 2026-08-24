@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.linkextractors.sgml$BaseSgmlLinkExtractor.__init__(self,tag,attr,unique,process_value);scrapy/linkextractors/sgml.py;20;31;0.999933087989294
+2;scrapy.linkextractors.sgml$BaseSgmlLinkExtractor._extract_links(self,response_text,response_url,response_encoding,base_url);scrapy/linkextractors/sgml.py;33;53;0.999197055871529
+3;scrapy.linkextractors.sgml$BaseSgmlLinkExtractor._process_links(self,links);scrapy/linkextractors/sgml.py;55;61;0.9980595516895283
+4;scrapy.linkextractors.sgml$BaseSgmlLinkExtractor.extract_links(self,response);scrapy/linkextractors/sgml.py;63;67;0.9977249916359987
+5;scrapy.linkextractors.sgml$BaseSgmlLinkExtractor.reset(self);scrapy/linkextractors/sgml.py;69;73;0.997457343593175
+10;scrapy.utils.url$canonicalize_url(url,keep_blank_values,keep_fragments,encoding);scrapy/utils/url.py;59;131;0.9957845433255269
+11;scrapy.utils.python$to_native_str(text,encoding,errors);scrapy/utils/python.py;123;129;0.995717631314821
+12;scrapy.utils.url$_safe_ParseResult(parts,encoding,path_encoding);scrapy/utils/url.py;43;56;0.9955838072934091
+13;scrapy.utils.url$parse_url(url,encoding);scrapy/utils/url.py;151;157;0.9953161592505855
+14;scrapy.utils.python$to_unicode(text,encoding,errors);scrapy/utils/python.py;97;107;0.9952492472398795
+722;scrapy.linkextractors$FilteringLinkExtractor._process_links(self,links);scrapy/linkextractors/__init__.py;99;105;0.5887587822014052
+731;scrapy.linkextractors.lxmlhtml$LxmlLinkExtractor.extract_links(self,response);scrapy/linkextractors/lxmlhtml.py;100;112;0.5834058213449315
+735;scrapy.linkextractors.lxmlhtml$LxmlParserLinkExtractor._extract_links(self,selector,response_url,response_encoding,base_url);scrapy/linkextractors/lxmlhtml.py;46;65;0.5808631649381064
+781;scrapy.log$msg(message,_level,**kw);scrapy/log.py;39;49;0.5588491134158582
+1194;scrapy.utils.response$open_in_browser(response,_openfunc);scrapy/utils/response.py;63;83;0.3001003680160589
+1494;scrapy.xlib.tx.interfaces$IReactorProcess.spawnProcess(processProtocol,executable,args,env,path,uid,gid,usePTY,childFDs);scrapy/xlib/tx/interfaces.py;976;1058;0.08297089327534292

@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.construction$_try_cast(arr,dtype,copy,raise_cast_failure);pandas/core/construction.py;490;551;1.0
+2;pandas.core.dtypes.cast$maybe_cast_to_integer_array(arr,dtype,copy);pandas/core/dtypes/cast.py;1429;1497;0.9999908748300437
+3;pandas.core.strings$_str_extract_noexpand(arr,pat,flags);pandas/core/strings.py;773;804;0.9999817496600875
+4;pandas.util.testing$assert_attr_equal(attr,left,right,obj);pandas/util/testing.py;733;774;0.9999726244901311
+5;pandas.util.testing$raise_assert_detail(obj,message,left,right,diff);pandas/util/testing.py;906;930;0.9999543741502186
+34;pandas.core.strings$StringMethods.cat(self,others,sep,na_rep,join);pandas/core/strings.py;2182;2395;0.9991148585142399
+137;pandas.core.strings$StringMethods.contains(self,pat,case,flags,na,regex);pandas/core/strings.py;2669;2675;0.9942328925876245
+160;pandas.core.strings$StringMethods.get(self,i);pandas/core/strings.py;2658;2661;0.9930192449834379
+329;pandas.core.strings$forbid_nonstring_types(forbidden,name);pandas/core/strings.py;1802;1869;0.9853814777300227
+355;pandas.core.strings$StringMethods._validate(data);pandas/core/strings.py;1961;2009;0.9838666995172786
+2946;pandas.core.construction$array(data,dtype,copy);pandas/core/construction.py;50;313;0.7490304506921441
+3121;pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;6822;6965;0.6809201821383923
+4518;pandas.core.reshape.tile$cut(x,bins,right,labels,retbins,precision,include_lowest,duplicates);pandas/core/reshape/tile.py;30;266;0.37500798452371176
+4585;pandas.core.series$Series.apply(self,func,convert_dtype,args,**kwds);pandas/core/series.py;3828;3964;0.35458585416153376

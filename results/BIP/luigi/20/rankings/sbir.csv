@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;luigi.task$Task.get_params(cls);luigi/task.py;176;192;1.0
+2;luigi.task$Task.get_param_values(cls,params,args,kwargs);luigi/task.py;194;244;0.9999086591158203
+3;luigi.task$Task.task_family(self);luigi/task.py;169;174;0.9993606138107417
+4;luigi.parameter$BoolParameter.parse(self,s);luigi/parameter.py;505;509;0.9978078187796858
+5;luigi.parameter$DateHourParameter.parse(self,s);luigi/parameter.py;437;441;0.997716477895506
+6;luigi.parameter$DateParameter.parse(self,s);luigi/parameter.py;396;400;0.9976251370113263
+7;luigi.parameter$DateParameterBase.serialize(self,dt);luigi/parameter.py;377;383;0.9975337961271465
+8;luigi.parameter$FloatParameter.parse(self,s);luigi/parameter.py;486;490;0.997351114358787
+18;luigi.task$Task.from_str_params(cls,params_str);luigi/task.py;286;300;0.9940628425283157
+19;luigi.task$Task.to_str_params(self);luigi/task.py;302;312;0.9938801607599561
+779;luigi.interface$ArgParseInterface.parse_task(self,cmdline_args);luigi/interface.py;216;259;0.409846547314578
+823;luigi.parameter$Parameter.__init__(self,default,is_list,is_boolean,is_global,significant,description,config_path,positional);luigi/parameter.py;103;154;0.3597004018998904
+931;luigi.scheduler$CentralPlannerScheduler.get_work(self,host,assistant,**kwargs);luigi/scheduler.py;690;790;0.26187431494336866
+1064;luigi.task$externalize(task);luigi/task.py;494;501;0.13427109974424553
+1116;luigi.tools.range$_get_filesystems_and_globs(datetime_to_task,datetime_to_re);luigi/tools/range.py;394;421;0.08841797588600658
+1183;luigi.worker$Worker._handle_next_task(self);luigi/worker.py;590;652;0.017811472415052976

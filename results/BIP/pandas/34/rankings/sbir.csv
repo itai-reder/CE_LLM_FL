@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.arrays.datetimes$DatetimeArray.tz_convert(self,tz);pandas/core/arrays/datetimes.py;733;807;1.0
+2;pandas.core.arrays.datetimes$DatetimeArray._generate_range(cls,start,end,periods,freq,tz,normalize,ambiguous,nonexistent,closed);pandas/core/arrays/datetimes.py;338;443;0.9999638401735672
+3;pandas.core.frame$DataFrame.__init__(self,data,index,columns,dtype,copy);pandas/core/frame.py;422;521;0.9999457602603508
+4;pandas.core.arrays.datetimes$_infer_tz_from_endpoints(start,end,tz);pandas/core/arrays/datetimes.py;2054;2092;0.9999276803471343
+5;pandas.core.arrays.datetimes$_maybe_localize_point(ts,is_none,is_not_none,freq,tz,ambiguous,nonexistent);pandas/core/arrays/datetimes.py;2115;2145;0.9999186403905261
+6;pandas.core.arrays.datetimes$tz_to_dtype(tz);pandas/core/arrays/datetimes.py;56;71;0.999909600433918
+23;pandas.core.arrays.datetimes$DatetimeArray.tz_localize(self,tz,ambiguous,nonexistent);pandas/core/arrays/datetimes.py;809;975;0.9990327246429217
+49;pandas.core.resample$TimeGrouper._get_time_bins(self,ax);pandas/core/resample.py;1406;1460;0.9977580907611644
+697;pandas.core.indexes.datetimes$DatetimeIndex._validate_partial_date_slice(self,reso);pandas/core/indexes/datetimes.py;524;539;0.961110106671488
+698;pandas.core.indexes.datetimes$DatetimeIndex._maybe_promote(self,other);pandas/core/indexes/datetimes.py;541;544;0.9610739468450551
+2701;pandas.core.arrays.categorical$Categorical.isin(self,values);pandas/core/arrays/categorical.py;2363;2414;0.8089224371723016
+3488;pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;7018;7156;0.6439341891158923
+3628;pandas.core.generic$NDFrame.tz_localize(self,tz,axis,level,copy,ambiguous,nonexistent);pandas/core/generic.py;9246;9413;0.575564997288013
+3927;pandas.core.indexes.datetimes$DatetimeIndex._convert_for_op(self,value);pandas/core/indexes/datetimes.py;301;307;0.4982552883746158
+4473;pandas.core.resample$Resampler._get_binner_for_time(self);pandas/core/resample.py;169;170;0.38892605315494483
+4537;pandas.core.reshape.pivot$crosstab(index,columns,values,rownames,colnames,aggfunc,margins,margins_name,dropna,normalize);pandas/core/reshape/pivot.py;466;627;0.3654583258000362

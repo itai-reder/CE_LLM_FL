@@ -1,0 +1,15 @@
+corpus_id;path;startLine;endLine
+tornado.autoreload$main();tornado/autoreload.py;259;333
+tornado.concurrent$is_future(x);tornado/concurrent.py;379;380
+tornado.concurrent$future_set_result_unless_cancelled(future,value);tornado/concurrent.py;599;608
+tornado.concurrent$future_set_exc_info(future,exc_info);tornado/concurrent.py;611;624
+tornado.concurrent$future_add_done_callback(future,callback);tornado/concurrent.py;627;641
+tornado.ioloop$IOLoop.run_sync(self,func,timeout);tornado/ioloop.py;518;581
+tornado.ioloop$IOLoop.time(self);tornado/ioloop.py;583;596
+tornado.ioloop$PollIOLoop.start(self);tornado/ioloop.py;926;1085
+tornado.ioloop$PeriodicCallback.__init__(self,callback,callback_time);tornado/ioloop.py;1172;1178
+tornado.ioloop$PeriodicCallback._run(self);tornado/ioloop.py;1204;1212
+tornado.ioloop$PeriodicCallback._schedule_next(self);tornado/ioloop.py;1214;1217
+tornado.ioloop$PeriodicCallback._update_next(self,current_time);tornado/ioloop.py;1219;1223
+tornado.iostream$BaseIOStream._run_callback(self,callback,*args);tornado/iostream.py;696;729
+tornado.web$Application.log_request(self,handler);tornado/web.py;2087;2106

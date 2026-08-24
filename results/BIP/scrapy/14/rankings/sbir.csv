@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.utils.gz$is_gzipped(response);scrapy/utils/gz.py;54;57;1.0
+2;scrapy.utils.gz$read1(gzf,size);scrapy/utils/gz.py;23;24;0.9998662654630558
+3;scrapy.utils.gz$gunzip(data);scrapy/utils/gz.py;27;51;0.9997993981945837
+4;scrapy.downloadermiddlewares.httpcompression$HttpCompressionMiddleware.from_crawler(cls,crawler);scrapy/downloadermiddlewares/httpcompression.py;13;17;0.9980608492143096
+5;scrapy.downloadermiddlewares.httpcompression$HttpCompressionMiddleware.process_request(self,request,spider);scrapy/downloadermiddlewares/httpcompression.py;19;20;0.9977933801404213
+7;scrapy.downloadermiddlewares.httpcompression$HttpCompressionMiddleware._decode(self,body,encoding);scrapy/downloadermiddlewares/httpcompression.py;44;58;0.9965229020394517
+8;scrapy.http.headers$Headers.normvalue(self,value);scrapy/http/headers.py;18;27;0.9959210966232029
+9;scrapy.http.headers$Headers.getlist(self,key,def_val);scrapy/http/headers.py;51;57;0.9958542293547309
+10;scrapy.http.headers$Headers.items(self);scrapy/http/headers.py;70;71;0.9957873620862587
+11;scrapy.http.headers$Headers.iteritems(self);scrapy/http/headers.py;73;74;0.9957204948177867
+13;scrapy.utils.datatypes$CaselessDict.__getitem__(self,key);scrapy/utils/datatypes.py;195;196;0.9955867602808425
+15;scrapy.http.headers$Headers.__init__(self,seq,encoding);scrapy/http/headers.py;10;12;0.9953192912069542
+19;scrapy.http.response$Response.__init__(self,url,status,headers,body,flags,request);scrapy/http/response/__init__.py;15;21;0.9947174857907054
+24;scrapy.downloadermiddlewares.decompression$DecompressionMiddleware.__init__(self);scrapy/downloadermiddlewares/decompression.py;28;34;0.9933801404212638
+27;scrapy.downloadermiddlewares.decompression$DecompressionMiddleware._is_gzip(self,response);scrapy/downloadermiddlewares/decompression.py;59;67;0.9919759277833501
+1229;scrapy.utils.url$_safe_ParseResult(parts,encoding,path_encoding);scrapy/utils/url.py;43;63;0.2726847208291541

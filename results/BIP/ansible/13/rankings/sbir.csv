@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;ansible.cli.galaxy$GalaxyCLI.execute_install(self);ansible/cli/galaxy.py;780;928;1.0
+2;ansible.cli.galaxy$GalaxyCLI._resolve_path(path);ansible/cli/galaxy.py;515;517;0.9999931753483345
+3;ansible.utils.context_objects$_make_immutable(obj);ansible/utils/context_objects.py;20;50;0.9999752606377125
+4;ansible.cli.galaxy$GalaxyCLI.run(self);ansible/cli/galaxy.py;297;370;0.9999735544747962
+5;ansible.cli$CLI.run(self);ansible/cli/__init__.py;73;98;0.9999692890675052
+11;ansible.cli.galaxy$GalaxyCLI.init_parser(self);ansible/cli/galaxy.py;57;120;0.9999454027866759
+41;ansible.cli.galaxy$GalaxyCLI.add_install_options(self,parser,parents);ansible/cli/galaxy.py;224;264;0.999761137191707
+51;ansible.cli.galaxy$GalaxyCLI._parse_requirements_file(self,requirements_file,allow_old_format);ansible/cli/galaxy.py;376;482;0.9996971560823429
+54;ansible.cli.galaxy$GalaxyCLI.execute_init(self);ansible/cli/galaxy.py;608;735;0.9996476773577678
+71;ansible.galaxy.collection$validate_collection_name(name);ansible/galaxy/collection.py;446;460;0.9994932696138357
+76;ansible.galaxy.collection$_get_collection_info(dep_map,existing_collections,collection,requirement,source,b_temp_path,apis,validate_certs,force,parent);ansible/galaxy/collection.py;819;860;0.9994787672290464
+483;ansible.galaxy.api$GalaxyAPI.publish_collection(self,collection_path);ansible/galaxy/api.py;401;451;0.9928639736022473
+486;ansible.galaxy.api$GalaxyAPI.get_collection_versions(self,namespace,name);ansible/galaxy/api.py;536;574;0.9927846370266358

@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;luigi.scheduler$CentralPlannerScheduler.prune(self);luigi/scheduler.py;550;575;1.0
+2;luigi.scheduler$CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,tracking_url,**kwargs);luigi/scheduler.py;597;666;0.9999218688960075
+3;luigi.scheduler$CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs);luigi/scheduler.py;520;542;0.9988280334401125
+4;luigi.scheduler$CentralPlannerScheduler.update(self,worker_id,worker_reference,get_work);luigi/scheduler.py;577;582;0.997968591296195
+5;luigi.scheduler$CentralPlannerScheduler._update_priority(self,task,prio,worker);luigi/scheduler.py;584;595;0.99781232908821
+6;luigi.scheduler$SimpleTaskState.get_necessary_tasks(self);luigi/scheduler.py;503;510;0.995780920384405
+7;luigi.scheduler$CentralPlannerScheduler.ping(self,**kwargs);luigi/scheduler.py;827;829;0.99531213376045
+8;luigi.scheduler$CentralPlannerScheduler._retry_time(self,task,config);luigi/scheduler.py;713;714;0.995155871552465
+14;luigi.scheduler$fix_time(x);luigi/scheduler.py;106;112;0.9944526916165325
+20;luigi.scheduler$SimpleTaskState.fail_dead_worker_task(self,task,config,assistants);luigi/scheduler.py;430;438;0.9914837096648176
+28;luigi.scheduler$Worker.assistant(self);luigi/scheduler.py;275;277;0.9900773497929526
+48;luigi.scheduler$Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url);luigi/scheduler.py;171;198;0.9856238768653801
+75;luigi.scheduler$Worker.get_pending_tasks(self,state);luigi/scheduler.py;252;262;0.9636690366434878
+1346;luigi.worker$Worker._add(self,task,is_complete);luigi/worker.py;544;616;0.028830377373232283
+1355;luigi.worker$Worker._handle_next_task(self);luigi/worker.py;735;800;0.018126416126259863

@@ -1,0 +1,15 @@
+corpus_id;path;startLine;endLine
+luigi.contrib.bigquery$BigQueryLoadTask.ignore_unknown_values(self);luigi/contrib/bigquery.py;488;499
+luigi.contrib.bigquery_avro$BigQueryLoadAvro.run(self);luigi/contrib/bigquery_avro.py;108;116
+luigi.contrib.hive$HiveCommandClient.table_schema(self,table,database);luigi/contrib/hive.py;152;156
+luigi.contrib.kubernetes$KubernetesJobTask.spec_schema(self);luigi/contrib/kubernetes.py;126;151
+luigi.contrib.rdbms$CopyToTable.update_id(self);luigi/contrib/rdbms.py;98;103
+luigi.contrib.redshift$S3CopyToTable.s3_load_path(self);luigi/contrib/redshift.py;74;79
+luigi.contrib.redshift$S3CopyToTable.do_truncate_table(self);luigi/contrib/redshift.py;167;172
+luigi.contrib.redshift$S3CopyToTable.do_prune(self);luigi/contrib/redshift.py;174;185
+luigi.contrib.redshift$S3CopyToTable.create_table(self,connection);luigi/contrib/redshift.py;217;251
+luigi.contrib.redshift$S3CopyToTable.run(self);luigi/contrib/redshift.py;253;275
+luigi.contrib.redshift$S3CopyToTable.copy(self,cursor,f);luigi/contrib/redshift.py;277;311
+luigi.contrib.redshift$S3CopyToTable.output(self);luigi/contrib/redshift.py;313;325
+luigi.contrib.redshift$S3CopyToTable.does_table_exist(self,connection);luigi/contrib/redshift.py;327;346
+luigi.task$Task.get_param_values(cls,params,args,kwargs);luigi/task.py;371;421

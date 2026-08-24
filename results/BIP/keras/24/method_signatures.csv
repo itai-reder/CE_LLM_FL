@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+keras.applications.nasnet$NASNet(input_shape,penultimate_filters,num_blocks,stem_block_filters,skip_reduction,filter_multiplier,include_top,weights,input_tensor,pooling,classes,default_size);keras/applications/nasnet.py;69;308
+keras.backend.tensorflow_backend$identity(x,name);keras/backend/tensorflow_backend.py;814;824
+keras.backend.tensorflow_backend$batch_dot(x,y,axes);keras/backend/tensorflow_backend.py;1085;1176
+keras.callbacks$TensorBoard.set_model(self,model);keras/callbacks.py;734;831
+keras.engine.base_layer$Layer.assert_input_compatibility(self,inputs);keras/engine/base_layer.py;256;362
+keras.engine.base_layer$Layer.__call__(self,inputs,**kwargs);keras/engine/base_layer.py;376;508
+keras.engine.base_layer$Layer._get_node_attribute_at_index(self,node_index,attr,attr_name);keras/engine/base_layer.py;635;669
+keras.engine.base_layer$_collect_previous_mask(input_tensors);keras/engine/base_layer.py;1305;1326
+keras.engine.base_layer$_collect_input_shape(input_tensors);keras/engine/base_layer.py;1339;1357
+keras.engine.input_layer$InputLayer.__init__(self,input_shape,batch_size,batch_input_shape,dtype,input_tensor,sparse,name);keras/engine/input_layer.py;32;102
+keras.engine.network$_map_graph_network(inputs,outputs);keras/engine/network.py;1314;1497
+keras.engine.training$Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs);keras/engine/training.py;823;1037
+keras.layers.core$Lambda.call(self,inputs,mask);keras/layers/core.py;688;692
+keras.losses$sparse_categorical_crossentropy(y_true,y_pred);keras/losses.py;72;73
+keras.models$_clone_functional_model(model,input_tensors);keras/models.py;26;169
+keras.utils.layer_utils$print_summary(model,line_length,positions,print_fn);keras/utils/layer_utils.py;24;185

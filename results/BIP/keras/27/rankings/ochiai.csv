@@ -1,0 +1,11 @@
+rank;signature;path;startLine;endLine;score
+1;keras.engine.base_layer$Layer.add_update(self,updates,inputs);keras/engine/base_layer.py;975;1005;0.660408825313113
+1;keras.regularizers$L1L2.get_config(self);keras/regularizers.py;45;47;0.660408825313113
+1;keras.regularizers$Regularizer.from_config(cls,config);keras/regularizers.py;20;22;0.660408825313113
+1;keras.regularizers$get(identifier);keras/regularizers.py;76;88;0.660408825313113
+5;keras.layers.recurrent$SimpleRNN.__init__(self,units,activation,use_bias,kernel_initializer,recurrent_initializer,bias_initializer,kernel_regularizer,recurrent_regularizer,bias_regularizer,activity_regularizer,kernel_constraint,recurrent_constraint,bias_constraint,dropout,recurrent_dropout,return_sequences,return_state,go_backwards,stateful,unroll,**kwargs);keras/layers/recurrent.py;965;1022;0.6130686006343101
+79;keras.layers.wrappers$Bidirectional.updates(self);keras/layers/wrappers.py;484;488;0.30653430031715506
+101;keras.backend.tensorflow_backend$rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length);keras/backend/tensorflow_backend.py;2541;2782;0.18547704973666243
+133;keras.engine.sequential$Sequential.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs);keras/engine/sequential.py;527;653;0.0
+133;keras.engine.training$Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs);keras/engine/training.py;1503;1705;0.0
+133;keras.losses$get(identifier);keras/losses.py;117;129;0.0

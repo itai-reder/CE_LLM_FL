@@ -1,0 +1,9 @@
+rank;signature;path;startLine;endLine;score
+1;fastapi.dependencies.utils$solve_dependencies(request,dependant,body,background_tasks,response,dependency_overrides_provider,dependency_cache);fastapi/dependencies/utils.py;314;427;1.0
+2;fastapi.dependencies.utils$request_params_to_args(required_params,received_params);fastapi/dependencies/utils.py;430;464;0.9953695458593055
+3;fastapi.encoders$jsonable_encoder(obj,include,exclude,by_alias,skip_defaults,include_none,custom_encoder,sqlalchemy_safe);fastapi/encoders.py;9;111;0.9946571682991986
+4;fastapi.routing$get_app(dependant,body_field,status_code,response_class,response_field,response_model_include,response_model_exclude,response_model_by_alias,response_model_skip_defaults,dependency_overrides_provider);fastapi/routing.py;66;134;0.9877114870881567
+5;fastapi.routing$serialize_response(field,response,include,exclude,by_alias,skip_defaults);fastapi/routing.py;37;63;0.983793410507569
+279;fastapi.dependencies.utils$is_scalar_field(field);fastapi/dependencies/utils.py;146;157;0.45503116651825465
+326;fastapi.routing$APIRoute.__init__(self,path,endpoint,response_model,status_code,tags,dependencies,summary,description,response_description,responses,deprecated,name,methods,operation_id,response_model_include,response_model_exclude,response_model_by_alias,response_model_skip_defaults,include_in_schema,response_class,dependency_overrides_provider);fastapi/routing.py;179;308;0.16794300979519144
+366;fastapi.utils$create_cloned_field(field);fastapi/utils.py;53;95;0.0163846838824577

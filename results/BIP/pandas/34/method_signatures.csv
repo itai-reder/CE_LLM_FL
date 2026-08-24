@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+pandas.core.arrays.categorical$Categorical.isin(self,values);pandas/core/arrays/categorical.py;2363;2414
+pandas.core.arrays.datetimes$tz_to_dtype(tz);pandas/core/arrays/datetimes.py;56;71
+pandas.core.arrays.datetimes$DatetimeArray._generate_range(cls,start,end,periods,freq,tz,normalize,ambiguous,nonexistent,closed);pandas/core/arrays/datetimes.py;338;443
+pandas.core.arrays.datetimes$DatetimeArray.tz_convert(self,tz);pandas/core/arrays/datetimes.py;733;807
+pandas.core.arrays.datetimes$DatetimeArray.tz_localize(self,tz,ambiguous,nonexistent);pandas/core/arrays/datetimes.py;809;975
+pandas.core.arrays.datetimes$_infer_tz_from_endpoints(start,end,tz);pandas/core/arrays/datetimes.py;2054;2092
+pandas.core.arrays.datetimes$_maybe_localize_point(ts,is_none,is_not_none,freq,tz,ambiguous,nonexistent);pandas/core/arrays/datetimes.py;2115;2145
+pandas.core.frame$DataFrame.__init__(self,data,index,columns,dtype,copy);pandas/core/frame.py;422;521
+pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;7018;7156
+pandas.core.generic$NDFrame.tz_localize(self,tz,axis,level,copy,ambiguous,nonexistent);pandas/core/generic.py;9246;9413
+pandas.core.indexes.datetimes$DatetimeIndex._convert_for_op(self,value);pandas/core/indexes/datetimes.py;301;307
+pandas.core.indexes.datetimes$DatetimeIndex._validate_partial_date_slice(self,reso);pandas/core/indexes/datetimes.py;524;539
+pandas.core.indexes.datetimes$DatetimeIndex._maybe_promote(self,other);pandas/core/indexes/datetimes.py;541;544
+pandas.core.resample$Resampler._get_binner_for_time(self);pandas/core/resample.py;169;170
+pandas.core.resample$TimeGrouper._get_time_bins(self,ax);pandas/core/resample.py;1406;1460
+pandas.core.reshape.pivot$crosstab(index,columns,values,rownames,colnames,aggfunc,margins,margins_name,dropna,normalize);pandas/core/reshape/pivot.py;466;627

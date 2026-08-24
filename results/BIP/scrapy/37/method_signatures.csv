@@ -1,0 +1,14 @@
+corpus_id;path;startLine;endLine
+scrapy.core.downloader.handlers.http11$HTTP11DownloadHandler.close(self);scrapy/core/downloader/handlers/http11.py;77;95
+scrapy.core.spidermw$SpiderMiddlewareManager.scrape_response(self,scrape_func,response,request,spider);scrapy/core/spidermw.py;38;114
+scrapy.crawler$Crawler.crawl(self,*args,**kwargs);scrapy/crawler.py;79;105
+scrapy.extensions.telnet$TelnetConsole._get_telnet_vars(self);scrapy/extensions/telnet.py;100;118
+scrapy.http.request$Request.__init__(self,url,callback,method,headers,body,cookies,meta,encoding,priority,dont_filter,errback,flags,cb_kwargs);scrapy/http/request/__init__.py;20;45
+scrapy.http.request$Request._set_url(self,url);scrapy/http/request/__init__.py;62;70
+scrapy.http.request$Request._set_body(self,body);scrapy/http/request/__init__.py;77;81
+scrapy.http.request$Request.encoding(self);scrapy/http/request/__init__.py;85;87
+scrapy.shell$Shell.start(self,url,request,response,spider,redirect);scrapy/shell.py;44;81
+scrapy.spidermiddlewares.depth$DepthMiddleware.process_spider_output(self,response,result,spider);scrapy/spidermiddlewares/depth.py;30;58
+scrapy.spidermiddlewares.httperror$HttpErrorMiddleware.process_spider_input(self,response,spider);scrapy/spidermiddlewares/httperror.py;31;45
+scrapy.utils.deprecate$create_deprecated_class(name,new_class,clsdict,warn_category,warn_once,old_class_path,new_class_path,subclass_warn_message,instance_warn_message);scrapy/utils/deprecate.py;15;117
+scrapy.utils.url$escape_ajax(url);scrapy/utils/url.py;47;73

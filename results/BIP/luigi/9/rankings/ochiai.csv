@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;luigi.scheduler$Failures.add_failure(self);luigi/scheduler.py;172;181;0.36419904307075684
+1;luigi.scheduler$Failures.num_failures(self);luigi/scheduler.py;183;192;0.36419904307075684
+1;luigi.scheduler$SimpleTaskState.set_status(self,task,new_status,config);luigi/scheduler.py;510;560;0.36419904307075684
+1;luigi.scheduler$Task.add_failure(self);luigi/scheduler.py;320;321;0.36419904307075684
+1;luigi.scheduler$Task.has_excessive_failures(self);luigi/scheduler.py;323;333;0.36419904307075684
+1;luigi.worker$Worker._handle_next_task(self);luigi/worker.py;909;975;0.36419904307075684
+55;luigi.execution_summary$_partition_tasks(worker);luigi/execution_summary.py;35;58;0.16860699896573406
+55;luigi.task$Task.__init__(self,*args,**kwargs);luigi/task.py;372;388;0.16860699896573406
+55;luigi.task$Task.get_task_family(cls);luigi/task.py;279;292;0.16860699896573406
+55;luigi.worker$Worker.__init__(self,scheduler,worker_id,worker_processes,assistant,**kwargs);luigi/worker.py;387;435;0.16860699896573406
+136;luigi.execution_summary$_depth_first_search(set_tasks,current_task,visited);luigi/execution_summary.py;77;105;0.0
+136;luigi.execution_summary$_summary_format(set_tasks,worker);luigi/execution_summary.py;339;400;0.0
+136;luigi.task$Task.complete(self);luigi/task.py;475;490;0.0
+136;luigi.task$Task.run(self);luigi/task.py;574;580;0.0

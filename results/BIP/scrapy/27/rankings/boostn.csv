@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.core.downloader.webclient$ScrapyHTTPClientFactory.__init__(self,request,timeout);scrapy/core/downloader/webclient.py;93;123;1.0
+1;scrapy.downloadermiddlewares.redirect$RedirectMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/redirect.py;56;79;1.0
+3;scrapy.commands.fetch$Command.run(self,args,opts);scrapy/commands/fetch.py;43;57;0.7385740377983009
+3;scrapy.pipelines.media$MediaPipeline._check_media_to_download(self,result,request,info);scrapy/pipelines/media.py;78;93;0.7385740377983009
+3;scrapy.shell$Shell.fetch(self,request_or_url,spider);scrapy/shell.py;76;90;0.7385740377983009
+35;scrapy.downloadermiddlewares.redirect$BaseRedirectMiddleware.__init__(self,settings);scrapy/downloadermiddlewares/redirect.py;15;20;0.2614259622016991
+89;scrapy.downloadermiddlewares.cookies$CookiesMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/cookies.py;42;52;0.19711317283970972
+89;scrapy.downloadermiddlewares.httpcache$HttpCacheMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/httpcache.py;68;95;0.19711317283970972
+131;scrapy.http.headers$Headers.__getitem__(self,key);scrapy/http/headers.py;38;42;0.1427291416611964
+131;scrapy.utils.datatypes$CaselessDict.__contains__(self,key);scrapy/utils/datatypes.py;181;182;0.1427291416611964
+131;scrapy.utils.datatypes$CaselessDict.__getitem__(self,key);scrapy/utils/datatypes.py;172;173;0.1427291416611964
+265;scrapy.downloadermiddlewares.decompression$DecompressionMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/decompression.py;78;88;0.0
+265;scrapy.downloadermiddlewares.httpcompression$HttpCompressionMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/httpcompression.py;22;39;0.0
+265;scrapy.downloadermiddlewares.redirect$BaseRedirectMiddleware.from_crawler(cls,crawler);scrapy/downloadermiddlewares/redirect.py;22;24;0.0
+265;scrapy.http.request$Request._get_url(self);scrapy/http/request/__init__.py;46;47;0.0

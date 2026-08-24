@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;keras.engine.base_layer$Layer.__call__(self,inputs,**kwargs);keras/engine/base_layer.py;382;508;1.0
+2;keras.engine.base_layer$Layer.compute_mask(self,inputs,mask);keras/engine/base_layer.py;593;621;0.9999717442287587
+3;keras.layers.core$Lambda.__init__(self,function,output_shape,mask,arguments,**kwargs);keras/layers/core.py;646;665;0.9998869769150349
+4;keras.layers.core$Lambda.compute_output_shape(self,input_shape);keras/layers/core.py;667;706;0.9996044192026221
+5;keras.layers.core$Lambda.call(self,inputs,mask);keras/layers/core.py;708;716;0.9994066288039332
+9;keras.models$_clone_functional_model(model,input_tensors);keras/models.py;26;169;0.9983894210392472
+14;keras.models$clone_model(model,input_tensors);keras/models.py;226;251;0.9967788420784945
+39;keras.engine.network$_map_graph_network(inputs,outputs);keras/engine/network.py;1315;1498;0.9898279223531407
+198;keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;37;473;0.958435760504083
+199;keras.engine.training$Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,validation_freq,**kwargs);keras/engine/training.py;832;1056;0.9584075047328416
+213;keras.engine.training$Model._set_inputs(self,inputs,outputs,training);keras/engine/training.py;560;641;0.9504676330140431
+220;keras.engine.training_generator$evaluate_generator(model,generator,steps,callbacks,max_queue_size,workers,use_multiprocessing,verbose);keras/engine/training_generator.py;272;412;0.9399564861122884
+262;keras.layers.merge$add(inputs,**kwargs);keras/layers/merge.py;530;555;0.9289932468706733
+317;keras.utils.multi_gpu_utils$multi_gpu_model(model,gpus,cpu_merge,cpu_relocation);keras/utils/multi_gpu_utils.py;24;258;0.9133395496030065
+1411;keras.layers.merge$multiply(inputs,**kwargs);keras/layers/merge.py;586;596;0.2242095447995253

@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+pandas._config.config$_select_options(pat);pandas/_config/config.py;535;550
+pandas.core.base$SelectionMixin._aggregate_multiple_funcs(self,arg,_level,_axis);pandas/core/base.py;552;613
+pandas.core.dtypes.cast$maybe_downcast_numeric(result,dtype,do_round);pandas/core/dtypes/cast.py;162;233
+pandas.core.frame$DataFrame.stack(self,level,dropna);pandas/core/frame.py;5986;6154
+pandas.core.frame$DataFrame.round(self,decimals,*args,**kwargs);pandas/core/frame.py;7246;7355
+pandas.core.generic$NDFrame.rename_axis(self,mapper,**kwargs);pandas/core/generic.py;1168;1337
+pandas.core.generic$NDFrame.astype(self,dtype,copy,errors);pandas/core/generic.py;5779;5920
+pandas.core.generic$NDFrame.groupby(self,by,axis,level,as_index,sort,group_keys,squeeze,observed,**kwargs);pandas/core/generic.py;7774;7911
+pandas.core.groupby.generic$NDFrameGroupBy._cython_agg_blocks(self,how,alt,numeric_only,min_count);pandas/core/groupby/generic.py;158;235
+pandas.core.groupby.generic$NDFrameGroupBy.aggregate(self,func,*args,**kwargs);pandas/core/groupby/generic.py;237;286
+pandas.core.groupby.grouper$Grouping.__init__(self,index,grouper,obj,name,level,sort,observed,in_axis);pandas/core/groupby/grouper.py;246;366
+pandas.core.groupby.ops$BaseGrouper._get_grouper(self);pandas/core/groupby/ops.py;171;178
+pandas.core.groupby.ops$BaseGrouper._get_group_keys(self);pandas/core/groupby/ops.py;180;187
+pandas.core.groupby.ops$BaseGrouper._cython_operation(self,kind,values,how,axis,min_count,**kwargs);pandas/core/groupby/ops.py;456;598
+pandas.core.groupby.ops$BaseGrouper.aggregate(self,values,how,axis,min_count);pandas/core/groupby/ops.py;600;603
+pandas.core.groupby.ops$BaseGrouper._aggregate(self,result,counts,values,comp_ids,agg_func,is_numeric,is_datetimelike,min_count);pandas/core/groupby/ops.py;608;625

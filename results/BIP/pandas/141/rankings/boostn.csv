@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.indexes.datetimes$bdate_range(start,end,periods,freq,tz,normalize,name,weekmask,holidays,closed,**kwargs);pandas/core/indexes/datetimes.py;1582;1687;1.0
+2;pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;6897;7037;0.9506469861241756
+3;pandas.core.indexes.timedeltas$timedelta_range(start,end,periods,freq,name,closed);pandas/core/indexes/timedeltas.py;711;784;0.9269626807980614
+4;pandas.core.arrays.datetimelike$DatetimeLikeArrayMixin._validate_frequency(cls,index,freq,**kwargs);pandas/core/arrays/datetimelike.py;848;890;0.88738322511695
+5;pandas.core.indexes.timedeltas$TimedeltaIndex.__new__(cls,data,unit,freq,start,end,periods,closed,dtype,copy,name,verify_integrity);pandas/core/indexes/timedeltas.py;180;251;0.7853130693171713
+92;pandas.util.testing$raise_assert_detail(obj,message,left,right,diff);pandas/util/testing.py;907;931;0.5140556155632009
+180;pandas.util.testing$assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj);pandas/util/testing.py;934;1014;0.4312294636035955
+409;pandas.core.indexes.range$RangeIndex.get_indexer(self,target,method,limit,tolerance);pandas/core/indexes/range.py;381;407;0.3349315587431795
+414;pandas.core.indexes.range$RangeIndex.__len__(self);pandas/core/indexes/range.py;700;704;0.33110961128899397
+649;pandas.core.indexes.range$RangeIndex._validate_dtype(dtype);pandas/core/indexes/range.py;170;174;0.273995376756532
+1198;pandas.io.formats.printing$pprint_thing(thing,_nest_lvl,escape_chars,default_escapes,quote_strings,max_seq_items);pandas/io/formats/printing.py;152;223;0.1727059187307549
+1968;pandas.io.formats.printing$_pprint_seq(seq,_nest_lvl,max_seq_items,**kwds);pandas/io/formats/printing.py;86;118;0.13459146204705272
+2928;pandas._config.config$_select_options(pat);pandas/_config/config.py;535;550;0.0
+2928;pandas.core.indexes.range$RangeIndex._constructor(self);pandas/core/indexes/range.py;176;179;0.0
+2928;pandas.core.indexes.range$RangeIndex._int64index(self);pandas/core/indexes/range.py;196;198;0.0

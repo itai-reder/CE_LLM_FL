@@ -1,0 +1,13 @@
+rank;signature;path;startLine;endLine;score
+1;keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;37;473;1.0
+2;keras.datasets.imdb$load_data(path,num_words,skip_top,maxlen,seed,start_char,oov_char,index_from,**kwargs);keras/datasets/imdb.py;14;104;0.7005852883312697
+2;keras.datasets.reuters$load_data(path,num_words,skip_top,maxlen,test_split,seed,start_char,oov_char,index_from,**kwargs);keras/datasets/reuters.py;15;88;0.7005852883312697
+4;keras.engine.saving$_serialize_model(model,h5dict,include_optimizer);keras/engine/saving.py;37;182;0.6761305836076194
+5;keras.engine.input_layer$Input(shape,batch_shape,name,dtype,sparse,tensor);keras/engine/input_layer.py;114;182;0.6411182050532961
+46;keras.backend.tensorflow_backend$variable(value,dtype,name,constraint);keras/backend/tensorflow_backend.py;371;421;0.3387842808767439
+115;keras.backend.tensorflow_backend$get_session();keras/backend/tensorflow_backend.py;160;216;0.23476271965462142
+157;keras.backend.tensorflow_backend$eval(x);keras/backend/tensorflow_backend.py;672;691;0.18558290937070304
+177;keras.backend.tensorflow_backend$to_dense(tensor);keras/backend/tensorflow_backend.py;342;365;0.17777892077678445
+207;keras.backend.cntk_backend$in_top_k(predictions,targets,k);keras/backend/cntk_backend.py;2364;2367;0.15490244633027922
+270;keras.backend.tensorflow_backend$in_top_k(predictions,targets,k);keras/backend/tensorflow_backend.py;3698;3711;0.10792478955007673
+864;keras.backend.numpy_backend$l2_normalize(x,axis);keras/backend/numpy_backend.py;314;316;0.0

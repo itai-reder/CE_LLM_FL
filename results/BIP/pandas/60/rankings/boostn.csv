@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.frame$DataFrame.apply(self,func,axis,raw,result_type,args,**kwds);pandas/core/frame.py;6838;6984;1.0
+2;pandas.core.indexes.datetimes$bdate_range(start,end,periods,freq,tz,normalize,name,weekmask,holidays,closed,**kwargs);pandas/core/indexes/datetimes.py;959;1064;0.9325851533022184
+3;pandas.plotting._misc$parallel_coordinates(frame,class_column,cols,ax,color,use_columns,xticks,colormap,axvlines,axvlines_kwds,sort_labels,**kwargs);pandas/plotting/_misc.py;310;381;0.9023271858791151
+4;pandas.core.reshape.pivot$crosstab(index,columns,values,rownames,colnames,aggfunc,margins,margins_name,dropna,normalize);pandas/core/reshape/pivot.py;464;626;0.8923000989341925
+5;pandas.core.indexes.timedeltas$timedelta_range(start,end,periods,freq,name,closed);pandas/core/indexes/timedeltas.py;285;358;0.8539184167826699
+34;pandas.core.window.rolling$_Rolling_and_Expanding.apply(self,func,raw,engine,engine_kwargs,args,kwargs);pandas/core/window/rolling.py;1259;1306;0.6295590554375673
+48;pandas._testing$raise_assert_detail(obj,message,left,right,diff);pandas/_testing.py;907;929;0.5852043848103485
+500;pandas.core.groupby.generic$DataFrameGroupBy.nunique(self,dropna);pandas/core/groupby/generic.py;1802;1879;0.28623340892856475
+2327;pandas._config.config$CallableDynamicDoc.__call__(self,*args,**kwds);pandas/_config/config.py;240;241;0.0
+2327;pandas._config.config$_get_single_key(pat,silent);pandas/_config/config.py;94;109;0.0
+2327;pandas._config.config$_select_options(pat);pandas/_config/config.py;548;563;0.0
+2327;pandas._config.config$_warn_if_deprecated(key);pandas/_config/config.py;622;647;0.0
+2327;pandas.core.groupby.generic$DataFrameGroupBy.__getitem__(self,key);pandas/core/groupby/generic.py;1603;1614;0.0
+2327;pandas.core.groupby.generic$DataFrameGroupBy._iterate_slices(self);pandas/core/groupby/generic.py;988;1001;0.0
+2327;pandas.core.groupby.generic$DataFrameGroupBy.count(self);pandas/core/groupby/generic.py;1776;1800;0.0
+2327;pandas.core.groupby.generic$SeriesGroupBy.count(self);pandas/core/groupby/generic.py;779;802;0.0

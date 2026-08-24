@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;luigi.file$LocalFileSystem.move(self,old_path,new_path,raise_if_exists);luigi/file.py;86;92;1.0
+2;luigi.file$LocalTarget.__init__(self,path,format,is_tmp);luigi/file.py;98;108;0.9997145915090974
+3;luigi.format$get_default_format();luigi/format.py;515;521;0.9996432393863718
+4;luigi.format$TextWrapper.__del__(self,*args);luigi/format.py;409;417;0.9995005351409204
+5;luigi.format$TextWrapper.__init__(self,stream,*args,**kwargs);luigi/format.py;419;424;0.9993578308954691
+23;luigi.file$LocalTarget.move(self,new_path,raise_if_exists);luigi/file.py;135;136;0.9956475205137353
+66;luigi.target$FileSystem.rename_dont_move(self,path,dest);luigi/target.py;167;185;0.9875847306457367
+327;luigi.contrib.gcs$GCSClient.move(self,source_path,destination_path);luigi/contrib/gcs.py;313;318;0.7937923653228683
+361;luigi.contrib.hadoop$HadoopJobRunner.run_job(self,job,tracking_url_callback);luigi/contrib/hadoop.py;418;539;0.7641098822689975
+406;luigi.contrib.hdfs.abstract_client$HdfsFileSystem.rename_dont_move(self,path,dest);luigi/contrib/hdfs/abstract_client.py;44;55;0.7305030324652159
+460;luigi.contrib.hdfs.hadoopcli_clients$HdfsClient.move(self,path,dest);luigi/contrib/hdfs/hadoopcli_clients.py;90;98;0.7028184088476632
+464;luigi.contrib.hdfs.snakebite_client$SnakebiteHdfsClient.move(self,path,dest);luigi/contrib/hdfs/snakebite_client.py;97;112;0.6995362112022833
+486;luigi.contrib.hdfs.target$HdfsTarget.move_dir(self,path);luigi/contrib/hdfs/target.py;140;150;0.6837673920799143

@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;ansible.galaxy.collection$CollectionRequirement.from_name(collection,apis,requirement,force,parent,allow_pre_release);ansible/galaxy/collection.py;437;472;0.5458363904912633
+1;ansible.galaxy.collection$verify_collections(collections,search_paths,apis,validate_certs,ignore_errors,allow_pre_release);ansible/galaxy/collection.py;650;697;0.5458363904912633
+3;ansible.galaxy.collection$_display_progress();ansible/galaxy/collection.py;714;776;0.3225806451612903
+4;ansible.galaxy.collection$_tempdir();ansible/galaxy/collection.py;700;704;0.30653430031715506
+5;ansible.galaxy.collection$CollectionRequirement.__init__(self,namespace,name,b_path,api,versions,requirement,force,parent,metadata,files,skip,allow_pre_releases);ansible/galaxy/collection.py;60;95;0.24390243902439027
+5;ansible.galaxy.collection$CollectionRequirement._meets_requirements(self,version,requirements,parent);ansible/galaxy/collection.py;309;348;0.24390243902439027
+11;ansible.cli.galaxy$GalaxyCLI.__init__(self,args);ansible/cli/galaxy.py;103;113;0.0
+11;ansible.cli.galaxy$GalaxyCLI.add_download_options(self,parser,parents);ansible/cli/galaxy.py;190;207;0.0
+11;ansible.cli.galaxy$GalaxyCLI.add_init_options(self,parser,parents);ansible/cli/galaxy.py;209;234;0.0
+11;ansible.cli.galaxy$GalaxyCLI.init_parser(self);ansible/cli/galaxy.py;115;188;0.0
+11;ansible.galaxy.collection$CollectionRequirement.from_path(b_path,force,parent);ansible/galaxy/collection.py;388;435;0.0
+11;ansible.galaxy.collection$CollectionRequirement.verify(self,remote_collection,path,b_temp_tar_path);ansible/galaxy/collection.py;242;290;0.0
+11;ansible.galaxy.collection$build_collection(collection_path,output_path,force);ansible/galaxy/collection.py;475;508;0.0

@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.dtypes.cast$maybe_infer_to_datetimelike(value,convert_dates);pandas/core/dtypes/cast.py;1017;1121;1.0
+2;pandas.core.arrays.datetimelike$DatetimeLikeArrayMixin.__array__(self,dtype);pandas/core/arrays/datetimelike.py;385;389;0.9999630283480142
+3;pandas.core.base$IndexOpsMixin.array(self);pandas/core/base.py;693;776;0.9999445425220213
+4;pandas.core.internals.blocks$get_block_type(values,dtype);pandas/core/internals/blocks.py;2901;2944;0.9999260566960283
+5;pandas.core.internals.blocks$TimeDeltaBlock.__init__(self,values,placement,ndim);pandas/core/internals/blocks.py;2405;2411;0.9999075708700353
+80;pandas.core.frame$DataFrame.transpose(self,*args,**kwargs);pandas/core/frame.py;2488;2581;0.9972178831880656
+86;pandas.core.generic$NDFrame.transpose(self,*args,**kwargs);pandas/core/generic.py;646;688;0.9970422678411328
+92;pandas.core.internals.managers$BlockManager.as_array(self,transpose,items);pandas/core/internals/managers.py;770;804;0.9966540654952815
+283;pandas.core.indexes.base$Index.__getitem__(self,key);pandas/core/indexes/base.py;3988;4021;0.987318723368857
+389;pandas.core.indexes.base$Index.set_names(self,names,level,inplace);pandas/core/indexes/base.py;1265;1342;0.9803680527955191
+406;pandas.core.indexes.base$Index.astype(self,dtype,copy);pandas/core/indexes/base.py;726;744;0.9797025630597739
+2977;pandas.core.generic$NDFrame.interpolate(self,method,axis,limit,inplace,limit_direction,limit_area,downcast,**kwargs);pandas/core/generic.py;6711;6806;0.641467404867318
+3263;pandas.core.indexes.base$Index.droplevel(self,level);pandas/core/indexes/base.py;1499;1559;0.5760460666783743
+3358;pandas.core.indexes.base$Index.shift(self,periods,freq);pandas/core/indexes/base.py;4336;4392;0.559760053978612
+3979;pandas.core.internals.blocks$Block.setitem(self,indexer,value);pandas/core/internals/blocks.py;773;874;0.4663511752363875
+5375;pandas.io.pytables$GenericFixed.write_array(self,key,value,items);pandas/io/pytables.py;2897;2979;0.17766727361795343

@@ -1,0 +1,13 @@
+corpus_id;path;startLine;endLine
+thefuck.rules.open$match(command);thefuck/rules/open.py;11;22
+thefuck.rules.python_command$match(command);thefuck/rules/python_command.py;7;13
+thefuck.rules.sudo$match(command);thefuck/rules/sudo.py;23;28
+thefuck.rules.sudo$get_new_command(command);thefuck/rules/sudo.py;31;35
+thefuck.rules.touch$match(command);thefuck/rules/touch.py;6;8
+thefuck.rules.touch$get_new_command(command);thefuck/rules/touch.py;11;13
+thefuck.rules.whois$match(command);thefuck/rules/whois.py;6;24
+thefuck.types$Command.__init__(self,script,stdout,stderr);thefuck/types.py;16;26
+thefuck.types$Command.script_parts(self);thefuck/types.py;28;37
+thefuck.types$Command.__repr__(self);thefuck/types.py;46;48
+thefuck.types$Command.update(self,**kwargs);thefuck/types.py;50;59
+thefuck.types$Command._prepare_script(raw_script);thefuck/types.py;82;96

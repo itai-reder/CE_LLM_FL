@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.indexes.timedeltas$TimedeltaIndex.searchsorted(self,value,side,sorter);pandas/core/indexes/timedeltas.py;356;364;1.0
+2;pandas.core.tools.timedeltas$to_timedelta(arg,unit,errors);pandas/core/tools/timedeltas.py;16;108;0.9361611797258204
+3;pandas.core.indexes.interval$IntervalIndex._needs_i8_conversion(self,key);pandas/core/indexes/interval.py;587;609;0.9109198973798532
+4;pandas.core.tools.timedeltas$_convert_listlike(arg,unit,errors,name);pandas/core/tools/timedeltas.py;128;156;0.9087633019650782
+5;pandas.core.resample$TimeGrouper._get_time_delta_bins(self,ax);pandas/core/resample.py;1491;1514;0.8247202565386365
+36;pandas.core.indexes.base$Index.__new__(cls,data,dtype,copy,name,tupleize_cols,**kwargs);pandas/core/indexes/base.py;276;418;0.6552681168659983
+110;pandas.core.indexes.timedeltas$TimedeltaIndex._maybe_promote(self,other);pandas/core/indexes/timedeltas.py;238;241;0.5312890337627783
+423;pandas.core.indexing$IndexingMixin.iloc(self);pandas/core/indexing.py;93;229;0.339510496915484
+575;pandas.core.dtypes.common$is_dtype_equal(source,target);pandas/core/dtypes/common.py;685;721;0.2897228588297473
+930;pandas.core.dtypes.common$is_categorical_dtype(arr_or_dtype);pandas/core/dtypes/common.py;542;572;0.2314781643387764
+946;pandas.core.dtypes.common$is_interval_dtype(arr_or_dtype);pandas/core/dtypes/common.py;506;539;0.22847618743235654
+954;pandas.core.ops.array_ops$masked_arith_op(x,y,op);pandas/core/ops/array_ops.py;61;116;0.22725403215413195
+967;pandas.core.dtypes.common$is_datetime64_any_dtype(arr_or_dtype);pandas/core/dtypes/common.py;987;1024;0.22438522896079363
+2022;pandas.core.dtypes.common$_get_dtype(arr_or_dtype);pandas/core/dtypes/common.py;1672;1705;0.12890441292282703
+3069;pandas.core.internals.managers$BlockManager.equals(self,other);pandas/core/internals/managers.py;1397;1419;0.06465041108043183
+3091;pandas.core.common$try_sort(iterable);pandas/core/common.py;216;221;0.0

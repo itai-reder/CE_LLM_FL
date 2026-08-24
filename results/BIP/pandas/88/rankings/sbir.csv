@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.base$IndexOpsMixin.empty(self);pandas/core/base.py;900;902;1.0
+2;pandas.core.reshape.reshape$_unstack_multiple(data,clocs,fill_value);pandas/core/reshape/reshape.py;312;390;0.9999908671628841
+3;pandas.core.reshape.reshape$unstack(obj,level,fill_value);pandas/core/reshape/reshape.py;393;421;0.9999634686515366
+4;pandas.core.reshape.reshape$stack(frame,level,dropna);pandas/core/reshape/reshape.py;493;564;0.9999543358144207
+5;pandas.core.frame$DataFrame.stack(self,level,dropna);pandas/core/frame.py;6114;6282;0.9998904059546098
+21;pandas.core.reshape.pivot$pivot_table(data,values,index,columns,aggfunc,fill_value,margins,dropna,margins_name,observed);pandas/core/reshape/pivot.py;25;184;0.9990958491255308
+708;pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;6975;7112;0.9604639481254852
+758;pandas.core.groupby.groupby$GroupBy.size(self);pandas/core/groupby/groupby.py;1324;1339;0.9568016804420293
+770;pandas.core.groupby.grouper$Grouper.ax(self);pandas/core/groupby/grouper.py;116;118;0.9556600758025481
+1258;pandas.core.reshape.pivot$crosstab(index,columns,values,rownames,colnames,aggfunc,margins,margins_name,dropna,normalize);pandas/core/reshape/pivot.py;451;605;0.926489794054523
+2833;pandas.core.arrays.categorical$_cat_compare_op(op);pandas/core/arrays/categorical.py;65;144;0.8043654961413763
+3635;pandas.core.frame$DataFrame.corrwith(self,other,axis,drop,method);pandas/core/frame.py;7638;7729;0.629289008630531
+3766;pandas.core.groupby.generic$generate_property(name,klass);pandas/core/groupby/generic.py;89;109;0.5608201287730034
+3880;pandas.core.groupby.ops$BinGrouper.names(self);pandas/core/groupby/ops.py;824;826;0.5335403443079593
+6003;pandas.plotting._misc$parallel_coordinates(frame,class_column,cols,ax,color,use_columns,xticks,colormap,axvlines,axvlines_kwds,sort_labels,**kwargs);pandas/plotting/_misc.py;310;381;0.06230421480432897

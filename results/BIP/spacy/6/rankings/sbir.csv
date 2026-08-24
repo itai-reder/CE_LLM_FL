@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;spacy.language$Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs);spacy/language.py;136;177;1.0
+2;spacy.language$Language.pipe_names(self);spacy/language.py;238;244;0.9997811027272024
+3;spacy.analysis$analyze_all_pipes(pipeline,warn);spacy/analysis.py;41;51;0.9997682264170379
+4;spacy.language$Language.remove_pipe(self,name);spacy/language.py;395;407;0.9997167211763797
+5;spacy.analysis$analyze_pipes(pipeline,name,pipe,index,warn);spacy/analysis.py;11;38;0.9996652159357214
+6;spacy.errors$user_warning(message);spacy/errors.py;598;599;0.999562205454405
+7;spacy.errors$_warn(message,warn_type);spacy/errors.py;610;626;0.9995493291442404
+12;spacy.language$Language.add_pipe(self,component,name,before,after,first,last);spacy/language.py;300;348;0.998918389946177
+282;examples.training.train_entity_linker$main(kb_path,vocab_path,output_dir,n_iter);examples/training/train_entity_linker.py;58;136;0.9385284952743942
+302;fabfile$make();fabfile.py;60;65;0.9285622312070253
+386;spacy.cli.debug_data$debug_data(lang,train_path,dev_path,base_model,pipeline,ignore_warnings,verbose,no_format);spacy/cli/debug_data.py;25;517;0.9084365584198192
+396;spacy.cli.download$download(model,direct,*pip_args);spacy/cli/download.py;19;84;0.9022816821611599
+415;spacy.cli.pretrain$pretrain(texts_loc,vectors_model,output_dir,width,depth,bilstm_depth,cnn_pieces,sa_depth,use_chars,cnn_window,embed_rows,loss_func,use_vectors,dropout,n_iter,batch_size,max_length,min_length,seed,n_save_every,init_tok2vec,epoch_start);spacy/cli/pretrain.py;26;250;0.8939764621050191
+426;spacy.cli.train$train(lang,output_path,train_path,dev_path,raw_text,base_model,pipeline,vectors,n_iter,n_early_stopping,n_examples,use_gpu,version,meta_path,init_tok2vec,parser_multitasks,entity_multitasks,noise_level,orth_variant_level,eval_beam_widths,gold_preproc,learn_tokens,textcat_multilabel,textcat_arch,textcat_positive_label,verbose,debug);spacy/cli/train.py;23;499;0.8892894852051196
+442;spacy.cli.validate$validate();spacy/cli/validate.py;15;87;0.8821688856841183

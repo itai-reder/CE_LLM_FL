@@ -1,0 +1,13 @@
+rank;signature;path;startLine;endLine;score
+1;cookiecutter.generate$generate_files(repo_dir,context,output_dir,overwrite_if_exists,skip_if_file_exists);cookiecutter/generate.py;255;372;1.0
+2;cookiecutter.cli$main(template,extra_context,no_input,checkout,verbose,replay,overwrite_if_exists,output_dir,config_file,default_config,debug_file,directory,skip_if_file_exists);cookiecutter/cli.py;46;166;0.9607352612325497
+3;cookiecutter.hooks$run_script(script_path,cwd);cookiecutter/hooks.py;64;90;0.8797308575699607
+4;cookiecutter.generate$_run_hook_from_repo_dir(repo_dir,hook_name,project_dir,context,delete_project_on_failure);cookiecutter/generate.py;229;252;0.7091273215175279
+4;cookiecutter.generate$generate_context(context_file,default_context,extra_context);cookiecutter/generate.py;70;111;0.7091273215175279
+8;cookiecutter.hooks$valid_hook(hook_file,hook_name);cookiecutter/hooks.py;22;36;0.5495934403200385
+9;cookiecutter.hooks$find_hook(hook_name,hooks_dir);cookiecutter/hooks.py;39;61;0.5309650069489414
+9;cookiecutter.hooks$run_hook(hook_name,project_dir,context);cookiecutter/hooks.py;114;127;0.5309650069489414
+15;cookiecutter.hooks$run_script_with_context(script_path,cwd,context);cookiecutter/hooks.py;93;111;0.232979506343925
+21;cookiecutter.cli$version_msg();cookiecutter/cli.py;24;29;0.0
+21;cookiecutter.config$get_config(config_path);cookiecutter/config.py;55;79;0.0
+21;cookiecutter.utils$work_in(dirname);cookiecutter/utils.py;48;60;0.0

@@ -1,0 +1,3173 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 736
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1952,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2134,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3064,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3178,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3849,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5434,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5522,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5735,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8196,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8394,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.arrays.integer.safe_cast(values,dtype,copy)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.arrays.integer.IntegerArray.dtype(self)",
+        "pandas.core.arrays.integer.IntegerArray.__init__(self,values,mask,copy)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0029806500000000005,
+        "input_tokens": 50837,
+        "output_tokens": 1097
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 736
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1952,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2134,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3064,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3178,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3849,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5434,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5522,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5735,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8196,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 8394,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 29
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.arrays.integer.IntegerArray.__init__(self,values,mask,copy)",
+        "pandas.core.base.IndexOpsMixin.array(self)",
+        "pandas.core.construction.array(data,dtype,copy)"
+      ],
+      "top5_indices": [
+        16,
+        3,
+        6,
+        12,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.004325850000000001,
+        "input_tokens": 50837,
+        "output_tokens": 1083
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 736
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1952,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2134,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3064,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3178,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3849,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5434,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5522,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5735,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8196,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8394,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 515
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.base.IndexOpsMixin.array(self)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.arrays.integer.IntegerArray.__init__(self,values,mask,copy)",
+        "pandas.core.construction.array(data,dtype,copy)"
+      ],
+      "top5_indices": [
+        16,
+        12,
+        3,
+        6,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00567225,
+        "input_tokens": 50837,
+        "output_tokens": 1569
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 736
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1952,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2134,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3064,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3178,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3849,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5434,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5522,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5735,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8196,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8394,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1342
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.base.IndexOpsMixin.array(self)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.construction.array(data,dtype,copy)"
+      ],
+      "top5_indices": [
+        16,
+        12,
+        3,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.007326250000000001,
+        "input_tokens": 50837,
+        "output_tokens": 2396
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 736
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1952,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2134,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3064,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3178,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3849,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5434,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5522,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5735,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8196,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8394,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.construction.array(data,dtype,copy)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        11,
+        3,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01346625,
+        "input_tokens": 50837,
+        "output_tokens": 1097
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 736
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1952,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3537,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3651,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3833,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4575,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7036,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7224,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7895,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9480,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9698,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.construction.array(data,dtype,copy)",
+        "pandas.core.base.IndexOpsMixin.array(self)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        16,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01601085,
+        "input_tokens": 69529,
+        "output_tokens": 1013
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 736
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1952,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3537,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3651,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3833,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4575,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7036,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7224,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7895,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9480,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9698,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.construction.array(data,dtype,copy)",
+        "pandas.core.base.IndexOpsMixin.array(self)"
+      ],
+      "top5_indices": [
+        16,
+        1,
+        3,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01801925,
+        "input_tokens": 69529,
+        "output_tokens": 1013
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 736
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1952,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 61
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3537,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 186
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4208,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 85
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6783,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 6965,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7707,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 6784,
+          "input_tokens": 7818,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 6784,
+          "input_tokens": 7909,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 438
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7963,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.arrays.integer.safe_cast(values,dtype,copy)",
+        "pandas.core.arrays.integer.IntegerArray.dtype(self)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        16,
+        2,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 20992,
+        "cost_usd": 0.011186399999999999,
+        "input_tokens": 62568,
+        "output_tokens": 1659
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 736
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1952,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 172
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3537,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 596
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4019,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 490
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4201,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4943,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 5614,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1096
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8075,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 818
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8129,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.arrays.integer.IntegerArray.__init__(self,values,mask,copy)",
+        "pandas.core.construction.array(data,dtype,copy)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        16,
+        6,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 3712,
+        "cost_usd": 0.014452949999999999,
+        "input_tokens": 41527,
+        "output_tokens": 3995
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 736
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1952,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3537,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5122,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 6304,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4864,
+          "input_tokens": 7293,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7475,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7529,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.arrays.integer.safe_cast(values,dtype,copy)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.arrays.integer.IntegerArray.dtype(self)",
+        "pandas.core.arrays.integer.IntegerArray.__init__(self,values,mask,copy)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 6912,
+        "cost_usd": 0.03463865,
+        "input_tokens": 40269,
+        "output_tokens": 986
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 736
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1952,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3537,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5122,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 6304,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4864,
+          "input_tokens": 7293,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7475,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7529,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.base.IndexOpsMixin.to_numpy(self,dtype,copy)",
+        "pandas.core.construction.array(data,dtype,copy)",
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        15,
+        11,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 6912,
+        "cost_usd": 0.044086249999999993,
+        "input_tokens": 40269,
+        "output_tokens": 986
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1674,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1856,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2044,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2877,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3090,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3303,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3391,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3505,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3616,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3723,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.arrays.integer.IntegerArray.__init__(self,values,mask,copy)",
+        "pandas.core.arrays.integer.IntegerArray.dtype(self)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        16,
+        6,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.0027945239999999996,
+        "input_tokens": 32922,
+        "output_tokens": 764
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1674,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1856,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2044,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2877,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3090,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3303,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3391,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3505,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3616,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3723,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.construction.array(data,dtype,copy)",
+        "pandas.core.base.IndexOpsMixin.array(self)",
+        "pandas.core.base.IndexOpsMixin.to_numpy(self,dtype,copy)"
+      ],
+      "top5_indices": [
+        16,
+        3,
+        11,
+        12,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.0036079239999999993,
+        "input_tokens": 32922,
+        "output_tokens": 764
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3259,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3373,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4115,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6576,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6764,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 7435,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 6784,
+          "input_tokens": 7617,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7728,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7819,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7873,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.arrays.integer.IntegerArray.__init__(self,values,mask,copy)",
+        "pandas.core.construction.array(data,dtype,copy)"
+      ],
+      "top5_indices": [
+        1,
+        3,
+        16,
+        6,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 15232,
+        "cost_usd": 0.0127319,
+        "input_tokens": 65290,
+        "output_tokens": 740
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3259,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3373,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4115,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6576,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6764,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 7435,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 6784,
+          "input_tokens": 7617,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7728,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7819,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7873,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.construction.array(data,dtype,copy)",
+        "pandas.core.base.IndexOpsMixin.array(self)"
+      ],
+      "top5_indices": [
+        16,
+        3,
+        1,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 15232,
+        "cost_usd": 0.0143753,
+        "input_tokens": 65290,
+        "output_tokens": 740
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3259,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3373,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4115,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6576,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6764,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 7435,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 6784,
+          "input_tokens": 7617,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7728,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7819,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7873,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 330
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.construction.array(data,dtype,copy)",
+        "pandas.core.base.IndexOpsMixin.array(self)"
+      ],
+      "top5_indices": [
+        16,
+        3,
+        1,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 15232,
+        "cost_usd": 0.0149493,
+        "input_tokens": 65290,
+        "output_tokens": 1027
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3259,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3373,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4115,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6576,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6764,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 7435,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 6784,
+          "input_tokens": 7617,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7728,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7819,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7873,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 950
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.base.IndexOpsMixin.array(self)",
+        "pandas.core.base.IndexOpsMixin.to_numpy(self,dtype,copy)",
+        "pandas.core.construction.array(data,dtype,copy)",
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)"
+      ],
+      "top5_indices": [
+        16,
+        12,
+        15,
+        11,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 15232,
+        "cost_usd": 0.0161893,
+        "input_tokens": 65290,
+        "output_tokens": 1647
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3259,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3373,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4115,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6576,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6764,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 7435,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 6784,
+          "input_tokens": 7617,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7728,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7819,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7873,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.base.IndexOpsMixin.array(self)",
+        "pandas.core.base.IndexOpsMixin.to_numpy(self,dtype,copy)",
+        "pandas.core.arrays.datetimes.maybe_convert_dtype(data,copy)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        12,
+        15,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 15232,
+        "cost_usd": 0.022592300000000003,
+        "input_tokens": 65290,
+        "output_tokens": 740
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 68
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3259,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 81
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3373,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3555,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4297,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4388,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 59
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4442,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.construction.array(data,dtype,copy)",
+        "pandas.core.base.IndexOpsMixin.array(self)"
+      ],
+      "top5_indices": [
+        16,
+        3,
+        1,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.007456450000000002,
+        "input_tokens": 26045,
+        "output_tokens": 775
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 91
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3259,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 589
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3472,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 391
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3654,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4396,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4507,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1169
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4561,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.arrays.integer.IntegerArray.__init__(self,values,mask,copy)",
+        "pandas.core.arrays.integer.IntegerArray.copy(self)"
+      ],
+      "top5_indices": [
+        16,
+        3,
+        1,
+        5,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 9088,
+        "cost_usd": 0.0101702,
+        "input_tokens": 26580,
+        "output_tokens": 2785
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1674,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3259,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 4844,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4608,
+          "input_tokens": 5833,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6504,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6272,
+          "input_tokens": 8089,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 7808,
+          "input_tokens": 9271,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9325,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.base.IndexOpsMixin.to_numpy(self,dtype,copy)",
+        "pandas.core.base.IndexOpsMixin.array(self)",
+        "pandas.core.dtypes.cast.maybe_cast_to_datetime(value,dtype,errors)",
+        "pandas.core.arrays.integer.IntegerArray._from_sequence(cls,scalars,dtype,copy)"
+      ],
+      "top5_indices": [
+        16,
+        15,
+        12,
+        13,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 23808,
+        "cost_usd": 0.028586000000000004,
+        "input_tokens": 49856,
+        "output_tokens": 744
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 458
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1674,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3259,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 4844,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4608,
+          "input_tokens": 5833,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6504,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6272,
+          "input_tokens": 8089,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 7808,
+          "input_tokens": 9271,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9325,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.base.IndexOpsMixin.to_numpy(self,dtype,copy)",
+        "pandas.core.base.IndexOpsMixin.array(self)",
+        "pandas.core.arrays.datetimes.maybe_convert_dtype(data,copy)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        15,
+        12,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 23808,
+        "cost_usd": 0.038255000000000004,
+        "input_tokens": 49856,
+        "output_tokens": 744
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1027
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2052,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2240,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2982,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3096,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3309,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3522,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3610,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 6071,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6742,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 6869,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.arrays.integer.safe_cast(values,dtype,copy)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.arrays.integer.IntegerArray.dtype(self)",
+        "pandas.core.arrays.integer.IntegerArray.__init__(self,values,mask,copy)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.004468224,
+        "input_tokens": 43420,
+        "output_tokens": 1360
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1027
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3455,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4126,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4308,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5050,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7511,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 7296,
+          "input_tokens": 7993,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 9578,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9632,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.base.IndexOpsMixin.array(self)",
+        "pandas.core.arrays.datetimes.maybe_convert_dtype(data,copy)",
+        "pandas.core.construction.array(data,dtype,copy)",
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)"
+      ],
+      "top5_indices": [
+        16,
+        12,
+        14,
+        11,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 11008,
+        "cost_usd": 0.0137822,
+        "input_tokens": 54580,
+        "output_tokens": 1307
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1027
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 72
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3455,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 55
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3937,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4608,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 275
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4722,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 200
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 5711,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 182
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5765,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 211
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.arrays.datetimes.maybe_convert_dtype(data,copy)",
+        "pandas.core.base.IndexOpsMixin.array(self)",
+        "pandas.core.base.IndexOpsMixin.to_numpy(self,dtype,copy)",
+        "pandas.core.construction.array(data,dtype,copy)"
+      ],
+      "top5_indices": [
+        16,
+        14,
+        12,
+        15,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 10112,
+        "cost_usd": 0.00959405,
+        "input_tokens": 31125,
+        "output_tokens": 2044
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1027
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1870,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3455,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 5040,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 5094,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.base.IndexOpsMixin.to_numpy(self,dtype,copy)",
+        "pandas.core.base.IndexOpsMixin.array(self)",
+        "pandas.core.arrays.datetimes.maybe_convert_dtype(data,copy)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        15,
+        12,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.020758,
+        "input_tokens": 16516,
+        "output_tokens": 1169
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 220
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1296,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1478,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1666,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2408,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2499,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2553,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.arrays.integer.safe_cast(values,dtype,copy)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.arrays.integer.IntegerArray.dtype(self)",
+        "pandas.core.arrays.integer.IntegerArray.__init__(self,values,mask,copy)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0013740500000000001,
+        "input_tokens": 12957,
+        "output_tokens": 407
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 220
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1296,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2881,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3162,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4747,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5929,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8390,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9132,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9314,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 9088,
+          "input_tokens": 9425,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 9216,
+          "input_tokens": 9539,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9743,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._maybe_cache(arg,format,cache,convert_listlike)",
+        "pandas.core.dtypes.cast.maybe_cast_to_datetime(value,dtype,errors)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)"
+      ],
+      "top5_indices": [
+        16,
+        18,
+        13,
+        3,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 18304,
+        "cost_usd": 0.015529349999999999,
+        "input_tokens": 74615,
+        "output_tokens": 497
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 220
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1296,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 533
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2881,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1068
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2935,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1363
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.base.IndexOpsMixin.array(self)",
+        "pandas.core.base.IndexOpsMixin.to_numpy(self,dtype,copy)",
+        "pandas.core.construction.array(data,dtype,copy)",
+        "pandas.core.arrays.integer.IntegerArray._from_sequence(cls,scalars,dtype,copy)"
+      ],
+      "top5_indices": [
+        16,
+        12,
+        15,
+        11,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.008410250000000001,
+        "input_tokens": 8169,
+        "output_tokens": 3184
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 220
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1296,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2881,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4466,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5648,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 8109,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5376,
+          "input_tokens": 9694,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9748,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.dtypes.cast.maybe_cast_to_datetime(value,dtype,errors)",
+        "pandas.core.construction.array(data,dtype,copy)",
+        "pandas.core.base.IndexOpsMixin.array(self)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        13,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 14336,
+        "cost_usd": 0.03937875,
+        "input_tokens": 42899,
+        "output_tokens": 470
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 878
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2094,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2276,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2458,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2512,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.arrays.integer.safe_cast(values,dtype,copy)",
+        "pandas.core.arrays.integer.IntegerArray.__init__(self,values,mask,copy)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        5,
+        3,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.010625050000000002,
+        "input_tokens": 10397,
+        "output_tokens": 1020
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 878
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2094,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2276,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2458,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2512,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._maybe_cache(arg,format,cache,convert_listlike)",
+        "pandas.core.dtypes.cast.maybe_cast_to_datetime(value,dtype,errors)",
+        "pandas.core.arrays.datetimes.maybe_convert_dtype(data,copy)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        18,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.014052250000000002,
+        "input_tokens": 10397,
+        "output_tokens": 1020
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 878
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2094,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3679,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3861,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4717,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6302,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6356,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.construction.array(data,dtype,copy)",
+        "pandas.core.base.IndexOpsMixin.array(self)",
+        "pandas.core.arrays.integer.coerce_to_array(values,dtype,mask,copy)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        11,
+        12,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.01788885,
+        "input_tokens": 32041,
+        "output_tokens": 1086
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 878
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2094,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3679,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3861,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4717,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6302,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 6356,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._maybe_cache(arg,format,cache,convert_listlike)",
+        "pandas.core.dtypes.cast.maybe_cast_to_datetime(value,dtype,errors)",
+        "pandas.core.arrays.datetimes.maybe_convert_dtype(data,copy)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        18,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 3584,
+        "cost_usd": 0.02242885,
+        "input_tokens": 32041,
+        "output_tokens": 1086
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 878
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2094,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 89
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3679,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 87
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6140,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6254,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6436,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 7178,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7849,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 54
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7903,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._maybe_cache(arg,format,cache,convert_listlike)",
+        "pandas.core.dtypes.cast.maybe_cast_to_datetime(value,dtype,errors)",
+        "pandas.core.construction.array(data,dtype,copy)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        18,
+        13,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 7424,
+        "cost_usd": 0.029283100000000006,
+        "input_tokens": 48590,
+        "output_tokens": 1239
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 878
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2094,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 180
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3679,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 786
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3960,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1379
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4631,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4813,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5555,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5743,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 767
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 6225,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1117
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6279,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._maybe_cache(arg,format,cache,convert_listlike)",
+        "pandas.core.dtypes.cast.maybe_cast_to_datetime(value,dtype,errors)",
+        "pandas.core.arrays.datetimes.maybe_convert_dtype(data,copy)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        18,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 4736,
+        "cost_usd": 0.035079400000000004,
+        "input_tokens": 44036,
+        "output_tokens": 5216
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 878
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2094,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2148,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.arrays.integer.IntegerArray.__init__(self,values,mask,copy)",
+        "pandas.core.arrays.integer.IntegerArray.dtype(self)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        19,
+        6,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.013113350000000001,
+        "input_tokens": 5299,
+        "output_tokens": 948
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 878
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2094,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2148,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.arrays.integer.integer_array(values,dtype,copy)",
+        "pandas.core.construction.array(data,dtype,copy)",
+        "pandas.core.base.IndexOpsMixin.array(self)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        1,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01361175,
+        "input_tokens": 5299,
+        "output_tokens": 948
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 878
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2094,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2148,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 337
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._maybe_cache(arg,format,cache,convert_listlike)",
+        "pandas.core.dtypes.cast.maybe_cast_to_datetime(value,dtype,errors)",
+        "pandas.core.arrays.datetimes.maybe_convert_dtype(data,copy)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        18,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01419975,
+        "input_tokens": 5299,
+        "output_tokens": 1242
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 878
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2094,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2148,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 708
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._maybe_cache(arg,format,cache,convert_listlike)",
+        "pandas.core.dtypes.cast.maybe_cast_to_datetime(value,dtype,errors)",
+        "pandas.core.base.IndexOpsMixin.to_numpy(self,dtype,copy)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        18,
+        13,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01494175,
+        "input_tokens": 5299,
+        "output_tokens": 1613
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1057,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 878
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2094,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2148,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._convert_listlike_datetimes(arg,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact)",
+        "pandas.core.tools.datetimes._maybe_cache(arg,format,cache,convert_listlike)",
+        "pandas.core.dtypes.cast.maybe_cast_to_datetime(value,dtype,errors)",
+        "pandas.core.arrays.datetimes.maybe_convert_dtype(data,copy)"
+      ],
+      "top5_indices": [
+        16,
+        19,
+        18,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01610375,
+        "input_tokens": 5299,
+        "output_tokens": 948
+      }
+    }
+  },
+  "schema_version": 1
+}

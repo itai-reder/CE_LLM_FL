@@ -1,0 +1,13 @@
+rank;signature;path;startLine;endLine;score
+1;keras.preprocessing.text$text_to_word_sequence(text,filters,lower,split);keras/preprocessing/text.py;24;48;1.0
+2;keras.preprocessing.text$hashing_trick(text,n,hash_function,filters,lower,split);keras/preprocessing/text.py;77;116;0.8921457128854092
+3;examples.image_ocr$train(run_name,start_epoch,stop_epoch,img_w);examples/image_ocr.py;408;498;0.8115705874914513
+4;keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;549;956;0.7522380387992844
+5;keras.datasets.reuters$load_data(path,num_words,skip_top,maxlen,test_split,seed,start_char,oov_char,index_from,**kwargs);keras/datasets/reuters.py;15;88;0.6992975480783398
+10;keras.preprocessing.text$Tokenizer.fit_on_texts(self,texts);keras/preprocessing/text.py;174;218;0.5126339425995893
+12;keras.preprocessing.text$Tokenizer.sequences_to_matrix(self,sequences,mode);keras/preprocessing/text.py;306;362;0.49172906888852147
+23;keras.preprocessing.text$Tokenizer.__init__(self,num_words,filters,lower,split,char_level,oov_token,**kwargs);keras/preprocessing/text.py;148;172;0.4346826332391526
+26;keras.preprocessing.text$one_hot(text,n,filters,lower,split);keras/preprocessing/text.py;51;74;0.3935202137123391
+47;keras.preprocessing.text$Tokenizer.texts_to_sequences_generator(self,texts);keras/preprocessing/text.py;256;291;0.3125709585574522
+122;keras.preprocessing.text$Tokenizer.texts_to_sequences(self,texts);keras/preprocessing/text.py;239;254;0.204349461085493
+150;keras.preprocessing.text$Tokenizer.fit_on_sequences(self,sequences);keras/preprocessing/text.py;220;237;0.20006298404213707

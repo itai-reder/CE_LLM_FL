@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;black$main(ctx,code,line_length,target_version,check,diff,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config);black.py;251;468;1.0
+2;black$normalize_string_quotes(leaf);black.py;2727;2799;0.9685576687734232
+3;black$assert_equivalent(src,dst);black.py;3543;3617;0.8690269476214758
+4;blib2to3.pgen2.tokenize$generate_tokens(readline,grammar);blib2to3/pgen2/tokenize.py;337;566;0.8527997050155027
+5;black$can_omit_invisible_parens(line,line_length);black.py;3798;3884;0.8448011715282097
+13;black$DebugVisitor.show(cls,code);black.py;889;898;0.46981760549056395
+21;black$BracketTracker.mark(self,leaf);black.py;1024;1062;0.3619231697658736
+77;black$Report.__str__(self);black.py;3479;3506;0.1675236784012205
+79;black$EmptyLineTracker.maybe_empty_lines(self,current_line);black.py;1476;1486;0.167002517683974
+79;black$LineGenerator.line(self,indent);black.py;1585;1599;0.167002517683974
+85;black$list_comments(prefix,is_endmarker);black.py;2232;2266;0.15691706677011477
+90;black$get_future_imports(node);black.py;3308;3348;0.14607921459423678
+97;black$sub_twice(regex,replacement,original);black.py;3699;3705;0.12924468938216693
+174;black$DebugVisitor.visit_default(self,node);black.py;869;887;0.0

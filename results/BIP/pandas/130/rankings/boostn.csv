@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.tools.datetimes$to_datetime(arg,errors,dayfirst,yearfirst,utc,box,format,exact,unit,infer_datetime_format,origin,cache);pandas/core/tools/datetimes.py;560;788;1.0
+2;pandas.core.generic$NDFrame.describe(self,percentiles,include,exclude);pandas/core/generic.py;9969;10314;0.9884395347738552
+3;pandas.core.generic$NDFrame.resample(self,rule,how,axis,fill_method,closed,label,convention,kind,loffset,limit,base,on,level);pandas/core/generic.py;8184;8498;0.9728308446349451
+4;pandas.core.generic$NDFrame.truncate(self,before,after,axis,copy);pandas/core/generic.py;9526;9677;0.9435179616756055
+5;pandas.core.groupby.groupby$GroupBy.resample(self,rule,*args,**kwargs);pandas/core/groupby/groupby.py;1444;1552;0.9107555610986724
+20;pandas.core.groupby.generic$SeriesGroupBy.value_counts(self,normalize,sort,ascending,bins,dropna);pandas/core/groupby/generic.py;601;725;0.6897232934257489
+59;pandas.core.arrays._ranges$generate_regular_range(start,end,periods,freq);pandas/core/arrays/_ranges.py;15;83;0.5783245626509054
+293;pandas.core.groupby.generic$SeriesGroupBy.count(self);pandas/core/groupby/generic.py;727;749;0.3858243228426485
+525;pandas.core.algorithms$take_nd(arr,indexer,axis,out,fill_value,allow_fill);pandas/core/algorithms.py;1571;1672;0.3032323773482853
+1286;pandas.core.groupby.groupby$_GroupBy.groups(self);pandas/core/groupby/groupby.py;416;422;0.18469536437701697
+1366;pandas.core.groupby.ops$BinGrouper.group_info(self);pandas/core/groupby/ops.py;752;768;0.176283742961169
+1879;pandas.core.groupby.grouper$Grouper.groups(self);pandas/core/groupby/grouper.py;209;211;0.1344749474815108
+2202;pandas.core.algorithms$_get_take_nd_function(ndim,arr_dtype,out_dtype,axis,mask_info);pandas/core/algorithms.py;1442;1475;0.11597800728913299
+3025;pandas.core.accessor$PandasDelegate._add_delegate_accessors(cls,delegate,accessors,typ,overwrite);pandas/core/accessor.py;60;107;0.07349617818433223
+3405;pandas.compat.numpy.function$validate_minmax_axis(axis);pandas/compat/numpy/function.py;404;424;0.05961719215637647
+4009;pandas.core.generic$NDFrame._init_mgr(self,mgr,axes,dtype,copy);pandas/core/generic.py;232;247;0.040454748652179254

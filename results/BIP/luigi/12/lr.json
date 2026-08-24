@@ -1,0 +1,2933 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 733
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1811,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2058,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2112,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.configuration.LuigiConfigParser.instance(cls,*args,**kwargs)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.000675,
+        "input_tokens": 6900,
+        "output_tokens": 825
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 733
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1811,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2058,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2112,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__del__(self)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        12,
+        13,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0011662,
+        "input_tokens": 6900,
+        "output_tokens": 825
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 733
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1811,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2058,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2112,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 270
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__del__(self)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        16,
+        13,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0016202,
+        "input_tokens": 6900,
+        "output_tokens": 1052
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 733
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1811,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2058,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2112,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1026
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__del__(self)",
+        "luigi.configuration.LuigiConfigParser.reload(cls)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        18,
+        20,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0031322,
+        "input_tokens": 6900,
+        "output_tokens": 1808
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 733
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1811,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2058,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2112,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        16,
+        17,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0036222,
+        "input_tokens": 6900,
+        "output_tokens": 825
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 733
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1811,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2058,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2305,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2873,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2959,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3070,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3563,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3890,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3944,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.configuration.LuigiConfigParser.instance(cls,*args,**kwargs)",
+        "luigi.configuration.LuigiConfigParser.reload(cls)",
+        "luigi.parameter.Parameter.serialize(self,x)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        7,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 8064,
+        "cost_usd": 0.0065546499999999995,
+        "input_tokens": 33653,
+        "output_tokens": 1085
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 733
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1811,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2058,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2305,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2873,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2959,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3070,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3563,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3709,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3890,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3944,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__del__(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        14,
+        20,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 8064,
+        "cost_usd": 0.00741225,
+        "input_tokens": 33653,
+        "output_tokens": 1085
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 733
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1811,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 56
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2058,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 53
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2204,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2385,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2632,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 163
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2686,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.configuration.LuigiConfigParser.instance(cls,*args,**kwargs)",
+        "luigi.configuration.LuigiConfigParser.reload(cls)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        3,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00389515,
+        "input_tokens": 14695,
+        "output_tokens": 1092
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 733
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1811,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 137
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2058,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 584
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2379,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 491
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2872,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 591
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2958,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3205,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 505
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3441,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 592
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3495,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.configuration.LuigiConfigParser.instance(cls,*args,**kwargs)",
+        "luigi.configuration.LuigiConfigParser.reload(cls)",
+        "luigi.configuration.LuigiConfigParser.instance(cls,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        3,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0106817,
+        "input_tokens": 23138,
+        "output_tokens": 3698
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 733
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1811,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2058,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2305,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2798,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3119,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3366,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3420,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.configuration.LuigiConfigParser.instance(cls,*args,**kwargs)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0219186,
+        "input_tokens": 19796,
+        "output_tokens": 983
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 733
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1811,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2058,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2305,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2798,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3119,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3366,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3420,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        16,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0264354,
+        "input_tokens": 19796,
+        "output_tokens": 983
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 192
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1270,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1517,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1571,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.configuration.LuigiConfigParser.instance(cls,*args,**kwargs)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00086845,
+        "input_tokens": 5277,
+        "output_tokens": 284
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 192
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1270,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1517,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1571,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        16,
+        13,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0012514499999999999,
+        "input_tokens": 5277,
+        "output_tokens": 284
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 192
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1270,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1517,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1764,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2085,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2171,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2911,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3343,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3397,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.configuration.LuigiConfigParser.instance(cls,*args,**kwargs)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.006159150000000001,
+        "input_tokens": 25063,
+        "output_tokens": 508
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 192
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1270,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1517,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1764,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2085,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2171,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2911,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3343,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3397,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__del__(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        14,
+        20,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.006907350000000001,
+        "input_tokens": 25063,
+        "output_tokens": 508
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 192
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1270,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1517,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1764,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2085,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2171,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2911,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3343,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3397,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 318
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__del__(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        13,
+        20,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0074573500000000015,
+        "input_tokens": 25063,
+        "output_tokens": 783
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 192
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1270,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1517,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1764,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2085,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2171,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2911,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3343,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3397,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 752
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.target.CascadingClient._chained_call(self,method_name,*args,**kwargs)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__del__(self)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        14,
+        15,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00832535,
+        "input_tokens": 25063,
+        "output_tokens": 1217
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 192
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1270,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1517,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1764,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2085,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2171,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2911,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3343,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3397,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        16,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.010648350000000001,
+        "input_tokens": 25063,
+        "output_tokens": 508
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 192
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1270,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1517,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 253
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1838,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 83
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2331,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 353
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2417,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 255
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2900,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 203
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2954,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)",
+        "luigi.contrib.target.CascadingClient._chained_call(self,method_name,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        14,
+        18,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0064313,
+        "input_tokens": 18810,
+        "output_tokens": 1426
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 192
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1270,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1517,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 393
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2010,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 529
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2156,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 522
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2477,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 399
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2563,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1023
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2921,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1000
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2975,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__del__(self)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        14,
+        18,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.012911700000000002,
+        "input_tokens": 21482,
+        "output_tokens": 4145
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 192
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1270,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1517,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1764,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2257,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2343,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 29
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        14,
+        18,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01805,
+        "input_tokens": 15452,
+        "output_tokens": 414
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 192
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1270,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1517,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1764,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2257,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2343,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2718,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        16,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.021140000000000003,
+        "input_tokens": 15452,
+        "output_tokens": 428
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 264
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1222,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1469,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.configuration.LuigiConfigParser.instance(cls,*args,**kwargs)",
+        "luigi.configuration.LuigiConfigParser.reload(cls)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.task.task_id_str(task_family,params)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00101085,
+        "input_tokens": 5133,
+        "output_tokens": 370
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 264
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1222,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1469,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1716,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1963,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2284,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2481,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2627,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3301,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3355,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__del__(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        13,
+        20,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.00716795,
+        "input_tokens": 26515,
+        "output_tokens": 644
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 264
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1222,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1469,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 244
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1962,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 307
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2283,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 419
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2337,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 405
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__del__(self)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        14,
+        18,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00587,
+        "input_tokens": 10192,
+        "output_tokens": 1661
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 264
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1222,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1469,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1716,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2209,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2456,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2777,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3024,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3078,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        16,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0260565,
+        "input_tokens": 18870,
+        "output_tokens": 550
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 817
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1264,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1511,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1565,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.configuration.LuigiConfigParser.instance(cls,*args,**kwargs)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00212315,
+        "input_tokens": 5259,
+        "output_tokens": 923
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 817
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1264,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1511,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1832,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2079,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2165,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2658,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2769,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3016,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3102,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3248,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3410,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 29
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__del__(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        13,
+        20,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00875085,
+        "input_tokens": 27973,
+        "output_tokens": 1066
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 817
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1264,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 152
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1511,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 532
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1657,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 272
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1978,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 642
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2471,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 621
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2557,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2804,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 395
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 652
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3151,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 948
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3205,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 779
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.target.CascadingClient._chained_call(self,method_name,*args,**kwargs)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        14,
+        15,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 5632,
+        "cost_usd": 0.0165048,
+        "input_tokens": 24432,
+        "output_tokens": 5832
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 817
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1264,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1511,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1758,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2079,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2572,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2658,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2905,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2959,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        16,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.026856249999999998,
+        "input_tokens": 18625,
+        "output_tokens": 1103
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 806
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1884,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2131,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2185,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.configuration.LuigiConfigParser.instance(cls,*args,**kwargs)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        4,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.009561150000000001,
+        "input_tokens": 7119,
+        "output_tokens": 912
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 806
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1884,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2131,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2185,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        12,
+        18,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.012595950000000002,
+        "input_tokens": 7119,
+        "output_tokens": 912
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 806
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1884,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2131,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2624,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2871,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3192,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3278,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3525,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3636,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3690,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__del__(self)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        18,
+        14,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.015122899999999998,
+        "input_tokens": 27750,
+        "output_tokens": 1086
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 806
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1884,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2131,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2624,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2871,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3192,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3278,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3525,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3636,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3690,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        18,
+        14,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.019156899999999998,
+        "input_tokens": 27750,
+        "output_tokens": 1086
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 806
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1884,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 79
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2131,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 57
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2624,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2871,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 98
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3192,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 302
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3278,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 394
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3332,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)"
+      ],
+      "top5_indices": [
+        1,
+        16,
+        13,
+        14,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.018953949999999997,
+        "input_tokens": 20231,
+        "output_tokens": 1801
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 806
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1884,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 84
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2131,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 215
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2624,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 208
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2945,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 639
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3031,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1172
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3085,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        18,
+        14,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.01993115,
+        "input_tokens": 16619,
+        "output_tokens": 3167
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 806
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1884,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2131,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2378,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2871,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2957,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3278,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3332,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.configuration.LuigiConfigParser.instance(cls,*args,**kwargs)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)"
+      ],
+      "top5_indices": [
+        1,
+        12,
+        2,
+        4,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.030836300000000004,
+        "input_tokens": 19750,
+        "output_tokens": 1056
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 806
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1884,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2131,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2378,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2871,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2957,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3278,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        18,
+        14,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0315715,
+        "input_tokens": 19750,
+        "output_tokens": 1056
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 806
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1884,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2131,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2378,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2871,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2957,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3278,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 498
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.__del__(self)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        18,
+        14,
+        20
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0324815,
+        "input_tokens": 19750,
+        "output_tokens": 1511
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 806
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1884,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2131,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2378,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2871,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2957,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3278,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3332,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 886
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)",
+        "luigi.contrib.target.CascadingClient._chained_call(self,method_name,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        14,
+        18,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0332575,
+        "input_tokens": 19750,
+        "output_tokens": 1899
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 919,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 806
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1884,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2131,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2378,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2871,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2957,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3278,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3332,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()",
+        "luigi.contrib.hdfs.target.HdfsTarget.__init__(self,path,format,is_tmp,fs)",
+        "luigi.contrib.hdfs.target.HdfsTarget.fs(self)",
+        "luigi.contrib.hdfs.snakebite_client.SnakebiteHdfsClient.get_bite(self)",
+        "luigi.contrib.hdfs.clients.get_autoconfig_client()"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        18,
+        14,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0352475,
+        "input_tokens": 19750,
+        "output_tokens": 1056
+      }
+    }
+  },
+  "schema_version": 1
+}

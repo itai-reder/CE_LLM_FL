@@ -1,0 +1,14 @@
+corpus_id;path;startLine;endLine
+scrapy.exporters$BaseItemExporter.__init__(self,**kwargs);scrapy/exporters.py;28;29
+scrapy.exporters$BaseItemExporter._configure(self,options,dont_fail);scrapy/exporters.py;31;40
+scrapy.exporters$BaseItemExporter.export_item(self,item);scrapy/exporters.py;42;43
+scrapy.exporters$BaseItemExporter.serialize_field(self,field,name,value);scrapy/exporters.py;45;47
+scrapy.exporters$BaseItemExporter._get_serialized_fields(self,item,default_value,include_empty);scrapy/exporters.py;55;79
+scrapy.exporters$XmlItemExporter.__init__(self,file,**kwargs);scrapy/exporters.py;119;123
+scrapy.exporters$XmlItemExporter.start_exporting(self);scrapy/exporters.py;125;127
+scrapy.exporters$XmlItemExporter.export_item(self,item);scrapy/exporters.py;129;133
+scrapy.exporters$XmlItemExporter._export_xml_field(self,name,serialized_value);scrapy/exporters.py;139;149
+scrapy.exporters$XmlItemExporter._xg_characters(self,serialized_value);scrapy/exporters.py;157;160
+scrapy.exporters$CsvItemExporter.export_item(self,item);scrapy/exporters.py;188;196
+scrapy.exporters$CsvItemExporter._write_headers_and_set_fields_to_export(self,item);scrapy/exporters.py;205;215
+scrapy.http.headers$Headers.iteritems(self);scrapy/http/headers.py;72;73

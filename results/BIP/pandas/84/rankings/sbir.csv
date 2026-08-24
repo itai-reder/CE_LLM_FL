@@ -1,0 +1,13 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.frame$DataFrame.__init__(self,data,index,columns,dtype,copy);pandas/core/frame.py;414;511;1.0
+2;pandas.core.indexes.multi$MultiIndex._get_level_number(self,level);pandas/core/indexes/multi.py;1279;1304;0.9999908277917908
+3;pandas.core.reshape.reshape$_unstack_multiple(data,clocs,fill_value);pandas/core/reshape/reshape.py;312;390;0.9999816555835818
+4;pandas.core.reshape.reshape$unstack(obj,level,fill_value);pandas/core/reshape/reshape.py;393;421;0.9999541389589544
+5;pandas.core.indexes.multi$MultiIndex.from_product(cls,iterables,sortorder,names);pandas/core/indexes/multi.py;497;553;0.9999357945425361
+6;pandas.core.reshape.util$cartesian_product(X);pandas/core/reshape/util.py;8;59;0.9998715890850722
+771;pandas.core.internals.blocks$NonConsolidatableMixIn._get_unstack_items(self,unstacker,new_columns);pandas/core/internals/blocks.py;1652;1682;0.9576977757395093
+867;pandas.core.reshape.reshape$_unstack_frame(obj,level,fill_value);pandas/core/reshape/reshape.py;424;440;0.9503324925475808
+3303;pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;6991;7129;0.651107544141252
+3984;pandas.core.indexes.multi$MultiIndex.difference(self,other,sort);pandas/core/indexes/multi.py;3251;3305;0.4739096537491401
+4487;pandas.core.reshape.pivot$crosstab(index,columns,values,rownames,colnames,aggfunc,margins,margins_name,dropna,normalize);pandas/core/reshape/pivot.py;450;612;0.3633753726209585
+5958;pandas.plotting._misc$parallel_coordinates(frame,class_column,cols,ax,color,use_columns,xticks,colormap,axvlines,axvlines_kwds,sort_labels,**kwargs);pandas/plotting/_misc.py;310;381;0.05813345562944279

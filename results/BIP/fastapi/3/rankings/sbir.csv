@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;fastapi.routing$APIRouter.__init__(self,routes,redirect_slashes,default,dependency_overrides_provider,route_class,default_response_class,on_startup,on_shutdown);fastapi/routing.py;342;362;0.9998542911263296
+2;fastapi.routing$APIRouter.add_api_route(self,path,endpoint,response_model,status_code,tags,dependencies,summary,description,response_description,responses,deprecated,methods,operation_id,response_model_include,response_model_exclude,response_model_by_alias,response_model_skip_defaults,response_model_exclude_unset,include_in_schema,response_class,name,route_class_override,callbacks);fastapi/routing.py;364;420;0.9972315314002623
+3;fastapi.routing$APIRouter.api_route(self,path,response_model,status_code,tags,dependencies,summary,description,response_description,responses,deprecated,methods,operation_id,response_model_include,response_model_exclude,response_model_by_alias,response_model_skip_defaults,response_model_exclude_unset,include_in_schema,response_class,name,callbacks);fastapi/routing.py;422;478;0.9898003788430716
+4;fastapi.applications$FastAPI.__call__(self,scope,receive,send);fastapi/applications.py;145;151;0.9854291126329593
+5;fastapi.dependencies.utils$solve_dependencies(request,dependant,body,background_tasks,response,dependency_overrides_provider,dependency_cache);fastapi/dependencies/utils.py;422;555;0.9848462771382778
+6;fastapi.dependencies.utils$request_params_to_args(required_params,received_params);fastapi/dependencies/utils.py;558;603;0.9804750109281656
+7;fastapi.routing$run_endpoint_function(dependant,values,is_coroutine);fastapi/routing.py;93;103;0.979892175433484
+8;fastapi.routing$get_request_handler(dependant,body_field,status_code,response_class,response_field,response_model_include,response_model_exclude,response_model_by_alias,response_model_exclude_unset,dependency_overrides_provider);fastapi/routing.py;106;174;0.9796007576861431
+9;fastapi.routing$serialize_response(field,response_content,include,exclude,by_alias,exclude_unset,is_coroutine);fastapi/routing.py;51;90;0.9766865802127349
+371;fastapi.exceptions$RequestValidationError.__init__(self,errors,body);fastapi/exceptions.py;30;35;0.3820486667638059
+373;fastapi.openapi.docs$get_swagger_ui_html(openapi_url,title,swagger_js_url,swagger_css_url,swagger_favicon_url,oauth2_redirect_url,init_oauth);fastapi/openapi/docs.py;8;60;0.37884307154305696
+374;fastapi.openapi.docs$get_redoc_html(openapi_url,title,redoc_js_url,redoc_favicon_url,with_google_fonts);fastapi/openapi/docs.py;63;102;0.3786973626693866
+409;fastapi.routing$APIRoute.get_route_handler(self);fastapi/routing.py;326;338;0.18621594055077953
+457;scripts.docs$new_lang(lang);scripts/docs.py;42;102;0.0447326242168148
+470;scripts.gitter_releases_bot$get_github_graphql(tag_name);scripts/gitter_releases_bot.py;17;28;0.005536937199475448

@@ -1,0 +1,15 @@
+corpus_id;path;startLine;endLine
+keras.engine.base_layer$Layer.__init__(self,**kwargs);keras/engine/base_layer.py;94;161
+keras.engine.base_layer$Layer.assert_input_compatibility(self,inputs);keras/engine/base_layer.py;262;368
+keras.engine.base_layer$Layer.__call__(self,inputs,**kwargs);keras/engine/base_layer.py;382;508
+keras.engine.base_layer$Layer.compute_mask(self,inputs,mask);keras/engine/base_layer.py;593;621
+keras.engine.base_layer$InputSpec.__init__(self,dtype,shape,ndim,max_ndim,min_ndim,axes);keras/engine/base_layer.py;1152;1166
+keras.engine.input_layer$InputLayer.__init__(self,input_shape,batch_size,batch_input_shape,dtype,input_tensor,sparse,name);keras/engine/input_layer.py;33;103
+keras.engine.network$Network._base_init(self,name);keras/engine/network.py;98;137
+keras.engine.network$Network.run_internal_graph(self,inputs,masks);keras/engine/network.py;669;820
+keras.engine.sequential$Sequential.add(self,layer);keras/engine/sequential.py;114;195
+keras.engine.sequential$Sequential.pop(self);keras/engine/sequential.py;197;214
+keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;37;462
+keras.layers.core$Lambda.compute_mask(self,inputs,mask);keras/layers/core.py;684;687
+keras.layers.recurrent$RNN.call(self,inputs,mask,training,initial_state,constants);keras/layers/recurrent.py;544;634
+keras.layers.wrappers$TimeDistributed.call(self,inputs,training,mask);keras/layers/wrappers.py;209;265

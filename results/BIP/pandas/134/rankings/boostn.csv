@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.indexes.datetimes$bdate_range(start,end,periods,freq,tz,normalize,name,weekmask,holidays,closed,**kwargs);pandas/core/indexes/datetimes.py;1581;1686;1.0
+2;pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;6870;7010;0.6888333638494846
+3;pandas.tseries.holiday$Holiday._reference_dates(self,start_date,end_date);pandas/tseries/holiday.py;248;279;0.6620775212970322
+4;pandas.core.series$Series.diff(self,periods);pandas/core/series.py;2431;2493;0.650120629703335
+5;pandas.core.frame$DataFrame.diff(self,periods,axis);pandas/core/frame.py;6436;6523;0.6388483548167118
+135;pandas.core.tools.datetimes$_convert_listlike_datetimes(arg,box,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact);pandas/core/tools/datetimes.py;265;478;0.3551720521096603
+229;pandas.tseries.holiday$AbstractHolidayCalendar.merge_class(base,other);pandas/tseries/holiday.py;432;465;0.29424971142250267
+471;pandas.tseries.holiday$nearest_workday(dt);pandas/tseries/holiday.py;75;84;0.22094356533865409
+890;pandas.core.tools.datetimes$_box_as_indexlike(dt_array,utc,name);pandas/core/tools/datetimes.py;161;188;0.13315383693525584
+1843;pandas.core.arrays.datetimelike$DatetimeLikeArrayMixin.__getitem__(self,key);pandas/core/arrays/datetimelike.py;402;451;0.0
+1843;pandas.core.indexes.datetimelike$DatetimeIndexOpsMixin.tolist(self);pandas/core/indexes/datetimelike.py;360;364;0.0
+1843;pandas.core.indexes.datetimes$DatetimeIndex.__getitem__(self,key);pandas/core/indexes/datetimes.py;1208;1217;0.0
+1843;pandas.tseries.holiday$before_nearest_workday(dt);pandas/tseries/holiday.py;109;113;0.0

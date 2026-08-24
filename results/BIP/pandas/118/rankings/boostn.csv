@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.plotting._misc$parallel_coordinates(frame,class_column,cols,ax,color,use_columns,xticks,colormap,axvlines,axvlines_kwds,sort_labels,**kwargs);pandas/plotting/_misc.py;313;386;1.0
+2;pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;6686;6829;0.9946473537439233
+3;pandas.core.indexes.datetimes$bdate_range(start,end,periods,freq,tz,normalize,name,weekmask,holidays,closed,**kwargs);pandas/core/indexes/datetimes.py;1586;1691;0.9819422262025544
+4;pandas.core.frame$DataFrame.corrwith(self,other,axis,drop,method);pandas/core/frame.py;7353;7444;0.8814661728699552
+5;pandas.core.construction$array(data,dtype,copy);pandas/core/construction.py;50;313;0.86191298570681
+84;pandas.core.indexes.base$Index.__new__(cls,data,dtype,copy,name,fastpath,tupleize_cols,**kwargs);pandas/core/indexes/base.py;261;478;0.5949282877326106
+152;pandas.core.reshape.melt$melt(frame,id_vars,value_vars,var_name,value_name,col_level);pandas/core/reshape/melt.py;20;121;0.5154490944757093
+551;pandas.core.construction$sanitize_array(data,index,dtype,copy,raise_cast_failure);pandas/core/construction.py;367;487;0.30965923067954465
+700;pandas.core.internals.construction$init_dict(data,index,columns,dtype);pandas/core/internals/construction.py;202;243;0.26248219219862884
+1060;pandas.core.frame$DataFrame.__init__(self,data,index,columns,dtype,copy);pandas/core/frame.py;395;492;0.1870071120772053
+1680;pandas.core.internals.construction$arrays_to_mgr(arrays,arr_names,index,columns,dtype);pandas/core/internals/construction.py;52;70;0.10919187114148052
+2150;pandas.core.groupby.ops$BaseGrouper.nkeys(self);pandas/core/groupby/ops.py;110;112;0.085445588482456
+2587;pandas.core.groupby.generic$_make_unique(seq);pandas/core/groupby/generic.py;1905;1918;0.071070226518544
+2799;pandas.core.reshape.merge$_any(x);pandas/core/reshape/merge.py;1990;1991;0.0

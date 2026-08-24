@@ -1,0 +1,3587 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1806,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1901,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2276,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2407,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2854,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2949,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3029,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3147,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3255,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3386,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._update_priority(self,task,prio,worker)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.Task.can_disable(self)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        14,
+        12,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 4608,
+        "cost_usd": 0.0015985040000000002,
+        "input_tokens": 29540,
+        "output_tokens": 874
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1806,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1901,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2276,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2407,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2854,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2949,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3029,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3147,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3255,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3386,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Failures.num_failures(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.SimpleTaskState.re_enable(self,task,config)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        18,
+        6,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 4608,
+        "cost_usd": 0.002344504,
+        "input_tokens": 29540,
+        "output_tokens": 874
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1806,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1901,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2276,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2407,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2854,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2949,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3029,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3147,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3255,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3386,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 262
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Failures.num_failures(self)",
+        "luigi.scheduler.Task.add_failure(self)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        2,
+        18,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 4608,
+        "cost_usd": 0.002782504,
+        "input_tokens": 29540,
+        "output_tokens": 1093
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1806,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1901,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2276,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2407,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2854,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2949,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3029,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3147,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3255,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3386,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1334
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)",
+        "luigi.parameter.Parameter.serialize(self,x)"
+      ],
+      "top5_indices": [
+        12,
+        2,
+        14,
+        11,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 4608,
+        "cost_usd": 0.004926504,
+        "input_tokens": 29540,
+        "output_tokens": 2165
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1806,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1901,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2276,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2407,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2854,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2949,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3029,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3147,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2944,
+          "input_tokens": 3255,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3386,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        2,
+        6,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 4608,
+        "cost_usd": 0.006074504,
+        "input_tokens": 29540,
+        "output_tokens": 874
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1746,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1841,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2216,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2663,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2758,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3097,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3177,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3292,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3483,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3537,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._update_priority(self,task,prio,worker)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        12,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 7424,
+        "cost_usd": 0.005735800000000002,
+        "input_tokens": 30340,
+        "output_tokens": 823
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1746,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1841,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2216,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2663,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2758,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3097,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3177,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3292,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3483,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3537,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)",
+        "luigi.scheduler.Failures.num_failures(self)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        6,
+        11,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 7424,
+        "cost_usd": 0.006512000000000001,
+        "input_tokens": 30340,
+        "output_tokens": 823
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 100
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1746,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 130
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2121,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2216,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2663,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2743,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 175
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3082,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 66
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3136,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._update_priority(self,task,prio,worker)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.task.task_id_str(task_family,params)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        12,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.005182249999999999,
+        "input_tokens": 20237,
+        "output_tokens": 1121
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 72
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1746,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 237
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2193,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 489
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2568,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 435
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2663,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 646
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2743,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 901
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2797,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._update_priority(self,task,prio,worker)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.Failures.num_failures(self)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        12,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.009361200000000002,
+        "input_tokens": 17240,
+        "output_tokens": 3364
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1746,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1841,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2288,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2383,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2758,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2838,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3029,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3294,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3348,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._update_priority(self,task,prio,worker)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.Failures.num_failures(self)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        12,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.030836750000000003,
+        "input_tokens": 26055,
+        "output_tokens": 899
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 541
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1615,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1746,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1841,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2288,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2383,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2758,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2838,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3029,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3294,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3348,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        6,
+        2,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.035267150000000004,
+        "input_tokens": 26055,
+        "output_tokens": 899
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 627
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1701,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1892,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1987,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2102,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2217,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2759,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2813,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._update_priority(self,task,prio,worker)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        7,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 2432,
+        "cost_usd": 0.002383516,
+        "input_tokens": 19050,
+        "output_tokens": 913
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 627
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1701,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1892,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1987,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2102,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2217,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2664,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2759,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2813,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.task.Task.to_str_params(self,only_significant)"
+      ],
+      "top5_indices": [
+        12,
+        8,
+        3,
+        2,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 2432,
+        "cost_usd": 0.003014916,
+        "input_tokens": 19050,
+        "output_tokens": 913
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 627
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1701,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2148,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2394,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2489,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2864,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2959,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3150,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3230,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3623,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._update_priority(self,task,prio,worker)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        6,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 8192,
+        "cost_usd": 0.00703565,
+        "input_tokens": 31305,
+        "output_tokens": 923
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 627
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1701,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2148,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2394,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2489,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2864,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2959,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3150,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3230,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3623,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        3,
+        14,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 9856,
+        "cost_usd": 0.00745465,
+        "input_tokens": 31305,
+        "output_tokens": 923
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 627
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1701,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2148,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2394,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2489,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2864,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2959,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3150,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3230,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3623,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 388
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.scheduler.Task.can_disable(self)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        3,
+        8,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 8192,
+        "cost_usd": 0.00851905,
+        "input_tokens": 31305,
+        "output_tokens": 1268
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 627
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1701,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2148,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2394,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2489,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2864,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2959,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3150,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3230,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3623,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1242
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)",
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        11,
+        12,
+        3,
+        14,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 8192,
+        "cost_usd": 0.01022705,
+        "input_tokens": 31305,
+        "output_tokens": 2122
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 627
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1701,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2148,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2394,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2489,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2864,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2959,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3150,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3230,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3623,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)",
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.parameter.Parameter.serialize(self,x)"
+      ],
+      "top5_indices": [
+        11,
+        12,
+        2,
+        14,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 8192,
+        "cost_usd": 0.011796049999999999,
+        "input_tokens": 31305,
+        "output_tokens": 923
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 627
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1701,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 112
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2148,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 59
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 103
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2485,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2580,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 380
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2634,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.task.Task.to_str_params(self,only_significant)"
+      ],
+      "top5_indices": [
+        12,
+        8,
+        3,
+        6,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 4864,
+        "cost_usd": 0.0052791,
+        "input_tokens": 14726,
+        "output_tokens": 1346
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 627
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1701,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 258
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2148,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 255
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 93
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2485,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 303
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2580,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 148
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2711,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 598
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3050,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 580
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3425,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1145
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3479,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        3,
+        6,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 9216,
+        "cost_usd": 0.012242399999999999,
+        "input_tokens": 24864,
+        "output_tokens": 4050
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 627
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1701,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2148,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2243,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2374,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2749,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2867,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2962,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3301,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3416,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3638,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3692,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.Task.can_disable(self)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        8,
+        3,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.04011050000000001,
+        "input_tokens": 32006,
+        "output_tokens": 1007
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 627
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1701,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2148,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2243,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2374,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2749,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2867,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2962,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3301,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3416,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3638,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3692,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)",
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.task.Task.__init__(self,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        11,
+        12,
+        14,
+        2,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.044146500000000005,
+        "input_tokens": 32006,
+        "output_tokens": 1007
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1370
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1923,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2114,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2209,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2324,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2622,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2730,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2825,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2940,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3162,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3270,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3448,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._update_priority(self,task,prio,worker)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Failures.num_failures(self)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        18,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.004486732,
+        "input_tokens": 30482,
+        "output_tokens": 1675
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1370
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1923,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2501,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2596,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2971,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3162,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3242,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3357,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3696,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3750,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Failures.num_failures(self)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        6,
+        14,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01093675,
+        "input_tokens": 30483,
+        "output_tokens": 1658
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1370
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1923,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 74
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 113
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2501,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 207
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2876,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 2971,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 134
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3025,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 175
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Failures.num_failures(self)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        2,
+        14,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.00773045,
+        "input_tokens": 16581,
+        "output_tokens": 2095
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1370
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1923,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2370,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2465,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2560,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2691,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3066,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3120,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)",
+        "luigi.scheduler.Failures.num_failures(self)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        2,
+        11,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.026340500000000003,
+        "input_tokens": 19110,
+        "output_tokens": 1620
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 654
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1207,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1398,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1493,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1608,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1906,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2014,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2109,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2224,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2446,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2554,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2732,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.task.task_id_str(task_family,params)",
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)"
+      ],
+      "top5_indices": [
+        2,
+        7,
+        3,
+        4,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1792,
+        "cost_usd": 0.002648996,
+        "input_tokens": 22606,
+        "output_tokens": 945
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 654
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1207,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2160,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2255,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2335,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2674,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2769,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2900,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2954,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)",
+        "luigi.scheduler.Failures.num_failures(self)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        6,
+        11,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0073276,
+        "input_tokens": 23608,
+        "output_tokens": 900
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 654
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1207,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 317
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1769,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1900,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1020
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1995,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 408
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2075,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 653
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2414,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1523
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2468,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1181
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Failures.num_failures(self)"
+      ],
+      "top5_indices": [
+        12,
+        11,
+        14,
+        2,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.01495045,
+        "input_tokens": 16397,
+        "output_tokens": 5800
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 654
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1207,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1749,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1880,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2255,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2350,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2615,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2669,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Failures.num_failures(self)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        2,
+        6,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.024870499999999997,
+        "input_tokens": 17294,
+        "output_tokens": 940
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 769
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2034,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2129,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2244,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2542,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2650,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2745,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2860,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2914,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._update_priority(self,task,prio,worker)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.task.task_id_str(task_family,params)",
+        "luigi.task.Task.task_family(self)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.010043799999999999,
+        "input_tokens": 22876,
+        "output_tokens": 1049
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 769
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2034,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2129,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2244,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2542,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2650,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2745,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2860,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2914,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        2,
+        3,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.013953399999999998,
+        "input_tokens": 22876,
+        "output_tokens": 1049
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 769
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2290,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2421,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2796,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3189,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3304,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3399,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3479,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3533,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.Failures.num_failures(self)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        2,
+        3,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.0158912,
+        "input_tokens": 30060,
+        "output_tokens": 1029
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 769
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2290,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2421,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2796,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3189,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3304,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3399,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3479,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3533,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        2,
+        3,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.0197682,
+        "input_tokens": 30060,
+        "output_tokens": 1029
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 769
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 154
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2290,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2421,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 65
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2796,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 163
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3006,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 249
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3086,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 338
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3204,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 315
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3258,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.Failures.num_failures(self)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        2,
+        3,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 10368,
+        "cost_usd": 0.0190437,
+        "input_tokens": 25710,
+        "output_tokens": 2140
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 769
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 394
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1958,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 136
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2089,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 250
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2536,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 202
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2875,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 459
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3250,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 331
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3345,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 378
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3425,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1219
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3479,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)",
+        "luigi.parameter.Parameter.serialize(self,x)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        2,
+        11,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 7808,
+        "cost_usd": 0.02392395,
+        "input_tokens": 25715,
+        "output_tokens": 4181
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 769
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2290,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2665,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2760,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2971,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3089,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3536,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3590,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.CentralPlannerScheduler._update_priority(self,task,prio,worker)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        7,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 2816,
+        "cost_usd": 0.03614495,
+        "input_tokens": 26499,
+        "output_tokens": 1091
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 769
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2290,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2665,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2760,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2971,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3089,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3536,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3590,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.scheduler.Failures.num_failures(self)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        3,
+        2,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 2816,
+        "cost_usd": 0.03693175,
+        "input_tokens": 26499,
+        "output_tokens": 1091
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 769
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2290,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2665,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2760,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2971,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3089,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3536,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3590,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 237
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.Failures.num_failures(self)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        2,
+        3,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 2816,
+        "cost_usd": 0.03731975,
+        "input_tokens": 26499,
+        "output_tokens": 1285
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 769
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2290,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2665,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2760,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2971,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3089,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3536,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3590,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 392
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.Failures.num_failures(self)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        2,
+        3,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 2816,
+        "cost_usd": 0.037629750000000003,
+        "input_tokens": 26499,
+        "output_tokens": 1440
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 915,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 769
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2290,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2665,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2760,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2971,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3089,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3536,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3590,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "luigi.scheduler.Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message)",
+        "luigi.scheduler.SimpleTaskState.set_status(self,task,new_status,config)",
+        "luigi.scheduler.Task.can_disable(self)",
+        "luigi.parameter.Parameter.serialize(self,x)",
+        "luigi.scheduler.CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs)"
+      ],
+      "top5_indices": [
+        12,
+        14,
+        2,
+        7,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 2816,
+        "cost_usd": 0.04086575,
+        "input_tokens": 26499,
+        "output_tokens": 1091
+      }
+    }
+  },
+  "schema_version": 1
+}

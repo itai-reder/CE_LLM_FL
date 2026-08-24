@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;luigi.scheduler$SimpleTaskState.re_enable(self,task,config);luigi/scheduler.py;386;391;1.0
+2;luigi.scheduler$SimpleTaskState.set_status(self,task,new_status,config);luigi/scheduler.py;393;427;0.9995848210578759
+3;luigi.scheduler$SimpleTaskState.fail_dead_worker_task(self,task,config,assistants);luigi/scheduler.py;429;437;0.9984223200199286
+4;luigi.scheduler$SimpleTaskState.prune(self,task,config);luigi/scheduler.py;439;463;0.9983392842315038
+5;luigi.scheduler$Failures.clear(self);luigi/scheduler.py;154;158;0.9982562484430789
+6;luigi.configuration$LuigiConfigParser._get_with_default(self,method,section,option,default,expected_type,**kwargs);luigi/configuration.py;80;96;0.9980901768662294
+18;luigi.scheduler$Task.can_disable(self);luigi/scheduler.py;217;219;0.9944366021755376
+28;luigi.scheduler$CentralPlannerScheduler._update_task_history(self,task,status,host);luigi/scheduler.py;1011;1021;0.9889562401395001
+42;luigi.scheduler$CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs);luigi/scheduler.py;519;541;0.9857178443909325
+67;luigi.scheduler$CentralPlannerScheduler.get_work(self,host,assistant,**kwargs);luigi/scheduler.py;715;817;0.9720169393008387
+82;luigi.scheduler$SimpleTaskState.dump(self);luigi/scheduler.py;303;310;0.9588142489412937
+987;luigi.rpc$RemoteScheduler.dep_graph(self,task_id);luigi/rpc.py;182;183;0.2673752387278917
+996;luigi.rpc$RemoteScheduler.re_enable_task(self,task_id);luigi/rpc.py;213;214;0.2656314871709707
+1260;luigi.worker$Worker._add(self,task,is_complete);luigi/worker.py;517;581;0.029643776467657562

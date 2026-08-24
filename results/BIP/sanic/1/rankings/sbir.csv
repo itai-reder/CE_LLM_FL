@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;sanic.app$Sanic.route(self,uri,methods,host,strict_slashes,stream,version,name);sanic/app.py;164;230;1.0
+2;sanic.app$Sanic._run_response_middleware(self,request,response,request_name);sanic/app.py;1309;1324;0.9998383185125304
+3;sanic.app$Sanic.register_named_middleware(self,middleware,route_names,attach_to);sanic/app.py;642;656;0.9991915925626516
+4;sanic.blueprints$Blueprint.register(self,app,options);sanic/blueprints.py;95;174;0.9975747776879548
+5;sanic.blueprints$Blueprint.middleware(self,*args,**kwargs);sanic/blueprints.py;322;349;0.9967663702506063
+6;sanic.router$Router.add(self,uri,methods,handler,host,strict_slashes,version,name);sanic/router.py;121;185;0.9951495553759094
+8;sanic.app$Sanic.handle_request(self,request,write_callback,stream_callback);sanic/app.py;917;1039;0.9948261924009701
+18;sanic.testing$SanicTestClient._sanic_endpoint_test(self,method,uri,gather_request,debug,server_kwargs,host,*request_args,**request_kwargs);sanic/testing.py;65;150;0.9783346806790623
+83;sanic.blueprints$Blueprint.listener(self,event);sanic/blueprints.py;310;320;0.8780921584478577
+126;sanic.app$Sanic.__init__(self,name,router,error_handler,load_env,request_class,strict_slashes,log_config,configure_logging);sanic/app.py;41;92;0.8242522231204527
+181;examples.run_asgi$print_on_response(request,response);examples/run_asgi.py;86;88;0.7388843977364592
+309;sanic.request$Request.__repr__(self);sanic/request.py;132;134;0.3442198868229588
+342;sanic.response$HTTPResponse.cookies(self);sanic/response.py;162;166;0.2622473726758286
+348;sanic.router$Router.__init__(self);sanic/router.py;82;89;0.2274858528698464

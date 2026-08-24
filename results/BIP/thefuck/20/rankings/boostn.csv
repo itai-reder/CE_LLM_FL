@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;thefuck.rules.dirty_unzip$_zip_file(command);thefuck/rules/dirty_unzip.py;11;21;1.0
+1;thefuck.rules.dirty_unzip$match(command);thefuck/rules/dirty_unzip.py;24;27;1.0
+3;thefuck.main$fix_command();thefuck/main.py;14;31;0.8784631094276664
+3;thefuck.main$main();thefuck/main.py;59;79;0.8784631094276664
+3;thefuck.rules.cargo_no_command$get_new_command(command);thefuck/rules/cargo_no_command.py;11;15;0.8784631094276664
+7;thefuck.types$Rule.__eq__(self,other);thefuck/types.py;156;165;0.5550792437954031
+7;thefuck.types$Rule.__init__(self,name,match,get_new_command,enabled_by_default,side_effect,priority,requires_output);thefuck/types.py;134;154;0.5550792437954031
+7;thefuck.types$Rule.__repr__(self);thefuck/types.py;167;173;0.5550792437954031
+7;thefuck.types$Rule.from_path(cls,path);thefuck/types.py;175;192;0.5550792437954031
+7;thefuck.types$Rule.is_enabled(self);thefuck/types.py;194;208;0.5550792437954031
+28;thefuck.rules.dirty_unzip$_is_bad_zip(file);thefuck/rules/dirty_unzip.py;6;8;0.0
+28;thefuck.rules.dirty_unzip$get_new_command(command);thefuck/rules/dirty_unzip.py;30;31;0.0
+28;thefuck.shells$Generic.split_command(self,command);thefuck/shells.py;80;82;0.0
+28;thefuck.shells$split_command(command);thefuck/shells.py;304;305;0.0
+28;thefuck.types$Command.__repr__(self);thefuck/types.py;48;50;0.0

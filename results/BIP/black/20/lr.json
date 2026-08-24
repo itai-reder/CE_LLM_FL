@@ -1,0 +1,2501 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 571
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1642,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1862,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.dump_to_file(*output)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.whitespace(leaf)",
+        "black.normalize_invisible_parens(node,parens_after)",
+        "black.is_empty_tuple(node)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0005764,
+        "input_tokens": 6224,
+        "output_tokens": 663
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 571
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1642,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1862,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.dump_to_file(*output)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        13,
+        1,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0010176,
+        "input_tokens": 6224,
+        "output_tokens": 663
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 571
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1642,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1862,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 220
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.dump_to_file(*output)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        1,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0013716,
+        "input_tokens": 6224,
+        "output_tokens": 840
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 571
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1642,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1862,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1013
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.dump_to_file(*output)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        13,
+        14,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0029576,
+        "input_tokens": 6224,
+        "output_tokens": 1633
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 571
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1642,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1808,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1862,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        7,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0032236,
+        "input_tokens": 6224,
+        "output_tokens": 663
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 571
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1642,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1826,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1992,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2348,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2532,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2586,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.dump_to_file(*output)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.whitespace(leaf)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        1,
+        7,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 2176,
+        "cost_usd": 0.003183788,
+        "input_tokens": 13838,
+        "output_tokens": 757
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 571
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1642,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1826,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1992,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2348,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2532,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2586,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.dump_to_file(*output)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        1,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0038775,
+        "input_tokens": 13838,
+        "output_tokens": 757
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 571
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1642,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 62
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1826,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1992,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 119
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2348,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 132
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3049,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 98
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3103,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.dump_to_file(*output)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.whitespace(leaf)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        1,
+        7,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0036522,
+        "input_tokens": 14872,
+        "output_tokens": 1047
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 571
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1642,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 643
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1808,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1992,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 216
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2348,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 737
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3049,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1151
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 3103,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.dump_to_file(*output)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.normalize_invisible_parens(node,parens_after)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        8,
+        13,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 3072,
+        "cost_usd": 0.008250004000000002,
+        "input_tokens": 14854,
+        "output_tokens": 3383
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 571
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1642,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1826,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2182,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2348,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2704,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2758,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.dump_to_file(*output)",
+        "black.assert_equivalent(src,dst)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        7,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.015444232,
+        "input_tokens": 14372,
+        "output_tokens": 786
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 571
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1642,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1826,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2182,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2348,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2704,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2758,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)"
+      ],
+      "top5_indices": [
+        2,
+        7,
+        8,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.019249,
+        "input_tokens": 14372,
+        "output_tokens": 786
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 345
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1416,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1582,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1636,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.dump_to_file(*output)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.whitespace(leaf)",
+        "black.normalize_invisible_parens(node,parens_after)",
+        "black.is_empty_tuple(node)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0011920999999999998,
+        "input_tokens": 5546,
+        "output_tokens": 451
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 345
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1416,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1582,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1636,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.dump_to_file(*output)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        1,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0015880999999999998,
+        "input_tokens": 5546,
+        "output_tokens": 451
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 345
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1416,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1600,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1766,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2122,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2660,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2714,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.normalize_invisible_parens(node,parens_after)",
+        "black.is_empty_tuple(node)"
+      ],
+      "top5_indices": [
+        8,
+        7,
+        2,
+        4,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0033455,
+        "input_tokens": 13190,
+        "output_tokens": 517
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 345
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1416,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1600,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1766,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2122,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2660,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2714,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.dump_to_file(*output)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)"
+      ],
+      "top5_indices": [
+        8,
+        7,
+        1,
+        14,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0039571,
+        "input_tokens": 13190,
+        "output_tokens": 517
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 345
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1416,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1600,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1766,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2122,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2660,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2714,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 310
+        }
+      ],
+      "top5": [
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.dump_to_file(*output)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)"
+      ],
+      "top5_indices": [
+        7,
+        8,
+        2,
+        1,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0044911,
+        "input_tokens": 13190,
+        "output_tokens": 784
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 345
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1416,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1600,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1766,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2122,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2660,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2714,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1056
+        }
+      ],
+      "top5": [
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.dump_to_file(*output)"
+      ],
+      "top5_indices": [
+        2,
+        8,
+        14,
+        13,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0059831,
+        "input_tokens": 13190,
+        "output_tokens": 1530
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 345
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1416,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1600,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1766,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2122,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2660,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2714,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.dump_to_file(*output)"
+      ],
+      "top5_indices": [
+        7,
+        8,
+        14,
+        13,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0070151,
+        "input_tokens": 13190,
+        "output_tokens": 517
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 345
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1416,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1600,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1766,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 67
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2122,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 146
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2823,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 119
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3361,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 199
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3415,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.dump_to_file(*output)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        1,
+        14,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00590535,
+        "input_tokens": 17415,
+        "output_tokens": 963
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 345
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1416,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 100
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1600,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 176
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1956,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2122,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 679
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2176,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.dump_to_file(*output)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        6,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.005275500000000001,
+        "input_tokens": 10182,
+        "output_tokens": 1365
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 345
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1416,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1600,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1956,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2657,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3195,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3361,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3415,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.dump_to_file(*output)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        1,
+        14,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.021669,
+        "input_tokens": 18512,
+        "output_tokens": 596
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 345
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1416,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1600,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1956,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2657,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3195,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3361,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 3415,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.dump_to_file(*output)"
+      ],
+      "top5_indices": [
+        2,
+        8,
+        14,
+        13,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1408,
+        "cost_usd": 0.023844,
+        "input_tokens": 18512,
+        "output_tokens": 596
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 295
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1174,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1340,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1696,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1880,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3339,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3393,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.dump_to_file(*output)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.whitespace(leaf)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        8,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0015335,
+        "input_tokens": 13734,
+        "output_tokens": 481
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 295
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1174,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1358,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1524,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2046,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2100,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.dump_to_file(*output)",
+        "black.dump_to_file(*output)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        6,
+        1,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0036825,
+        "input_tokens": 10994,
+        "output_tokens": 467
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 295
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1174,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1358,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1524,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 268
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1934,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 481
+        }
+      ],
+      "top5": [
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.dump_to_file(*output)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)"
+      ],
+      "top5_indices": [
+        2,
+        8,
+        1,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0044155,
+        "input_tokens": 8782,
+        "output_tokens": 1110
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 295
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1174,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1358,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1714,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1880,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1934,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)"
+      ],
+      "top5_indices": [
+        2,
+        8,
+        7,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.012683,
+        "input_tokens": 8972,
+        "output_tokens": 474
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 652
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1201,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1367,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1551,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1605,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.dump_to_file(*output)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)"
+      ],
+      "top5_indices": [
+        1,
+        8,
+        2,
+        7,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0018638,
+        "input_tokens": 6636,
+        "output_tokens": 766
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 652
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1201,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1385,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1551,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1907,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2447,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2613,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2797,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2851,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.dump_to_file(*output)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)"
+      ],
+      "top5_indices": [
+        8,
+        7,
+        1,
+        2,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.006096949999999999,
+        "input_tokens": 19927,
+        "output_tokens": 932
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 652
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1201,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 219
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1385,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1551,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2252,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 301
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2608,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 572
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3146,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 729
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3200,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 752
+        }
+      ],
+      "top5": [
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.dump_to_file(*output)"
+      ],
+      "top5_indices": [
+        2,
+        8,
+        14,
+        13,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01060175,
+        "input_tokens": 16255,
+        "output_tokens": 3269
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 652
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1201,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1385,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1741,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1907,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1961,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)"
+      ],
+      "top5_indices": [
+        2,
+        8,
+        14,
+        13,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01356575,
+        "input_tokens": 9107,
+        "output_tokens": 831
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 499
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1570,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1790,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.dump_to_file(*output)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.whitespace(leaf)",
+        "black.normalize_invisible_parens(node,parens_after)",
+        "black.diff(a,b,a_name,b_name)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0064272,
+        "input_tokens": 6008,
+        "output_tokens": 605
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 499
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1570,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1790,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.dump_to_file(*output)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        13,
+        14,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.008988,
+        "input_tokens": 6008,
+        "output_tokens": 605
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 499
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1570,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2110,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2276,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2460,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2514,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.dump_to_file(*output)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        13,
+        14,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.009326599999999999,
+        "input_tokens": 13596,
+        "output_tokens": 699
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 499
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1570,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2110,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2276,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2460,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2514,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.dump_to_file(*output)"
+      ],
+      "top5_indices": [
+        2,
+        8,
+        14,
+        13,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0121846,
+        "input_tokens": 13596,
+        "output_tokens": 699
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 499
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1570,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 54
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 70
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2110,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2276,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 109
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2977,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3515,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 159
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3569,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.dump_to_file(*output)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        14,
+        13,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 4096,
+        "cost_usd": 0.014522150000000001,
+        "input_tokens": 18683,
+        "output_tokens": 978
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 499
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1570,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 206
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2110,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 184
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2276,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 178
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2977,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 682
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3031,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.dump_to_file(*output)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        14,
+        13,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 4736,
+        "cost_usd": 0.0144989,
+        "input_tokens": 14630,
+        "output_tokens": 1814
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 499
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1570,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2110,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2164,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.dump_to_file(*output)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.normalize_invisible_parens(node,parens_after)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        8,
+        4,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0140379,
+        "input_tokens": 8510,
+        "output_tokens": 641
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 499
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1570,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2110,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2164,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.dump_to_file(*output)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        13,
+        14,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0145395,
+        "input_tokens": 8510,
+        "output_tokens": 641
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 499
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1570,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2110,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2164,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 222
+        }
+      ],
+      "top5": [
+        "black.diff(a,b,a_name,b_name)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.dump_to_file(*output)"
+      ],
+      "top5_indices": [
+        8,
+        2,
+        7,
+        13,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.014897500000000001,
+        "input_tokens": 8510,
+        "output_tokens": 820
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 499
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1570,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2110,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2164,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 724
+        }
+      ],
+      "top5": [
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.dump_to_file(*output)"
+      ],
+      "top5_indices": [
+        2,
+        8,
+        13,
+        14,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.015901500000000002,
+        "input_tokens": 8510,
+        "output_tokens": 1322
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 912,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 499
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1570,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1754,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2110,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2164,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.format_file_in_place(src,line_length,fast,write_back,lock)",
+        "black.diff(a,b,a_name,b_name)",
+        "black.schedule_formatting(sources,line_length,fast,write_back,report,loop,executor)",
+        "black.main(ctx,line_length,check,diff,fast,quiet,src)",
+        "black.dump_to_file(*output)"
+      ],
+      "top5_indices": [
+        2,
+        8,
+        14,
+        13,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0170475,
+        "input_tokens": 8510,
+        "output_tokens": 641
+      }
+    }
+  },
+  "schema_version": 1
+}

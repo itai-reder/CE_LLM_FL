@@ -1,0 +1,3293 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 789
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1740,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3452,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3729,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3979,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4588,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5049,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5212,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5465,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5742,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7454,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7508,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.find_project_root(srcs)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0031807,
+        "input_tokens": 54710,
+        "output_tokens": 1113
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 789
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1740,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3452,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3729,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3979,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4588,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5049,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5212,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5465,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5742,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7454,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7508,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "blackd.make_app()",
+        "black.patch_click()"
+      ],
+      "top5_indices": [
+        4,
+        11,
+        1,
+        12,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.004751099999999999,
+        "input_tokens": 54710,
+        "output_tokens": 1113
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 789
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1740,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3452,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3729,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3979,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4588,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5049,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5212,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5465,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5742,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7454,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7508,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 232
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "blackd.make_app()",
+        "black.patch_click()"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        12,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0051291,
+        "input_tokens": 54710,
+        "output_tokens": 1302
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 789
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1740,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3452,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3729,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3979,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4588,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5049,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5212,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5465,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5742,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7454,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7508,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1386
+        }
+      ],
+      "top5": [
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "blackd.make_app()",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.patch_click()"
+      ],
+      "top5_indices": [
+        4,
+        11,
+        12,
+        1,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0074371,
+        "input_tokens": 54710,
+        "output_tokens": 2456
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 789
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1740,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3452,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3729,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3979,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4588,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5049,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5212,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5465,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5742,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7454,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7508,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "blackd.make_app()",
+        "black.reformat_many(sources,fast,write_back,mode,report)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        12,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0126031,
+        "input_tokens": 54710,
+        "output_tokens": 1113
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 789
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1740,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2349,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2599,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4311,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4920,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 5197,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5806,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6415,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6469,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.find_project_root(srcs)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        4,
+        7,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0091577,
+        "input_tokens": 40598,
+        "output_tokens": 1083
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 789
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1740,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2349,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2599,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4311,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4920,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 5197,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5806,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6415,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6469,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.find_project_root(srcs)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        2,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0105203,
+        "input_tokens": 40598,
+        "output_tokens": 1083
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 789
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1740,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 59
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2349,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2599,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4311,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 142
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4365,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        11,
+        9,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0038303999999999994,
+        "input_tokens": 16156,
+        "output_tokens": 1077
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 789
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1740,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 207
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2349,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 69
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2599,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1143
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 4311,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 695
+        },
+        {
+          "cached_tokens": 4224,
+          "input_tokens": 4365,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.patch_click()",
+        "black.reformat_many(sources,fast,write_back,mode,report)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        8,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 8320,
+        "cost_usd": 0.006437712,
+        "input_tokens": 16156,
+        "output_tokens": 2946
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 789
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1740,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2349,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2599,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4311,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4772,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5022,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5272,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5525,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5579,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)",
+        "black.patch_click()"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        9,
+        5,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1536,
+        "cost_usd": 0.041200850000000004,
+        "input_tokens": 37961,
+        "output_tokens": 1111
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 789
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1740,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 2349,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2599,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4311,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4772,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5022,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5272,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5525,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5579,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        9,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1536,
+        "cost_usd": 0.04830845,
+        "input_tokens": 37961,
+        "output_tokens": 1111
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 454
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1405,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3117,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3394,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3647,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3897,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4358,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4635,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6347,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6600,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6850,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7327,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.find_project_root(srcs)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.patch_click()",
+        "black.reformat_many(sources,fast,write_back,mode,report)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        4,
+        3,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00382365,
+        "input_tokens": 52369,
+        "output_tokens": 801
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 454
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1405,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3117,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3394,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3647,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3897,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4358,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4635,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6347,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6600,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6850,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7327,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        9,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00535785,
+        "input_tokens": 52369,
+        "output_tokens": 801
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 454
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1405,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2014,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2264,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3976,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4585,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4862,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5471,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 6185,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6239,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.find_project_root(srcs)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        9,
+        2,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 5376,
+        "cost_usd": 0.00986505,
+        "input_tokens": 43517,
+        "output_tokens": 756
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 454
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1405,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2014,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2264,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3976,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4585,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4862,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5471,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 6185,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 6239,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.patch_click()",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        3,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 9088,
+        "cost_usd": 0.01034645,
+        "input_tokens": 43517,
+        "output_tokens": 756
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 454
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1405,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2014,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2264,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3976,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4585,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4862,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5471,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 6185,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6239,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 418
+        }
+      ],
+      "top5": [
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.patch_click()",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        4,
+        11,
+        1,
+        3,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 5376,
+        "cost_usd": 0.01193165,
+        "input_tokens": 43517,
+        "output_tokens": 1131
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 454
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1405,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2014,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2264,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3976,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4585,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4862,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5471,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 6185,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6239,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 848
+        }
+      ],
+      "top5": [
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.patch_click()",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        4,
+        11,
+        1,
+        3,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 5376,
+        "cost_usd": 0.01279165,
+        "input_tokens": 43517,
+        "output_tokens": 1561
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 454
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1405,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2014,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2264,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3976,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4585,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4862,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5471,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 6185,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6239,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)",
+        "black.find_project_root(srcs)"
+      ],
+      "top5_indices": [
+        4,
+        11,
+        1,
+        5,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 5376,
+        "cost_usd": 0.01776465,
+        "input_tokens": 43517,
+        "output_tokens": 756
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 454
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1405,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 54
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2014,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 50
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2264,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3976,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 154
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4030,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.patch_click()",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        3,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00479985,
+        "input_tokens": 14481,
+        "output_tokens": 777
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 454
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1405,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 89
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2014,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 66
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2264,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 370
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3976,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 547
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4437,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 832
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4690,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1308
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4744,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.patch_click()",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        3,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.012749700000000001,
+        "input_tokens": 24322,
+        "output_tokens": 3709
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 454
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1405,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2014,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2264,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3976,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4437,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4687,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4940,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4994,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.patch_click()",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        3,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 3712,
+        "cost_usd": 0.03369905,
+        "input_tokens": 29509,
+        "output_tokens": 741
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 454
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1405,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2014,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2264,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3976,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4437,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4687,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4940,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4994,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.reformat_many(sources,fast,write_back,mode,report)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        15,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.03987225,
+        "input_tokens": 29509,
+        "output_tokens": 741
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 388
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1074,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2786,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3247,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3497,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3774,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4383,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4636,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4799,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5049,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5103,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.find_project_root(srcs)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        4,
+        9,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0030234000000000003,
+        "input_tokens": 39140,
+        "output_tokens": 718
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 388
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1074,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1683,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1933,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3645,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4254,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4863,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5472,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 6081,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 6542,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6596,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.find_project_root(srcs)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        2,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 9472,
+        "cost_usd": 0.01003855,
+        "input_tokens": 42935,
+        "output_tokens": 718
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 388
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1074,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1683,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 106
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1933,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3645,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 191
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3898,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 236
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3952,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 585
+        }
+      ],
+      "top5": [
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.patch_click()",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        4,
+        11,
+        1,
+        3,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00734425,
+        "input_tokens": 16977,
+        "output_tokens": 1550
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 388
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1074,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1683,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1933,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3645,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4106,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4359,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4636,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4690,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "blackd.handle(request,executor)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        15,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0364915,
+        "input_tokens": 26918,
+        "output_tokens": 674
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 268
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1041,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2753,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2560,
+          "input_tokens": 3003,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3464,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5176,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5785,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5839,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.find_project_root(srcs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        9,
+        11,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 2560,
+        "cost_usd": 0.00206033,
+        "input_tokens": 27853,
+        "output_tokens": 518
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 268
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1041,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1291,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1900,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3612,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4073,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 4682,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 5291,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7003,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.find_project_root(srcs)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        4,
+        11,
+        1,
+        2,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 7424,
+        "cost_usd": 0.0086111,
+        "input_tokens": 36742,
+        "output_tokens": 548
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 268
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1041,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 169
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1291,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 268
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1900,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 427
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3612,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1559
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4073,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1998
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4127,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 886
+        }
+      ],
+      "top5": [
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)",
+        "black.find_project_root(srcs)"
+      ],
+      "top5_indices": [
+        4,
+        11,
+        1,
+        5,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.014754200000000002,
+        "input_tokens": 16836,
+        "output_tokens": 5575
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 268
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1041,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1291,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1900,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3612,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4073,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4326,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4603,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4657,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.reformat_many(sources,fast,write_back,mode,report)"
+      ],
+      "top5_indices": [
+        4,
+        11,
+        1,
+        15,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.035472750000000004,
+        "input_tokens": 26295,
+        "output_tokens": 554
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 995
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1946,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3658,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5370,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5647,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5900,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6150,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6611,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8323,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8573,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9034,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9088,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.find_project_root(srcs)",
+        "black.patch_click()",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.014513432,
+        "input_tokens": 71092,
+        "output_tokens": 1347
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 995
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1946,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3658,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5370,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5647,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5900,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6150,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6611,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8323,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8573,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9034,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9088,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        9,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.025831832,
+        "input_tokens": 71092,
+        "output_tokens": 1347
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 995
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1946,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2555,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2805,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4517,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5126,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 5403,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6012,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6066,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.patch_click()",
+        "black.find_project_root(srcs)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        3,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.019689099999999998,
+        "input_tokens": 35222,
+        "output_tokens": 1253
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 995
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1946,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2555,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2805,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4517,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5126,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 5403,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6012,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6066,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        9,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0260991,
+        "input_tokens": 35222,
+        "output_tokens": 1253
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 995
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1946,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 82
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2555,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2805,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4517,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 127
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4571,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        9,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0201711,
+        "input_tokens": 17186,
+        "output_tokens": 1291
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 995
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1946,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 246
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2555,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 81
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2805,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 225
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4517,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 236
+        },
+        {
+          "cached_tokens": 4480,
+          "input_tokens": 4571,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        9,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 6144,
+        "cost_usd": 0.0162011,
+        "input_tokens": 17186,
+        "output_tokens": 1826
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 995
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1946,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2555,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2805,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3055,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4767,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4821,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.find_project_root(srcs)",
+        "black.patch_click()",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.02994625,
+        "input_tokens": 20741,
+        "output_tokens": 1209
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 995
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1946,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2555,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2805,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3055,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4767,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4821,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        11,
+        15,
+        1,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.03097925,
+        "input_tokens": 20741,
+        "output_tokens": 1209
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 995
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1946,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2555,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2805,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3055,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4767,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4821,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 334
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        15,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.03156125,
+        "input_tokens": 20741,
+        "output_tokens": 1500
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 995
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1946,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2555,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2805,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3055,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4767,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4821,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1156
+        }
+      ],
+      "top5": [
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)",
+        "blackd.make_app()"
+      ],
+      "top5_indices": [
+        4,
+        11,
+        1,
+        5,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.03320525,
+        "input_tokens": 20741,
+        "output_tokens": 2322
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 792,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 995
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1946,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2555,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2805,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3055,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4767,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4821,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "black.schedule_formatting(sources,fast,write_back,mode,report,loop,executor)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.main(ctx,code,line_length,target_version,check,diff,color,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config)",
+        "black.reformat_many(sources,fast,write_back,mode,report)",
+        "black.gen_python_files_in_dir(path,root,include,exclude,report,gitignore)"
+      ],
+      "top5_indices": [
+        11,
+        4,
+        1,
+        9,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.03614425,
+        "input_tokens": 20741,
+        "output_tokens": 1209
+      }
+    }
+  },
+  "schema_version": 1
+}

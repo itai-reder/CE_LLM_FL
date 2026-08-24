@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;httpie.core$main(args,env,error);httpie/core.py;70;211;1.0
+2;httpie.client$get_requests_kwargs(args,base_headers);httpie/client.py;94;147;0.9995810640971932
+3;httpie.client$get_requests_session();httpie/client.py;30;36;0.9891076665270213
+4;httpie.client$get_response(args,config_dir);httpie/client.py;39;58;0.9878508588186008
+5;httpie.client$encode_headers(headers);httpie/client.py;66;72;0.9853372434017595
+6;httpie.client$get_default_headers(args);httpie/client.py;75;91;0.9840804356933389
+24;httpie.input$HTTPieArgumentParser._process_output_options(self);httpie/input.py;349;372;0.935064935064935
+34;httpie.output.formatters.json$JSONFormatter.format_body(self,body,mime);httpie/output/formatters/json.py;12;26;0.9212400502723084
+58;httpie.cli$HTTPieHelpFormatter.__init__(self,max_help_position,*args,**kwargs);httpie/cli.py;35;38;0.8345203183912862
+82;httpie.core$get_exit_status(http_status,follow);httpie/core.py;32;44;0.5974025974025974
+149;httpie.plugins.base$ConverterPlugin.supports(cls,mime);httpie/plugins/base.py;60;62;0.12693757855048177
+168;httpie.sessions$Session._get_path(self);httpie/sessions.py;92;93;0.05362379555927943
+169;httpie.utils$load_json_preserve_order(s);httpie/utils.py;7;10;0.051110180142438205

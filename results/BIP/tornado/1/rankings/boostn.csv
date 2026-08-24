@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;tornado.websocket$WebSocketHandler.set_nodelay(self,value);tornado/websocket.py;547;562;1.0
+2;tornado.http1connection$HTTP1Connection._finish_request(self,future);tornado/http1connection.py;566;575;0.8478054520634969
+3;tornado.websocket$WebSocketProtocol13._accept_connection(self,handler);tornado/websocket.py;911;960;0.798007417139909
+4;tornado.autoreload$main();tornado/autoreload.py;272;358;0.7151031335721454
+5;tornado.http1connection$HTTP1Connection.finish(self);tornado/http1connection.py;501;531;0.699562472091689
+40;tornado.ioloop$IOLoop.run_sync(self,func,timeout);tornado/ioloop.py;460;532;0.46359583712840463
+45;tornado.websocket$WebSocketProtocol13.periodic_ping(self);tornado/websocket.py;1321;1346;0.4528192898739483
+56;tornado.concurrent$future_set_exc_info(future,exc_info);tornado/concurrent.py;210;231;0.42052476978032527
+157;tornado.gen$Runner.run(self);tornado/gen.py;710;762;0.2651897380186521
+238;tornado.concurrent$future_set_exception_unless_cancelled(future,exc);tornado/concurrent.py;188;207;0.20122387371834458
+309;tornado.httpclient$HTTPClient.fetch(self,request,**kwargs);tornado/httpclient.py;120;135;0.152381761965637
+728;tornado.testing$gen_test(timeout);tornado/testing.py;509;513;0.0
+728;tornado.web$RequestHandler._log(self);tornado/web.py;1725;1732;0.0
+728;tornado.websocket$WebSocketProtocol._receive_frame_loop(self);tornado/websocket.py;713;715;0.0

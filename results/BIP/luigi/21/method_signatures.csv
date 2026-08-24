@@ -1,0 +1,15 @@
+corpus_id;path;startLine;endLine
+luigi.configuration$LuigiConfigParser.instance(cls,*args,**kwargs);luigi/configuration.py;52;60
+luigi.configuration$LuigiConfigParser._get_with_default(self,method,section,option,default,expected_type,**kwargs);luigi/configuration.py;66;82
+luigi.configuration$LuigiConfigParser.get(self,section,option,default,**kwargs);luigi/configuration.py;84;85
+luigi.configuration$LuigiConfigParser.getintdict(self,section);luigi/configuration.py;96;100
+luigi.configuration$get_config();luigi/configuration.py;109;113
+luigi.contrib.hadoop_jar$fix_paths(job);luigi/contrib/hadoop_jar.py;31;55
+luigi.contrib.hadoop_jar$HadoopJarJobRunner.run_job(self,job);luigi/contrib/hadoop_jar.py;70;111
+luigi.contrib.scalding$ScaldingJobRunner.run_job(self,job);luigi/contrib/scalding.py;196;222
+luigi.interface$Interface.run(tasks,worker_scheduler_factory,override_defaults);luigi/interface.py;126;175
+luigi.interface$run(cmdline_args,main_task_cls,worker_scheduler_factory,use_dynamic_argparse,local_scheduler);luigi/interface.py;327;349
+luigi.scheduler$Failures.num_failures(self);luigi/scheduler.py;145;154
+luigi.scheduler$SimpleTaskState.prune(self,task,config,assistants);luigi/scheduler.py;418;451
+luigi.worker$Worker.__init__(self,scheduler,worker_id,worker_processes,assistant,**kwargs);luigi/worker.py;280;312
+luigi.worker$Worker._generate_worker_info(self);luigi/worker.py;331;354

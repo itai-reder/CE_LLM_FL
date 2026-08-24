@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;keras.engine.base_layer$Layer.__init__(self,**kwargs);keras/engine/base_layer.py;94;161;1.0
+2;keras.engine.base_layer$InputSpec.__init__(self,dtype,shape,ndim,max_ndim,min_ndim,axes);keras/engine/base_layer.py;1152;1166;0.9998751482614395
+3;keras.engine.base_layer$Layer.assert_input_compatibility(self,inputs);keras/engine/base_layer.py;262;368;0.9998439353267994
+4;keras.engine.base_layer$Layer.__call__(self,inputs,**kwargs);keras/engine/base_layer.py;382;508;0.9996878706535989
+5;keras.engine.base_layer$Layer.compute_mask(self,inputs,mask);keras/engine/base_layer.py;593;621;0.9995942318496785
+7;keras.engine.sequential$Sequential.add(self,layer);keras/engine/sequential.py;114;195;0.9994381671764779
+11;keras.layers.wrappers$TimeDistributed.call(self,inputs,training,mask);keras/layers/wrappers.py;209;265;0.9989699731568762
+17;keras.engine.network$Network.run_internal_graph(self,inputs,masks);keras/engine/network.py;669;820;0.9980647980523129
+81;keras.engine.input_layer$InputLayer.__init__(self,input_shape,batch_size,batch_input_shape,dtype,input_tensor,sparse,name);keras/engine/input_layer.py;33;103;0.9836132093139397
+84;keras.engine.network$Network._base_init(self,name);keras/engine/network.py;98;137;0.980148573568887
+173;keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;37;462;0.957612834758724
+214;keras.layers.core$Lambda.compute_mask(self,inputs,mask);keras/layers/core.py;684;687;0.9440352081902741
+979;keras.engine.sequential$Sequential.pop(self);keras/engine/sequential.py;197;214;0.45414819901367126
+1338;keras.layers.recurrent$RNN.call(self,inputs,mask,training,initial_state,constants);keras/layers/recurrent.py;544;634;0.15712591297833822

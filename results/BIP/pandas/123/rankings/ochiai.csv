@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.dtypes.common$is_int64_dtype(arr_or_dtype);pandas/core/dtypes/common.py;1053;1101;0.7419081989466497
+1;pandas.core.indexes.range$RangeIndex._validate_dtype(dtype);pandas/core/indexes/range.py;168;172;0.7419081989466497
+3;pandas.core.dtypes.common$ensure_python_int(value);pandas/core/dtypes/common.py;179;205;0.2603043164241559
+4;pandas.core.indexes.numeric$Int64Index._assert_safe_casting(cls,data,subarr);pandas/core/indexes/numeric.py;262;269;0.21355767960723396
+5;pandas.core.dtypes.common$pandas_dtype(dtype);pandas/core/dtypes/common.py;1841;1888;0.1852350506305736
+13;pandas.core.indexes.base$Index.__new__(cls,data,dtype,copy,name,fastpath,tupleize_cols,**kwargs);pandas/core/indexes/base.py;261;478;0.16622119985994901
+23;pandas.core.indexes.numeric$NumericIndex.__new__(cls,data,dtype,copy,name,fastpath);pandas/core/indexes/numeric.py;47;81;0.08291132137421355
+24;pandas.core.indexes.range$RangeIndex.__len__(self);pandas/core/indexes/range.py;699;703;0.07695377123614672
+39;pandas.core.indexes.base$Index._try_convert_to_int_index(cls,data,copy,name,dtype);pandas/core/indexes/base.py;3970;4012;0.04596347006910108
+67;pandas.core.indexes.base$Index.__len__(self);pandas/core/indexes/base.py;654;658;0.018839086963544017
+75;pandas.core.indexes.base$Index.difference(self,other,sort);pandas/core/indexes/base.py;2615;2677;0.0
+75;pandas.core.indexes.base$Index.symmetric_difference(self,other,result_name,sort);pandas/core/indexes/base.py;2679;2758;0.0
+75;pandas.core.indexes.numeric$Float64Index.is_unique(self);pandas/core/indexes/numeric.py;493;495;0.0
+75;pandas.core.indexes.numeric$Int64Index.asi8(self);pandas/core/indexes/numeric.py;244;247;0.0
+75;pandas.core.indexes.numeric$UInt64Index.asi8(self);pandas/core/indexes/numeric.py;299;302;0.0

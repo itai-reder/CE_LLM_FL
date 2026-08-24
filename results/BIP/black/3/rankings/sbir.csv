@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;black$read_pyproject_toml(ctx,param,value);black.py;237;264;1.0
+2;black$dump_to_file(*output);black.py;3853;3863;0.9999632722019539
+3;black$parse_pyproject_toml(path_config);black.py;227;234;0.9999265444039078
+4;black$whitespace(leaf,complex_subscript);black.py;1933;2160;0.9998898166058617
+5;black$preceding_leaf(node);black.py;2163;2178;0.9985553732768542
+8;black$container_of(leaf);black.py;2189;2211;0.9984084620846698
+57;black$parse_ast(src);black.py;3724;3740;0.9904630151073676
+59;black$assert_equivalent(src,dst);black.py;3759;3834;0.9903038613158346
+60;black$assert_stable(src,dst,mode);black.py;3837;3850;0.9899120981366764
+72;black$get_cache_info(path);black.py;4130;4133;0.9887123234005044
+76;black$main(ctx,code,line_length,target_version,check,diff,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config);black.py;278;498;0.9884674714135305
+89;black$BracketTracker.any_open_brackets(self);black.py;1130;1132;0.9853456085796136
+91;black$BracketTracker.delimiter_count_with_priority(self,priority);black.py;1142;1151;0.9853211233809163
+140;black$Report.failed(self,src,message);black.py;3666;3669;0.9809994858108274
+148;blackd$handle(request,executor);blackd.py;76;149;0.9805220244362283
+191;black$patched_main();black.py;4187;4190;0.9665654611787174

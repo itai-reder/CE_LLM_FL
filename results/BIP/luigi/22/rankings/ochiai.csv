@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;luigi.scheduler$Worker.prune(self,config);luigi/scheduler.py;243;246;0.9090909090909091
+2;luigi.scheduler$Worker.__init__(self,worker_id,last_active);luigi/scheduler.py;227;233;0.5458363904912633
+3;luigi.configuration$LuigiConfigParser._get_with_default(self,method,section,option,default,expected_type,**kwargs);luigi/configuration.py;66;82;0.0
+3;luigi.configuration$LuigiConfigParser.get(self,section,option,default,**kwargs);luigi/configuration.py;84;85;0.0
+3;luigi.configuration$LuigiConfigParser.getintdict(self,section);luigi/configuration.py;96;100;0.0
+3;luigi.scheduler$CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs);luigi/scheduler.py;485;506;0.0
+3;luigi.scheduler$CentralPlannerScheduler._update_priority(self,task,prio,worker);luigi/scheduler.py;547;558;0.0
+3;luigi.scheduler$CentralPlannerScheduler.add_task(self,task_id,status,runnable,deps,new_deps,expl,resources,priority,family,module,params,assistant,**kwargs);luigi/scheduler.py;560;625;0.0
+3;luigi.scheduler$CentralPlannerScheduler.dump(self);luigi/scheduler.py;511;512;0.0
+3;luigi.scheduler$CentralPlannerScheduler.load(self);luigi/scheduler.py;508;509;0.0
+3;luigi.scheduler$CentralPlannerScheduler.update(self,worker_id,worker_reference);luigi/scheduler.py;540;545;0.0
+3;luigi.scheduler$Worker.get_pending_tasks(self);luigi/scheduler.py;248;250;0.0
+3;luigi.scheduler$Worker.update(self,worker_reference);luigi/scheduler.py;238;241;0.0
+3;luigi.six$_LazyDescr.__get__(self,obj,tp);luigi/six.py;94;103;0.0
+3;luigi.task$Task.get_param_values(cls,params,args,kwargs);luigi/task.py;194;244;0.0

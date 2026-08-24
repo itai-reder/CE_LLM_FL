@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;tornado.gen$sleep(duration);tornado/gen.py;760;776;1.0
+2;tornado.ioloop$IOLoop.call_later(self,delay,callback,*args,**kwargs);tornado/ioloop.py;496;507;0.9998706087856635
+3;tornado.gen$with_timeout(timeout,future,io_loop,quiet_exceptions);tornado/gen.py;699;757;0.9998059131784952
+4;tornado.gen$WaitIterator.__init__(self,*args,**kwargs);tornado/gen.py;323;342;0.9996765219641587
+5;tornado.gen$WaitIterator.next(self);tornado/gen.py;352;363;0.999547130749822
+6;tornado.gen$WaitIterator._done_callback(self_ref,done);tornado/gen.py;365;372;0.9993530439283173
+14;tornado.concurrent$Future.result(self,timeout);tornado/concurrent.py;203;213;0.9963123503914084
+16;tornado.ioloop$IOLoop.run_sync(self,func,timeout);tornado/ioloop.py;400;445;0.9958594811412305
+322;tornado.testing$gen_test(func,timeout);tornado/testing.py;442;521;0.8704793944491169
+479;tornado.autoreload$main();tornado/autoreload.py;259;328;0.7269198421427185
+741;tornado.platform.asyncio$BaseAsyncIOLoop.start(self);tornado/platform/asyncio.py;107;109;0.38668564404476935
+956;tornado.testing$main(**kwargs);tornado/testing.py;616;698;0.23167496926958658
+971;tornado.testing$AsyncTestCase.__init__(self,methodName,**kwargs);tornado/testing.py;199;211;0.22041793362230705
+973;tornado.testing$AsyncTestCase.tearDown(self);tornado/testing.py;218;234;0.21964158633628778
+979;tornado.testing$AsyncTestCase.wait(self,condition,timeout);tornado/testing.py;281;323;0.21718315326389337

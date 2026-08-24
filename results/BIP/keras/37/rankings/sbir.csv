@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;keras.layers.wrappers$Bidirectional.call(self,inputs,training,mask,initial_state);keras/layers/wrappers.py;316;368;1.0
+2;keras.layers.wrappers$Bidirectional.compute_output_shape(self,input_shape);keras/layers/wrappers.py;297;314;0.9997658148180674
+3;keras.engine.topology$Container.__init__(self,inputs,outputs,name);keras/engine/topology.py;1504;1846;0.9995901759316179
+4;keras.layers.recurrent$LSTMCell.call(self,inputs,states,training);keras/layers/recurrent.py;1796;1882;0.9995023564883933
+5;keras.layers.wrappers$Bidirectional.compute_mask(self,inputs,mask);keras/layers/wrappers.py;381;388;0.9993852638974269
+7;keras.layers.recurrent$RNN.call(self,inputs,mask,training,initial_state,constants);keras/layers/recurrent.py;541;631;0.9992681713064606
+41;keras.layers.wrappers$Bidirectional.__init__(self,layer,merge_mode,weights,**kwargs);keras/layers/wrappers.py;256;277;0.9881443751646615
+60;keras.layers.wrappers$Bidirectional.build(self,input_shape);keras/layers/wrappers.py;374;379;0.9834606715260092
+92;keras.engine.topology$Layer.add_weight(self,name,shape,dtype,initializer,regularizer,trainable,constraint);keras/engine/topology.py;383;421;0.9786013290009075
+235;keras.engine.training$Model.train_on_batch(self,x,y,sample_weight,class_weight);keras/engine/training.py;1805;1854;0.9450543016890606
+236;keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;548;938;0.9447615702116449
+417;examples.image_ocr$train(run_name,start_epoch,stop_epoch,img_w);examples/image_ocr.py;408;498;0.8570884927256228
+1036;keras.engine.topology$preprocess_weights_for_loading(layer,weights,original_keras_version,original_backend,reshape);keras/engine/topology.py;2903;3099;0.4660577851936419
+1372;keras.layers.recurrent$RNN.__call__(self,inputs,initial_state,constants,**kwargs);keras/layers/recurrent.py;494;539;0.19413951582213634

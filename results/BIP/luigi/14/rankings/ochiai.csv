@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;luigi.scheduler$Task.can_disable(self);luigi/scheduler.py;213;215;0.660408825313113
+2;luigi.parameter$Parameter.serialize(self,x);luigi/parameter.py;225;233;0.3414802408943917
+2;luigi.task$Task.__init__(self,*args,**kwargs);luigi/task.py;277;293;0.3414802408943917
+2;luigi.task$Task.task_family(self);luigi/task.py;196;201;0.3414802408943917
+2;luigi.task$Task.to_str_params(self,only_significant);luigi/task.py;315;325;0.3414802408943917
+2;luigi.task$task_id_str(task_family,params);luigi/task.py;70;87;0.3414802408943917
+12;luigi.scheduler$Task.__init__(self,task_id,status,deps,resources,priority,family,module,params,disable_failures,disable_window,disable_hard_timeout,tracking_url,status_message);luigi/scheduler.py;164;193;0.2242706131406358
+16;luigi.scheduler$CentralPlannerScheduler._update_priority(self,task,prio,worker);luigi/scheduler.py;571;582;0.21871615582789292
+16;luigi.scheduler$Task.has_excessive_failures(self);luigi/scheduler.py;201;211;0.21871615582789292
+18;luigi.scheduler$SimpleTaskState.set_status(self,task,new_status,config);luigi/scheduler.py;371;407;0.2087501482411746
+19;luigi.scheduler$Failures.num_failures(self);luigi/scheduler.py;137;146;0.20425539466345022
+20;luigi.scheduler$Task.add_failure(self);luigi/scheduler.py;198;199;0.19607843137254904
+41;luigi.scheduler$CentralPlannerScheduler.__init__(self,config,resources,task_history_impl,**kwargs);luigi/scheduler.py;500;522;0.09804397429514736
+61;luigi.scheduler$SimpleTaskState.re_enable(self,task,config);luigi/scheduler.py;364;369;0.0
+61;luigi.scheduler$SimpleTaskState.update_status(self,task,config);luigi/scheduler.py;419;434;0.0

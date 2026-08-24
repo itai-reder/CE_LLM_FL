@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+pandas.core.arrays.interval$IntervalArray.fillna(self,value,method,limit);pandas/core/arrays/interval.py;566;612
+pandas.core.common$maybe_box_datetimelike(value);pandas/core/common.py;85;93
+pandas.core.construction$sanitize_array(data,index,dtype,copy,raise_cast_failure);pandas/core/construction.py;368;493
+pandas.core.frame$DataFrame._get_value(self,index,col,takeable);pandas/core/frame.py;2932;2967
+pandas.core.generic$NDFrame._iget_item_cache(self,item);pandas/core/generic.py;3547;3554
+pandas.core.indexes.base$Index.notna(self);pandas/core/indexes/base.py;1993;2037
+pandas.core.indexes.base$Index.__getitem__(self,key);pandas/core/indexes/base.py;4229;4262
+pandas.core.indexes.base$Index._maybe_cast_indexer(self,key);pandas/core/indexes/base.py;5004;5017
+pandas.core.indexing$_LocIndexer._is_scalar_access(self,key);pandas/core/indexing.py;1691;1710
+pandas.core.indexing$_LocIndexer._getitem_scalar(self,key);pandas/core/indexing.py;1712;1716
+pandas.core.indexing$_LocIndexer._get_partial_string_timestamp_match_key(self,key,labels);pandas/core/indexing.py;1718;1738
+pandas.core.indexing$convert_to_index_sliceable(obj,key);pandas/core/indexing.py;2321;2343
+pandas.core.reshape.tile$_format_labels(bins,precision,right,include_lowest,dtype);pandas/core/reshape/tile.py;499;529
+pandas.core.strings$str_repeat(arr,repeats);pandas/core/strings.py;643;702
+pandas.core.tools.datetimes$to_datetime(arg,errors,dayfirst,yearfirst,utc,box,format,exact,unit,infer_datetime_format,origin,cache);pandas/core/tools/datetimes.py;557;790
+pandas.io.clipboard.clipboards$init_klipper_clipboard();pandas/io/clipboard/clipboards.py;84;118

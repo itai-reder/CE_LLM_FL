@@ -1,0 +1,16 @@
+corpus_id;path;startLine;endLine
+pandas.core.algorithms$take_nd(arr,indexer,axis,out,fill_value,allow_fill);pandas/core/algorithms.py;1576;1677
+pandas.core.arrays.datetimelike$DatetimeLikeArrayMixin._is_monotonic_decreasing(self);pandas/core/arrays/datetimelike.py;896;898
+pandas.core.construction$sanitize_array(data,index,dtype,copy,raise_cast_failure);pandas/core/construction.py;367;487
+pandas.core.generic$NDFrame._info_axis(self);pandas/core/generic.py;541;543
+pandas.core.generic$NDFrame.reindex_like(self,other,method,copy,limit,tolerance);pandas/core/generic.py;3855;3958
+pandas.core.generic$NDFrame.resample(self,rule,how,axis,fill_method,closed,label,convention,kind,loffset,limit,base,on,level);pandas/core/generic.py;8187;8501
+pandas.core.generic$NDFrame.shift(self,periods,freq,axis,fill_value);pandas/core/generic.py;9417;9430
+pandas.core.generic$NDFrame.describe(self,percentiles,include,exclude);pandas/core/generic.py;9972;10317
+pandas.core.generic$NDFrame.pct_change(self,periods,fill_method,limit,freq,**kwargs);pandas/core/generic.py;10436;10450
+pandas.core.indexes.base$Index._get_names(self);pandas/core/indexes/base.py;1282;1283
+pandas.core.indexes.base$Index._can_reindex(self,indexer);pandas/core/indexes/base.py;3261;3276
+pandas.core.indexes.base$Index.reindex(self,target,method,level,limit,tolerance);pandas/core/indexes/base.py;3278;3336
+pandas.core.indexes.base$Index._join_monotonic(self,other,how,return_indexers);pandas/core/indexes/base.py;3759;3802
+pandas.util._print_versions$get_sys_info();pandas/util/_print_versions.py;13;61
+pandas.util._print_versions$show_versions(as_json);pandas/util/_print_versions.py;64;126

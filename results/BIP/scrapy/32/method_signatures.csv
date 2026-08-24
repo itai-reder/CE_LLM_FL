@@ -1,0 +1,14 @@
+corpus_id;path;startLine;endLine
+scrapy.cmdline$execute(argv,settings);scrapy/cmdline.py;97;144
+scrapy.core.downloader.contextfactory$ScrapyClientContextFactory.__init__(self);scrapy/core/downloader/contextfactory.py;16;19
+scrapy.core.downloader.webclient$ScrapyHTTPClientFactory.__init__(self,request,timeout);scrapy/core/downloader/webclient.py;93;123
+scrapy.crawler$CrawlerProcess.__init__(self,settings);scrapy/crawler.py;209;213
+scrapy.extensions.statsmailer$StatsMailer.__init__(self,stats,recipients,mail);scrapy/extensions/statsmailer.py;13;16
+scrapy.linkextractors.sgml$SgmlLinkExtractor.__init__(self,allow,deny,allow_domains,deny_domains,restrict_xpaths,tags,attrs,canonicalize,unique,process_value,deny_extensions,restrict_css);scrapy/linkextractors/sgml.py;100;124
+scrapy.spidermiddlewares.httperror$HttpErrorMiddleware.__init__(self,settings);scrapy/spidermiddlewares/httperror.py;27;29
+scrapy.utils.log$TopLevelFormatter.__init__(self,loggers);scrapy/utils/log.py;36;37
+scrapy.utils.log$configure_logging(settings);scrapy/utils/log.py;59;103
+scrapy.utils.log$log_scrapy_info(settings);scrapy/utils/log.py;106;114
+scrapy.utils.ossignal$install_shutdown_handlers(function,override_sigint);scrapy/utils/ossignal.py;15;28
+scrapy.utils.test$get_crawler(spidercls,settings_dict);scrapy/utils/test.py;23;33
+scrapy.xlib.tx.interfaces$IReactorProcess.spawnProcess(processProtocol,executable,args,env,path,uid,gid,usePTY,childFDs);scrapy/xlib/tx/interfaces.py;976;1058

@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.dtypes.concat$concat_compat(to_concat,axis);pandas/core/dtypes/concat.py;73;139;1.0
+2;pandas.core.internals.construction$prep_ndarray(values,copy);pandas/core/internals/construction.py;263;297;0.9999726788397614
+3;pandas.core.internals.construction$_get_axes(N,K,index,columns);pandas/core/internals/construction.py;420;433;0.9999635717863485
+4;pandas.core.internals.managers$BlockManager.make_empty(self,axes);pandas/core/internals/managers.py;149;159;0.9999453576795228
+5;pandas.core.internals.managers$BlockManager.combine(self,blocks,copy);pandas/core/internals/managers.py;716;736;0.9998998224124584
+76;pandas.core.internals.managers$BlockManager.quantile(self,axis,consolidate,transposed,interpolation,qs,numeric_only);pandas/core/internals/managers.py;449;551;0.9961841446200081
+93;pandas.core.frame$DataFrame.quantile(self,q,axis,numeric_only,interpolation);pandas/core/frame.py;8143;8230;0.9957743272164291
+106;pandas.core.internals.managers$BlockManager.shape(self);pandas/core/internals/managers.py;167;169;0.9951732616911798
+2559;pandas.core.computation.ops$isnumeric(dtype);pandas/core/computation/ops.py;471;472;0.7806930467647193
+3010;pandas.core.generic$NDFrame.astype(self,dtype,copy,errors,**kwargs);pandas/core/generic.py;5733;5880;0.6518555621328719
+3062;pandas.core.groupby.generic$_managle_lambda_list(aggfuncs);pandas/core/groupby/generic.py;1758;1788;0.6245252948408543
+3116;pandas.core.groupby.groupby$GroupBy.count(self);pandas/core/groupby/groupby.py;1143;1156;0.6124129138017395
+3133;pandas.core.groupby.groupby$GroupBy.quantile(self,q,interpolation);pandas/core/groupby/groupby.py;1837;1909;0.6090159828787396
+3204;pandas.core.groupby.ops$_is_indexed_like(obj,axes);pandas/core/groupby/ops.py;857;865;0.5973589545102682
+4328;pandas.core.reshape.concat$concat(objs,axis,join,join_axes,ignore_index,keys,levels,names,verify_integrity,sort,copy);pandas/core/reshape/concat.py;31;258;0.4152907426802058

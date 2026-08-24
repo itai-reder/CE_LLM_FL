@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;spacy.cli.train$train(lang,output_path,train_path,dev_path,raw_text,base_model,pipeline,vectors,n_iter,n_early_stopping,n_examples,use_gpu,version,meta_path,init_tok2vec,parser_multitasks,entity_multitasks,noise_level,orth_variant_level,eval_beam_widths,gold_preproc,learn_tokens,textcat_multilabel,textcat_arch,textcat_positive_label,verbose,debug);spacy/cli/train.py;23;487;1.0
+2;spacy.cli.debug_data$debug_data(lang,train_path,dev_path,base_model,pipeline,ignore_warnings,verbose,no_format);spacy/cli/debug_data.py;25;504;0.8943571704720038
+3;spacy.cli.pretrain$pretrain(texts_loc,vectors_model,output_dir,width,depth,embed_rows,loss_func,use_vectors,dropout,n_iter,batch_size,max_length,min_length,seed,n_save_every,init_tok2vec,epoch_start);spacy/cli/pretrain.py;26;236;0.6840400222708075
+4;examples.training.pretrain_kb$main(vocab_path,model,output_dir,n_iter);examples/training/pretrain_kb.py;34;122;0.6045258755686679
+5;examples.training.train_tagger$main(lang,output_dir,n_iter);examples/training/train_tagger.py;42;89;0.5792344836276054
+14;spacy.cli.init_model$init_model(lang,output_dir,freqs_loc,clusters_loc,jsonl_loc,vectors_loc,prune_vectors,vectors_name,model_name);spacy/cli/init_model.py;30;100;0.4365336201918009
+83;spacy._ml$link_vectors_to_models(vocab);spacy/_ml.py;284;309;0.1783690262334904
+89;spacy.displacy$render(docs,style,page,minify,jupyter,options,manual);spacy/displacy/__init__.py;21;61;0.1707307385626609
+143;spacy._ml$build_tagger_model(nr_class,**cfg);spacy/_ml.py;561;584;0.12902236041444615
+251;spacy.glossary$explain(term);spacy/glossary.py;5;17;0.06551704293026066
+378;spacy._ml$Tok2Vec(width,embed_size,**kwargs);spacy/_ml.py;319;394;0.0
+378;spacy._ml$create_default_optimizer(ops,**cfg);spacy/_ml.py;49;59;0.0
+378;spacy.lang.en$_return_en(_);spacy/lang/en/__init__.py;19;20;0.0
+378;spacy.lang.es.lex_attrs$like_num(text);spacy/lang/es/lex_attrs.py;44;56;0.0
+378;spacy.lang.id.lex_attrs$like_num(text);spacy/lang/id/lex_attrs.py;41;57;0.0

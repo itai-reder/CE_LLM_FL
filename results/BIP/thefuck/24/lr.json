@@ -1,0 +1,3281 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 377
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1088,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1249,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1303,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.RulesNamesList.__contains__(self,item)"
+      ],
+      "top5_indices": [
+        5,
+        11,
+        12,
+        13,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00040280000000000003,
+        "input_tokens": 4192,
+        "output_tokens": 483
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 377
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1088,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1249,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1303,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.conf._DefaultRulesNames.__eq__(self,other)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        5,
+        10,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0007322,
+        "input_tokens": 4192,
+        "output_tokens": 483
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 377
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1088,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1249,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1303,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 303
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)"
+      ],
+      "top5_indices": [
+        14,
+        5,
+        11,
+        13,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0012522,
+        "input_tokens": 4192,
+        "output_tokens": 743
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 377
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1088,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1249,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1303,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1051
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        5,
+        12,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0027481999999999997,
+        "input_tokens": 4192,
+        "output_tokens": 1491
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 377
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1088,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1249,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1303,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)"
+      ],
+      "top5_indices": [
+        14,
+        10,
+        13,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0023791999999999997,
+        "input_tokens": 4192,
+        "output_tokens": 483
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 377
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1088,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1201,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1361,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1545,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1750,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1927,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2088,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2225,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2385,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2550,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)"
+      ],
+      "top5_indices": [
+        5,
+        11,
+        12,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 1920,
+        "cost_usd": 0.0046931,
+        "input_tokens": 20326,
+        "output_tokens": 668
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 377
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1088,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1201,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1361,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1545,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1750,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1927,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2088,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2225,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2385,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2550,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.load_rule(rule,settings)"
+      ],
+      "top5_indices": [
+        14,
+        11,
+        13,
+        10,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1920,
+        "cost_usd": 0.0052719,
+        "input_tokens": 20326,
+        "output_tokens": 668
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 377
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1088,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 140
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1248,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 62
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1302,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.RulesNamesList.__contains__(self,item)"
+      ],
+      "top5_indices": [
+        5,
+        11,
+        12,
+        13,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0012487,
+        "input_tokens": 4190,
+        "output_tokens": 622
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 377
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1088,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 337
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1248,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 491
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1432,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1463
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1541,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1089
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1702,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 411
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1839,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1078
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1893,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.types.Settings.update(self,**kwargs)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)"
+      ],
+      "top5_indices": [
+        5,
+        12,
+        11,
+        9,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01224075,
+        "input_tokens": 11295,
+        "output_tokens": 5289
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 377
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1088,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1248,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1432,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1541,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1697,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1857,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2041,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2201,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2255,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)"
+      ],
+      "top5_indices": [
+        5,
+        11,
+        12,
+        13,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 2816,
+        "cost_usd": 0.0163116,
+        "input_tokens": 15912,
+        "output_tokens": 699
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 377
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1088,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1248,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1432,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1541,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1697,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1857,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2041,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2201,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2255,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 2816,
+        "cost_usd": 0.0194304,
+        "input_tokens": 15912,
+        "output_tokens": 699
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 422
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1133,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1310,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1421,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1517,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1678,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1827,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1964,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2091,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2268,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2429,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2483,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.corrector.load_rule(rule,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_loaded_rules(rules,settings)",
+        "thefuck.corrector.get_rules(user_dir,settings)"
+      ],
+      "top5_indices": [
+        1,
+        5,
+        11,
+        2,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.0020218740000000003,
+        "input_tokens": 20673,
+        "output_tokens": 760
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 422
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1133,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1310,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1421,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1517,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1678,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1827,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1964,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2091,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2268,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2429,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2483,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.types.RulesNamesList.__contains__(self,item)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        11,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.002587274,
+        "input_tokens": 20673,
+        "output_tokens": 760
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 422
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1133,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1229,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1413,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1573,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1682,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1795,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1972,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2270,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2431,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2485,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.corrector.load_rule(rule,settings)"
+      ],
+      "top5_indices": [
+        5,
+        11,
+        10,
+        14,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0056568,
+        "input_tokens": 20644,
+        "output_tokens": 718
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 422
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1133,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1229,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1413,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1573,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1682,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1795,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1972,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2270,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2431,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2485,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        5,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0062226,
+        "input_tokens": 20644,
+        "output_tokens": 718
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 422
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1133,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1229,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1413,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1573,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1682,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1795,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1972,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2270,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2431,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2485,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 415
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0069666,
+        "input_tokens": 20644,
+        "output_tokens": 1090
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 422
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1133,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1229,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1413,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1573,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1682,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1795,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1972,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2270,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2431,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2485,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 711
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        5,
+        12,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0075585999999999995,
+        "input_tokens": 20644,
+        "output_tokens": 1386
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 422
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1133,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1229,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1413,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1573,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1682,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1795,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1972,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2270,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2431,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2485,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        5,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0090516,
+        "input_tokens": 20644,
+        "output_tokens": 718
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 422
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1133,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 102
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1293,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 137
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1477,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1586,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1682,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1795,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 234
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1972,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 417
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2026,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.load_rule(rule,settings)",
+        "thefuck.types.RulesNamesList.__contains__(self,item)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        1,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.006221,
+        "input_tokens": 13516,
+        "output_tokens": 1421
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 422
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1133,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 169
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1293,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1093
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1477,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 359
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1586,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1482
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1682,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1125
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1506
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1980,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1479
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2034,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        5,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.018751000000000004,
+        "input_tokens": 13580,
+        "output_tokens": 7678
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 422
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1133,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1293,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1477,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1586,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1682,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1866,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2026,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2182,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2295,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2479,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2533,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.types.RulesNamesList.__contains__(self,item)",
+        "thefuck.conf._DefaultRulesNames.__eq__(self,other)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        7,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.027735,
+        "input_tokens": 21104,
+        "output_tokens": 816
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 422
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1133,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1293,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1477,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1586,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1682,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1866,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2026,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2182,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2295,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2479,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2533,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.types.RulesNamesList.__contains__(self,item)",
+        "thefuck.conf._DefaultRulesNames.__eq__(self,other)"
+      ],
+      "top5_indices": [
+        13,
+        14,
+        10,
+        7,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.030611999999999997,
+        "input_tokens": 21104,
+        "output_tokens": 816
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 349
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 891,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1052,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1229,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1325,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1462,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1623,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1772,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1883,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2058,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2195,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2297,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.Settings.__getattr__(self,item)",
+        "thefuck.corrector.get_matched_rules(command,rules,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)",
+        "thefuck.corrector.get_rules(user_dir,settings)"
+      ],
+      "top5_indices": [
+        8,
+        4,
+        11,
+        12,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0018641500000000002,
+        "input_tokens": 18339,
+        "output_tokens": 696
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 349
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 987,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1171,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1331,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1444,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1553,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1730,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2028,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2092,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2268,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.load_rule(rule,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        11,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0058765,
+        "input_tokens": 17938,
+        "output_tokens": 696
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 349
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 112
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1051,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 153
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1235,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 375
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1344,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 365
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1457,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 330
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1634,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 386
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1730,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 372
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1891,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 751
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2066,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 672
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2152,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 71
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2206,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 524
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.load_rule(rule,settings)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)"
+      ],
+      "top5_indices": [
+        14,
+        11,
+        1,
+        13,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.01272345,
+        "input_tokens": 18209,
+        "output_tokens": 4460
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 349
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 891,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1051,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1235,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1344,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1504,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1688,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1784,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1968,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2152,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2312,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2512,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.02792725,
+        "input_tokens": 18993,
+        "output_tokens": 753
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 605
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 807,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 903,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1064,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1175,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1352,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1406,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.corrector.load_rule(rule,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)",
+        "thefuck.corrector.get_matched_rules(command,rules,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        12,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0017525499999999999,
+        "input_tokens": 7259,
+        "output_tokens": 778
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 605
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 807,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 903,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1087,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1247,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1360,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1469,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1625,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1802,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1939,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2100,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2265,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.load_rule(rule,settings)"
+      ],
+      "top5_indices": [
+        13,
+        14,
+        11,
+        10,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.006025000000000001,
+        "input_tokens": 17156,
+        "output_tokens": 868
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 605
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 807,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 903,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 278
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1063,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 535
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1247,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 574
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1356,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 698
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1469,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1378
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1630,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1065
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1767,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1661
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1821,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 886
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        5,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01855775,
+        "input_tokens": 12615,
+        "output_tokens": 7702
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 605
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 807,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 967,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1151,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1260,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1420,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1516,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1700,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1856,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2040,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2200,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2254,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.types.RulesNamesList.__contains__(self,item)",
+        "thefuck.conf._DefaultRulesNames.__eq__(self,other)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        7,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.02676175,
+        "input_tokens": 17723,
+        "output_tokens": 1000
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 679
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1390,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1567,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1728,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1865,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2026,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2175,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2350,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2487,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2614,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2668,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.corrector.load_rule(rule,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_matched_rules(command,rules,settings)",
+        "thefuck.corrector.get_rules(user_dir,settings)"
+      ],
+      "top5_indices": [
+        1,
+        5,
+        11,
+        4,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.008655499999999998,
+        "input_tokens": 21422,
+        "output_tokens": 1009
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 679
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1390,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1567,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1728,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1865,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2026,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2175,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2350,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2487,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2614,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2668,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        5,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.012269899999999997,
+        "input_tokens": 21422,
+        "output_tokens": 1009
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 679
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1390,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1550,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1956,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2052,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2229,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2389,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2443,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.load_rule(rule,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        1,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.011631700000000002,
+        "input_tokens": 18138,
+        "output_tokens": 931
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 679
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1390,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1550,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1956,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2052,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2229,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2389,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2443,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0147931,
+        "input_tokens": 18138,
+        "output_tokens": 931
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 679
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1390,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 73
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1550,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 207
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2020,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 58
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2074,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01340075,
+        "input_tokens": 11163,
+        "output_tokens": 1104
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 679
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1390,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 114
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1550,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 614
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 262
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 702
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2004,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1630
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2058,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        5,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.019256750000000003,
+        "input_tokens": 11131,
+        "output_tokens": 4044
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 679
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1390,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1550,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2003,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2057,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.corrector.load_rule(rule,settings)",
+        "thefuck.corrector.get_loaded_rules(rules,settings)",
+        "thefuck.corrector.get_rules(user_dir,settings)",
+        "thefuck.corrector.get_matched_rules(command,rules,settings)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.019960050000000003,
+        "input_tokens": 11129,
+        "output_tokens": 893
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 679
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1390,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1550,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2003,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.020440250000000004,
+        "input_tokens": 11129,
+        "output_tokens": 893
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 679
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1390,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1550,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2003,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.020832250000000004,
+        "input_tokens": 11129,
+        "output_tokens": 1089
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 679
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1390,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1550,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2003,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2057,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 654
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.021662250000000004,
+        "input_tokens": 11129,
+        "output_tokens": 1504
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 552,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 679
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1390,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1550,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1843,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2003,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2057,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "thefuck.types.SortedCorrectedCommandsSequence._remove_duplicates(self,corrected_commands)",
+        "thefuck.types.SortedCorrectedCommandsSequence._realise(self)",
+        "thefuck.types.SortedCorrectedCommandsSequence.__getitem__(self,item)",
+        "thefuck.corrector.make_corrected_commands(command,rules,settings)",
+        "thefuck.corrector.get_corrected_commands(command,user_dir,settings)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        10,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.020969250000000002,
+        "input_tokens": 11129,
+        "output_tokens": 893
+      }
+    }
+  },
+  "schema_version": 1
+}

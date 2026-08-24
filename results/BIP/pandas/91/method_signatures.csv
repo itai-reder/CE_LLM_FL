@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+pandas.core.common$try_sort(iterable);pandas/core/common.py;216;221
+pandas.core.dtypes.common$is_interval_dtype(arr_or_dtype);pandas/core/dtypes/common.py;506;539
+pandas.core.dtypes.common$is_categorical_dtype(arr_or_dtype);pandas/core/dtypes/common.py;542;572
+pandas.core.dtypes.common$is_dtype_equal(source,target);pandas/core/dtypes/common.py;685;721
+pandas.core.dtypes.common$is_datetime64_any_dtype(arr_or_dtype);pandas/core/dtypes/common.py;987;1024
+pandas.core.dtypes.common$_get_dtype(arr_or_dtype);pandas/core/dtypes/common.py;1672;1705
+pandas.core.indexes.base$Index.__new__(cls,data,dtype,copy,name,tupleize_cols,**kwargs);pandas/core/indexes/base.py;276;418
+pandas.core.indexes.interval$IntervalIndex._needs_i8_conversion(self,key);pandas/core/indexes/interval.py;587;609
+pandas.core.indexes.timedeltas$TimedeltaIndex._maybe_promote(self,other);pandas/core/indexes/timedeltas.py;238;241
+pandas.core.indexes.timedeltas$TimedeltaIndex.searchsorted(self,value,side,sorter);pandas/core/indexes/timedeltas.py;356;364
+pandas.core.indexing$IndexingMixin.iloc(self);pandas/core/indexing.py;93;229
+pandas.core.internals.managers$BlockManager.equals(self,other);pandas/core/internals/managers.py;1397;1419
+pandas.core.ops.array_ops$masked_arith_op(x,y,op);pandas/core/ops/array_ops.py;61;116
+pandas.core.resample$TimeGrouper._get_time_delta_bins(self,ax);pandas/core/resample.py;1491;1514
+pandas.core.tools.timedeltas$to_timedelta(arg,unit,errors);pandas/core/tools/timedeltas.py;16;108
+pandas.core.tools.timedeltas$_convert_listlike(arg,unit,errors,name);pandas/core/tools/timedeltas.py;128;156

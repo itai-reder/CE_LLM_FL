@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;ansible.cli.galaxy$GalaxyCLI.execute_install(self);ansible/cli/galaxy.py;779;927;1.0
+2;ansible.cli.galaxy$GalaxyCLI._parse_requirements_file(self,requirements_file,allow_old_format);ansible/cli/galaxy.py;376;482;0.9886203021849027
+3;ansible.cli.galaxy$GalaxyCLI.execute_init(self);ansible/cli/galaxy.py;608;734;0.8992668702079426
+4;ansible.galaxy.api$g_connect(versions);ansible/galaxy/api.py;27;84;0.8963554581889457
+5;ansible.cli.galaxy$GalaxyCLI.init_parser(self);ansible/cli/galaxy.py;57;120;0.8959132197061206
+7;ansible.galaxy.api$GalaxyAPI.fetch_role_related(self,related,role_id);ansible/galaxy/api.py;278;300;0.8482304958682586
+10;ansible.galaxy.api$GalaxyAPI.lookup_role_by_name(self,role_name,notify);ansible/galaxy/api.py;255;276;0.8107037991844226
+21;ansible.galaxy.api$GalaxyAPI.get_list(self,what);ansible/galaxy/api.py;302;324;0.6346720645763194
+84;ansible.galaxy.api$GalaxyAPI._call_galaxy(self,url,args,headers,method,auth_required,error_context_msg);ansible/galaxy/api.py;174;194;0.41936181290946745
+204;ansible.galaxy.api$GalaxyAPI._add_auth_token(self,headers,url,token_type,required);ansible/galaxy/api.py;196;206;0.3474839686050196
+1425;ansible.module_utils._text$to_text(obj,encoding,errors,nonstring);ansible/module_utils/_text.py;169;257;0.21243286704495715
+20815;ansible.galaxy.token$GalaxyToken._read(self);ansible/galaxy/token.py;118;131;0.019429861020208498
+22768;ansible.galaxy.token$GalaxyToken.config(self);ansible/galaxy/token.py;107;116;0.0
+22768;ansible.galaxy.token$GalaxyToken.get(self);ansible/galaxy/token.py;137;138;0.0

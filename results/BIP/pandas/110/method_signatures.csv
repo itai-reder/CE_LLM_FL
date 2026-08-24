@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+pandas.core.arrays.categorical$_recode_for_categories(codes,old_categories,new_categories);pandas/core/arrays/categorical.py;2557;2588
+pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;6667;6810
+pandas.core.indexes.base$Index._convert_slice_indexer(self,key,kind);pandas/core/indexes/base.py;2964;3021
+pandas.core.indexes.base$Index._invalid_indexer(self,form,key);pandas/core/indexes/base.py;3128;3135
+pandas.core.indexes.base$Index.asof(self,label);pandas/core/indexes/base.py;4173;4236
+pandas.core.indexes.base$Index._maybe_promote(self,other);pandas/core/indexes/base.py;4580;4588
+pandas.core.indexes.base$Index._maybe_cast_slice_bound(self,label,side,kind);pandas/core/indexes/base.py;4849;4866
+pandas.core.indexes.base$Index.get_slice_bound(self,label,side,kind);pandas/core/indexes/base.py;4882;4946
+pandas.core.indexes.base$Index.slice_locs(self,start,end,step,kind);pandas/core/indexes/base.py;4948;5035
+pandas.core.indexes.category$CategoricalIndex.get_loc(self,key,method);pandas/core/indexes/category.py;475;512
+pandas.core.indexing$_iLocIndexer._get_list_axis(self,key,axis);pandas/core/indexing.py;2001;2022
+pandas.core.indexing$convert_missing_indexer(indexer);pandas/core/indexing.py;2336;2350
+pandas.core.reshape.pivot$crosstab(index,columns,values,rownames,colnames,aggfunc,margins,margins_name,dropna,normalize);pandas/core/reshape/pivot.py;451;605
+pandas.core.series$Series.reset_index(self,level,drop,name,inplace);pandas/core/series.py;1192;1324
+pandas.core.util.hashing$hash_array(vals,encoding,hash_key,categorize);pandas/core/util/hashing.py;243;319
+pandas.util.testing$assert_attr_equal(attr,left,right,obj);pandas/util/testing.py;721;762

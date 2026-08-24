@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+scrapy.downloadermiddlewares.decompression$DecompressionMiddleware.__init__(self);scrapy/downloadermiddlewares/decompression.py;28;34
+scrapy.downloadermiddlewares.decompression$DecompressionMiddleware._is_gzip(self,response);scrapy/downloadermiddlewares/decompression.py;59;67
+scrapy.downloadermiddlewares.httpcompression$HttpCompressionMiddleware.from_crawler(cls,crawler);scrapy/downloadermiddlewares/httpcompression.py;13;17
+scrapy.downloadermiddlewares.httpcompression$HttpCompressionMiddleware.process_request(self,request,spider);scrapy/downloadermiddlewares/httpcompression.py;19;20
+scrapy.downloadermiddlewares.httpcompression$HttpCompressionMiddleware._decode(self,body,encoding);scrapy/downloadermiddlewares/httpcompression.py;44;58
+scrapy.http.headers$Headers.__init__(self,seq,encoding);scrapy/http/headers.py;10;12
+scrapy.http.headers$Headers.normvalue(self,value);scrapy/http/headers.py;18;27
+scrapy.http.headers$Headers.getlist(self,key,def_val);scrapy/http/headers.py;51;57
+scrapy.http.headers$Headers.items(self);scrapy/http/headers.py;70;71
+scrapy.http.headers$Headers.iteritems(self);scrapy/http/headers.py;73;74
+scrapy.http.response$Response.__init__(self,url,status,headers,body,flags,request);scrapy/http/response/__init__.py;15;21
+scrapy.utils.datatypes$CaselessDict.__getitem__(self,key);scrapy/utils/datatypes.py;195;196
+scrapy.utils.gz$read1(gzf,size);scrapy/utils/gz.py;20;21
+scrapy.utils.gz$gunzip(data);scrapy/utils/gz.py;27;51
+scrapy.utils.gz$is_gzipped(response);scrapy/utils/gz.py;54;57
+scrapy.utils.url$_safe_ParseResult(parts,encoding,path_encoding);scrapy/utils/url.py;43;63

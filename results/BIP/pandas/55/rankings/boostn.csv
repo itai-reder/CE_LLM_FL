@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.frame$DataFrame._set_value(self,index,col,value,takeable);pandas/core/frame.py;2732;2763;1.0
+2;pandas.core.ops$dispatch_to_series(left,right,func,str_rep,axis);pandas/core/ops/__init__.py;361;426;0.7618160263937971
+3;pandas.core.generic$NDFrame._iget_item_cache(self,item);pandas/core/generic.py;3470;3477;0.7028641862496124
+4;pandas.core.dtypes.inference$is_hashable(obj);pandas/core/dtypes/inference.py;322;357;0.6790566334693277
+5;pandas.core.indexes.datetimelike$DatetimeTimedeltaMixin.insert(self,loc,item);pandas/core/indexes/datetimelike.py;937;989;0.6555049102927342
+17;pandas.core.indexing$_iLocIndexer._is_scalar_access(self,key);pandas/core/indexing.py;1400;1421;0.5155560050663772
+120;pandas.core.construction$sanitize_array(data,index,dtype,copy,raise_cast_failure);pandas/core/construction.py;388;503;0.33935333397764256
+207;pandas.core.indexing$_LocationIndexer.__getitem__(self,key);pandas/core/indexing.py;813;828;0.2889643463813051
+2210;pandas.core.indexes.base$Index.format(self,name,formatter,**kwargs);pandas/core/indexes/base.py;938;953;0.0
+2210;pandas.core.indexing$_iLocIndexer._getitem_tuple(self,tup);pandas/core/indexing.py;1445;1453;0.0
+2210;pandas.core.series$Series.__repr__(self);pandas/core/series.py;1300;1328;0.0
+2210;pandas.core.series$Series.to_string(self,buf,na_rep,float_format,header,index,length,dtype,name,max_rows,min_rows);pandas/core/series.py;1330;1405;0.0
+2210;pandas.io.formats.format$SeriesFormatter.__init__(self,series,buf,length,header,index,na_rep,name,float_format,dtype,max_rows,min_rows);pandas/io/formats/format.py;232;262;0.0

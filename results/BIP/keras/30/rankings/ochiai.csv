@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;keras.backend.common$cast_to_floatx(x);keras/backend/common.py;86;110;0.9090909090909091
+1;keras.backend.tensorflow_backend$sum(x,axis,keepdims);keras/backend/tensorflow_backend.py;1252;1266;0.9090909090909091
+1;keras.engine.topology$Layer.add_loss(self,losses,inputs);keras/engine/topology.py;1096;1128;0.9090909090909091
+1;keras.engine.topology$Layer.add_weight(self,name,shape,dtype,initializer,regularizer,trainable,constraint);keras/engine/topology.py;385;423;0.9090909090909091
+1;keras.engine.topology$Layer.get_losses_for(self,inputs);keras/engine/topology.py;1173;1180;0.9090909090909091
+1;keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;549;956;0.9090909090909091
+1;keras.engine.training$Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs);keras/engine/training.py;1503;1705;0.9090909090909091
+1;keras.engine.training$Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch);keras/engine/training.py;1950;2279;0.9090909090909091
+23;keras.engine.training$Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps);keras/engine/training.py;1707;1779;0.5458363904912633
+43;keras.layers.core$Dropout.call(self,inputs,training);keras/layers/core.py;116;125;0.3414802408943917
+55;keras.engine.training$_slice_arrays(arrays,start,stop);keras/engine/training.py;358;396;0.3225806451612903
+176;keras.engine.topology$Layer.compute_output_shape(self,input_shape);keras/engine/topology.py;727;746;0.0
+176;keras.engine.training$Model.evaluate_generator(self,generator,steps,max_queue_size,workers,use_multiprocessing,verbose);keras/engine/training.py;2281;2430;0.0

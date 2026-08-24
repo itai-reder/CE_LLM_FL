@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.commands.parse$Command.add_options(self,parser);scrapy/commands/parse.py;34;57;1.0
+2;scrapy.downloadermiddlewares.ajaxcrawl$AjaxCrawlMiddleware._has_ajax_crawlable_variant(self,response);scrapy/downloadermiddlewares/ajaxcrawl.py;60;66;0.920251830476495
+2;scrapy.extensions.logstats$LogStats.log(self,spider);scrapy/extensions/logstats.py;37;48;0.920251830476495
+4;scrapy.spiders.sitemap$SitemapSpider._parse_sitemap(self,response);scrapy/spiders/sitemap.py;34;55;0.9015395234885267
+5;scrapy.pipelines.files$FilesPipeline.file_path(self,request,response,info);scrapy/pipelines/files.py;454;478;0.794202971492739
+18;scrapy.http.response$Response.follow(self,url,callback,method,headers,body,cookies,meta,encoding,priority,dont_filter,errback);scrapy/http/response/__init__.py;107;133;0.6011756531195087
+60;scrapy.utils.url$escape_ajax(url);scrapy/utils/url.py;47;73;0.4198724660387044
+188;scrapy.http.response$Response.urljoin(self,url);scrapy/http/response/__init__.py;83;86;0.1796043817066612
+237;scrapy.http.request$Request._set_url(self,url);scrapy/http/request/__init__.py;54;62;0.1609227690921779
+395;scrapy.responsetypes$ResponseTypes.__init__(self);scrapy/responsetypes.py;35;41;0.09710899051274641
+459;scrapy.http.request$Request.__init__(self,url,callback,method,headers,body,cookies,meta,encoding,priority,dont_filter,errback,flags);scrapy/http/request/__init__.py;19;43;0.06381377857943148
+459;scrapy.http.response$Response._set_url(self,url);scrapy/http/response/__init__.py;40;45;0.06381377857943148
+531;scrapy.http.request$Request._set_body(self,body);scrapy/http/request/__init__.py;69;73;0.0
+531;scrapy.utils.misc$md5sum(file);scrapy/utils/misc.py;100;114;0.0

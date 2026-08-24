@@ -1,0 +1,16 @@
+corpus_id;path;startLine;endLine
+scrapy.loader$ItemLoader._values(self);scrapy/loader/__init__.py;39;44
+scrapy.loader$ItemLoader.item(self);scrapy/loader/__init__.py;46;51
+scrapy.pipelines.files$FSFilesStore.__init__(self,basedir);scrapy/pipelines/files.py;44;49
+scrapy.pipelines.files$FSFilesStore._mkdir(self,dirname,domain);scrapy/pipelines/files.py;73;78
+scrapy.pipelines.files$FilesPipeline.__init__(self,store_uri,download_func,settings);scrapy/pipelines/files.py;226;252
+scrapy.pipelines.images$ImagesPipeline.__init__(self,store_uri,download_func,settings);scrapy/pipelines/images.py;50;85
+scrapy.pipelines.images$ImagesPipeline.get_images(self,response,request,info);scrapy/pipelines/images.py;113;128
+scrapy.pipelines.images$ImagesPipeline.convert_image(self,image,size);scrapy/pipelines/images.py;130;144
+scrapy.pipelines.images$ImagesPipeline.file_path(self,request,response,info);scrapy/pipelines/images.py;154;180
+scrapy.pipelines.images$ImagesPipeline.thumb_path(self,request,thumb_id,response,info);scrapy/pipelines/images.py;182;205
+scrapy.utils.deprecate$create_deprecated_class(name,new_class,clsdict,warn_category,warn_once,old_class_path,new_class_path,subclass_warn_message,instance_warn_message);scrapy/utils/deprecate.py;15;117
+scrapy.utils.gz$gunzip(data);scrapy/utils/gz.py;27;51
+scrapy.utils.misc$arg_to_iter(arg);scrapy/utils/misc.py;17;28
+scrapy.utils.spider$iterate_spider_output(result);scrapy/utils/spider.py;12;13
+scrapy.utils.template$string_camelcase(string);scrapy/utils/template.py;22;32

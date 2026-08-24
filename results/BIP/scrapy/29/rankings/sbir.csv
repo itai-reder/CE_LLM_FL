@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.utils.python$to_bytes(text,encoding,errors);scrapy/utils/python.py;110;120;1.0
+2;scrapy.utils.httpobj$urlparse_cached(request_or_response);scrapy/utils/httpobj.py;8;14;0.999860188745194
+3;scrapy.utils.request$request_httprepr(request);scrapy/utils/request.py;73;87;0.999650471862985
+4;scrapy.http.request$Request._get_url(self);scrapy/http/request/__init__.py;46;47;0.999370849353373
+5;scrapy.http.headers$Headers.__init__(self,seq,encoding);scrapy/http/headers.py;9;11;0.998951415588955
+260;scrapy.core.downloader.webclient$ScrapyHTTPClientFactory.__init__(self,request,timeout);scrapy/core/downloader/webclient.py;93;123;0.823418385180007
+496;scrapy.extensions.debug$Debugger.__init__(self);scrapy/extensions/debug.py;56;61;0.694162880111849
+562;scrapy.extensions.httpcache$RFC2616Policy._compute_freshness_lifetime(self,response,request,now);scrapy/extensions/httpcache.py;158;187;0.6646627053477805
+638;scrapy.http.request$Request.__str__(self);scrapy/http/request/__init__.py;76;77;0.6288710241174414
+1225;scrapy.xlib.tx._newclient$HTTP11ClientProtocol.request(self,request);scrapy/xlib/tx/_newclient.py;1272;1334;0.26214610276127226
+1446;scrapy.xlib.tx.interfaces$IProcessTransport.signalProcess(signalID);scrapy/xlib/tx/interfaces.py;2154;2170;0.09507165326808809
+1562;scrapy.xlib.tx.iweb$ICredentialFactory.decode(response,request);scrapy/xlib/tx/iweb.py;352;367;0.013351974833974135
+1566;scrapy.xlib.tx.iweb$IRequest.finish();scrapy/xlib/tx/iweb.py;211;214;0.011324711639286963

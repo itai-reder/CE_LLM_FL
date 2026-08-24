@@ -1,0 +1,3245 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1412,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2527,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3223,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3388,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4503,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4668,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4889,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5110,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5204,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4992,
+          "input_tokens": 6319,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7031,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.ioloop.IOLoop.run_sync(self,func,timeout)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        14,
+        4,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.002512596,
+        "input_tokens": 49114,
+        "output_tokens": 760
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1412,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2527,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3223,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3388,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4503,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4668,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4889,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5110,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5204,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4992,
+          "input_tokens": 6319,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7031,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection.close(self)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        13,
+        11,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0039875959999999995,
+        "input_tokens": 49114,
+        "output_tokens": 760
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1412,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2527,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3223,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3388,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4503,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4668,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4889,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5110,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5204,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4992,
+          "input_tokens": 6319,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7031,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 324
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        11,
+        12,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0045495959999999995,
+        "input_tokens": 49114,
+        "output_tokens": 1041
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1412,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2527,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3223,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3388,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4503,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4668,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4889,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5110,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5204,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4992,
+          "input_tokens": 6319,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7031,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 874
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        11,
+        13,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.005649596,
+        "input_tokens": 49114,
+        "output_tokens": 1591
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1412,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2527,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3223,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3388,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4503,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4668,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4889,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5110,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5204,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4992,
+          "input_tokens": 6319,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7031,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        13,
+        12,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.011362595999999999,
+        "input_tokens": 49114,
+        "output_tokens": 760
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1412,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2527,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3501,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4154,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4274,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5389,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7673,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7727,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.ioloop.IOLoop.run_sync(self,func,timeout)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        14,
+        4,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00818925,
+        "input_tokens": 37497,
+        "output_tokens": 629
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1412,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2527,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3501,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4154,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4274,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5389,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7673,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7727,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection.close(self)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        13,
+        11,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00980345,
+        "input_tokens": 37497,
+        "output_tokens": 629
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1412,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 51
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2527,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 73
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3501,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 160
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 5785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 83
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6438,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 134
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7799,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 198
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7919,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 218
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 9034,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 297
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9088,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        14,
+        11,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 6400,
+        "cost_usd": 0.01277055,
+        "input_tokens": 54343,
+        "output_tokens": 1670
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1412,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 69
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2527,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 227
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3501,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 296
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5785,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 507
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7146,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1377
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7799,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1688
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7853,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1ServerConnection.close(self)",
+        "tornado.ioloop.IOLoop.run_sync(self,func,timeout)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        4,
+        11,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01598755,
+        "input_tokens": 36863,
+        "output_tokens": 4620
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1412,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2527,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3501,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5785,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7146,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7799,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8914,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8968,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        14,
+        15,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.049467800000000006,
+        "input_tokens": 46892,
+        "output_tokens": 700
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 413
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1412,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2527,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3501,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5785,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7146,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7799,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8914,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8968,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        1,
+        13,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0606422,
+        "input_tokens": 46892,
+        "output_tokens": 700
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 655
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2769,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3884,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4999,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5164,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5860,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6834,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8968,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9189,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 8960,
+          "input_tokens": 9309,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9978,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.ioloop.IOLoop.run_sync(self,func,timeout)",
+        "tornado.http1connection.HTTP1Connection.close(self)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        11,
+        4,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 8960,
+        "cost_usd": 0.0046568799999999995,
+        "input_tokens": 69448,
+        "output_tokens": 1030
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 655
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2769,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3884,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4999,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5164,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5860,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6834,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8968,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9189,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 8960,
+          "input_tokens": 9309,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9978,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        11,
+        15,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 8960,
+        "cost_usd": 0.00672128,
+        "input_tokens": 69448,
+        "output_tokens": 1030
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 655
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2628,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3281,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3401,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4516,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 6800,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8161,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8215,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1ServerConnection.close(self)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1ServerConnection.close(self)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        7,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.008953,
+        "input_tokens": 39496,
+        "output_tokens": 885
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 655
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2628,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3281,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3401,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4516,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 6800,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8161,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8215,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        11,
+        15,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.010664799999999999,
+        "input_tokens": 39496,
+        "output_tokens": 885
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 655
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2628,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3281,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3401,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4516,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 6800,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8161,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8215,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 370
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        11,
+        15,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.011318799999999999,
+        "input_tokens": 39496,
+        "output_tokens": 1212
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 655
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2628,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3281,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3401,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4516,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 6800,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8161,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8215,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 359
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        11,
+        15,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.0112968,
+        "input_tokens": 39496,
+        "output_tokens": 1201
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 655
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2628,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3281,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3401,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4516,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 6800,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8161,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8215,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        11,
+        13,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.0192238,
+        "input_tokens": 39496,
+        "output_tokens": 885
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 655
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 112
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2628,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 60
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 84
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 6027,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 6147,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 7508,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 235
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7562,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)"
+      ],
+      "top5_indices": [
+        14,
+        1,
+        15,
+        11,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 13184,
+        "cost_usd": 0.0088191,
+        "input_tokens": 37278,
+        "output_tokens": 1233
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 655
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 326
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2628,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 503
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 718
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6273,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 670
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6926,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 110
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8041,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1628
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8095,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)"
+      ],
+      "top5_indices": [
+        14,
+        1,
+        13,
+        15,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01914825,
+        "input_tokens": 39369,
+        "output_tokens": 4653
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 655
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2628,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3989,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4642,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5757,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7891,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10175,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11149,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11203,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)"
+      ],
+      "top5_indices": [
+        14,
+        13,
+        15,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1408,
+        "cost_usd": 0.065469,
+        "input_tokens": 59928,
+        "output_tokens": 977
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 655
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1654,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2628,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3989,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4642,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5757,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7891,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10175,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11149,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11203,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        11,
+        13,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1408,
+        "cost_usd": 0.077016,
+        "input_tokens": 59928,
+        "output_tokens": 977
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 247
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1081,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3365,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4480,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4534,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)",
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        11,
+        12,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0014282,
+        "input_tokens": 14300,
+        "output_tokens": 375
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 247
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1081,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3365,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4339,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4992,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6107,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6227,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6281,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.http1connection.HTTP1Connection.close(self)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        13,
+        16,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.009218,
+        "input_tokens": 33232,
+        "output_tokens": 455
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 247
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1081,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 78
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3365,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 61
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4339,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4992,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5112,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6227,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 124
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6281,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 427
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.http1connection.HTTP1Connection.close(self)"
+      ],
+      "top5_indices": [
+        14,
+        1,
+        11,
+        13,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.010065250000000001,
+        "input_tokens": 32237,
+        "output_tokens": 1003
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 247
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1081,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2055,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3170,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4531,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6665,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7318,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9602,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10717,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11691,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11745,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        1,
+        12,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.09001275,
+        "input_tokens": 69415,
+        "output_tokens": 606
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 363
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1073,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2188,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3303,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3468,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3522,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1ServerConnection.close(self)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.ioloop.IOLoop.run_sync(self,func,timeout)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        6,
+        9,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0016793000000000003,
+        "input_tokens": 14394,
+        "output_tokens": 527
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 363
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1073,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2047,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3162,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3282,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5566,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6681,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6735,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.http1connection.HTTP1Connection.close(self)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        16,
+        11,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.007453300000000001,
+        "input_tokens": 29386,
+        "output_tokens": 543
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 363
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1073,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 383
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2047,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 432
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4331,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 710
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 5692,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 877
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6807,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1546
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7460,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1297
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7580,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2074
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7634,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1394
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        11,
+        13,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.028643599999999998,
+        "input_tokens": 43464,
+        "output_tokens": 9076
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 363
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1073,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2047,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3162,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4523,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6657,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7310,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8425,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10709,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10763,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        1,
+        12,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.07249225000000001,
+        "input_tokens": 55509,
+        "output_tokens": 685
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 730
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1729,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2844,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2898,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1ServerConnection.close(self)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        2,
+        11,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00876595,
+        "input_tokens": 8311,
+        "output_tokens": 836
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 730
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1729,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2844,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2898,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        12,
+        11,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01265635,
+        "input_tokens": 8311,
+        "output_tokens": 836
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 730
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1729,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4064,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5179,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 7463,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7583,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 8698,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8752,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        1,
+        11,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 5376,
+        "cost_usd": 0.019143149999999998,
+        "input_tokens": 47011,
+        "output_tokens": 960
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 730
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1729,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4064,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5179,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 7463,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7583,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 8698,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 7296,
+          "input_tokens": 8752,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        1,
+        11,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 12672,
+        "cost_usd": 0.020031149999999998,
+        "input_tokens": 47011,
+        "output_tokens": 960
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 730
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1729,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 86
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4064,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5179,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 7463,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 434
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7517,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        1,
+        11,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 4736,
+        "cost_usd": 0.023567150000000002,
+        "input_tokens": 29495,
+        "output_tokens": 1359
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 730
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1729,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 346
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2703,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 153
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4064,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5179,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 812
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7463,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 656
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9597,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 730
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10250,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 682
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10304,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        1,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.03870825,
+        "input_tokens": 52129,
+        "output_tokens": 4174
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 730
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1729,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2703,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4064,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5179,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5832,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7966,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10250,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11365,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11419,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.routing._RoutingDelegate.on_connection_close(self)",
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        11,
+        5,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.07308814999999999,
+        "input_tokens": 61347,
+        "output_tokens": 1052
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 730
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1729,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2703,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4064,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5179,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5832,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7966,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10250,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11365,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11419,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.http1connection.HTTP1Connection.__init__(self,stream,is_client,params,context)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        11,
+        1,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.07544075,
+        "input_tokens": 61347,
+        "output_tokens": 1052
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 730
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1729,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2703,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4064,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5179,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5832,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7966,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10250,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11365,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11419,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 334
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        12,
+        11,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.07602275,
+        "input_tokens": 61347,
+        "output_tokens": 1343
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 730
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1729,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2703,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4064,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5179,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5832,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7966,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10250,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11365,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11419,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 566
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        12,
+        11,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.07648674999999999,
+        "input_tokens": 61347,
+        "output_tokens": 1575
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 840,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 730
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1729,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2703,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4064,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5179,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5832,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7966,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10250,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11365,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11419,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "tornado.http1connection.HTTP1Connection.write_headers(self,start_line,headers,chunk)",
+        "tornado.simple_httpclient._HTTPConnection.run(self)",
+        "tornado.http1connection.HTTP1Connection._read_message(self,delegate)",
+        "tornado.httpclient.HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options)",
+        "tornado.curl_httpclient.CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers)"
+      ],
+      "top5_indices": [
+        14,
+        15,
+        1,
+        11,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.08720375,
+        "input_tokens": 61347,
+        "output_tokens": 1052
+      }
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,16 @@
+corpus_id;path;startLine;endLine
+scrapy.core.engine$ExecutionEngine._next_request_from_scheduler(self,spider);scrapy/core/engine.py;130;145
+scrapy.core.engine$ExecutionEngine._handle_downloader_output(self,response,request,spider);scrapy/core/engine.py;147;157
+scrapy.core.engine$ExecutionEngine.close_spider(self,spider,reason);scrapy/core/engine.py;257;302
+scrapy.core.scraper$Scraper.enqueue_scrape(self,response,request,spider);scrapy/core/scraper.py;98;112
+scrapy.core.scraper$Scraper.handle_spider_error(self,_failure,request,response,spider);scrapy/core/scraper.py;147;166
+scrapy.core.scraper$Scraper._log_download_errors(self,spider_failure,download_failure,request,spider);scrapy/core/scraper.py;196;214
+scrapy.core.scraper$Scraper._itemproc_finished(self,output,item,response,spider);scrapy/core/scraper.py;216;236
+scrapy.downloadermiddlewares.robotstxt$RobotsTxtMiddleware._logerror(self,failure,request,spider);scrapy/downloadermiddlewares/robotstxt.py;58;62
+scrapy.extensions.feedexport$FeedExporter.close_spider(self,spider);scrapy/extensions/feedexport.py;174;188
+scrapy.log$msg(message,_level,**kw);scrapy/log.py;30;40
+scrapy.log$err(_stuff,_why,**kw);scrapy/log.py;43;51
+scrapy.pipelines.files$FilesPipeline.media_to_download(self,request,info);scrapy/pipelines/files.py;182;217
+scrapy.pipelines.media$MediaPipeline._process_request(self,request,info);scrapy/pipelines/media.py;48;75
+scrapy.pipelines.media$MediaPipeline.item_completed(self,results,item,info);scrapy/pipelines/media.py;122;132
+scrapy.utils.signal$send_catch_log_deferred(signal,sender,*arguments,**named);scrapy/utils/signal.py;41;64

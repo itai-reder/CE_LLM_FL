@@ -1,0 +1,11 @@
+rank;signature;path;startLine;endLine;score
+1;tornado.httputil$url_concat(url,args);tornado/httputil.py;592;625;1.0
+2;tornado.escape$parse_qs_bytes(qs,keep_blank_values,strict_parsing);tornado/escape.py;166;181;0.998876736624298
+3;tornado.escape$utf8(value);tornado/escape.py;187;200;0.9985811409991132
+4;tornado.escape$to_unicode(value);tornado/escape.py;206;218;0.9984037836240024
+5;tornado.httputil$parse_cookie(cookie);tornado/httputil.py;996;1019;0.9983446644989654
+20;tornado.httputil$HTTPHeaders.__getitem__(self,name);tornado/httputil.py;215;217;0.9924327519952705
+165;tornado.auth$OAuth2Mixin.authorize_redirect(self,redirect_uri,client_id,client_secret,extra_params,callback,scope,response_type);tornado/auth.py;572;601;0.8740171445462607
+166;tornado.auth$OAuth2Mixin._oauth_request_token_url(self,redirect_uri,client_id,client_secret,code,extra_params);tornado/auth.py;603;615;0.8724800472953
+237;tornado.curl_httpclient$CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers);tornado/curl_httpclient.py;286;474;0.804670410877919
+768;tornado.platform.twisted$TwistedIOLoop.add_timeout(self,deadline,callback,*args,**kwargs);tornado/platform/twisted.py;488;500;0.39905409399940883

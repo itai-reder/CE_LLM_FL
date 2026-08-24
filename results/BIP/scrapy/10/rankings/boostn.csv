@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.downloadermiddlewares.redirect$RedirectMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/redirect.py;57;78;1.0
+2;scrapy.core.downloader.webclient$ScrapyHTTPClientFactory.__init__(self,request,timeout);scrapy/core/downloader/webclient.py;108;140;0.8025770446695928
+3;scrapy.core.downloader.webclient$_parsed_url_args(parsed);scrapy/core/downloader/webclient.py;14;26;0.7620598714726395
+4;scrapy.core.downloader.handlers.http11$ScrapyAgent.download_request(self,request);scrapy/core/downloader/handlers/http11.py;257;294;0.7546028232400673
+5;scrapy.core.downloader.handlers.http11$tunnel_request_data(host,port,proxy_auth_header);scrapy/core/downloader/handlers/http11.py;160;178;0.6602886035380343
+50;scrapy.http.headers$Headers._tobytes(self,x);scrapy/http/headers.py;29;37;0.30654790520265185
+108;scrapy.utils.url$parse_url(url,encoding);scrapy/utils/url.py;38;44;0.2419137267290277
+322;scrapy.downloadermiddlewares.redirect$BaseRedirectMiddleware._redirect_request_using_get(self,request,redirect_url);scrapy/downloadermiddlewares/redirect.py;47;51;0.08449585184232739
+386;scrapy.utils.test$get_pythonpath();scrapy/utils/test.py;59;63;0.04536931566301024
+461;scrapy.http.headers$Headers.__getitem__(self,key);scrapy/http/headers.py;39;43;0.04259250878886334
+613;scrapy.spiders.crawl$CrawlSpider.process_results(self,response,results);scrapy/spiders/crawl.py;48;49;0.0
+613;scrapy.utils.datatypes$CaselessDict.__contains__(self,key);scrapy/utils/datatypes.py;204;205;0.0
+613;scrapy.utils.datatypes$CaselessDict.__getitem__(self,key);scrapy/utils/datatypes.py;195;196;0.0

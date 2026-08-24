@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.arrays.datetimes$DatetimeArray.tz_localize(self,tz,ambiguous,nonexistent,errors);pandas/core/arrays/datetimes.py;965;1155;1.0
+2;pandas.core.generic$NDFrame.asfreq(self,freq,method,how,normalize,fill_value);pandas/core/generic.py;7904;8007;0.8438622332838757
+3;pandas.core.tools.datetimes$to_datetime(arg,errors,dayfirst,yearfirst,utc,box,format,exact,unit,infer_datetime_format,origin,cache);pandas/core/tools/datetimes.py;560;793;0.7850835533647516
+4;pandas.core.generic$NDFrame.resample(self,rule,how,axis,fill_method,closed,label,convention,kind,loffset,limit,base,on,level);pandas/core/generic.py;8142;8456;0.7760923392849021
+5;pandas.core.base$IndexOpsMixin.to_numpy(self,dtype,copy);pandas/core/base.py;892;986;0.7299518967614474
+8;pandas.core.arrays.datetimes$DatetimeArray.tz_convert(self,tz);pandas/core/arrays/datetimes.py;889;963;0.7157273924102615
+361;pandas.core.arrays.datetimes$DatetimeArray.astype(self,dtype,copy);pandas/core/arrays/datetimes.py;704;729;0.2846256334742256
+458;pandas.core.groupby.groupby$GroupBy._get_cythonized_result(self,how,grouper,aggregate,cython_dtype,needs_values,needs_mask,needs_ngroups,result_is_index,pre_processing,post_processing,**kwargs);pandas/core/groupby/groupby.py;2192;2304;0.2649276634805482
+559;pandas.core.internals.blocks$get_block_type(values,dtype);pandas/core/internals/blocks.py;3013;3056;0.24366594773342704
+1521;pandas.core.groupby.ops$DataSplitter.__iter__(self);pandas/core/groupby/ops.py;883;900;0.14004692051794135
+1640;pandas.core.frame$DataFrame._sanitize_column(self,key,value,broadcast);pandas/core/frame.py;3622;3724;0.13274599459285882
+2753;pandas.core.dtypes.dtypes$DatetimeTZDtype.__str__(self);pandas/core/dtypes/dtypes.py;752;753;0.07917648886188813
+3191;pandas.core.groupby.ops$BaseGrouper._get_grouper(self);pandas/core/groupby/ops.py;171;178;0.05750608116322053
+4280;pandas.core.groupby.ops$DataSplitter.apply(self,f);pandas/core/groupby/ops.py;908;909;0.018135088236617324
+5099;pandas.core.internals.blocks$DatetimeTZBlock._holder(self);pandas/core/internals/blocks.py;2279;2281;0.0

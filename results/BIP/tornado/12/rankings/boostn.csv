@@ -1,0 +1,12 @@
+rank;signature;path;startLine;endLine;score
+1;tornado.auth$FacebookGraphMixin.get_authenticated_user(self,redirect_uri,client_id,client_secret,code,callback,extra_fields);tornado/auth.py;935;980;1.0
+2;tornado.auth$FacebookGraphMixin.facebook_request(self,path,callback,access_token,post_args,**args);tornado/auth.py;1014;1066;0.9486320321764834
+3;tornado.auth$OAuth2Mixin.oauth2_request(self,url,callback,access_token,post_args,**args);tornado/auth.py;624;670;0.8911459171758261
+4;tornado.auth$TwitterMixin.twitter_request(self,path,callback,access_token,post_args,**args);tornado/auth.py;749;813;0.6621280678848682
+5;tornado.auth$FacebookGraphMixin._on_access_token(self,redirect_uri,client_id,client_secret,future,fields,response);tornado/auth.py;982;1000;0.6614634546933977
+12;tornado.auth$OAuth2Mixin._oauth_request_token_url(self,redirect_uri,client_id,client_secret,code,extra_params);tornado/auth.py;610;622;0.4655639900195817
+15;tornado.auth$GoogleOAuth2Mixin._on_access_token(self,future,response);tornado/auth.py;918;925;0.41868641355184844
+424;tornado.platform.asyncio$BaseAsyncIOLoop.remove_timeout(self,timeout);tornado/platform/asyncio.py;139;140;0.05148791202062615
+652;tornado.platform.asyncio$to_asyncio_future(tornado_future);tornado/platform/asyncio.py;201;208;0.037276869052814646
+652;tornado.platform.asyncio$to_tornado_future(asyncio_future);tornado/platform/asyncio.py;191;198;0.037276869052814646
+705;tornado.concurrent$Future._set_done(self);tornado/concurrent.py;313;321;0.0

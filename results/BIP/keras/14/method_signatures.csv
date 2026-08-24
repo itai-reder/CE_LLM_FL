@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+keras.activations$sigmoid(x);keras/activations.py;131;134
+keras.activations$deserialize(name,custom_objects);keras/activations.py;171;176
+keras.activations$get(identifier);keras/activations.py;179;207
+keras.backend$backend();keras/backend/__init__.py;111;124
+keras.backend.cntk_backend$in_top_k(predictions,targets,k);keras/backend/cntk_backend.py;2193;2196
+keras.backend.common$epsilon();keras/backend/common.py;13;25
+keras.backend.tensorflow_backend$get_uid(prefix);keras/backend/tensorflow_backend.py;64;78
+keras.backend.tensorflow_backend$get_session();keras/backend/tensorflow_backend.py;156;211
+keras.backend.theano_backend$argmax(x,axis);keras/backend/theano_backend.py;626;627
+keras.datasets.imdb$load_data(path,num_words,skip_top,maxlen,seed,start_char,oov_char,index_from,**kwargs);keras/datasets/imdb.py;14;102
+keras.datasets.reuters$load_data(path,num_words,skip_top,maxlen,test_split,seed,start_char,oov_char,index_from,**kwargs);keras/datasets/reuters.py;15;88
+keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;37;470
+keras.engine.training$Model._standardize_user_data(self,x,y,sample_weight,class_weight,check_array_lengths,batch_size);keras/engine/training.py;639;819
+keras.losses$get(identifier);keras/losses.py;117;140
+keras.metrics$sparse_top_k_categorical_accuracy(y_true,y_pred,k);keras/metrics.py;47;49
+keras.utils.multi_gpu_utils$multi_gpu_model(model,gpus,cpu_merge,cpu_relocation);keras/utils/multi_gpu_utils.py;24;255

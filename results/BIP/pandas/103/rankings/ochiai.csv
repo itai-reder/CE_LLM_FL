@@ -1,0 +1,11 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.groupby.grouper$get_grouper(obj,key,axis,level,sort,observed,mutated,validate);pandas/core/groupby/grouper.py;426;638;0.8438078435864856
+2;pandas.core.construction$sanitize_array(data,index,dtype,copy,raise_cast_failure);pandas/core/construction.py;388;508;0.5617135106247693
+2;pandas.core.dtypes.missing$_isna_ndarraylike(obj);pandas/core/dtypes/missing.py;225;268;0.5617135106247693
+2;pandas.core.ops$_align_method_SERIES(left,right,align_asobject);pandas/core/ops/__init__.py;424;442;0.5617135106247693
+5;pandas.core.generic$NDFrame.__getattr__(self,name);pandas/core/generic.py;5186;5203;0.5130858247370196
+5;pandas.core.groupby.groupby$GroupBy._get_cythonized_result(self,how,cython_dtype,aggregate,needs_values,needs_mask,needs_ngroups,result_is_index,pre_processing,post_processing,**kwargs);pandas/core/groupby/groupby.py;2197;2309;0.5130858247370196
+21;pandas.core.groupby.generic$SeriesGroupBy.pct_change(self,periods,fill_method,limit,freq);pandas/core/groupby/generic.py;803;816;0.4041237200180316
+21;pandas.core.groupby.groupby$GroupBy.pct_change(self,periods,fill_method,limit,freq,axis);pandas/core/groupby/groupby.py;2344;2368;0.4041237200180316
+214;pandas.core.groupby.groupby$GroupBy._fill(self,direction,limit);pandas/core/groupby/groupby.py;1585;1619;0.0
+214;pandas.core.series$Series.diff(self,periods);pandas/core/series.py;2173;2235;0.0

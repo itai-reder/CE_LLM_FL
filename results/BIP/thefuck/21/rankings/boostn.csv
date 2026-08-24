@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;thefuck.rules.git_stash$match(command);thefuck/rules/git_stash.py;5;9;1.0
+2;thefuck.specific.git$git_support(fn,command);thefuck/specific/git.py;8;32;0.9423886285110639
+3;thefuck.rules.git_pull$get_new_command(command);thefuck/rules/git_pull.py;11;17;0.8836921282375032
+4;thefuck.utils$cache(*depends_on);thefuck/utils.py;167;202;0.880095422196412
+5;thefuck.rules.git_push_force$match(command);thefuck/rules/git_push_force.py;5;10;0.8752716737966102
+8;thefuck.rules.git_checkout$get_new_command(command);thefuck/rules/git_checkout.py;27;38;0.8545785149564281
+14;thefuck.rules.git_add$get_new_command(command);thefuck/rules/git_add.py;12;19;0.7234148819750087
+18;thefuck.rules.git_checkout$get_branches();thefuck/rules/git_checkout.py;14;24;0.7088359732477866
+20;thefuck.utils$compatibility_call(fn,*args);thefuck/utils.py;206;224;0.6973273245759017
+22;thefuck.rules.git_add$match(command);thefuck/rules/git_add.py;6;9;0.6799290655475221
+22;thefuck.rules.git_checkout$match(command);thefuck/rules/git_checkout.py;8;11;0.6799290655475221
+24;thefuck.rules.git_fix_stash$match(command);thefuck/rules/git_fix_stash.py;6;9;0.6779248703273671
+95;thefuck.utils$memoize(fn);thefuck/utils.py;26;38;0.2605235489001058
+156;thefuck.utils$is_app(command,*app_names);thefuck/utils.py;146;153;0.1402852235702326
+199;thefuck.types$Command.__init__(self,script,stdout,stderr);thefuck/types.py;16;26;0.07251149252944503
+225;thefuck.rules.dry$match(command);thefuck/rules/dry.py;1;4;0.054126358178559486

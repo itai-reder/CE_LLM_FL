@@ -1,0 +1,3017 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 399
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2081,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5745,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8649,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 9004,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 8832,
+          "input_tokens": 11120,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11357,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 10880,
+          "input_tokens": 12152,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 11904,
+          "input_tokens": 12359,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 16023,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 16361,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 16415,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)",
+        "keras.engine.topology.Layer.get_losses_for(self,inputs)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        5,
+        11,
+        13
+      ],
+      "usage_totals": {
+        "cached_tokens": 33024,
+        "cost_usd": 0.004805162,
+        "input_tokens": 122789,
+        "output_tokens": 751
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 399
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2081,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5745,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8649,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 9004,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 8832,
+          "input_tokens": 11120,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11357,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 10880,
+          "input_tokens": 12152,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 11904,
+          "input_tokens": 12359,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 16023,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 16361,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 16415,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        16,
+        1,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 34688,
+        "cost_usd": 0.007782562,
+        "input_tokens": 122789,
+        "output_tokens": 751
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 399
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2081,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5745,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8649,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 9004,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 8832,
+          "input_tokens": 11120,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11357,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 10880,
+          "input_tokens": 12152,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 11904,
+          "input_tokens": 12359,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 16023,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 16361,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 16415,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 159
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        16,
+        14,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 33024,
+        "cost_usd": 0.008388962,
+        "input_tokens": 122789,
+        "output_tokens": 867
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 399
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2081,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5745,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8649,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 9004,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 8832,
+          "input_tokens": 11120,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11357,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 10880,
+          "input_tokens": 12152,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 11904,
+          "input_tokens": 12359,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 16023,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 16361,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 16415,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 806
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        14,
+        1,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 33024,
+        "cost_usd": 0.009682962,
+        "input_tokens": 122789,
+        "output_tokens": 1514
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 399
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2081,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5745,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8649,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 9004,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 8832,
+          "input_tokens": 11120,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11357,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 10880,
+          "input_tokens": 12152,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 11904,
+          "input_tokens": 12359,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 16023,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 16361,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 16415,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)",
+        "keras.engine.topology.Layer.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        14,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 33024,
+        "cost_usd": 0.024915962,
+        "input_tokens": 122789,
+        "output_tokens": 751
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 399
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2081,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4985,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7101,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7490,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11154,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 11008,
+          "input_tokens": 11949,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 11776,
+          "input_tokens": 14853,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15242,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15296,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)",
+        "keras.engine.topology.Layer.get_losses_for(self,inputs)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        4,
+        5,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 22784,
+        "cost_usd": 0.0151071,
+        "input_tokens": 91674,
+        "output_tokens": 693
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 399
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2081,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4985,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7101,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7490,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11154,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 11008,
+          "input_tokens": 11949,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 11776,
+          "input_tokens": 14853,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15242,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15296,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        16,
+        1,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 22784,
+        "cost_usd": 0.0182351,
+        "input_tokens": 91674,
+        "output_tokens": 693
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 399
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2081,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 60
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4985,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 81
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7101,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 6784,
+          "input_tokens": 7490,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 262
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7544,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.backend.tensorflow_backend.sum(x,axis,keepdims)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)",
+        "keras.engine.topology.Layer.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 6784,
+        "cost_usd": 0.0053679999999999995,
+        "input_tokens": 30724,
+        "output_tokens": 867
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 399
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2081,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 153
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4985,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 403
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7101,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 345
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7896,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1001
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 8285,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 820
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10401,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 762
+        },
+        {
+          "cached_tokens": 6784,
+          "input_tokens": 10455,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        14,
+        11,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 11520,
+        "cost_usd": 0.016529542,
+        "input_tokens": 52727,
+        "output_tokens": 3926
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 399
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2081,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4985,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5780,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5504,
+          "input_tokens": 7896,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8285,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 8339,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)",
+        "keras.engine.topology.Layer.get_losses_for(self,inputs)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        4,
+        5,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 11648,
+        "cost_usd": 0.030653218,
+        "input_tokens": 38889,
+        "output_tokens": 613
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 399
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2081,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4985,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5780,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5504,
+          "input_tokens": 7896,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8285,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 8339,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        16,
+        14,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 8320,
+        "cost_usd": 0.03972325,
+        "input_tokens": 38889,
+        "output_tokens": 613
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 172
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1854,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5518,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8422,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 8192,
+          "input_tokens": 8777,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10893,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11231,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11468,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15132,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15186,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.topology.Layer.add_weight(self,name,shape,dtype,initializer,regularizer,trainable,constraint)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        4,
+        11,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 8192,
+        "cost_usd": 0.004860896,
+        "input_tokens": 90004,
+        "output_tokens": 466
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 172
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1854,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5518,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8422,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 8192,
+          "input_tokens": 8777,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10893,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11231,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11468,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15132,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15186,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        16,
+        1,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 8192,
+        "cost_usd": 0.007966896,
+        "input_tokens": 90004,
+        "output_tokens": 466
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 172
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1854,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4758,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6874,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 7040,
+          "input_tokens": 10927,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10981,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        19,
+        4,
+        14,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 7040,
+        "cost_usd": 0.007884,
+        "input_tokens": 44180,
+        "output_tokens": 344
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 172
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1854,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4758,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6874,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 7040,
+          "input_tokens": 10927,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10981,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        16,
+        1,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 7040,
+        "cost_usd": 0.010149,
+        "input_tokens": 44180,
+        "output_tokens": 344
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 172
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1854,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4758,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6874,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 7040,
+          "input_tokens": 10927,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10981,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 277
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        16,
+        14,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 7040,
+        "cost_usd": 0.010617,
+        "input_tokens": 44180,
+        "output_tokens": 578
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 172
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1854,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4758,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6874,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 7040,
+          "input_tokens": 10927,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10981,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 603
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        16,
+        14,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 7040,
+        "cost_usd": 0.011269,
+        "input_tokens": 44180,
+        "output_tokens": 904
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 172
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1854,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4758,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6874,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 7040,
+          "input_tokens": 10927,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10981,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        16,
+        14,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 7040,
+        "cost_usd": 0.021474,
+        "input_tokens": 44180,
+        "output_tokens": 344
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 172
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1854,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4758,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6874,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 7263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 149
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7317,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        16,
+        1,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 3712,
+        "cost_usd": 0.00742205,
+        "input_tokens": 29589,
+        "output_tokens": 430
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 172
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1854,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 266
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4758,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 544
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6874,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 878
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7669,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 912
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7723,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        16,
+        14,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.013230249999999999,
+        "input_tokens": 30401,
+        "output_tokens": 2815
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 172
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1854,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4758,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4480,
+          "input_tokens": 6874,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7669,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 9010,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6656,
+          "input_tokens": 9399,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9453,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        16,
+        14,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 13952,
+        "cost_usd": 0.039003,
+        "input_tokens": 50540,
+        "output_tokens": 422
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 172
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1854,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4758,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4480,
+          "input_tokens": 6874,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7669,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 9010,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6656,
+          "input_tokens": 9399,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 6656,
+          "input_tokens": 9453,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        14,
+        16,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 20608,
+        "cost_usd": 0.041312,
+        "input_tokens": 50540,
+        "output_tokens": 422
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 256
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1782,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 5446,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8350,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8404,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        13,
+        4,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 1408,
+        "cost_usd": 0.002078954,
+        "input_tokens": 25505,
+        "output_tokens": 398
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 256
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1782,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4686,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6802,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 7009,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9913,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 12029,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 12083,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        19,
+        1,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 3712,
+        "cost_usd": 0.01407755,
+        "input_tokens": 55827,
+        "output_tokens": 478
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 256
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1782,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4686,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 90
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5481,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 311
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5535,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 271
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)",
+        "keras.engine.topology.Layer.get_losses_for(self,inputs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        1,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00665175,
+        "input_tokens": 19007,
+        "output_tokens": 950
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 256
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1782,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 4686,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 6802,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4480,
+          "input_tokens": 7597,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 6528,
+          "input_tokens": 8938,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 8704,
+          "input_tokens": 9145,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 12809,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 13198,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 13252,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        14,
+        16,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 23936,
+        "cost_usd": 0.074946,
+        "input_tokens": 79732,
+        "output_tokens": 578
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 342
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1722,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5386,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8290,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8645,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8776,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 9571,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 10917,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 14581,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 14818,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15025,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15379,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)",
+        "keras.engine.topology.Layer.get_losses_for(self,inputs)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        4,
+        5,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 1408,
+        "cost_usd": 0.006800554,
+        "input_tokens": 114633,
+        "output_tokens": 717
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 342
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1722,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4626,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9646,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 10035,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 8832,
+          "input_tokens": 12939,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 13734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 11904,
+          "input_tokens": 17398,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 17452,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        14,
+        16,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 24448,
+        "cost_usd": 0.01975345,
+        "input_tokens": 95817,
+        "output_tokens": 650
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 342
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1722,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 174
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4626,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 685
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 5421,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 711
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 7537,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 582
+        },
+        {
+          "cached_tokens": 6784,
+          "input_tokens": 11201,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1165
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11255,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 698
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        19,
+        14,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 15232,
+        "cost_usd": 0.01610805,
+        "input_tokens": 43285,
+        "output_tokens": 4357
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 342
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1722,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4626,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5421,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4352,
+          "input_tokens": 7537,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 7296,
+          "input_tokens": 8878,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 9267,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 8704,
+          "input_tokens": 12171,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15835,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15889,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.training._slice_arrays(arrays,start,stop)",
+        "keras.models.Sequential.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        14,
+        16,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 23168,
+        "cost_usd": 0.07990325,
+        "input_tokens": 82869,
+        "output_tokens": 664
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 784
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2466,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6130,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 9034,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9389,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 13053,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 13391,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15507,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15714,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 15951,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 17297,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 18108,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.topology.Layer.add_loss(self,losses,inputs)",
+        "keras.models.Sequential.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        11,
+        4,
+        15
+      ],
+      "usage_totals": {
+        "cached_tokens": 5632,
+        "cost_usd": 0.016416965999999998,
+        "input_tokens": 137563,
+        "output_tokens": 1159
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 784
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2466,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6130,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 9034,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 9389,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 13053,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 13391,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15507,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 15714,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 15951,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 17297,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 18108,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.models.Sequential.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.models.Sequential.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        15,
+        14,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 5632,
+        "cost_usd": 0.038559366,
+        "input_tokens": 137563,
+        "output_tokens": 1159
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 784
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2466,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7486,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11150,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 14054,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 6784,
+          "input_tokens": 14108,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        1,
+        14,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 6784,
+        "cost_usd": 0.022219850000000003,
+        "input_tokens": 56157,
+        "output_tokens": 956
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 784
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2466,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7486,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 11150,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 14054,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 14108,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.models.Sequential.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.models.Sequential.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        15,
+        14,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.03819825,
+        "input_tokens": 56157,
+        "output_tokens": 956
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 784
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2466,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 61
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 83
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7486,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 166
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8281,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 214
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8335,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.models.Sequential.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.models.Sequential.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        15,
+        14,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.02754125,
+        "input_tokens": 33461,
+        "output_tokens": 1351
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 784
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2466,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 159
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5370,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 212
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7486,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 406
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8281,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1433
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8335,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.models.Sequential.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.models.Sequential.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        15,
+        14,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 1408,
+        "cost_usd": 0.03059645,
+        "input_tokens": 33461,
+        "output_tokens": 3037
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 784
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2466,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5370,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 7486,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 8281,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8335,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.backend.common.cast_to_floatx(x)"
+      ],
+      "top5_indices": [
+        1,
+        13,
+        11,
+        14,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 2816,
+        "cost_usd": 0.03786345000000001,
+        "input_tokens": 33461,
+        "output_tokens": 962
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 784
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2466,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5370,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 7486,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 8281,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8335,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.engine.training.Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        1,
+        14,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 2816,
+        "cost_usd": 0.03959925,
+        "input_tokens": 33461,
+        "output_tokens": 962
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 784
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2466,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5370,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 7486,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 8281,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8335,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 186
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.models.Sequential.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.models.Sequential.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        15,
+        14,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 2816,
+        "cost_usd": 0.039885250000000004,
+        "input_tokens": 33461,
+        "output_tokens": 1105
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 784
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2466,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5370,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 7486,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 8281,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 8335,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 542
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.models.Sequential.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.models.Sequential.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        15,
+        14,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 2816,
+        "cost_usd": 0.04059725,
+        "input_tokens": 33461,
+        "output_tokens": 1461
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1523,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 784
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2466,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5370,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 7486,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 8281,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 7936,
+          "input_tokens": 8335,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "keras.engine.training.Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)",
+        "keras.models.Sequential.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch)",
+        "keras.engine.training.Model.evaluate(self,x,y,batch_size,verbose,sample_weight,steps)",
+        "keras.models.Sequential.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs)"
+      ],
+      "top5_indices": [
+        13,
+        11,
+        15,
+        14,
+        12
+      ],
+      "usage_totals": {
+        "cached_tokens": 10752,
+        "cost_usd": 0.03935025,
+        "input_tokens": 33461,
+        "output_tokens": 962
+      }
+    }
+  },
+  "schema_version": 1
+}

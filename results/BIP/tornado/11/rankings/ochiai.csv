@@ -1,0 +1,12 @@
+rank;signature;path;startLine;endLine;score
+1;tornado.http1connection$HTTP1Connection._parse_headers(self,data);tornado/http1connection.py;508;523;0.9090909090909091
+1;tornado.http1connection$HTTP1Connection._read_message(self,delegate);tornado/http1connection.py;153;261;0.9090909090909091
+3;tornado.http1connection$HTTP1ServerConnection._server_request_loop(self,delegate);tornado/http1connection.py;713;737;0.5458363904912633
+4;tornado.http1connection$HTTP1Connection.__init__(self,stream,is_client,params,context);tornado/http1connection.py;90;136;0.47619047619047616
+4;tornado.http1connection$HTTP1Connection._on_connection_close(self);tornado/http1connection.py;283;293;0.47619047619047616
+6;tornado.iostream$BaseIOStream._maybe_run_close_callback(self);tornado/iostream.py;440;468;0.36419904307075684
+19;tornado.http1connection$HTTP1Connection._read_body(self,code,headers,delegate);tornado/http1connection.py;525;572;0.18881631799579962
+26;tornado.http1connection$HTTP1Connection.write_headers(self,start_line,headers,chunk,callback);tornado/http1connection.py;331;401;0.15565279620747083
+39;tornado.http1connection$HTTP1Connection._can_keep_alive(self,start_line,headers);tornado/http1connection.py;481;495;0.15020792101190977
+101;tornado.httputil$HTTPHeaders.get_all(self);tornado/httputil.py;164;173;0.1307217833878005
+203;tornado.httpserver$HTTPServer.configurable_base(cls);tornado/httpserver.py;158;160;0.12641825997551492

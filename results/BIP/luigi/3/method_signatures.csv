@@ -1,0 +1,15 @@
+corpus_id;path;startLine;endLine
+doc.conf$parameter_repr(self);doc/conf.py;27;37
+luigi.contrib.hadoop_jar$fix_paths(job);luigi/contrib/hadoop_jar.py;33;62
+luigi.contrib.hadoop_jar$HadoopJarJobRunner.run_job(self,job,tracking_url_callback);luigi/contrib/hadoop_jar.py;77;125
+luigi.contrib.scalding$ScaldingJobRunner.run_job(self,job,tracking_url_callback);luigi/contrib/scalding.py;197;227
+luigi.parameter$ParameterVisibility.has_value(cls,value);luigi/parameter.py;57;59
+luigi.parameter$Parameter.__init__(self,default,is_global,significant,description,config_path,positional,always_in_help,batch_method,visibility);luigi/parameter.py;133;186
+luigi.parameter$_FrozenOrderedDict.__init__(self,*args,**kwargs);luigi/parameter.py;901;903
+luigi.parameter$ListParameter.serialize(self,x);luigi/parameter.py;1055;1063
+luigi.parameter$TupleParameter.parse(self,x);luigi/parameter.py;1095;1118
+luigi.six$b(s);luigi/six.py;619;620
+luigi.task$Task.get_task_namespace(cls);luigi/task.py;316;327
+luigi.task$Task.get_task_family(cls);luigi/task.py;340;353
+luigi.task_register$Register._get_reg(cls);luigi/task_register.py;127;150
+luigi.tools.range$_get_filesystems_and_globs(datetime_to_task,datetime_to_re);luigi/tools/range.py;573;600

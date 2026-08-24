@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.indexes.base$Index.__new__(cls,data,dtype,copy,name,fastpath,tupleize_cols,**kwargs);pandas/core/indexes/base.py;257;472;1.0
+2;pandas.core.dtypes.missing$array_equivalent(left,right,strict_nan);pandas/core/dtypes/missing.py;393;477;0.9998344401317121
+3;pandas.core.dtypes.common$_get_dtype(arr_or_dtype);pandas/core/dtypes/common.py;1836;1869;0.9997608579680286
+4;pandas.core.dtypes.common$_is_dtype(arr_or_dtype,condition);pandas/core/dtypes/common.py;1811;1833;0.9997240668861868
+5;pandas.core.dtypes.common$is_string_dtype(arr_or_dtype);pandas/core/dtypes/common.py;700;733;0.9996964735748055
+6;pandas.core.dtypes.common$pandas_dtype(dtype);pandas/core/dtypes/common.py;2006;2053;0.9996504847225033
+299;pandas.core.indexes.period$PeriodIndex._shallow_copy(self,values,**kwargs);pandas/core/indexes/period.py;331;358;0.9865804528982175
+426;pandas.core.tools.datetimes$to_datetime(arg,errors,dayfirst,yearfirst,utc,box,format,exact,unit,infer_datetime_format,origin,cache);pandas/core/tools/datetimes.py;560;793;0.9809606151468884
+1945;pandas.core.arrays.datetimes$DatetimeArray.to_pydatetime(self);pandas/core/arrays/datetimes.py;1160;1169;0.8580692040249444
+1967;pandas.core.arrays.datetimes$DatetimeArray._assert_tzawareness_compat(self,other);pandas/core/arrays/datetimes.py;775;792;0.8522470153234856
+2019;pandas.core.arrays.interval$IntervalArray.overlaps(self,other);pandas/core/arrays/interval.py;1171;1201;0.8442081639410607
+2996;pandas.core.groupby.generic$SeriesGroupBy.nunique(self,dropna);pandas/core/groupby/generic.py;1134;1196;0.6190283475285591
+3298;pandas.core.indexes.base$Index.equals(self,other);pandas/core/indexes/base.py;4307;4332;0.56850499438936
+4425;pandas.core.series$Series.__matmul__(self,other);pandas/core/series.py;2598;2602;0.3684258935634002

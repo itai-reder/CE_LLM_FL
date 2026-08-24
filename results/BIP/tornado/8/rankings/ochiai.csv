@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;tornado.httputil$HTTPServerRequest.__repr__(self);tornado/httputil.py;467;470;0.9090909090909091
+1;tornado.stack_context$ExceptionStackContext.__exit__(self,type,value,traceback);tornado/stack_context.py;197;211;0.9090909090909091
+1;tornado.web$Application.log_request(self,handler);tornado/web.py;2061;2080;0.9090909090909091
+1;tornado.web$RequestHandler._handle_request_exception(self,e);tornado/web.py;1567;1587;0.9090909090909091
+1;tornado.web$RequestHandler._stack_context_handle_exception(self,type,value,traceback);tornado/web.py;1482;1491;0.9090909090909091
+1;tornado.websocket$WebSocketProtocol13.accept_connection(self);tornado/websocket.py;616;624;0.9090909090909091
+29;tornado.http1connection$HTTP1Connection._read_fixed_body(self,content_length,delegate);tornado/http1connection.py;581;591;0.36419904307075684
+276;tornado.http1connection$HTTP1Connection.detach(self);tornado/http1connection.py;304;317;0.0
+276;tornado.websocket$WebSocketHandler.close(self,code,reason);tornado/websocket.py;338;356;0.0
+276;tornado.websocket$WebSocketProtocol13._handle_message(self,opcode,data);tornado/websocket.py;919;961;0.0
+276;tornado.websocket$WebSocketProtocol13._on_frame_data(self,data);tornado/websocket.py;874;917;0.0
+276;tornado.websocket$WebSocketProtocol13._parse_extensions_header(self,headers);tornado/websocket.py;691;696;0.0
+276;tornado.websocket$WebSocketProtocol13._process_server_headers(self,key,headers);tornado/websocket.py;698;714;0.0
+276;tornado.websocket$WebSocketProtocol13._write_frame(self,fin,opcode,data,flags);tornado/websocket.py;745;767;0.0

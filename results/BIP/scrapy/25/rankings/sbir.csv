@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.http.request.form$_get_inputs(form,formdata,dont_click,clickdata,response);scrapy/http/request/form.py;101;121;1.0
+2;scrapy.http.request.form$_get_form_url(form,url);scrapy/http/request/form.py;45;48;0.999793559042114
+3;scrapy.http.request.form$_get_clickable(clickdata,form);scrapy/http/request/form.py;147;187;0.9992430498210845
+4;scrapy.http.request.form$_get_form(response,formname,formid,formnumber,formxpath);scrapy/http/request/form.py;58;98;0.9991054225158271
+5;scrapy.http.request.form$_value(ele);scrapy/http/request/form.py;124;129;0.9983484723369116
+7;scrapy.http.request.form$FormRequest.from_response(cls,response,formname,formid,formnumber,formdata,clickdata,dont_click,formxpath,**kwargs);scrapy/http/request/form.py;34;42;0.9964905037159373
+8;scrapy.http.response$Response.__init__(self,url,status,headers,body,flags,request);scrapy/http/response/__init__.py;15;21;0.9960776218001651
+41;scrapy.http.request.form$_select_value(ele,n,v);scrapy/http/request/form.py;132;144;0.9889898155794109
+264;scrapy.core.downloader.webclient$ScrapyHTTPClientFactory.__init__(self,request,timeout);scrapy/core/downloader/webclient.py;93;123;0.8220478943022296
+314;scrapy.core.scheduler$Scheduler.enqueue_request(self,request);scrapy/core/scheduler.py;50;61;0.7951417561244151
+441;scrapy.downloadermiddlewares.useragent$UserAgentMiddleware.process_request(self,request,spider);scrapy/downloadermiddlewares/useragent.py;21;23;0.717588769611891
+706;scrapy.linkextractors.lxmlhtml$LxmlParserLinkExtractor._extract_links(self,selector,response_url,response_encoding,base_url);scrapy/linkextractors/lxmlhtml.py;46;65;0.594618772364437
+720;scrapy.linkextractors.sgml$SgmlLinkExtractor.__init__(self,allow,deny,allow_domains,deny_domains,restrict_xpaths,tags,attrs,canonicalize,unique,process_value,deny_extensions,restrict_css);scrapy/linkextractors/sgml.py;103;128;0.5860858794384806
+931;scrapy.spidermiddlewares.httperror$HttpErrorMiddleware.process_spider_exception(self,response,exception,spider);scrapy/spidermiddlewares/httperror.py;47;53;0.44570602807597026
+1079;scrapy.utils.deprecate$create_deprecated_class(name,new_class,clsdict,warn_category,warn_once,old_class_path,new_class_path,subclass_warn_message,instance_warn_message);scrapy/utils/deprecate.py;15;117;0.37985136251032203

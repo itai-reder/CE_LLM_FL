@@ -1,0 +1,17 @@
+corpus_id;path;startLine;endLine
+tornado.locale$get(*locale_codes);tornado/locale.py;65;76
+tornado.locale$Locale.get_closest(cls,*locale_codes);tornado/locale.py;237;253
+tornado.locale$Locale.get(cls,code);tornado/locale.py;255;273
+tornado.locale$Locale.__init__(self,code,translations);tornado/locale.py;275;293
+tornado.locale$CSVLocale.translate(self,message,plural_message,count);tornado/locale.py;445;455
+tornado.web$RequestHandler.finish(self,chunk);tornado/web.py;959;998
+tornado.websocket$WebSocketHandler.get(self,*args,**kwargs);tornado/websocket.py;149;200
+tornado.websocket$WebSocketHandler.max_message_size(self);tornado/websocket.py;220;229
+tornado.websocket$WebSocketHandler.write_message(self,message,binary);tornado/websocket.py;231;252
+tornado.websocket$WebSocketHandler.get_compression_options(self);tornado/websocket.py;267;289
+tornado.websocket$WebSocketHandler.on_close(self);tornado/websocket.py;325;336
+tornado.websocket$WebSocketHandler.check_origin(self,origin);tornado/websocket.py;358;412
+tornado.websocket$WebSocketHandler.on_connection_close(self);tornado/websocket.py;430;436
+tornado.websocket$WebSocketProtocol13._accept_connection(self);tornado/websocket.py;640;679
+tornado.websocket$WebSocketProtocol13._process_server_headers(self,key,headers);tornado/websocket.py;688;704
+tornado.websocket$WebSocketClientConnection.__init__(self,io_loop,request,on_message_callback,compression_options,ping_interval,ping_timeout,max_message_size);tornado/websocket.py;1030;1066

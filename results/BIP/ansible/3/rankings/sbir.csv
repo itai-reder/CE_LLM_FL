@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;ansible.module_utils.facts.system.distribution$DistributionFiles._parse_dist_file(self,name,dist_file_content,path,collected_facts);ansible/module_utils/facts/system/distribution.py;107;142;1.0
+2;ansible.module_utils.facts.system.distribution$DistributionFiles.process_dist_files(self);ansible/module_utils/facts/system/distribution.py;164;205;0.9998484412179264
+3;ansible.module_utils.facts.system.distribution$DistributionFiles._get_dist_file_content(self,path,allow_empty);ansible/module_utils/facts/system/distribution.py;99;105;0.9997423500704749
+4;ansible.module_utils.facts.system.distribution$DistributionFiles._guess_distribution(self);ansible/module_utils/facts/system/distribution.py;151;162;0.9996968824358528
+5;ansible.module_utils.facts.system.distribution$DistributionFiles.__init__(self,module);ansible/module_utils/facts/system/distribution.py;93;94;0.9994392325063276
+7;ansible.module_utils.facts.system.distribution$DistributionFiles.parse_distribution_file_ClearLinux(self,name,data,path,collected_facts);ansible/module_utils/facts/system/distribution.py;404;421;0.9994089207499128
+8;ansible.module_utils.facts.system.distribution$DistributionFiles.parse_distribution_file_NA(self,name,data,path,collected_facts);ansible/module_utils/facts/system/distribution.py;375;384;0.9993179854806686
+9;ansible.module_utils.facts.system.distribution$DistributionFiles.parse_distribution_file_Debian(self,name,data,path,collected_facts);ansible/module_utils/facts/system/distribution.py;301;357;0.9991967384550098
+10;ansible.module_utils.facts.system.distribution$DistributionFiles.parse_distribution_file_SUSE(self,name,data,path,collected_facts);ansible/module_utils/facts/system/distribution.py;247;299;0.9989390885254846
+13;ansible.module_utils.common.sys_info$get_distribution_version();ansible/module_utils/common/sys_info.py;43;81;0.998666282717752
+821;ansible.module_utils.distro._distro$id();ansible/module_utils/distro/_distro.py;181;256;0.7849987117503524
+822;ansible.module_utils.distro._distro$name(pretty);ansible/module_utils/distro/_distro.py;259;295;0.7840438914232886
+823;ansible.module_utils.distro._distro$version(pretty,best);ansible/module_utils/distro/_distro.py;298;339;0.7836346827116897
+1038;ansible.module_utils.facts.system.distribution$get_uname(module,flags);ansible/module_utils/facts/system/distribution.py;19;27;0.7267243600430426

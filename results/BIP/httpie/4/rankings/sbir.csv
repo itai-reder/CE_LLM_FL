@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;httpie.cli$HTTPieHelpFormatter.__init__(self,max_help_position,*args,**kwargs);httpie/cli.py;34;37;1.0
+2;httpie.cli$HTTPieHelpFormatter._split_lines(self,text,width);httpie/cli.py;39;41;0.999554367201426
+3;httpie.client$get_requests_kwargs(args,base_headers);httpie/client.py;70;123;0.9991087344028521
+4;httpie.client$get_response(args,config_dir);httpie/client.py;18;34;0.9928698752228164
+5;httpie.client$encode_headers(headers);httpie/client.py;42;48;0.9906417112299465
+6;httpie.client$get_default_headers(args);httpie/client.py;51;67;0.9893048128342246
+22;httpie.input$Parser.parse_args(self,env,args,namespace);httpie/input.py;113;149;0.9393939393939394
+35;httpie.models$HTTPRequest.headers(self);httpie/models.py;94;118;0.9122103386809269
+79;httpie.downloads$parse_content_range(content_range,resumed_from);httpie/downloads.py;40;96;0.5606060606060606
+100;httpie.input$AuthCredentials.prompt_password(self,host);httpie/input.py;510;516;0.41354723707664887
+112;httpie.models$HTTPRequest.encoding(self);httpie/models.py;120;122;0.3172905525846702
+113;httpie.models$HTTPRequest.body(self);httpie/models.py;124;130;0.31595365418894833
+114;httpie.models$HTTPRequest.iter_body(self,chunk_size);httpie/models.py;88;89;0.3123885918003565
+115;httpie.models$HTTPRequest.iter_lines(self,chunk_size);httpie/models.py;91;92;0.3114973262032086
+153;httpie.sessions$get_response(session_name,config_dir,args,read_only);httpie/sessions.py;24;73;0.08957219251336898

@@ -1,0 +1,8 @@
+rank;signature;path;startLine;endLine;score
+1;luigi.file$LocalFileSystem.move(self,old_path,new_path,raise_if_exists);luigi/file.py;86;92;0.9090909090909091
+2;luigi.file$LocalTarget.__init__(self,path,format,is_tmp);luigi/file.py;98;108;0.1422838764383311
+2;luigi.format$get_default_format();luigi/format.py;515;521;0.1422838764383311
+4;luigi.format$TextWrapper.__del__(self,*args);luigi/format.py;409;417;0.1285157780618513
+4;luigi.format$TextWrapper.__init__(self,stream,*args,**kwargs);luigi/format.py;419;424;0.1285157780618513
+17;luigi.file$LocalTarget.move(self,new_path,raise_if_exists);luigi/file.py;135;136;0.0
+17;luigi.target$FileSystem.rename_dont_move(self,path,dest);luigi/target.py;167;185;0.0

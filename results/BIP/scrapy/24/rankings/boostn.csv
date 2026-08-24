@@ -1,0 +1,13 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.core.downloader.handlers.http11$ScrapyAgent._get_agent(self,request,timeout);scrapy/core/downloader/handlers/http11.py;178;198;1.0
+1;scrapy.core.downloader.handlers.http11$TunnelingTCP4ClientEndpoint.requestTunnel(self,protocol);scrapy/core/downloader/handlers/http11.py;93;104;1.0
+3;scrapy.core.downloader.handlers.http11$ScrapyAgent.download_request(self,request);scrapy/core/downloader/handlers/http11.py;200;222;0.9845035378571156
+4;scrapy.core.downloader.webclient$ScrapyHTTPClientFactory.__init__(self,request,timeout);scrapy/core/downloader/webclient.py;103;135;0.9379828442390881
+5;scrapy.xlib.tx._newclient$HTTP11ClientProtocol.request(self,request);scrapy/xlib/tx/_newclient.py;1272;1334;0.7850177390960456
+6;scrapy.core.downloader.handlers.http11$TunnelingAgent.__init__(self,reactor,proxyConf,contextFactory,connectTimeout,bindAddress,pool);scrapy/core/downloader/handlers/http11.py;141;146;0.7672281398944764
+6;scrapy.core.downloader.handlers.http11$TunnelingAgent._getEndpoint(self,uri);scrapy/core/downloader/handlers/http11.py;149;153;0.7672281398944764
+6;scrapy.core.downloader.handlers.http11$TunnelingTCP4ClientEndpoint.__init__(self,reactor,host,port,proxyConf,contextFactory,timeout,bindAddress);scrapy/core/downloader/handlers/http11.py;83;91;0.7672281398944764
+14;scrapy.core.downloader.handlers.http11$TunnelingTCP4ClientEndpoint.connect(self,protocolFactory);scrapy/core/downloader/handlers/http11.py;124;130;0.649533056829233
+40;scrapy.core.downloader.handlers.http11$TunnelingTCP4ClientEndpoint.connectFailed(self,reason);scrapy/core/downloader/handlers/http11.py;120;122;0.4322576588665937
+77;scrapy.core.downloader.handlers.s3$get_s3_connection();scrapy/core/downloader/handlers/s3.py;8;32;0.2327718601055237
+268;scrapy.core.downloader$Slot.download_delay(self);scrapy/core/downloader/__init__.py;36;39;0.0

@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;pandas._config.config$_select_options(pat);pandas/_config/config.py;535;550;0.9523809523809523
+1;pandas.io.formats.printing$_pprint_seq(seq,_nest_lvl,max_seq_items,**kwds);pandas/io/formats/printing.py;86;118;0.9523809523809523
+1;pandas.io.formats.printing$pprint_thing(thing,_nest_lvl,escape_chars,default_escapes,quote_strings,max_seq_items);pandas/io/formats/printing.py;152;223;0.9523809523809523
+1;pandas.util.testing$raise_assert_detail(obj,message,left,right,diff);pandas/util/testing.py;907;931;0.9523809523809523
+5;pandas.core.dtypes.missing$array_equivalent(left,right,strict_nan);pandas/core/dtypes/missing.py;393;483;0.660408825313113
+5;pandas.util.testing$assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj);pandas/util/testing.py;934;1014;0.660408825313113
+9;pandas.core.indexes.range$RangeIndex.get_indexer(self,target,method,limit,tolerance);pandas/core/indexes/range.py;381;405;0.4605492703856905
+25;pandas.core.frame$DataFrame._reindex_index(self,new_index,method,copy,level,fill_value,limit,tolerance);pandas/core/frame.py;3749;3767;0.1596318505651218
+27;pandas.core.frame$DataFrame._reindex_axes(self,axes,level,limit,tolerance,method,fill_value,copy);pandas/core/frame.py;3732;3747;0.15565279620747083
+69;pandas.core.frame$DataFrame.reindex(self,*args,**kwargs);pandas/core/frame.py;3837;3856;0.08208127935882302
+216;pandas.core.arrays.categorical$Categorical.isin(self,values);pandas/core/arrays/categorical.py;2428;2481;0.0
+216;pandas.core.frame$DataFrame._reindex_columns(self,new_columns,method,copy,level,fill_value,limit,tolerance);pandas/core/frame.py;3769;3787;0.0
+216;pandas.core.frame$DataFrame._reindex_multi(self,axes,copy,fill_value);pandas/core/frame.py;3789;3808;0.0
+216;pandas.core.indexes.datetimes$bdate_range(start,end,periods,freq,tz,normalize,name,weekmask,holidays,closed,**kwargs);pandas/core/indexes/datetimes.py;1582;1687;0.0

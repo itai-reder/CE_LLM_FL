@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.arrays.datetimes$DatetimeArray.astype(self,dtype,copy);pandas/core/arrays/datetimes.py;704;729;1.0
+2;pandas.core.arrays.datetimes$DatetimeArray.tz_convert(self,tz);pandas/core/arrays/datetimes.py;889;963;0.9999456615256432
+3;pandas.core.dtypes.dtypes$DatetimeTZDtype.__str__(self);pandas/core/dtypes/dtypes.py;752;753;0.9999094358760721
+4;pandas.core.internals.blocks$get_block_type(values,dtype);pandas/core/internals/blocks.py;3013;3056;0.9999003794636793
+5;pandas.core.internals.blocks$DatetimeTZBlock._holder(self);pandas/core/internals/blocks.py;2279;2281;0.9998913230512865
+26;pandas.core.arrays.datetimes$DatetimeArray.tz_localize(self,tz,ambiguous,nonexistent,errors);pandas/core/arrays/datetimes.py;965;1155;0.9991305844102917
+41;pandas.core.groupby.groupby$GroupBy._get_cythonized_result(self,how,grouper,aggregate,cython_dtype,needs_values,needs_mask,needs_ngroups,result_is_index,pre_processing,post_processing,**kwargs);pandas/core/groupby/groupby.py;2192;2304;0.9986143689039024
+49;pandas.core.frame$DataFrame._sanitize_column(self,key,value,broadcast);pandas/core/frame.py;3622;3724;0.9982430559957979
+654;pandas.core.groupby.ops$BaseGrouper._get_grouper(self);pandas/core/groupby/ops.py;171;178;0.9596265135529212
+688;pandas.core.groupby.ops$DataSplitter.__iter__(self);pandas/core/groupby/ops.py;883;900;0.9575435387025784
+1222;pandas.core.tools.datetimes$to_datetime(arg,errors,dayfirst,yearfirst,utc,box,format,exact,unit,infer_datetime_format,origin,cache);pandas/core/tools/datetimes.py;560;793;0.9244876334688776
+3131;pandas.core.base$IndexOpsMixin.to_numpy(self,dtype,copy);pandas/core/base.py;892;986;0.7494905768029053
+3621;pandas.core.generic$NDFrame.asfreq(self,freq,method,how,normalize,fill_value);pandas/core/generic.py;7904;8007;0.5964009817151034
+3625;pandas.core.generic$NDFrame.resample(self,rule,how,axis,fill_method,closed,label,convention,kind,loffset,limit,base,on,level);pandas/core/generic.py;8142;8456;0.5951783660420761
+3699;pandas.core.groupby.ops$DataSplitter.apply(self,f);pandas/core/groupby/ops.py;908;909;0.5621858556951249

@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;black$read_pyproject_toml(ctx,param,value);black.py;160;191;1.0
+2;black$gen_python_files_in_dir(path,root,include,exclude,report);black.py;2934;2962;0.9998509483411793
+3;black$whitespace(leaf,complex_subscript);black.py;1679;1906;0.9998136854264741
+4;black$preceding_leaf(node);black.py;1909;1924;0.9984597995255189
+5;black$child_towards(ancestor,descendant);black.py;1927;1932;0.9983728527245401
+21;black$normalize_invisible_parens(node,parens_after);black.py;2572;2617;0.9945968773677477
+36;black$find_project_root(srcs);black.py;2965;2992;0.9924604702579836
+45;black$main(ctx,line_length,check,diff,fast,pyi,py36,skip_string_normalization,quiet,verbose,include,exclude,src,config);black.py;194;390;0.9917152119638798
+50;black$get_cache_file(line_length,mode);black.py;3404;3405;0.9907339552099765
+51;black$read_cache(line_length,mode);black.py;3408;3423;0.9907091132668397
+54;black$write_cache(cache,sources,line_length,mode);black.py;3448;3460;0.9904731148070403
+63;black$BracketTracker.get_open_lsqb(self);black.py;1000;1002;0.9880634463227713
+64;black$BracketTracker.mark(self,leaf);black.py;893;931;0.9880510253512029
+65;black$BracketTracker.any_open_brackets(self);black.py;933;935;0.9877901849482666
+67;black$BracketTracker.delimiter_count_with_priority(self,priority);black.py;945;954;0.9877653430051299
+275;docs.conf$generate_sections_from_readme();docs/conf.py;55;84;0.9466767690568756

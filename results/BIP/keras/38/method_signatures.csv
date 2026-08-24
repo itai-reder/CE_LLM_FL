@@ -1,0 +1,13 @@
+corpus_id;path;startLine;endLine
+keras.engine.topology$Layer.call(self,inputs,**kwargs);keras/engine/topology.py;529;539
+keras.layers.core$Dense.build(self,input_shape);keras/layers/core.py;834;852
+keras.layers.recurrent$StackedRNNCells.state_size(self);keras/layers/recurrent.py;59;74
+keras.layers.recurrent$StackedRNNCells.build(self,input_shape);keras/layers/recurrent.py;101;110
+keras.layers.recurrent$RNN.__init__(self,cell,return_sequences,return_state,go_backwards,stateful,unroll,**kwargs);keras/layers/recurrent.py;352;382
+keras.layers.recurrent$RNN.build(self,input_shape);keras/layers/recurrent.py;429;470
+keras.layers.recurrent$RNN.call(self,inputs,mask,training,initial_state,constants);keras/layers/recurrent.py;530;620
+keras.layers.recurrent$RNN.reset_states(self,states);keras/layers/recurrent.py;662;712
+keras.layers.recurrent$RNN.from_config(cls,config,custom_objects);keras/layers/recurrent.py;729;737
+keras.layers.recurrent$SimpleRNNCell.build(self,input_shape);keras/layers/recurrent.py;849;869
+keras.legacy.layers$Recurrent.call(self,inputs,mask,training,initial_state);keras/legacy/layers.py;1003;1072
+keras.utils.generic_utils$deserialize_keras_object(identifier,module_objects,custom_objects,printable_module_name);keras/utils/generic_utils.py;119;167

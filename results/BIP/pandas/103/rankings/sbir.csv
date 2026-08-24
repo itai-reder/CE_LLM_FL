@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.groupby.grouper$get_grouper(obj,key,axis,level,sort,observed,mutated,validate);pandas/core/groupby/grouper.py;426;638;1.0
+2;pandas.core.construction$sanitize_array(data,index,dtype,copy,raise_cast_failure);pandas/core/construction.py;388;508;0.9999816341897922
+3;pandas.core.dtypes.missing$_isna_ndarraylike(obj);pandas/core/dtypes/missing.py;225;268;0.9999449025693768
+4;pandas.core.ops$_align_method_SERIES(left,right,align_asobject);pandas/core/ops/__init__.py;424;442;0.999935719664273
+5;pandas.core.groupby.groupby$GroupBy._get_cythonized_result(self,how,cython_dtype,aggregate,needs_values,needs_mask,needs_ngroups,result_is_index,pre_processing,post_processing,**kwargs);pandas/core/groupby/groupby.py;2197;2309;0.9999265367591691
+18;pandas.core.generic$NDFrame.__getattr__(self,name);pandas/core/generic.py;5186;5203;0.999421476978457
+21;pandas.core.groupby.generic$SeriesGroupBy.pct_change(self,periods,fill_method,limit,freq);pandas/core/groupby/generic.py;803;816;0.9993663795478338
+22;pandas.core.groupby.groupby$GroupBy.pct_change(self,periods,fill_method,limit,freq,axis);pandas/core/groupby/groupby.py;2344;2368;0.999348013737626
+582;pandas.core.groupby.groupby$GroupBy._fill(self,direction,limit);pandas/core/groupby/groupby.py;1585;1619;0.9665191279913313
+1156;pandas.core.series$Series.diff(self,periods);pandas/core/series.py;2173;2235;0.9332035482745321
+2889;pandas.core.arrays.interval$IntervalArray.fillna(self,value,method,limit);pandas/core/arrays/interval.py;550;594;0.7808407867913093
+3531;pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;6733;6868;0.6500303035868428
+3562;pandas.core.generic$NDFrame.__neg__(self);pandas/core/generic.py;1408;1420;0.6300391191757424
+3639;pandas.core.generic$NDFrame.droplevel(self,level,axis);pandas/core/generic.py;671;729;0.5986335837205459
+3667;pandas.core.generic$NDFrame.pct_change(self,periods,fill_method,limit,freq,**kwargs);pandas/core/generic.py;9922;9937;0.5796066043453507

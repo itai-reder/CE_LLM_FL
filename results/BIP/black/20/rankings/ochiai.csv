@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;black$dump_to_file(*output);black.py;2398;2409;0.660408825313113
+2;black$format_file_in_place(src,line_length,fast,write_back,lock);black.py;318;354;0.5458363904912633
+3;black$diff(a,b,a_name,b_name);black.py;2412;2420;0.47619047619047616
+3;black$is_empty_tuple(node);black.py;2098;2105;0.47619047619047616
+3;black$is_one_tuple(node);black.py;2108;2128;0.47619047619047616
+3;black$normalize_invisible_parens(node,parens_after);black.py;2061;2095;0.47619047619047616
+3;black$whitespace(leaf);black.py;1300;1510;0.47619047619047616
+17;black$Line.is_def(self);black.py;777;797;0.3414802408943917
+53;black$is_import(leaf);black.py;1968;1979;0.21355767960723396
+94;black$FormatError.__init__(self,consumed);black.py;86;88;0.0
+94;black$assert_equivalent(src,dst);black.py;2319;2379;0.0
+94;black$assert_stable(src,dst,line_length);black.py;2382;2395;0.0
+94;black$main(ctx,line_length,check,diff,fast,quiet,src);black.py;119;215;0.0
+94;black$schedule_formatting(sources,line_length,fast,write_back,report,loop,executor);black.py;254;315;0.0

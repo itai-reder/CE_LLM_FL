@@ -1,0 +1,12 @@
+rank;signature;path;startLine;endLine;score
+1;keras.preprocessing.sequence$TimeseriesGenerator.__init__(self,data,targets,length,sampling_rate,stride,start_index,end_index,shuffle,reverse,batch_size);keras/preprocessing/sequence.py;308;327;1.0
+2;keras.preprocessing.sequence$TimeseriesGenerator.__len__(self);keras/preprocessing/sequence.py;329;332;0.9996642605338257
+3;keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;549;958;0.9995243690895865
+4;keras.preprocessing.sequence$TimeseriesGenerator._empty_batch(self,num_rows);keras/preprocessing/sequence.py;334;339;0.9967824967824968
+5;keras.preprocessing.sequence$TimeseriesGenerator.__getitem__(self,index);keras/preprocessing/sequence.py;341;357;0.9966426053382575
+8;keras.preprocessing.sequence$_remove_long_seq(maxlen,seq,label);keras/preprocessing/sequence.py;229;245;0.9952157126070169
+745;keras.callbacks$TensorBoard.on_epoch_end(self,epoch,logs);keras/callbacks.py;825;874;0.5708130490739186
+790;keras.engine.topology$Container.__init__(self,inputs,outputs,name);keras/engine/topology.py;1506;1848;0.5395613004308657
+878;keras.engine.training$Model._fit_loop(self,f,ins,out_labels,batch_size,epochs,verbose,callbacks,val_f,val_ins,shuffle,callback_metrics,initial_epoch,steps_per_epoch,validation_steps);keras/engine/training.py;1075;1260;0.4768619551228247
+1554;keras.preprocessing.image$DirectoryIterator.__init__(self,directory,image_data_generator,target_size,color_mode,classes,class_mode,batch_size,shuffle,seed,data_format,save_to_dir,save_prefix,save_format,follow_links,subset,interpolation);keras/preprocessing/image.py;1313;1410;0.0825919086788652
+1658;keras.utils.multi_gpu_utils$multi_gpu_model(model,gpus,cpu_merge,cpu_relocation);keras/utils/multi_gpu_utils.py;23;235;0.015527950310559006

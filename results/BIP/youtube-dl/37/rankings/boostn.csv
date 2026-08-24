@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;youtube_dl$_real_main(argv);youtube_dl/__init__.py;551;831;1.0
+2;youtube_dl$parseOpts(overrideArguments);youtube_dl/__init__.py;102;548;0.9287143805041667
+3;youtube_dl.update$update_self(to_screen,verbose);youtube_dl/update.py;45;181;0.7761488384822804
+4;youtube_dl.extractor.generic$GenericIE._real_extract(self,url);youtube_dl/extractor/generic.py;311;632;0.7441490395269119
+5;youtube_dl.extractor.vimeo$VimeoIE._real_extract(self,url);youtube_dl/extractor/vimeo.py;168;339;0.7227547216528525
+170;youtube_dl$main(argv);youtube_dl/__init__.py;834;842;0.0959137768795843
+229;youtube_dl.utils$uppercase_escape(s);youtube_dl/utils.py;1265;1268;0.08050946781595765
+446;youtube_dl.utils$shell_quote(args);youtube_dl/utils.py;1054;1064;0.0465339042715716
+534;youtube_dl.utils$MetaParser.__init__(self,name);youtube_dl/utils.py;381;385;0.025256574476904204
+550;youtube_dl.utils$DateRange.__init__(self,start,end);youtube_dl/utils.py;877;888;0.02229137491801591
+644;youtube_dl.utils$smuggle_url(url,data);youtube_dl/utils.py;1076;1081;0.01222540771592524
+644;youtube_dl.utils$unsmuggle_url(smug_url,default);youtube_dl/utils.py;1084;1090;0.01222540771592524
+723;youtube_dl.utils$DateRange.__contains__(self,date);youtube_dl/utils.py;893;897;0.003215333398128622
+723;youtube_dl.utils$str_to_int(int_str);youtube_dl/utils.py;1107;1109;0.003215333398128622
+731;youtube_dl.utils$BaseHTMLParser.loads(self,html);youtube_dl/utils.py;292;295;0.0

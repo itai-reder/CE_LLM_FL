@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.io.parsers$CParserWrapper.read(self,nrows);pandas/io/parsers.py;2031;2114;1.0
+2;pandas.io.parsers$PythonParser._infer_columns(self);pandas/io/parsers.py;2533;2687;0.9999908499483022
+3;pandas.io.parsers$PythonParser._alert_malformed(self,msg,row_num);pandas/io/parsers.py;2852;2871;0.9999816998966045
+4;pandas.io.parsers$PythonParser._next_iter_line(self,row_num);pandas/io/parsers.py;2873;2911;0.9999633997932088
+5;pandas.io.parsers$PythonParser._get_lines(self,rows);pandas/io/parsers.py;3130;3206;0.9999176495347198
+14;pandas.io.common$get_handle(path_or_buf,mode,encoding,compression,memory_map,is_text);pandas/io/common.py;312;456;0.9997895488109508
+17;pandas.io.parsers$CParserWrapper.__init__(self,src,**kwds);pandas/io/parsers.py;1860;1963;0.999734648500764
+235;pandas.io.parsers$ParserBase._has_complex_date_col(self);pandas/io/parsers.py;1430;1436;0.9897153418916816
+2046;pandas.core.arrays.datetimes$maybe_convert_dtype(data,copy);pandas/core/arrays/datetimes.py;1884;1934;0.8367356275562957
+2191;pandas.core.arrays.numpy_$PandasArray.take(self,indices,allow_fill,fill_value);pandas/core/arrays/numpy_.py;316;323;0.8115729853873674
+3012;pandas.core.generic$NDFrame.to_csv(self,path_or_buf,sep,na_rep,float_format,columns,header,index,index_label,mode,encoding,compression,quoting,quotechar,line_terminator,chunksize,date_format,doublequote,escapechar,decimal);pandas/core/generic.py;2950;3117;0.6430656333208282
+3596;pandas.core.indexes.datetimes$_new_DatetimeIndex(cls,d);pandas/core/indexes/datetimes.py;31;47;0.5170053710803466
+4861;pandas.io.clipboards$to_clipboard(obj,excel,sep,**kwargs);pandas/io/clipboards.py;78;137;0.27105198144369513
+5180;pandas.io.html$read_html(io,match,flavor,header,index_col,skiprows,attrs,parse_dates,thousands,encoding,decimal,converters,na_values,keep_default_na,displayed_only);pandas/io/html.py;925;1100;0.2111648930816459
+5983;pandas.plotting._misc$parallel_coordinates(frame,class_column,cols,ax,color,use_columns,xticks,colormap,axvlines,axvlines_kwds,sort_labels,**kwargs);pandas/plotting/_misc.py;310;381;0.05630026809651475

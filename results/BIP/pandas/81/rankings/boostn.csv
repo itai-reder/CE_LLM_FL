@@ -1,0 +1,17 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.arrays.datetimelike$DatetimeLikeArrayMixin.astype(self,dtype,copy);pandas/core/arrays/datetimelike.py;603;639;1.0
+2;pandas.core.indexes.numeric$NumericIndex._union(self,other,sort);pandas/core/indexes/numeric.py;175;190;0.997059302139289
+3;pandas.core.internals.blocks$DatetimeTZBlock.setitem(self,indexer,value);pandas/core/internals/blocks.py;2385;2398;0.9058846427429459
+4;pandas.core.window.rolling$_Window.__iter__(self);pandas/core/window/rolling.py;250;252;0.8890772805801516
+5;pandas.core.internals.blocks$_block_shape(values,ndim,shape);pandas/core/internals/blocks.py;3012;3022;0.8510330472562366
+24;pandas.core.construction$array(data,dtype,copy);pandas/core/construction.py;55;334;0.5933306247346847
+43;pandas.core.arrays.integer$coerce_to_array(values,dtype,mask,copy);pandas/core/arrays/integer.py;154;247;0.4580526717922245
+51;pandas.core.arrays.boolean$BooleanArray._maybe_mask_result(self,result,mask,other,op_name);pandas/core/arrays/boolean.py;693;720;0.4459262680270197
+93;pandas.core.arrays.integer$IntegerArray.astype(self,dtype,copy);pandas/core/arrays/integer.py;419;457;0.3668848966901505
+123;pandas.core.arrays.masked$BaseMaskedArray.to_numpy(self,dtype,copy,na_value);pandas/core/arrays/masked.py;53;135;0.3406062527773019
+364;pandas.core.dtypes.common$pandas_dtype(dtype);pandas/core/dtypes/common.py;1843;1890;0.23435700368101192
+393;pandas.core.arrays.boolean$BooleanArray.__array_ufunc__(self,ufunc,method,*inputs,**kwargs);pandas/core/arrays/boolean.py;300;343;0.22615886149551626
+2002;pandas.core.arrays.boolean$BooleanDtype.kind(self);pandas/core/arrays/boolean.py;79;81;0.0
+2002;pandas.core.arrays.boolean$BooleanDtype.type(self);pandas/core/arrays/boolean.py;75;77;0.0
+2002;pandas.core.arrays.masked$BaseMaskedArray.copy(self);pandas/core/arrays/masked.py;199;203;0.0
+2002;pandas.core.dtypes.base$ExtensionDtype.construct_from_string(cls,string);pandas/core/dtypes/base.py;194;245;0.0

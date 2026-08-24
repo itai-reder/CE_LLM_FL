@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.downloadermiddlewares.redirect$BaseRedirectMiddleware.__init__(self,settings);scrapy/downloadermiddlewares/redirect.py;15;20;1.0
+2;scrapy.downloadermiddlewares.redirect$BaseRedirectMiddleware.from_crawler(cls,crawler);scrapy/downloadermiddlewares/redirect.py;22;24;0.99978905920405
+3;scrapy.downloadermiddlewares.redirect$RedirectMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/redirect.py;56;79;0.9997187456054001
+4;scrapy.http.headers$Headers.__getitem__(self,key);scrapy/http/headers.py;38;42;0.9996484320067501
+5;scrapy.http.request$Request._get_url(self);scrapy/http/request/__init__.py;46;47;0.9995781184081002
+6;scrapy.utils.datatypes$CaselessDict.__getitem__(self,key);scrapy/utils/datatypes.py;172;173;0.9995078048094501
+7;scrapy.utils.datatypes$CaselessDict.__contains__(self,key);scrapy/utils/datatypes.py;181;182;0.9994374912108002
+397;scrapy.commands.fetch$Command.run(self,args,opts);scrapy/commands/fetch.py;43;57;0.9071157361833778
+542;scrapy.core.downloader.webclient$ScrapyHTTPClientFactory.__init__(self,request,timeout);scrapy/core/downloader/webclient.py;93;123;0.7870904232878638
+578;scrapy.downloadermiddlewares.cookies$CookiesMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/cookies.py;42;52;0.7272535508367318
+588;scrapy.downloadermiddlewares.decompression$DecompressionMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/decompression.py;78;88;0.7210659541555337
+606;scrapy.downloadermiddlewares.httpcache$HttpCacheMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/httpcache.py;68;95;0.713472085501336
+609;scrapy.downloadermiddlewares.httpcompression$HttpCompressionMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/httpcompression.py;22;39;0.7110111095485867
+942;scrapy.pipelines.media$MediaPipeline._check_media_to_download(self,result,request,info);scrapy/pipelines/media.py;78;93;0.5005625087891998
+973;scrapy.shell$Shell.fetch(self,request_or_url,spider);scrapy/shell.py;76;90;0.45619462804106314

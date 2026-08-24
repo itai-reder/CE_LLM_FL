@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;keras.engine.sequential$Sequential.get_config(self);keras/engine/sequential.py;273;280;0.6829604817887834
+2;keras.backend.tensorflow_backend$eval(x);keras/backend/tensorflow_backend.py;655;673;0.660408825313113
+2;keras.backend.tensorflow_backend$to_dense(tensor);keras/backend/tensorflow_backend.py;334;357;0.660408825313113
+2;keras.engine.training$Model.predict_generator(self,generator,steps,max_queue_size,workers,use_multiprocessing,verbose);keras/engine/training.py;1479;1527;0.660408825313113
+2;keras.engine.training$Model.predict_on_batch(self,x);keras/engine/training.py;1265;1281;0.660408825313113
+21;keras.engine.sequential$Sequential.build(self,input_shape);keras/engine/sequential.py;211;229;0.47619047619047616
+21;keras.engine.sequential$Sequential.layers(self);keras/engine/sequential.py;94;101;0.47619047619047616
+21;keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;37;470;0.47619047619047616
+62;keras.backend.tensorflow_backend$Function._call(self,inputs);keras/backend/tensorflow_backend.py;2632;2676;0.4605492703856905
+109;keras.layers.core$Dense.__init__(self,units,activation,use_bias,kernel_initializer,bias_initializer,kernel_regularizer,bias_regularizer,activity_regularizer,kernel_constraint,bias_constraint,**kwargs);keras/layers/core.py;825;851;0.4175002964823492
+186;keras.layers.core$Activation.__init__(self,activation,**kwargs);keras/layers/core.py;289;292;0.3414802408943917
+232;keras.engine.sequential$Sequential.from_config(cls,config,custom_objects);keras/engine/sequential.py;282;289;0.0
+232;keras.engine.sequential$Sequential.pop(self);keras/engine/sequential.py;192;209;0.0
+232;keras.models$_clone_functional_model(model,input_tensors);keras/models.py;26;169;0.0
+232;keras.models$_clone_sequential_model(model,input_tensors);keras/models.py;172;223;0.0

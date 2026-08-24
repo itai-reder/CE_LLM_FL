@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.window.rolling$_Window.is_freq_type(self);pandas/core/window/rolling.py;111;113;1.0
+2;pandas.core.window.rolling$_Window._create_blocks(self);pandas/core/window/rolling.py;150;162;0.9999909882306292
+3;pandas.core.window.rolling$_Window.__getattr__(self,attr);pandas/core/window/rolling.py;186;194;0.999954941153146
+4;pandas.core.window.rolling$Rolling.skew(self,**kwargs);pandas/core/window/rolling.py;2017;2021;0.9999369176144044
+5;pandas.core.window.rolling$_Rolling_and_Expanding.skew(self,**kwargs);pandas/core/window/rolling.py;1482;1491;0.9999279058450337
+6;pandas.core.window.common$validate_baseindexer_support(func_name);pandas/core/window/common.py;329;347;0.9998558116900672
+7;pandas.core.indexes.base$Index.take(self,indices,axis,allow_fill,fill_value,**kwargs);pandas/core/indexes/base.py;681;701;0.9998377881513256
+8;pandas.core.indexes.range$RangeIndex._shallow_copy(self,values,name);pandas/core/indexes/range.py;389;398;0.999819764612584
+26;pandas.core.window.rolling$_Window._get_window_indexer(self,window,func_name);pandas/core/window/rolling.py;396;405;0.9993241172971902
+27;pandas.core.window.rolling$_Window._apply(self,func,center,require_min_periods,floor,is_weighted,name,use_numba_cache,**kwargs);pandas/core/window/rolling.py;407;516;0.9993060937584486
+33;pandas.core.window.rolling$Rolling.validate(self);pandas/core/window/rolling.py;1831;1869;0.9989366112142458
+34;pandas.core.generic$NDFrame._add_series_or_dataframe_operations(cls);pandas/core/generic.py;10234;10312;0.9989185876755042
+316;pandas.core.window.common$calculate_min_periods(window,min_periods,num_values,required_min_periods,floor);pandas/core/window/common.py;259;291;0.9856442513923184
+325;pandas.core.window.rolling$Rolling.apply(self,func,raw,engine,engine_kwargs,args,kwargs);pandas/core/window/rolling.py;1955;1973;0.9852387217706324
+345;pandas.core.window.rolling$_Rolling_and_Expanding.cov(self,other,pairwise,ddof,**kwargs);pandas/core/window/rolling.py;1634;1668;0.9843465566029235

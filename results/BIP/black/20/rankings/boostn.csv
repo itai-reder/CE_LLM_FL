@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;black$assert_equivalent(src,dst);black.py;2319;2379;1.0
+2;black$assert_stable(src,dst,line_length);black.py;2382;2395;0.8492831034803898
+3;black$main(ctx,line_length,check,diff,fast,quiet,src);black.py;119;215;0.6948222186579796
+4;black$schedule_formatting(sources,line_length,fast,write_back,report,loop,executor);black.py;254;315;0.6426450478593265
+5;black$format_file_in_place(src,line_length,fast,write_back,lock);black.py;318;354;0.616482684442234
+18;black$diff(a,b,a_name,b_name);black.py;2412;2420;0.27558982058075393
+21;black$dump_to_file(*output);black.py;2398;2409;0.24524010953316228
+31;black$whitespace(leaf);black.py;1300;1510;0.16521548116133275
+88;black$normalize_invisible_parens(node,parens_after);black.py;2061;2095;0.034634668855819936
+130;black$FormatError.__init__(self,consumed);black.py;86;88;0.0
+130;black$Line.is_def(self);black.py;777;797;0.0
+130;black$is_empty_tuple(node);black.py;2098;2105;0.0
+130;black$is_import(leaf);black.py;1968;1979;0.0
+130;black$is_one_tuple(node);black.py;2108;2128;0.0

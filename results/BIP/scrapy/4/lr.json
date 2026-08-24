@@ -1,0 +1,2999 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 494
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1377,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1601,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1828,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1962,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2186,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2240,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.spidermiddlewares.httperror.HttpError.__init__(self,response,*args,**kwargs)",
+        "scrapy.contracts.Contract.__init__(self,method,*args)",
+        "scrapy.contracts.ContractsManager.__init__(self,contracts)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        7,
+        9,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0008735000000000001,
+        "input_tokens": 11918,
+        "output_tokens": 694
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 494
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1377,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1601,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1828,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1962,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2186,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2240,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.spidermiddlewares.httperror.HttpError.__init__(self,response,*args,**kwargs)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        6,
+        7,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0013903000000000001,
+        "input_tokens": 11918,
+        "output_tokens": 694
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 494
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1377,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1601,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1828,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1962,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2186,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2240,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 353
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.spidermiddlewares.httperror.HttpError.__init__(self,response,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        3,
+        10,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0020103,
+        "input_tokens": 11918,
+        "output_tokens": 1004
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 494
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1377,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1601,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1828,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1962,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2186,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2240,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1184
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.http.request.Request.__init__(self,url,callback,method,headers,body,cookies,meta,encoding,priority,dont_filter,errback,flags)",
+        "scrapy.spidermiddlewares.httperror.HttpError.__init__(self,response,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        10,
+        5,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0036723000000000003,
+        "input_tokens": 11918,
+        "output_tokens": 1835
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 494
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1377,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1601,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1828,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1962,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2186,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2240,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts._create_testcase(method,desc)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        16,
+        10,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0039743,
+        "input_tokens": 11918,
+        "output_tokens": 694
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 494
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1377,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1604,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1828,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1945,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2333,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2430,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2642,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2888,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3076,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.spidermiddlewares.httperror.HttpError.__init__(self,response,*args,**kwargs)",
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.Contract.__init__(self,method,*args)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        7,
+        6,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.0054310999999999995,
+        "input_tokens": 26038,
+        "output_tokens": 832
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 494
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1377,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1604,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1828,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1945,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 2169,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2333,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2430,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2642,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2888,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3022,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3076,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.spidermiddlewares.httperror.HttpError.__init__(self,response,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        6,
+        10,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 4992,
+        "cost_usd": 0.006115099999999999,
+        "input_tokens": 26038,
+        "output_tokens": 832
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 494
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1377,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 91
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1604,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1828,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 175
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1945,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2109,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2333,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 313
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2387,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.spidermiddlewares.httperror.HttpError.__init__(self,response,*args,**kwargs)",
+        "scrapy.contracts.default.ReturnsContract.__init__(self,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        6,
+        7,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00445935,
+        "input_tokens": 14307,
+        "output_tokens": 1182
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 494
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1377,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 160
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1604,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1828,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 887
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2040,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1174
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2094,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.__init__(self,method,*args)",
+        "scrapy.contracts.ContractsManager.__init__(self,contracts)",
+        "scrapy.spidermiddlewares.httperror.HttpError.__init__(self,response,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        9,
+        2,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00655395,
+        "input_tokens": 9667,
+        "output_tokens": 2780
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 494
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1377,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1604,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1828,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1992,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2354,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2512,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2646,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2858,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3057,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3174,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3228,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)",
+        "scrapy.contracts.ContractsManager.__init__(self,contracts)",
+        "scrapy.http.request.Request.__init__(self,url,callback,method,headers,body,cookies,meta,encoding,priority,dont_filter,errback,flags)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        3,
+        2,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 9216,
+        "cost_usd": 0.022666900000000004,
+        "input_tokens": 27354,
+        "output_tokens": 874
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 494
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1377,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1604,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1828,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1992,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2354,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2512,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2646,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 2858,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3057,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2816,
+          "input_tokens": 3174,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3228,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts._create_testcase(method,desc)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        16,
+        10,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 9216,
+        "cost_usd": 0.026953300000000003,
+        "input_tokens": 27354,
+        "output_tokens": 874
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 334
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1217,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1441,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1668,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1892,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2116,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2478,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2642,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2800,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2927,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3061,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3115,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)",
+        "scrapy.contracts.Contract.__init__(self,method,*args)",
+        "scrapy.http.request.Request.__init__(self,url,callback,method,headers,body,cookies,meta,encoding,priority,dont_filter,errback,flags)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        3,
+        9,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00222405,
+        "input_tokens": 26081,
+        "output_tokens": 602
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 334
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1217,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1441,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1668,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1892,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2116,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2478,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2642,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2800,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2927,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3061,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3115,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.http.request.Request.__init__(self,url,callback,method,headers,body,cookies,meta,encoding,priority,dont_filter,errback,flags)",
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.Contract.__init__(self,method,*args)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        5,
+        6,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00291585,
+        "input_tokens": 26081,
+        "output_tokens": 602
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 334
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1217,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1444,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1668,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1997,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 2221,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2275,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.__init__(self,contracts)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.http.request.Request.__init__(self,url,callback,method,headers,body,cookies,meta,encoding,priority,dont_filter,errback,flags)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.0036566999999999997,
+        "input_tokens": 13426,
+        "output_tokens": 556
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 334
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1217,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1444,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1668,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1997,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 2221,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2275,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.spidermiddlewares.httperror.HttpError.__init__(self,response,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        6,
+        10,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.0041805,
+        "input_tokens": 13426,
+        "output_tokens": 556
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 334
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1217,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1444,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1668,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1997,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 2221,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2275,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 183
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.spidermiddlewares.httperror.HttpError.__init__(self,response,*args,**kwargs)",
+        "scrapy.http.request.Request.__init__(self,url,callback,method,headers,body,cookies,meta,encoding,priority,dont_filter,errback,flags)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        10,
+        7,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.0044605,
+        "input_tokens": 13426,
+        "output_tokens": 696
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 334
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1217,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1444,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1668,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1997,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 2221,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2275,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 831
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)",
+        "scrapy.spidermiddlewares.httperror.HttpError.__init__(self,response,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        10,
+        3,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.0057564999999999995,
+        "input_tokens": 13426,
+        "output_tokens": 1344
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 334
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1217,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1444,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1668,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1997,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 2221,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2275,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        4,
+        10,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.0067995,
+        "input_tokens": 13426,
+        "output_tokens": 556
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 334
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1217,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1444,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 60
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1668,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 404
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1880,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 412
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1934,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.spidermiddlewares.httperror.HttpError.__init__(self,response,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        6,
+        10,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.004478749999999999,
+        "input_tokens": 8867,
+        "output_tokens": 1275
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 334
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1217,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 422
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1444,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 462
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1668,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 722
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1722,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.spidermiddlewares.httperror.HttpError.__init__(self,response,*args,**kwargs)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        6,
+        10,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.00537175,
+        "input_tokens": 6775,
+        "output_tokens": 1983
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 334
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1217,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1441,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1668,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1832,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2044,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2268,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 29
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts._create_testcase(method,desc)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        6,
+        10,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 4608,
+        "cost_usd": 0.011461,
+        "input_tokens": 13516,
+        "output_tokens": 570
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 334
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1217,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1441,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1668,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1832,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2044,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2268,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2322,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts._create_testcase(method,desc)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        4,
+        10,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 4608,
+        "cost_usd": 0.014155000000000001,
+        "input_tokens": 13516,
+        "output_tokens": 584
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 387
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1036,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1263,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1487,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1849,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1983,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2141,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2305,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2422,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2476,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.__init__(self,contracts)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.http.request.Request.__init__(self,url,callback,method,headers,body,cookies,meta,encoding,priority,dont_filter,errback,flags)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0018443320000000002,
+        "input_tokens": 17686,
+        "output_tokens": 696
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 387
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1036,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1487,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1699,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1816,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1913,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2077,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2439,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2493,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts._create_testcase(method,desc)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        6,
+        10,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 1536,
+        "cost_usd": 0.00525315,
+        "input_tokens": 16947,
+        "output_tokens": 681
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 387
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1036,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 59
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1263,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1487,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 302
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1699,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 250
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1753,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 469
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.spidermiddlewares.httperror.HttpError.__init__(self,response,*args,**kwargs)",
+        "scrapy.http.request.Request.__init__(self,url,callback,method,headers,body,cookies,meta,encoding,priority,dont_filter,errback,flags)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        10,
+        7,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0049685,
+        "input_tokens": 7962,
+        "output_tokens": 1489
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 387
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1036,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1263,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1487,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1651,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1863,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2087,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2184,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2238,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts._create_testcase(method,desc)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        4,
+        16,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.01618025,
+        "input_tokens": 14533,
+        "output_tokens": 673
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 3259
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1867,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2091,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2188,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2242,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.__init__(self,contracts)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.http.request.Request.__init__(self,url,callback,method,headers,body,cookies,meta,encoding,priority,dont_filter,errback,flags)"
+      ],
+      "top5_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0071752,
+        "input_tokens": 9112,
+        "output_tokens": 3401
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 3259
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1867,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2094,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2318,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2530,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2694,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2791,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2908,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 3270,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3494,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3548,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts._create_testcase(method,desc)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        4,
+        16,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 4352,
+        "cost_usd": 0.013230299999999999,
+        "input_tokens": 28238,
+        "output_tokens": 3575
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 3259
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1867,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 179
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2094,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2318,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 988
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2372,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 544
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts._create_testcase(method,desc)",
+        "scrapy.contracts.Contract.__init__(self,method,*args)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        10,
+        16,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01232775,
+        "input_tokens": 9375,
+        "output_tokens": 4992
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 3259
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1867,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2094,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2318,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2530,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 2694,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2748,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts._create_testcase(method,desc)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        6,
+        10,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 6272,
+        "cost_usd": 0.01959675,
+        "input_tokens": 14975,
+        "output_tokens": 3473
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 853
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1960,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2321,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2545,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2599,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.ContractsManager.__init__(self,contracts)",
+        "scrapy.contracts._create_testcase(method,desc)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        2,
+        16,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.010188000000000003,
+        "input_tokens": 14072,
+        "output_tokens": 1067
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 853
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1960,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2321,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2545,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2599,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)",
+        "scrapy.contracts._create_testcase(method,desc)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        10,
+        3,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.011415600000000001,
+        "input_tokens": 14072,
+        "output_tokens": 1067
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 853
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1960,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2187,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2399,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2496,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2660,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2777,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3139,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3193,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts._create_testcase(method,desc)",
+        "scrapy.http.request.Request.__init__(self,url,callback,method,headers,body,cookies,meta,encoding,priority,dont_filter,errback,flags)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        10,
+        16,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 5120,
+        "cost_usd": 0.01450775,
+        "input_tokens": 23271,
+        "output_tokens": 1147
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 853
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1960,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2187,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2399,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2496,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2660,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2777,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3139,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3193,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts._create_testcase(method,desc)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        10,
+        16,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 5120,
+        "cost_usd": 0.01804475,
+        "input_tokens": 23271,
+        "output_tokens": 1147
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 853
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 70
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1960,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 86
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2187,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2411,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 199
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2569,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 73
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2623,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)",
+        "scrapy.contracts._create_testcase(method,desc)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        10,
+        3,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 1792,
+        "cost_usd": 0.0163563,
+        "input_tokens": 14210,
+        "output_tokens": 1346
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 853
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 139
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1960,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 940
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2411,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 568
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2623,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 485
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2787,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 709
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2841,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts._create_testcase(method,desc)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        10,
+        16,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.022568249999999998,
+        "input_tokens": 17269,
+        "output_tokens": 3759
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 853
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1960,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2351,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2563,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2617,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.ContractsManager.__init__(self,contracts)",
+        "scrapy.contracts._create_testcase(method,desc)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        2,
+        16,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 2176,
+        "cost_usd": 0.022341299999999998,
+        "input_tokens": 14138,
+        "output_tokens": 1067
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 853
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1960,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2351,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2563,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2617,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts._create_testcase(method,desc)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        16,
+        10,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 2176,
+        "cost_usd": 0.0229335,
+        "input_tokens": 14138,
+        "output_tokens": 1067
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 853
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1960,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2351,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2563,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2617,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 190
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts._create_testcase(method,desc)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        10,
+        16,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 2176,
+        "cost_usd": 0.023227499999999998,
+        "input_tokens": 14138,
+        "output_tokens": 1214
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 853
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1960,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2351,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2563,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2617,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1192
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts._create_testcase(method,desc)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        10,
+        16,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 2176,
+        "cost_usd": 0.025231499999999997,
+        "input_tokens": 14138,
+        "output_tokens": 2216
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 724,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 853
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1736,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1960,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2187,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2351,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2176,
+          "input_tokens": 2563,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 2617,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.contracts.ContractsManager._clean_req(self,request,method,results)",
+        "scrapy.contracts.ContractsManager.from_method(self,method,results)",
+        "scrapy.contracts.Contract.add_post_hook(self,request,results)",
+        "scrapy.contracts._create_testcase(method,desc)",
+        "scrapy.contracts.ContractsManager.extract_contracts(self,method)"
+      ],
+      "top5_indices": [
+        1,
+        4,
+        10,
+        16,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 4224,
+        "cost_usd": 0.023590499999999997,
+        "input_tokens": 14138,
+        "output_tokens": 1067
+      }
+    }
+  },
+  "schema_version": 1
+}

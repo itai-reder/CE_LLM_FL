@@ -1,0 +1,12 @@
+corpus_id;path;startLine;endLine
+keras.callbacks$TensorBoard.on_epoch_end(self,epoch,logs);keras/callbacks.py;825;874
+keras.engine.topology$Container.__init__(self,inputs,outputs,name);keras/engine/topology.py;1506;1848
+keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;549;958
+keras.engine.training$Model._fit_loop(self,f,ins,out_labels,batch_size,epochs,verbose,callbacks,val_f,val_ins,shuffle,callback_metrics,initial_epoch,steps_per_epoch,validation_steps);keras/engine/training.py;1075;1260
+keras.preprocessing.image$DirectoryIterator.__init__(self,directory,image_data_generator,target_size,color_mode,classes,class_mode,batch_size,shuffle,seed,data_format,save_to_dir,save_prefix,save_format,follow_links,subset,interpolation);keras/preprocessing/image.py;1313;1410
+keras.preprocessing.sequence$_remove_long_seq(maxlen,seq,label);keras/preprocessing/sequence.py;229;245
+keras.preprocessing.sequence$TimeseriesGenerator.__init__(self,data,targets,length,sampling_rate,stride,start_index,end_index,shuffle,reverse,batch_size);keras/preprocessing/sequence.py;308;327
+keras.preprocessing.sequence$TimeseriesGenerator.__len__(self);keras/preprocessing/sequence.py;329;332
+keras.preprocessing.sequence$TimeseriesGenerator._empty_batch(self,num_rows);keras/preprocessing/sequence.py;334;339
+keras.preprocessing.sequence$TimeseriesGenerator.__getitem__(self,index);keras/preprocessing/sequence.py;341;357
+keras.utils.multi_gpu_utils$multi_gpu_model(model,gpus,cpu_merge,cpu_relocation);keras/utils/multi_gpu_utils.py;23;235

@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;tornado.httpclient$HTTPRequest.__init__(self,url,method,headers,body,auth_username,auth_password,auth_mode,connect_timeout,request_timeout,if_modified_since,follow_redirects,max_redirects,user_agent,use_gzip,network_interface,streaming_callback,header_callback,prepare_curl_callback,proxy_host,proxy_port,proxy_username,proxy_password,proxy_auth_mode,allow_nonstandard_methods,validate_cert,ca_certs,allow_ipv6,client_key,client_cert,body_producer,expect_100_continue,decompress_response,ssl_options);tornado/httpclient.py;356;543;1.0
+2;tornado.curl_httpclient$CurlAsyncHTTPClient._curl_setup_request(self,curl,request,buffer,headers);tornado/curl_httpclient.py;318;526;0.9534145110606063
+3;tornado.http1connection$HTTP1Connection.__init__(self,stream,is_client,params,context);tornado/http1connection.py;112;163;0.8439401418748217
+4;tornado.http1connection$HTTP1Connection.write_headers(self,start_line,headers,chunk);tornado/http1connection.py;376;462;0.8049849147879812
+5;tornado.simple_httpclient$_HTTPConnection.run(self);tornado/simple_httpclient.py;289;441;0.7227661885006859
+19;tornado.http1connection$HTTP1Connection._read_message(self,delegate);tornado/http1connection.py;180;300;0.43282598297717406
+295;tornado.httpserver$HTTPServer.close_all_connections(self);tornado/httpserver.py;204;221;0.07086443817215123
+295;tornado.ioloop$IOLoop.instance();tornado/ioloop.py;180;200;0.07086443817215123
+295;tornado.ioloop$IOLoop.run_sync(self,func,timeout);tornado/ioloop.py;459;531;0.07086443817215123
+380;tornado.httputil$HTTPHeaders.parse(cls,headers);tornado/httputil.py;211;229;0.045938811088448106
+459;tornado.http1connection$HTTP1Connection.close(self);tornado/http1connection.py;340;345;0.03209591888453304
+569;tornado.http1connection$HTTP1ServerConnection.close(self);tornado/http1connection.py;781;793;0.0
+569;tornado.httpclient$HTTPClient.__del__(self);tornado/httpclient.py;110;111;0.0
+569;tornado.httpserver$HTTPServer.configurable_base(cls);tornado/httpserver.py;196;198;0.0
+569;tornado.routing$_RoutingDelegate.on_connection_close(self);tornado/routing.py;270;272;0.0

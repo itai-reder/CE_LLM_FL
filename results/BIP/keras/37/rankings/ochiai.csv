@@ -1,0 +1,12 @@
+rank;signature;path;startLine;endLine;score
+1;keras.layers.recurrent$RNN.call(self,inputs,mask,training,initial_state,constants);keras/layers/recurrent.py;541;631;0.9090909090909091
+1;keras.layers.wrappers$Bidirectional.call(self,inputs,training,mask,initial_state);keras/layers/wrappers.py;316;368;0.9090909090909091
+3;keras.engine.topology$Container.__init__(self,inputs,outputs,name);keras/engine/topology.py;1504;1846;0.47619047619047616
+4;keras.layers.wrappers$Bidirectional.compute_output_shape(self,input_shape);keras/layers/wrappers.py;297;314;0.4280697349698977
+5;keras.layers.recurrent$LSTMCell.call(self,inputs,states,training);keras/layers/recurrent.py;1796;1882;0.3922353493794955
+5;keras.layers.wrappers$Bidirectional.compute_mask(self,inputs,mask);keras/layers/wrappers.py;381;388;0.3922353493794955
+42;keras.layers.wrappers$Bidirectional.__init__(self,layer,merge_mode,weights,**kwargs);keras/layers/wrappers.py;256;277;0.2926865141360691
+42;keras.layers.wrappers$Bidirectional.build(self,input_shape);keras/layers/wrappers.py;374;379;0.2926865141360691
+86;keras.engine.topology$Layer.add_weight(self,name,shape,dtype,initializer,regularizer,trainable,constraint);keras/engine/topology.py;383;421;0.2603043164241559
+120;keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;548;938;0.0
+120;keras.engine.training$Model.train_on_batch(self,x,y,sample_weight,class_weight);keras/engine/training.py;1805;1854;0.0

@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.arrays.datetimelike$validate_inferred_freq(freq,inferred_freq,freq_infer);pandas/core/arrays/datetimelike.py;1598;1630;1.0
+2;pandas.core.indexes.base$Index._set_names(self,values,level);pandas/core/indexes/base.py;1333;1361;0.9999635810730837
+3;pandas.core.indexes.base$Index.set_names(self,names,level,inplace);pandas/core/indexes/base.py;1365;1443;0.9999180574144383
+4;pandas.core.indexes.base$Index.rename(self,name,inplace);pandas/core/indexes/base.py;1445;1494;0.9998270100971475
+5;pandas.core.indexes.numeric$NumericIndex._shallow_copy(self,values,**kwargs);pandas/core/indexes/numeric.py;81;86;0.9998179053654184
+8;pandas.core.tools.datetimes$_convert_listlike_datetimes(arg,box,format,name,tz,unit,errors,infer_datetime_format,dayfirst,yearfirst,exact);pandas/core/tools/datetimes.py;265;475;0.9996995438529404
+25;pandas.core.arrays.datetimes$DatetimeArray.__init__(self,values,dtype,freq,copy);pandas/core/arrays/datetimes.py;335;408;0.9991350504857375
+32;pandas.core.indexes.datetimes$DatetimeIndex.tz(self);pandas/core/indexes/datetimes.py;398;401;0.9982336820445585
+36;pandas.core.arrays.datetimes$DatetimeArray.tz_localize(self,tz,ambiguous,nonexistent,errors);pandas/core/arrays/datetimes.py;967;1155;0.9981517394589968
+38;pandas.core.arrays.datetimes$sequence_to_dt64ns(data,dtype,copy,tz,dayfirst,yearfirst,ambiguous,int_as_wall_time);pandas/core/arrays/datetimes.py;1854;1994;0.9980242732147897
+71;pandas.core.dtypes.inference$is_iterator(obj);pandas/core/dtypes/inference.py;120;151;0.9968406580900093
+191;pandas.core.arrays.datetimes$DatetimeArray.tz_convert(self,tz);pandas/core/arrays/datetimes.py;891;965;0.9896843389509528
+336;pandas.core.indexes.base$Index._maybe_promote(self,other);pandas/core/indexes/base.py;4802;4811;0.9822912967869402
+2567;pandas.core.computation.pytables$Term.value(self);pandas/core/computation/pytables.py;53;55;0.7810038877204483
+3493;pandas.core.indexes.datetimes$DatetimeIndex._maybe_utc_convert(self,other);pandas/core/indexes/datetimes.py;803;815;0.5418225851975271

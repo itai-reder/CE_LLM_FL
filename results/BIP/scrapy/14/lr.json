@@ -1,0 +1,2885 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 760
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1510,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1631,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1685,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.items(self)",
+        "scrapy.http.headers.Headers.items(self)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        11,
+        7,
+        18
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0006172500000000001,
+        "input_tokens": 5417,
+        "output_tokens": 866
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 760
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1510,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1631,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1685,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.items(self)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        11,
+        7,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0010230500000000002,
+        "input_tokens": 5417,
+        "output_tokens": 866
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 760
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1510,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1631,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1685,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 205
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)",
+        "scrapy.http.headers.Headers.items(self)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        6,
+        10,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00134705,
+        "input_tokens": 5417,
+        "output_tokens": 1028
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 760
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1510,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1631,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1685,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 755
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        9,
+        10,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00244705,
+        "input_tokens": 5417,
+        "output_tokens": 1578
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 760
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1510,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1631,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1685,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.items(self)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        6,
+        7,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0030520499999999997,
+        "input_tokens": 5417,
+        "output_tokens": 866
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 760
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1510,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1631,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1753,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1874,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1951,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2046,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2188,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2274,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2418,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2667,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2721,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.items(self)",
+        "scrapy.http.headers.Headers.normvalue(self,value)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        11,
+        7,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.005322,
+        "input_tokens": 23624,
+        "output_tokens": 1056
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 760
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1510,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1631,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1753,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1874,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1951,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2046,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2188,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2274,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2418,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2667,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2721,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        6,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 3328,
+        "cost_usd": 0.005935000000000001,
+        "input_tokens": 23624,
+        "output_tokens": 1056
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 760
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1510,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 74
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1631,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 126
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1753,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 163
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1895,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1990,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 216
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2095,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 371
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2172,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 254
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2293,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 124
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2381,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 44
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2435,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.items(self)",
+        "scrapy.http.headers.Headers.normvalue(self,value)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        11,
+        7,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0073161,
+        "input_tokens": 20746,
+        "output_tokens": 2197
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 760
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1510,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 112
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1631,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 370
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1753,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1874,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 302
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1951,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2046,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 81
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2100,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.items(self)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        11,
+        7,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.004965,
+        "input_tokens": 13456,
+        "output_tokens": 1712
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 760
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1510,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1631,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1753,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1874,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1951,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2093,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2147,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.items(self)",
+        "scrapy.http.headers.Headers.normvalue(self,value)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        11,
+        7,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 3200,
+        "cost_usd": 0.012453099999999998,
+        "input_tokens": 13550,
+        "output_tokens": 1011
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 760
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1510,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1631,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1753,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 1874,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1951,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2093,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2147,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        6,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 3200,
+        "cost_usd": 0.015442299999999999,
+        "input_tokens": 13550,
+        "output_tokens": 1011
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 989,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1110,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1196,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1250,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.read1(gzf,size)",
+        "scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware.from_crawler(cls,crawler)",
+        "scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware.process_request(self,request,spider)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        2,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0009042000000000001,
+        "input_tokens": 5136,
+        "output_tokens": 367
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 989,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1110,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1196,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1250,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        14,
+        6,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0012230000000000001,
+        "input_tokens": 5136,
+        "output_tokens": 367
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 989,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1110,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1232,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1353,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1497,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1639,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1844,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2179,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2233,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        9,
+        14,
+        6
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0049157,
+        "input_tokens": 18494,
+        "output_tokens": 591
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 989,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1110,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1232,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1353,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1497,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1639,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1844,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2179,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2233,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        6,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0054311,
+        "input_tokens": 18494,
+        "output_tokens": 591
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 989,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1110,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1232,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1353,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1497,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1639,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1844,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2179,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2233,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 228
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        6,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0058011,
+        "input_tokens": 18494,
+        "output_tokens": 776
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 989,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1110,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1232,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1353,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1497,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1639,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1844,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2179,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2233,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 623
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)"
+      ],
+      "top5_indices": [
+        1,
+        9,
+        6,
+        10,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.006591100000000001,
+        "input_tokens": 18494,
+        "output_tokens": 1171
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 989,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1110,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1232,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1353,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1497,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1639,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1844,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2093,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 2179,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2233,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)",
+        "scrapy.http.headers.Headers.__init__(self,seq,encoding)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        6,
+        10,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0080081,
+        "input_tokens": 18494,
+        "output_tokens": 591
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 989,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 47
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1110,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 142
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1232,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1353,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 234
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1495,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 177
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1639,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 303
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1693,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)",
+        "scrapy.utils.gz.gunzip(data)"
+      ],
+      "top5_indices": [
+        1,
+        6,
+        9,
+        14,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0049395,
+        "input_tokens": 10102,
+        "output_tokens": 1207
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 989,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 80
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1110,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 357
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1232,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 210
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1374,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 212
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1469,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 451
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1574,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 469
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1718,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 516
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1956,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 770
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2010,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        6,
+        9,
+        14
+      ],
+      "usage_totals": {
+        "cached_tokens": 1408,
+        "cost_usd": 0.009882950000000001,
+        "input_tokens": 14023,
+        "output_tokens": 3347
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 989,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1110,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1232,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1353,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1504,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1609,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1704,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1758,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)",
+        "scrapy.http.headers.Headers.__init__(self,seq,encoding)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        6,
+        10,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 2432,
+        "cost_usd": 0.0127215,
+        "input_tokens": 11850,
+        "output_tokens": 525
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 239
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 989,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1110,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1232,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1353,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1504,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1609,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1704,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1758,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)",
+        "scrapy.http.headers.Headers.__init__(self,seq,encoding)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        6,
+        10,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 2432,
+        "cost_usd": 0.0148235,
+        "input_tokens": 11850,
+        "output_tokens": 525
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 813
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1147,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1268,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1354,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1408,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.read1(gzf,size)",
+        "scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware.from_crawler(cls,crawler)",
+        "scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware.process_request(self,request,spider)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        2,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0020838000000000002,
+        "input_tokens": 5768,
+        "output_tokens": 941
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 813
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1147,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1268,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1390,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1476,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1597,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1739,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1834,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1944,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2088,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 2337,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2430,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)",
+        "scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware.from_crawler(cls,crawler)"
+      ],
+      "top5_indices": [
+        1,
+        9,
+        6,
+        10,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 3712,
+        "cost_usd": 0.00638905,
+        "input_tokens": 19841,
+        "output_tokens": 1132
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 813
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1147,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 58
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1268,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 95
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1390,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1476,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1620,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 182
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1762,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1857,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 120
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 1978,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 93
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 387
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.__init__(self,seq,encoding)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)"
+      ],
+      "top5_indices": [
+        1,
+        9,
+        6,
+        19,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.00703385,
+        "input_tokens": 15121,
+        "output_tokens": 1814
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 813
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1147,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1268,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1390,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1511,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1606,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1152,
+          "input_tokens": 1711,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1408,
+          "input_tokens": 1853,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1907,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        6,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 4864,
+        "cost_usd": 0.014662999999999999,
+        "input_tokens": 12984,
+        "output_tokens": 1100
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1597
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1607,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1728,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1985,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1792,
+          "input_tokens": 2107,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2161,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.utils.gz.read1(gzf,size)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        6,
+        9,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 1792,
+        "cost_usd": 0.003792446,
+        "input_tokens": 10179,
+        "output_tokens": 1747
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1597
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1607,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1728,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1872,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2121,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2243,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2385,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2480,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2534,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        6,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.008044250000000001,
+        "input_tokens": 17561,
+        "output_tokens": 1827
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1597
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1607,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 139
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1728,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 265
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1872,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 361
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1994,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 161
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2136,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 271
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2241,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 362
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2336,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 993
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2390,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 358
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        9,
+        6,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.013237750000000001,
+        "input_tokens": 16895,
+        "output_tokens": 4507
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1597
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1607,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1728,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1872,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1926,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)",
+        "scrapy.http.headers.Headers.__init__(self,seq,encoding)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        6,
+        10,
+        19
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.013678,
+        "input_tokens": 7724,
+        "output_tokens": 1739
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 618
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1368,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1489,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1543,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.read1(gzf,size)",
+        "scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware.process_request(self,request,spider)",
+        "scrapy.http.headers.Headers.items(self)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        2,
+        5,
+        7
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.007181150000000001,
+        "input_tokens": 4991,
+        "output_tokens": 724
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 618
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1368,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1489,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1543,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        11,
+        6,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00944555,
+        "input_tokens": 4991,
+        "output_tokens": 724
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 618
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1368,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1489,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1611,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1732,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1842,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1986,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2128,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2223,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2277,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        14,
+        6,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01158675,
+        "input_tokens": 17247,
+        "output_tokens": 870
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 618
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1368,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1489,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1611,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1732,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1842,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1986,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2128,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2223,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2277,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware.from_crawler(cls,crawler)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        6,
+        9,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01420775,
+        "input_tokens": 17247,
+        "output_tokens": 870
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 618
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1368,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 54
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1489,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 76
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1611,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1732,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 87
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1786,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.utils.gz.is_gzipped(response)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        6,
+        9,
+        11
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.01160925,
+        "input_tokens": 8577,
+        "output_tokens": 900
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 618
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1368,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 99
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1489,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 324
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1611,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 325
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1753,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1874,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 310
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1928,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.utils.gz.gunzip(data)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        6,
+        9,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.012502500000000001,
+        "input_tokens": 10614,
+        "output_tokens": 1741
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 618
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1368,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1489,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1633,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1687,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)",
+        "scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware.from_crawler(cls,crawler)",
+        "scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware.process_request(self,request,spider)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        14,
+        4,
+        5
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.013632800000000002,
+        "input_tokens": 6768,
+        "output_tokens": 761
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 618
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1368,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1489,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1633,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1687,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware.from_crawler(cls,crawler)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        6,
+        9,
+        4
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.014039000000000001,
+        "input_tokens": 6768,
+        "output_tokens": 761
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 618
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1368,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1489,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1633,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1687,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 213
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)",
+        "scrapy.utils.datatypes.CaselessDict.__getitem__(self,key)"
+      ],
+      "top5_indices": [
+        1,
+        14,
+        6,
+        9,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.014379000000000001,
+        "input_tokens": 6768,
+        "output_tokens": 931
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 618
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1368,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1489,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1633,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1687,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 841
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.downloadermiddlewares.decompression.DecompressionMiddleware._is_gzip(self,response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.normvalue(self,value)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        14,
+        6,
+        9
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.015635000000000003,
+        "input_tokens": 6768,
+        "output_tokens": 1559
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 591,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 618
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1368,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1489,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1633,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1280,
+          "input_tokens": 1687,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.utils.gz.is_gzipped(response)",
+        "scrapy.http.headers.Headers.getlist(self,key,def_val)",
+        "scrapy.http.headers.Headers.__init__(self,seq,encoding)",
+        "scrapy.utils.gz.gunzip(data)"
+      ],
+      "top5_indices": [
+        1,
+        11,
+        6,
+        19,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 1280,
+        "cost_usd": 0.01463,
+        "input_tokens": 6768,
+        "output_tokens": 761
+      }
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.http.request$Request._set_url(self,url);scrapy/http/request/__init__.py;62;70;1.0
+2;scrapy.http.request$Request._set_body(self,body);scrapy/http/request/__init__.py;77;81;0.9999178981937603
+3;scrapy.utils.url$escape_ajax(url);scrapy/utils/url.py;47;73;0.9998357963875205
+4;scrapy.http.request$Request.__init__(self,url,callback,method,headers,body,cookies,meta,encoding,priority,dont_filter,errback,flags,cb_kwargs);scrapy/http/request/__init__.py;20;45;0.9997536945812808
+5;scrapy.http.request$Request.encoding(self);scrapy/http/request/__init__.py;85;87;0.9979474548440066
+265;scrapy.core.downloader.handlers.http11$HTTP11DownloadHandler.close(self);scrapy/core/downloader/handlers/http11.py;77;95;0.8060755336617406
+369;scrapy.core.spidermw$SpiderMiddlewareManager.scrape_response(self,scrape_func,response,request,spider);scrapy/core/spidermw.py;38;114;0.7168308702791462
+374;scrapy.crawler$Crawler.crawl(self,*args,**kwargs);scrapy/crawler.py;79;105;0.7086206896551724
+639;scrapy.extensions.telnet$TelnetConsole._get_telnet_vars(self);scrapy/extensions/telnet.py;100;118;0.5348111658456486
+989;scrapy.shell$Shell.start(self,url,request,response,spider,redirect);scrapy/shell.py;44;81;0.26748768472906403
+1009;scrapy.spidermiddlewares.depth$DepthMiddleware.process_spider_output(self,response,result,spider);scrapy/spidermiddlewares/depth.py;30;58;0.251559934318555
+1013;scrapy.spidermiddlewares.httperror$HttpErrorMiddleware.process_spider_input(self,response,spider);scrapy/spidermiddlewares/httperror.py;31;45;0.24835796387520526
+1188;scrapy.utils.deprecate$create_deprecated_class(name,new_class,clsdict,warn_category,warn_once,old_class_path,new_class_path,subclass_warn_message,instance_warn_message);scrapy/utils/deprecate.py;15;117;0.14211822660098522

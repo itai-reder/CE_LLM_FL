@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.indexes.base$Index._left_indexer(self,left,right);pandas/core/indexes/base.py;246;247;1.0
+2;pandas._testing$_check_isinstance(left,right,cls);pandas/_testing.py;391;416;0.9999910318727243
+3;pandas.core.algorithms$_ensure_data(values,dtype);pandas/core/algorithms.py;69;175;0.999973095618173
+4;pandas.core.algorithms$_check_object_for_strings(values);pandas/core/algorithms.py;272;293;0.9999641274908974
+5;pandas.core.dtypes.cast$maybe_infer_to_datetimelike(value,convert_dates);pandas/core/dtypes/cast.py;1185;1290;0.9999551593636217
+8;pandas.core.indexes.base$Index._join_multi(self,other,how,return_indexers);pandas/core/indexes/base.py;3479;3552;0.9996771474180761
+9;pandas.core.indexes.base$Index._join_monotonic(self,other,how,return_indexers);pandas/core/indexes/base.py;3722;3768;0.9996592111635249
+64;pandas.core.indexes.multi$MultiIndex._validate_codes(self,level,code);pandas/core/indexes/multi.py;304;323;0.996574175380697
+96;pandas.core.indexes.multi$MultiIndex._set_codes(self,codes,level,copy,validate,verify_integrity);pandas/core/indexes/multi.py;874;902;0.9946908686528079
+712;asv_bench.benchmarks.indexing$IndexSingleRow.setup(self,unique_cols);asv_bench/benchmarks/indexing.py;315;327;0.967338080462038
+2795;pandas.core.frame$DataFrame.set_index(self,keys,drop,append,inplace,verify_integrity);pandas/core/frame.py;4231;4417;0.6994063099743512
+3623;pandas.core.indexes.interval$IntervalIndex.get_loc(self,key,method,tolerance);pandas/core/indexes/interval.py;670;735;0.5096317686940613
+3696;pandas.core.indexes.multi$MultiIndex._get_level_indexer(self,key,level,indexer);pandas/core/indexes/multi.py;2882;2978;0.49623338654422183
+4360;pandas.core.reshape.concat$concat(objs,axis,join,ignore_index,keys,levels,names,verify_integrity,sort,copy);pandas/core/reshape/concat.py;67;284;0.3922748551647445
+4390;pandas.core.reshape.merge$merge_asof(left,right,on,left_on,right_on,left_index,right_index,by,left_by,right_by,suffixes,tolerance,allow_exact_matches,direction);pandas/core/reshape/merge.py;291;563;0.3822574569978297

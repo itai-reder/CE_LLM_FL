@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas._testing$assert_numpy_array_equal(left,right,strict_nan,check_dtype,err_msg,check_same,obj);pandas/_testing.py;916;990;0.9531377137096068
+1;pandas._testing$raise_assert_detail(obj,message,left,right,diff);pandas/_testing.py;891;913;0.9531377137096068
+3;pandas.core.indexes.base$Index.get_indexer_non_unique(self,target);pandas/core/indexes/base.py;4653;4668;0.6886006587747467
+4;pandas.core.arrays.datetimes$DatetimeArray.astype(self,dtype,copy);pandas/core/arrays/datetimes.py;578;605;0.6224458960876662
+4;pandas.core.arrays.datetimes$DatetimeArray.to_period(self,freq);pandas/core/arrays/datetimes.py;1053;1116;0.6224458960876662
+10;pandas.core.indexes.datetimelike$DatetimeIndexOpsMixin.is_all_dates(self);pandas/core/indexes/datetimelike.py;100;102;0.4878982200142104
+17;pandas.core.indexes.period$PeriodIndex.get_indexer_non_unique(self,target);pandas/core/indexes/period.py;453;465;0.3675453645929474
+21;pandas.core.indexes.base$Index.__new__(cls,data,dtype,copy,name,tupleize_cols,**kwargs);pandas/core/indexes/base.py;284;420;0.3527018677286848
+37;pandas.core.indexes.base$Index._shallow_copy_with_infer(self,values,**kwargs);pandas/core/indexes/base.py;511;535;0.2698653791735173
+54;pandas.core.indexes.timedeltas$TimedeltaIndex._maybe_promote(self,other);pandas/core/indexes/timedeltas.py;211;214;0.22900763358778625
+241;pandas.core.indexes.category$CategoricalIndex.get_indexer(self,target,method,limit,tolerance);pandas/core/indexes/category.py;517;551;0.0
+241;pandas.core.indexes.category$CategoricalIndex.get_indexer_non_unique(self,target);pandas/core/indexes/category.py;553;567;0.0
+241;pandas.core.indexes.datetimelike$DatetimeIndexOpsMixin._partial_date_slice(self,reso,parsed,use_lhs,use_rhs);pandas/core/indexes/datetimelike.py;384;427;0.0
+241;pandas.core.indexes.interval$IntervalIndex.get_indexer(self,target,method,limit,tolerance);pandas/core/indexes/interval.py;737;812;0.0
+241;pandas.core.indexes.multi$MultiIndex.get_indexer_non_unique(self,target);pandas/core/indexes/multi.py;2403;2405;0.0

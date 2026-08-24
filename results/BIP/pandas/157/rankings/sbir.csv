@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.arrays.timedeltas$sequence_to_td64ns(data,copy,unit,errors);pandas/core/arrays/timedeltas.py;926;1025;1.0
+2;pandas.core.arrays.timedeltas$ints_to_td64ns(data,unit);pandas/core/arrays/timedeltas.py;1028;1065;0.9999636006260693
+3;pandas.core.dtypes.cast$maybe_castable(arr);pandas/core/dtypes/cast.py;885;896;0.9997998034433808
+4;pandas.core.internals.blocks$get_block_type(values,dtype);pandas/core/internals/blocks.py;3030;3073;0.9997907035998981
+5;pandas.core.internals.blocks$TimeDeltaBlock.__init__(self,values,placement,ndim);pandas/core/internals/blocks.py;2478;2484;0.9997725039129327
+7;pandas.core.reshape.merge$_AsOfMerge._get_merge_keys(self);pandas/core/reshape/merge.py;1591;1664;0.9997270046955192
+83;pandas.core.generic$NDFrame.reindex(self,*args,**kwargs);pandas/core/generic.py;4242;4491;0.9957412732501001
+216;pandas.core.reshape.merge$merge_asof(left,right,on,left_on,right_on,left_index,right_index,by,left_by,right_by,suffixes,tolerance,allow_exact_matches,direction);pandas/core/reshape/merge.py;290;526;0.990244967786554
+2794;pandas.core.construction$array(data,dtype,copy);pandas/core/construction.py;51;314;0.7600553270483748
+3211;pandas.core.groupby.groupby$GroupBy.size(self);pandas/core/groupby/groupby.py;1325;1340;0.6004713718924034
+3244;pandas.core.groupby.groupby$_GroupBy.groups(self);pandas/core/groupby/groupby.py;419;425;0.5936191897499363
+3276;pandas.core.groupby.grouper$Grouper.ax(self);pandas/core/groupby/grouper.py;118;120;0.5889145706693845
+3955;pandas.core.indexes.timedeltas$TimedeltaIndex.get_loc(self,key,method,tolerance);pandas/core/indexes/timedeltas.py;504;543;0.48440286827066575

@@ -1,0 +1,15 @@
+rank;signature;path;startLine;endLine;score
+1;keras.layers.core$Reshape.__init__(self,target_shape,**kwargs);keras/layers/core.py;344;346;1.0
+2;keras.layers.core$Reshape._fix_unknown_dimension(self,input_shape,output_shape);keras/layers/core.py;348;387;0.9999426589065054
+3;keras.layers.core$Reshape.compute_output_shape(self,input_shape);keras/layers/core.py;389;397;0.9996559534390321
+4;keras.layers.core$Reshape.call(self,inputs);keras/layers/core.py;399;400;0.9995699417987901
+5;keras.layers.core$Reshape.get_config(self);keras/layers/core.py;402;405;0.9995412712520427
+6;keras.layers.merge$Concatenate.build(self,input_shape);keras/layers/merge.py;346;362;0.9994552596118008
+14;keras.engine.network$Network.from_config(cls,config,custom_objects);keras/engine/network.py;933;1046;0.9987098253963703
+35;keras.engine.network$Network.get_weights(self);keras/engine/network.py;483;492;0.9950399954127125
+36;keras.engine.network$Network.get_config(self);keras/engine/network.py;827;931;0.9949253132257232
+87;keras.engine.network$Network._base_init(self,name);keras/engine/network.py;98;137;0.9837437999942659
+114;keras.engine.network$_map_graph_network(inputs,outputs);keras/engine/network.py;1273;1456;0.9792425241549356
+1215;keras.engine.network$Network.load_weights(self,filepath,by_name,skip_mismatch,reshape);keras/engine/network.py;1122;1165;0.4438487341953611
+1664;keras.models$_clone_functional_model(model,input_tensors);keras/models.py;26;169;0.0940107227844835
+1764;keras.utils.layer_utils$print_summary(model,line_length,positions,print_fn);keras/utils/layer_utils.py;24;184;0.0267496201152556

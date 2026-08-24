@@ -1,0 +1,16 @@
+corpus_id;path;startLine;endLine
+keras.backend.common$epsilon();keras/backend/common.py;13;25
+keras.backend.tensorflow_backend$reset_uids();keras/backend/tensorflow_backend.py;75;79
+keras.backend.tensorflow_backend$clear_session();keras/backend/tensorflow_backend.py;82;96
+keras.backend.tensorflow_backend$set_learning_phase(value);keras/backend/tensorflow_backend.py;134;147
+keras.backend.tensorflow_backend$get_session();keras/backend/tensorflow_backend.py;150;205
+keras.backend.tensorflow_backend$ones(shape,dtype,name);keras/backend/tensorflow_backend.py;699;728
+keras.backend.tensorflow_backend$batch_dot(x,y,axes);keras/backend/tensorflow_backend.py;1080;1164
+keras.backend.tensorflow_backend$concatenate(tensors,axis);keras/backend/tensorflow_backend.py;1862;1882
+keras.backend.tensorflow_backend$reverse(x,axes);keras/backend/tensorflow_backend.py;2283;2296
+keras.backend.tensorflow_backend$batch_set_value(tuples);keras/backend/tensorflow_backend.py;2350;2374
+keras.backend.tensorflow_backend$rnn(step_function,inputs,initial_states,go_backwards,mask,constants,unroll,input_length);keras/backend/tensorflow_backend.py;2538;2779
+keras.backend.tensorflow_backend$ctc_label_dense_to_sparse(labels,label_lengths);keras/backend/tensorflow_backend.py;3891;3925
+keras.backend.tensorflow_backend$ctc_batch_cost(y_true,y_pred,input_length,label_length);keras/backend/tensorflow_backend.py;3928;3953
+keras.backend.tensorflow_backend$ctc_decode(y_pred,input_length,greedy,beam_width,top_paths);keras/backend/tensorflow_backend.py;3956;4000
+keras.engine.training$Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs);keras/engine/training.py;1503;1705

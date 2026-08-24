@@ -1,0 +1,16 @@
+corpus_id;path;startLine;endLine
+scrapy.commands.fetch$Command.run(self,args,opts);scrapy/commands/fetch.py;43;57
+scrapy.core.downloader.webclient$ScrapyHTTPClientFactory.__init__(self,request,timeout);scrapy/core/downloader/webclient.py;93;123
+scrapy.downloadermiddlewares.cookies$CookiesMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/cookies.py;42;52
+scrapy.downloadermiddlewares.decompression$DecompressionMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/decompression.py;78;88
+scrapy.downloadermiddlewares.httpcache$HttpCacheMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/httpcache.py;68;95
+scrapy.downloadermiddlewares.httpcompression$HttpCompressionMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/httpcompression.py;22;39
+scrapy.downloadermiddlewares.redirect$BaseRedirectMiddleware.__init__(self,settings);scrapy/downloadermiddlewares/redirect.py;15;20
+scrapy.downloadermiddlewares.redirect$BaseRedirectMiddleware.from_crawler(cls,crawler);scrapy/downloadermiddlewares/redirect.py;22;24
+scrapy.downloadermiddlewares.redirect$RedirectMiddleware.process_response(self,request,response,spider);scrapy/downloadermiddlewares/redirect.py;56;79
+scrapy.http.headers$Headers.__getitem__(self,key);scrapy/http/headers.py;38;42
+scrapy.http.request$Request._get_url(self);scrapy/http/request/__init__.py;46;47
+scrapy.pipelines.media$MediaPipeline._check_media_to_download(self,result,request,info);scrapy/pipelines/media.py;78;93
+scrapy.shell$Shell.fetch(self,request_or_url,spider);scrapy/shell.py;76;90
+scrapy.utils.datatypes$CaselessDict.__getitem__(self,key);scrapy/utils/datatypes.py;172;173
+scrapy.utils.datatypes$CaselessDict.__contains__(self,key);scrapy/utils/datatypes.py;181;182

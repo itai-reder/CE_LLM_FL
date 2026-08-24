@@ -1,0 +1,15 @@
+corpus_id;path;startLine;endLine
+pandas.core.dtypes.cast$maybe_downcast_to_dtype(result,dtype);pandas/core/dtypes/cast.py;92;156
+pandas.core.frame$DataFrame.pivot_table(self,values,index,columns,aggfunc,fill_value,margins,dropna,margins_name,observed);pandas/core/frame.py;5798;5825
+pandas.core.groupby.groupby$_GroupBy._assure_grouper(self);pandas/core/groupby/groupby.py;413;418
+pandas.core.groupby.groupby$_GroupBy._get_index(self,name);pandas/core/groupby/groupby.py;491;495
+pandas.core.groupby.grouper$_convert_grouper(axis,grouper);pandas/core/groupby/grouper.py;666;679
+pandas.core.internals.concat$get_mgr_concatenation_plan(mgr,indexers);pandas/core/internals/concat.py;28;111
+pandas.core.internals.concat$JoinUnit.get_reindexed_values(self,empty_dtype,upcasted_na);pandas/core/internals/concat.py;175;236
+pandas.core.internals.concat$concatenate_join_units(join_units,concat_axis,copy);pandas/core/internals/concat.py;239;268
+pandas.core.internals.concat$_get_empty_dtype_and_na(join_units);pandas/core/internals/concat.py;271;375
+pandas.core.nanops$_get_counts(values_shape,mask,axis,dtype);pandas/core/nanops.py;1135;1176
+pandas.core.reshape.pivot$pivot_table(data,values,index,columns,aggfunc,fill_value,margins,dropna,margins_name,observed);pandas/core/reshape/pivot.py;25;184
+pandas.core.reshape.pivot$_add_margins(table,data,values,rows,cols,aggfunc,observed,margins_name,fill_value);pandas/core/reshape/pivot.py;187;275
+pandas.core.reshape.pivot$_generate_marginal_results_without_values(table,data,rows,cols,aggfunc,observed,margins_name);pandas/core/reshape/pivot.py;372;407
+pandas.core.reshape.pivot$crosstab(index,columns,values,rownames,colnames,aggfunc,margins,margins_name,dropna,normalize);pandas/core/reshape/pivot.py;448;602

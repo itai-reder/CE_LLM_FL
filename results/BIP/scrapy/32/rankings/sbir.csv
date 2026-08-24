@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;scrapy.crawler$CrawlerProcess.__init__(self,settings);scrapy/crawler.py;209;213;1.0
+2;scrapy.utils.log$configure_logging(settings);scrapy/utils/log.py;59;103;0.9997273161088008
+3;scrapy.utils.log$log_scrapy_info(settings);scrapy/utils/log.py;106;114;0.9994546322176018
+4;scrapy.utils.log$TopLevelFormatter.__init__(self,loggers);scrapy/utils/log.py;36;37;0.9981593837344059
+5;scrapy.utils.ossignal$install_shutdown_handlers(function,override_sigint);scrapy/utils/ossignal.py;15;28;0.9980912127616061
+159;scrapy.cmdline$execute(argv,settings);scrapy/cmdline.py;97;144;0.9734814915808848
+318;scrapy.core.downloader.contextfactory$ScrapyClientContextFactory.__init__(self);scrapy/core/downloader/contextfactory.py;16;19;0.8500920308132797
+372;scrapy.core.downloader.webclient$ScrapyHTTPClientFactory.__init__(self,request,timeout);scrapy/core/downloader/webclient.py;93;123;0.8144386120389938
+626;scrapy.extensions.statsmailer$StatsMailer.__init__(self,stats,recipients,mail);scrapy/extensions/statsmailer.py;13;16;0.658122571409094
+770;scrapy.linkextractors.sgml$SgmlLinkExtractor.__init__(self,allow,deny,allow_domains,deny_domains,restrict_xpaths,tags,attrs,canonicalize,unique,process_value,deny_extensions,restrict_css);scrapy/linkextractors/sgml.py;100;124;0.5911786761197082
+953;scrapy.spidermiddlewares.httperror$HttpErrorMiddleware.__init__(self,settings);scrapy/spidermiddlewares/httperror.py;27;29;0.4654032313041107
+1161;scrapy.utils.test$get_crawler(spidercls,settings_dict);scrapy/utils/test.py;23;33;0.3286522598677483
+1478;scrapy.xlib.tx.interfaces$IReactorProcess.spawnProcess(processProtocol,executable,args,env,path,uid,gid,usePTY,childFDs);scrapy/xlib/tx/interfaces.py;976;1058;0.08494103210852819

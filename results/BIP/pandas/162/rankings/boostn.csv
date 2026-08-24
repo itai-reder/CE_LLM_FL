@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.reshape.pivot$crosstab(index,columns,values,rownames,colnames,aggfunc,margins,margins_name,dropna,normalize);pandas/core/reshape/pivot.py;431;582;1.0
+2;asv_bench.benchmarks.reshape$Crosstab.time_crosstab_normalize_margins(self);asv_bench/benchmarks/reshape.py;183;184;0.5939677549584609
+3;pandas.core.indexes.datetimes$bdate_range(start,end,periods,freq,tz,normalize,name,weekmask,holidays,closed,**kwargs);pandas/core/indexes/datetimes.py;1589;1694;0.5885340831212185
+4;pandas.core.arrays.categorical$Categorical.isin(self,values);pandas/core/arrays/categorical.py;2452;2505;0.5748790079641476
+5;pandas.core.frame$DataFrame.append(self,other,ignore_index,verify_integrity,sort);pandas/core/frame.py;6913;7053;0.5679916281845047
+26;pandas.core.reshape.pivot$_normalize(table,normalize,margins,margins_name);pandas/core/reshape/pivot.py;585;654;0.4102803996884531
+350;pandas.core.indexes.multi$MultiIndex.delete(self,loc);pandas/core/indexes/multi.py;3383;3397;0.19714164194297723
+548;pandas.core.indexes.multi$MultiIndex.drop(self,codes,level,errors);pandas/core/indexes/multi.py;2111;2168;0.15024829798409906
+953;pandas.core.indexes.multi$MultiIndex.get_indexer(self,target,method,limit,tolerance);pandas/core/indexes/multi.py;2393;2430;0.09498098108729804
+965;pandas.core.indexes.multi$MultiIndex._get_level_indexer(self,key,level,indexer);pandas/core/indexes/multi.py;2839;2934;0.09388442747758631
+1098;pandas.core.generic$NDFrame.xs(self,key,axis,level,drop_level);pandas/core/generic.py;3367;3526;0.08089772466874921
+1937;pandas.core.indexes.multi$MultiIndex.from_tuples(cls,tuples,sortorder,names);pandas/core/indexes/multi.py;439;496;0.040137549549577774
+2011;pandas.core.indexes.multi$MultiIndex.get_loc_level(self,key,level,drop_level);pandas/core/indexes/multi.py;2699;2837;0.0291848050887577
+2019;pandas.core.groupby.groupby$_GroupBy.__iter__(self);pandas/core/groupby/groupby.py;687;696;0.0
+2019;pandas.core.groupby.groupby$_GroupBy.__repr__(self);pandas/core/groupby/groupby.py;408;410;0.0

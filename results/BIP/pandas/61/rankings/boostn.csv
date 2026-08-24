@@ -1,0 +1,16 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.io.sql$to_sql(frame,name,con,schema,if_exists,index,index_label,chunksize,dtype,method);pandas/io/sql.py;442;522;1.0
+2;pandas.core.dtypes.inference$is_hashable(obj);pandas/core/dtypes/inference.py;326;360;0.9782671595807652
+3;pandas.core.generic$NDFrame.describe(self,percentiles,include,exclude);pandas/core/generic.py;9424;9765;0.9007422964332311
+4;pandas.io.sql$SQLDatabase.to_sql(self,frame,name,if_exists,index,index_label,schema,chunksize,dtype,method);pandas/io/sql.py;1242;1332;0.8702087999399473
+5;pandas.core.series$Series.map(self,arg,na_action);pandas/core/series.py;3535;3611;0.8682002007649735
+99;pandas.core.indexes.base$Index.__getitem__(self,key);pandas/core/indexes/base.py;4120;4156;0.5122014431809823
+116;pandas.core.indexes.base$Index.get_indexer(self,target,method,limit,tolerance);pandas/core/indexes/base.py;2960;3011;0.4927250254047524
+260;pandas.core.series$Series._get_with(self,key);pandas/core/series.py;884;935;0.3985846532703324
+340;pandas.core.series$Series._get_values(self,indexer);pandas/core/series.py;957;965;0.3638325829147249
+485;pandas._testing$assert_produces_warning(expected_warning,filter_level,clear,check_stacklevel,raise_on_extra_warnings);pandas/_testing.py;2379;2505;0.3190159944459231
+734;pandas.core.indexers$deprecate_ndim_indexing(result);pandas/core/indexers.py;254;270;0.26788234184873705
+1613;pandas.core.indexes.base$Index._get_nearest_indexer(self,target,limit,tolerance);pandas/core/indexes/base.py;3071;3091;0.14361224417692284
+1685;pandas.core.indexes.base$Index._get_fill_indexer(self,target,method,limit,tolerance);pandas/core/indexes/base.py;3020;3036;0.13938281021729218
+1958;pandas.core.internals.blocks$Block._check_ndim(self,values,ndim);pandas/core/internals/blocks.py;129;158;0.127925875770717
+2250;pandas.core.indexes.base$Index._inner_indexer(self,left,right);pandas/core/indexes/base.py;246;247;0.11110840817628793

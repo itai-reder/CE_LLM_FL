@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;keras.engine.training$Model.compile(self,optimizer,loss,metrics,loss_weights,sample_weight_mode,weighted_metrics,target_tensors,**kwargs);keras/engine/training.py;37;473;1.0
+2;keras.callbacks$TensorBoard.set_model(self,model);keras/callbacks.py;1060;1176;0.8357246057243404
+3;keras.engine.saving$_serialize_model(model,h5dict,include_optimizer);keras/engine/saving.py;37;182;0.7182206683540013
+4;keras.engine.training$Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,validation_freq,**kwargs);keras/engine/training.py;832;1056;0.6523930416576438
+5;keras.utils.multi_gpu_utils$multi_gpu_model(model,gpus,cpu_merge,cpu_relocation);keras/utils/multi_gpu_utils.py;24;258;0.6415928215445273
+7;keras.optimizers$TFOptimizer.get_updates(self,loss,params);keras/optimizers.py;704;711;0.6303216656499966
+9;keras.engine.training$Model._make_train_function(self);keras/engine/training.py;494;519;0.6044175805336435
+54;keras.optimizers$Optimizer.get_gradients(self,loss,params);keras/optimizers.py;88;101;0.3213029886300542
+84;keras.optimizers$TFOptimizer.__init__(self,optimizer);keras/optimizers.py;699;702;0.2648677380121282
+97;keras.engine.training$Model.predict(self,x,batch_size,verbose,steps,callbacks);keras/engine/training.py;1137;1196;0.2416612215104606
+731;keras.backend.tensorflow_backend$square(x);keras/backend/tensorflow_backend.py;1614;1623;0.052567781985027956
+1145;keras.constraints$MaxNorm.__init__(self,max_value,axis);keras/constraints.py;47;49;0.0
+1145;keras.losses$mean_squared_error(y_true,y_pred);keras/losses.py;13;14;0.0

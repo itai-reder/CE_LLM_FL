@@ -1,0 +1,3161 @@
+{
+  "configs": {
+    "M1R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 928
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2565,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3011,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3548,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3602,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe_names(self)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        9,
+        2,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0012362500000000004,
+        "input_tokens": 15877,
+        "output_tokens": 1106
+      }
+    },
+    "M1R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 928
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2565,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3011,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3548,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3602,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        16,
+        20,
+        4,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0020254500000000003,
+        "input_tokens": 15877,
+        "output_tokens": 1106
+      }
+    },
+    "M1R1-M1R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 928
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2565,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3011,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3548,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3602,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 315
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        4,
+        1,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.00256945,
+        "input_tokens": 15877,
+        "output_tokens": 1378
+      }
+    },
+    "M1R1-M1R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 928
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2565,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3011,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3548,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3602,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 583
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        16,
+        20,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0031054500000000005,
+        "input_tokens": 15877,
+        "output_tokens": 1646
+      }
+    },
+    "M1R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 928
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2565,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3011,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3548,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3602,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        4,
+        16,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0059714500000000005,
+        "input_tokens": 15877,
+        "output_tokens": 1106
+      }
+    },
+    "M1R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 928
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2565,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3040,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4070,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4670,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5207,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5261,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        4,
+        9,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.006048400000000001,
+        "input_tokens": 27964,
+        "output_tokens": 1122
+      }
+    },
+    "M1R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 928
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2565,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3040,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4070,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4670,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5207,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5261,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        16,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0071694,
+        "input_tokens": 27964,
+        "output_tokens": 1122
+      }
+    },
+    "M1R1-M2R2-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 928
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 64
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2565,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3040,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4070,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1013
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 4124,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe_names(self)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        1,
+        5,
+        9,
+        2,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 3968,
+        "cost_usd": 0.0053482519999999995,
+        "input_tokens": 16950,
+        "output_tokens": 2092
+      }
+    },
+    "M1R1-M2R3-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 928
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2119,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 115
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2565,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 591
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3595,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 700
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4070,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4670,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 2013
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4786,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1525
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5323,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1414
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5377,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        9,
+        4,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.01987645,
+        "input_tokens": 33537,
+        "output_tokens": 7351
+      }
+    },
+    "M1R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 928
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2119,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2565,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3595,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4070,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4670,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5207,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4992,
+          "input_tokens": 5653,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 5707,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        20,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 9344,
+        "cost_usd": 0.028593412,
+        "input_tokens": 34618,
+        "output_tokens": 1214
+      }
+    },
+    "M1R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 928
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2119,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2565,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2304,
+          "input_tokens": 3595,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4070,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4670,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5207,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 4992,
+          "input_tokens": 5653,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5707,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        20,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 8320,
+        "cost_usd": 0.0359053,
+        "input_tokens": 34618,
+        "output_tokens": 1214
+      }
+    },
+    "M2R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 105
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1296,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1742,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2279,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2879,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3128,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3377,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3823,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3939,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4055,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4592,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4646,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        9,
+        1,
+        8,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.002334712,
+        "input_tokens": 36788,
+        "output_tokens": 429
+      }
+    },
+    "M2R1-M1R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 105
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1296,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1742,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2279,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2879,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3128,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3377,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3823,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3939,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4055,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4592,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 13
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4646,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        4,
+        16,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.003332712,
+        "input_tokens": 36788,
+        "output_tokens": 429
+      }
+    },
+    "M2R1-M2R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 105
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1296,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2217,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3247,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3847,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4384,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4830,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 5305,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5359,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        9,
+        4,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.0074553499999999995,
+        "input_tokens": 33259,
+        "output_tokens": 371
+      }
+    },
+    "M2R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 105
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1296,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2217,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3247,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3847,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4384,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4830,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 5305,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5359,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        4,
+        1,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.00859595,
+        "input_tokens": 33259,
+        "output_tokens": 371
+      }
+    },
+    "M2R1-M2R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 105
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1296,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2217,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3247,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3847,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4384,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4830,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 5305,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5359,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 629
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        16,
+        4,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.00976795,
+        "input_tokens": 33259,
+        "output_tokens": 957
+      }
+    },
+    "M2R1-M2R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 105
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1296,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2217,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3247,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3847,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4384,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4830,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 5305,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5359,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1191
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        16,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.01089195,
+        "input_tokens": 33259,
+        "output_tokens": 1519
+      }
+    },
+    "M2R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 105
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1296,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2217,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3247,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3847,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4384,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4830,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2048,
+          "input_tokens": 5305,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5359,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        20,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.01429895,
+        "input_tokens": 33259,
+        "output_tokens": 371
+      }
+    },
+    "M2R1-M2R2-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 105
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1296,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 155
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2772,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3247,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3847,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 705
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3901,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 29
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        16,
+        4,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.0062048500000000005,
+        "input_tokens": 17837,
+        "output_tokens": 1060
+      }
+    },
+    "M2R1-M2R3-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 105
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1296,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1742,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 243
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2217,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3247,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 255
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3847,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1276
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3901,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.BaseDefaults.create_tokenizer(cls,nlp)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        16,
+        4,
+        3
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0082525,
+        "input_tokens": 17282,
+        "output_tokens": 1966
+      }
+    },
+    "M2R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 105
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1296,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1742,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2772,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3247,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3847,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4384,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 4830,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4946,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5000,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        16,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 4736,
+        "cost_usd": 0.0355252,
+        "input_tokens": 33096,
+        "output_tokens": 428
+      }
+    },
+    "M2R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 105
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1296,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1742,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2772,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3247,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3847,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4384,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 4830,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4946,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1536,
+          "input_tokens": 5000,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        20,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 3584,
+        "cost_usd": 0.039746,
+        "input_tokens": 33096,
+        "output_tokens": 428
+      }
+    },
+    "M2R2-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 327
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1307,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1753,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2290,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2406,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3006,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3452,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3506,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        9,
+        1,
+        8
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.0017966240000000001,
+        "input_tokens": 18752,
+        "output_tokens": 577
+      }
+    },
+    "M2R2-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 327
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1307,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1753,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2228,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3258,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3858,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4395,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4841,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5871,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6120,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6174,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        16,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 2688,
+        "cost_usd": 0.01091845,
+        "input_tokens": 40837,
+        "output_tokens": 657
+      }
+    },
+    "M2R2-M2R2-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 327
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1307,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1753,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 202
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2228,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 135
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3258,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 338
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3858,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 367
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3912,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 29
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        4,
+        16,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1664,
+        "cost_usd": 0.006802600000000001,
+        "input_tokens": 17348,
+        "output_tokens": 1420
+      }
+    },
+    "M2R2-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 327
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1307,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1753,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2783,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3258,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3858,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3974,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4420,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 4474,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        20,
+        4,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 2048,
+        "cost_usd": 0.03376175,
+        "input_tokens": 26859,
+        "output_tokens": 614
+      }
+    },
+    "M2R3-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 450
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1288,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2180,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2626,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2680,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        9,
+        8,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.001698312,
+        "input_tokens": 11540,
+        "output_tokens": 614
+      }
+    },
+    "M2R3-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 450
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1288,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2209,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3239,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3839,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 4376,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 3072,
+          "input_tokens": 4822,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 5852,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5906,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        4,
+        16,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 7424,
+        "cost_usd": 0.00827985,
+        "input_tokens": 34297,
+        "output_tokens": 688
+      }
+    },
+    "M2R3-M2R3-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 450
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1288,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1734,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 377
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2764,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 678
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3364,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 673
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3839,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 1126
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3893,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 929
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        4,
+        16,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 0,
+        "cost_usd": 0.0129885,
+        "input_tokens": 17914,
+        "output_tokens": 4255
+      }
+    },
+    "M2R3-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 450
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1288,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1734,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2764,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3239,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3839,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 4376,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 4822,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 5852,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5906,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        20,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 5120,
+        "cost_usd": 0.040893,
+        "input_tokens": 34852,
+        "output_tokens": 772
+      }
+    },
+    "M3R1-M1R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 487
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1678,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2215,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2661,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2777,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3026,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3472,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3526,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe_names(self)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        1,
+        5,
+        9,
+        2,
+        10
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.0071770620000000005,
+        "input_tokens": 20387,
+        "output_tokens": 737
+      }
+    },
+    "M3R1-M1R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 487
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1678,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2215,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2661,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2777,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3026,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3472,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3526,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        20,
+        19,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 1024,
+        "cost_usd": 0.011821062,
+        "input_tokens": 20387,
+        "output_tokens": 737
+      }
+    },
+    "M3R1-M2R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 487
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1678,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2124,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2599,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 3629,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4166,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4766,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5212,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6242,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 7272,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7326,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        16,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 10880,
+        "cost_usd": 0.0155695,
+        "input_tokens": 46046,
+        "output_tokens": 789
+      }
+    },
+    "M3R1-M2R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 487
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1678,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2124,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2599,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2432,
+          "input_tokens": 3629,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4166,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4766,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 5212,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6242,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 5760,
+          "input_tokens": 7272,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 7326,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        16,
+        4,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 10880,
+        "cost_usd": 0.0232395,
+        "input_tokens": 46046,
+        "output_tokens": 789
+      }
+    },
+    "M3R1-M2R2-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 487
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1678,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 59
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2124,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2599,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 1664,
+          "input_tokens": 3629,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 265
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4229,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4675,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 451
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 5212,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 4736,
+          "input_tokens": 6242,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 54
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6296,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        16,
+        4,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 12800,
+        "cost_usd": 0.021011000000000002,
+        "input_tokens": 37716,
+        "output_tokens": 1447
+      }
+    },
+    "M3R1-M2R3-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 487
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1678,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 122
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 2124,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 783
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3154,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 610
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 3629,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 22
+        },
+        {
+          "cached_tokens": 2688,
+          "input_tokens": 4166,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 678
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4766,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 365
+        },
+        {
+          "cached_tokens": 3712,
+          "input_tokens": 5212,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 606
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 5266,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        16,
+        4,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 7424,
+        "cost_usd": 0.02313475,
+        "input_tokens": 31027,
+        "output_tokens": 3716
+      }
+    },
+    "M3R1-M3R1-M1R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 487
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1678,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2124,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3154,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3629,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4229,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4675,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 5212,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6242,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6296,
+          "model": "gpt-5-nano-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe_names(self)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        10,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.041202749999999996,
+        "input_tokens": 38271,
+        "output_tokens": 810
+      }
+    },
+    "M3R1-M3R1-M2R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 487
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1678,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2124,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3154,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3629,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4229,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4675,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 5212,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6242,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6296,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.__init__(self,vocab,make_doc,max_length,meta,**kwargs)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        16,
+        4,
+        1
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.04253075,
+        "input_tokens": 38271,
+        "output_tokens": 810
+      }
+    },
+    "M3R1-M3R1-M2R2": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 487
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1678,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2124,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3154,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3629,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4229,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4675,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 5212,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6242,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6296,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 274
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        16,
+        4,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.042992749999999996,
+        "input_tokens": 38271,
+        "output_tokens": 1041
+      }
+    },
+    "M3R1-M3R1-M2R3": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 487
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1678,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2124,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3154,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3629,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4229,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4675,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 5212,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6242,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6296,
+          "model": "gpt-5-mini-2025-08-07",
+          "output_tokens": 855
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language.pipe_names(self)"
+      ],
+      "top5_indices": [
+        5,
+        20,
+        16,
+        4,
+        2
+      ],
+      "usage_totals": {
+        "cached_tokens": 6016,
+        "cost_usd": 0.04415475,
+        "input_tokens": 38271,
+        "output_tokens": 1622
+      }
+    },
+    "M3R1-M3R1-M3R1": {
+      "responses": [
+        {
+          "cached_tokens": 0,
+          "input_tokens": 1032,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 487
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 1678,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 37
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 2124,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1920,
+          "input_tokens": 3154,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 3629,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4229,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 4675,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 5212,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 36
+        },
+        {
+          "cached_tokens": 0,
+          "input_tokens": 6242,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 27
+        },
+        {
+          "cached_tokens": 1024,
+          "input_tokens": 6296,
+          "model": "gpt-5-2025-08-07",
+          "output_tokens": 43
+        }
+      ],
+      "top5": [
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.evaluate(self,docs_golds,verbose,batch_size,scorer,component_cfg)",
+        "spacy.language.Language.pipe(self,texts,as_tuples,n_threads,batch_size,disable,cleanup,component_cfg,n_process)",
+        "spacy.language.Language.add_pipe(self,component,name,before,after,first,last)",
+        "spacy.language.Language._multiprocessing_pipe(self,texts,pipes,n_process,batch_size)"
+      ],
+      "top5_indices": [
+        5,
+        17,
+        20,
+        4,
+        16
+      ],
+      "usage_totals": {
+        "cached_tokens": 7040,
+        "cost_usd": 0.04801875,
+        "input_tokens": 38271,
+        "output_tokens": 810
+      }
+    }
+  },
+  "schema_version": 1
+}

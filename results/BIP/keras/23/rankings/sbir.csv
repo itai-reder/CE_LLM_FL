@@ -1,0 +1,14 @@
+rank;signature;path;startLine;endLine;score
+1;keras.engine.sequential$Sequential.layers(self);keras/engine/sequential.py;94;101;1.0
+2;keras.engine.sequential$Sequential.add(self,layer);keras/engine/sequential.py;114;197;0.9999689508491942
+3;keras.engine.sequential$Sequential.__init__(self,layers,name);keras/engine/sequential.py;86;92;0.9994721644363027
+4;keras.activations$get(identifier);keras/activations.py;173;201;0.9993479678330798
+5;keras.engine.network$Network._init_subclassed_network(self,name);keras/engine/network.py;301;308;0.9992858695314684
+6;keras.engine.network$Network.__init__(self,*args,**kwargs);keras/engine/network.py;85;95;0.9990685254758283
+140;keras.engine.input_layer$Input(shape,batch_shape,name,dtype,sparse,tensor);keras/engine/input_layer.py;112;183;0.9750364827521967
+175;keras.engine.sequential$Sequential.build(self,input_shape);keras/engine/sequential.py;218;236;0.9592945632936939
+287;keras.engine.sequential$Sequential.model(self);keras/engine/sequential.py;103;112;0.9112615269972366
+373;examples.mnist_net2net$make_deeper_student_model(teacher_model,x_train,y_train,x_test,y_test,init,epochs);examples/mnist_net2net.py;301;347;0.7899524947992672
+1132;keras.layers.core$Lambda.__init__(self,function,output_shape,mask,arguments,**kwargs);keras/layers/core.py;630;648;0.2611854565777626
+1340;keras.layers.recurrent$RNN.call(self,inputs,mask,training,initial_state,constants);keras/layers/recurrent.py;544;634;0.14947061197876238
+1455;keras.legacy.layers$Recurrent.call(self,inputs,mask,training,initial_state);keras/legacy/layers.py;543;612;0.08153507001583507

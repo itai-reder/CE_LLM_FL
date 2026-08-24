@@ -1,0 +1,13 @@
+rank;signature;path;startLine;endLine;score
+1;keras.callbacks$EarlyStopping.__init__(self,monitor,min_delta,patience,verbose,mode,baseline);keras/callbacks.py;482;518;1.0
+2;keras.callbacks$EarlyStopping.on_train_begin(self,logs);keras/callbacks.py;520;527;0.9994384826553532
+3;keras.callbacks$EarlyStopping.on_epoch_end(self,epoch,logs);keras/callbacks.py;529;545;0.9992825056151734
+4;keras.callbacks$EarlyStopping.on_train_end(self,logs);keras/callbacks.py;547;549;0.99900174694285
+5;keras.activations$relu(x,alpha,max_value);keras/activations.py;109;122;0.9989705515348141
+7;keras.activations$serialize(activation);keras/activations.py;161;162;0.9989081607187422
+8;keras.activations$deserialize(name,custom_objects);keras/activations.py;165;170;0.9988769653107062
+9;keras.activations$get(identifier);keras/activations.py;173;201;0.9987521836785626
+179;keras.engine.training$Model.fit(self,x,y,batch_size,epochs,verbose,callbacks,validation_split,validation_data,shuffle,class_weight,sample_weight,initial_epoch,steps_per_epoch,validation_steps,**kwargs);keras/engine/training.py;831;1045;0.954361118043424
+183;keras.engine.training$Model.fit_generator(self,generator,steps_per_epoch,epochs,verbose,callbacks,validation_data,validation_steps,class_weight,max_queue_size,workers,use_multiprocessing,shuffle,initial_epoch);keras/engine/training.py;1283;1423;0.9523022211130522
+366;examples.image_ocr$train(run_name,start_epoch,stop_epoch,img_w);examples/image_ocr.py;408;498;0.8407162465685051
+447;keras.activations$linear(x);keras/activations.py;155;158;0.7277888694784128

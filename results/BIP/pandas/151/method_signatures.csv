@@ -1,0 +1,14 @@
+corpus_id;path;startLine;endLine
+pandas.core.arrays.numpy_$PandasDtype.__init__(self,dtype);pandas/core/arrays/numpy_.py;41;45
+pandas.core.arrays.numpy_$PandasArray.__init__(self,values,copy);pandas/core/arrays/numpy_.py;124;141
+pandas.core.arrays.numpy_$PandasArray.__array_ufunc__(self,ufunc,method,*inputs,**kwargs);pandas/core/arrays/numpy_.py;176;215
+pandas.core.arrays.numpy_$PandasArray.__getitem__(self,item);pandas/core/arrays/numpy_.py;220;227
+pandas.core.arrays.numpy_$PandasArray.__setitem__(self,key,value);pandas/core/arrays/numpy_.py;229;246
+pandas.core.arrays.numpy_$PandasArray._reduce(self,name,skipna,**kwargs);pandas/core/arrays/numpy_.py;306;312
+pandas.core.construction$extract_array(obj,extract_numpy);pandas/core/construction.py;317;365
+pandas.core.dtypes.generic$create_pandas_abc_type(name,attr,comp);pandas/core/dtypes/generic.py;6;13
+pandas.core.indexing$_NDFrameIndexer.__getitem__(self,key);pandas/core/indexing.py;119;149
+pandas.core.internals.blocks$DatetimeTZBlock.setitem(self,indexer,value);pandas/core/internals/blocks.py;2421;2434
+pandas.core.internals.blocks$_block_shape(values,ndim,shape);pandas/core/internals/blocks.py;3112;3122
+pandas.core.window.rolling$_Window.__iter__(self);pandas/core/window/rolling.py;205;207
+pandas.io.pytables$_ensure_str(name);pandas/io/pytables.py;82;91

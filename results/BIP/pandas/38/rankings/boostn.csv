@@ -1,0 +1,13 @@
+rank;signature;path;startLine;endLine;score
+1;pandas.core.frame$DataFrame.stack(self,level,dropna);pandas/core/frame.py;6150;6318;1.0
+2;pandas.core.frame$DataFrame.unstack(self,level,fill_value);pandas/core/frame.py;6391;6452;0.995478190868118
+3;pandas.core.reshape.reshape$_unstack_extension_series(series,level,fill_value);pandas/core/reshape/reshape.py;447;494;0.9930640934819305
+4;pandas.core.reshape.pivot$pivot_table(data,values,index,columns,aggfunc,fill_value,margins,dropna,margins_name,observed);pandas/core/reshape/pivot.py;25;188;0.9740290435428807
+5;pandas.core.reshape.reshape$_Unstacker.__init__(self,values,index,level,value_columns,fill_value,constructor);pandas/core/reshape/reshape.py;90;141;0.9484493382449685
+8;pandas.core.reshape.reshape$unstack(obj,level,fill_value);pandas/core/reshape/reshape.py;398;426;0.8766548347461894
+16;pandas.core.reshape.reshape$_unstack_multiple(data,clocs,fill_value);pandas/core/reshape/reshape.py;312;395;0.822777937554219
+51;pandas.core.reshape.reshape$_Unstacker.get_new_columns(self);pandas/core/reshape/reshape.py;257;292;0.6604104500171358
+466;pandas.core.indexes.multi$MultiIndex._get_level_number(self,level);pandas/core/indexes/multi.py;1395;1420;0.35387281990442987
+473;pandas.core.reshape.reshape$_Unstacker.get_new_index(self);pandas/core/reshape/reshape.py;294;309;0.3520509144424648
+1027;pandas.io.formats.printing$pprint_thing(thing,_nest_lvl,escape_chars,default_escapes,quote_strings,max_seq_items);pandas/io/formats/printing.py;166;236;0.23343193113978078
+2869;pandas.core.indexes.frozen$FrozenList.union(self,other);pandas/core/indexes/frozen.py;27;43;0.06188851656904405
