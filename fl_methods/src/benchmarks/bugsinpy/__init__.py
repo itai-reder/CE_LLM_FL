@@ -1,0 +1,1 @@
+"""BugsInPy benchmark adapter."""

@@ -1,0 +1,447 @@
+{
+  "ollama_llama3.1_8b": [
+    {"role": "planner",     "provider": "ollama", "model": "llama3.1:8b"},
+    {"role": "tool_caller", "provider": "ollama", "model": "llama3.1:8b", "iterations": 10},
+    {"role": "finisher",    "provider": "ollama", "model": "llama3.1:8b"}
+  ],
+  "openai_gpt_4_1_mini": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-4.1-mini"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-4.1-mini", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-4.1-mini"}
+  ],
+  "openai_planner_high_finisher_low": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "high"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "medium", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "low"}
+  ],
+  "M1R1-M1R1-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M1R1-M1R1-M1R2": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "low"}
+  ],
+  "M2R1-M2R1-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M3R1-M3R1-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M2R2-M2R2-M2R2": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low"}
+  ],
+  "M2R3-M2R3-M2R3": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "medium"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "medium", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "medium"}
+  ],
+  "M2R4-M2R4-M2R4": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "high"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "high", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "high"}
+  ],
+  "M2R1-M1R1-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M2R1-M2R2-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M2R1-M2R3-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "medium", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M2R1-M3R1-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M1R1-M2R1-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M2R2-M2R1-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M2R3-M2R1-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "medium"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M3R1-M2R1-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M2R1-M2R1-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M2R1-M2R1-M2R2": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low"}
+  ],
+  "M2R1-M2R1-M2R3": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "medium"}
+  ],
+  "M2R1-M2R1-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M2R2-M1R1-M2R2": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low"}
+  ],
+  "M2R2-M1R1-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M2R2-M2R2-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M2R2-M1R1-M2R3": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "medium"}
+  ],
+  "M2R2-M2R2-M2R3": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "medium"}
+  ],
+  "Q2R0-Q2R0-Q2R0": [
+    {"role": "planner",     "provider": "ollama", "model": "qwen3.5:9b", "provider_opts": {"think": false}},
+    {"role": "tool_caller", "provider": "ollama", "model": "qwen3.5:9b", "provider_opts": {"think": false}, "iterations": 10},
+    {"role": "finisher",    "provider": "ollama", "model": "qwen3.5:9b", "provider_opts": {"think": false}}
+  ],
+  "Q2R1-Q2R0-Q2R1": [
+    {"role": "planner",     "provider": "ollama", "model": "qwen3.5:9b", "provider_opts": {"think": true}},
+    {"role": "tool_caller", "provider": "ollama", "model": "qwen3.5:9b", "provider_opts": {"think": false}, "iterations": 10},
+    {"role": "finisher",    "provider": "ollama", "model": "qwen3.5:9b", "provider_opts": {"think": true}}
+  ],
+  "M1R1-Q2R0-Q2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "ollama", "model": "qwen3.5:9b", "provider_opts": {"think": false}, "iterations": 10},
+    {"role": "finisher",    "provider": "ollama", "model": "qwen3.5:9b", "provider_opts": {"think": true}}
+  ],
+  "M1R1-M1R1-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M1R1-M1R1-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M1R1-M1R1-M2R2": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low"}
+  ],
+  "M1R1-M1R1-M2R3": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "medium"}
+  ],
+  "M1R2-M1R1-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "low"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M1R3-M1R1-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "medium"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M2R1-M1R1-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M2R2-M1R1-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M2R3-M1R1-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "medium"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M3R1-M1R1-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M3R2-M1R1-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "low"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M3R3-M1R1-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "medium"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M1R2-M2R1-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "low"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M1R3-M2R1-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "medium"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M3R2-M2R1-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "low"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M3R3-M2R1-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "medium"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M1R1-M3R1-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M1R2-M3R1-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "low"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M1R3-M3R1-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "medium"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M2R1-M3R1-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M2R2-M3R1-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M2R3-M3R1-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "medium"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M3R2-M3R1-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "low"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M3R3-M3R1-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "medium"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M1R1-M1R2-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "low", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M1R1-M1R3-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "medium", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M1R1-M2R1-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M1R1-M2R2-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M1R1-M2R3-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "medium", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M1R1-M3R1-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M1R1-M3R2-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "low", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M1R1-M3R3-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "medium", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M2R1-M1R2-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "low", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M2R1-M1R3-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "medium", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M2R1-M3R2-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "low", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M2R1-M3R3-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "medium", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M3R1-M1R1-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M3R1-M1R2-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "low", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M3R1-M1R3-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "medium", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M3R1-M2R1-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M3R1-M2R2-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M3R1-M2R3-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "medium", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M3R1-M3R2-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "low", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M3R1-M3R3-M3R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "medium", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"}
+  ],
+  "M1R1-M1R1-M1R3": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "medium"}
+  ],
+  "M1R1-M1R1-M3R2": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "low"}
+  ],
+  "M1R1-M1R1-M3R3": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "medium"}
+  ],
+  "M2R1-M2R1-M1R2": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "low"}
+  ],
+  "M2R1-M2R1-M1R3": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "medium"}
+  ],
+  "M2R1-M2R1-M3R2": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "low"}
+  ],
+  "M2R1-M2R1-M3R3": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "medium"}
+  ],
+  "M3R1-M3R1-M1R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "minimal"}
+  ],
+  "M3R1-M3R1-M1R2": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "low"}
+  ],
+  "M3R1-M3R1-M1R3": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-nano", "reasoning_effort": "medium"}
+  ],
+  "M3R1-M3R1-M2R1": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "minimal"}
+  ],
+  "M3R1-M3R1-M2R2": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "low"}
+  ],
+  "M3R1-M3R1-M2R3": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5-mini", "reasoning_effort": "medium"}
+  ],
+  "M3R1-M3R1-M3R2": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "low"}
+  ],
+  "M3R1-M3R1-M3R3": [
+    {"role": "planner",     "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal"},
+    {"role": "tool_caller", "provider": "openai", "model": "gpt-5", "reasoning_effort": "minimal", "iterations": 10},
+    {"role": "finisher",    "provider": "openai", "model": "gpt-5", "reasoning_effort": "medium"}
+  ]
+}
