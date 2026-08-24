@@ -1,0 +1,32 @@
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM", "RUF"]
+ignore = ["E501"]  # line length handled by formatter
+
+[tool.ruff.lint.per-file-ignores]
+# The live trace-capture plugin loads into the bug's OWN conda env, which can be as old as
+# Python 3.5/3.6 across the BugsInPy corpus; a syntax error there aborts the whole FauxPy run.
+# Disable pyupgrade so it is not modernised to 3.7+/3.9+/3.10+ syntax (future import, PEP 585/604
+# annotations, f-strings). See the module docstring.
+"fl_methods/src/extraction/cefl_trace_plugin.py" = ["UP"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["src"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+# Benchmark clones fetched by the docker setup scripts are third-party sources.
+exclude = "^utils/(docker/(defects4j/defects4j|bugsinpy/(BugsInPy|fauxpy-experiments))|gzoltar)/"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["fl_methods"]

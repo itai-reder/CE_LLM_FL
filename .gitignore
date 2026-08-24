@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Tooling caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editor / IDE / OS
+.idea/
+.vscode/
+*.swp
+.~lock.*#
+.DS_Store
+Thumbs.db
+
+# Secrets (GitHub API token used for bug-report fetching)
+.gh_token
+.token
+
+# Benchmark data — never tracked. Per-bug processed trees are distributed as
+# Google Drive archives (see README "Data"); slim evaluation inputs live in results/.
+data/
+
+# Run logs and full LLM transcripts (rebuilt from processed data by run_build_results.py)
+logs/
+transcripts/
+
+# GZoltar JARs (built via utils/build_gzoltar.sh) and the GZoltar source clone
+utils/java/*.jar
+utils/gzoltar/
+
+# Drive distribution zips staged by utils/package_drive.py
+drive_packages/
+
+# Benchmark repositories cloned by the docker setup scripts
+utils/docker/defects4j/defects4j/
+utils/docker/bugsinpy/BugsInPy/
+utils/docker/bugsinpy/fauxpy-experiments/
