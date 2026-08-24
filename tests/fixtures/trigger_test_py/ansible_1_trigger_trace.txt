@@ -1,0 +1,11 @@
+--- test/units/galaxy/test_collection.py::test_verify_collections_no_version
+Traceback (most recent call last):
+  File "_pytest/python.py", line 1761, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "units/galaxy/test_collection.py", line 1169, in test_verify_collections_no_version
+    collection.verify_collections(collections, './', local_collection.api, False, False)
+  File "ansible/galaxy/collection.py", line 679, in verify_collections
+    allow_pre_release=allow_pre_release)
+  File "ansible/galaxy/collection.py", line 442, in from_name
+    for api in apis:
+TypeError: 'GalaxyAPI' object is not iterable

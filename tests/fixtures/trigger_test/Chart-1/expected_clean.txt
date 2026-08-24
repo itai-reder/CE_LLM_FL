@@ -1,0 +1,17 @@
+public void test2947660() {
+        AbstractCategoryItemRenderer r = new LineAndShapeRenderer();
+        assertNotNull(r.getLegendItems());
+        assertEquals(0, r.getLegendItems().getItemCount());
+
+        DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+        CategoryPlot plot = new CategoryPlot();
+        plot.setDataset(dataset);
+        plot.setRenderer(r);
+        assertEquals(0, r.getLegendItems().getItemCount());
+
+        dataset.addValue(1.0, "S1", "C1");
+        LegendItemCollection lic = r.getLegendItems();
+        assertEquals(1, lic.getItemCount());
+The last line shown above failed with the following stack trace.
+junit.framework.AssertionFailedError: expected:<1> but was:<0>
+	at org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests.test2947660(AbstractCategoryItemRendererTests.java:409)

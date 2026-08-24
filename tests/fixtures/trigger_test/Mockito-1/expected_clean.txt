@@ -1,0 +1,14 @@
+public void should_capture_arguments_when_args_count_does_NOT_match() throws Exception {
+        //given
+        mock.varargs();
+        Invocation invocation = getLastInvocation();
+
+        //when
+        InvocationMatcher invocationMatcher = new InvocationMatcher(invocation, (List) asList(new LocalizedMatcher(AnyVararg.ANY_VARARG)));
+
+        //then
+        invocationMatcher.captureArgumentsFrom(invocation);
+The last line shown above failed with the following stack trace.
+java.lang.UnsupportedOperationException
+	at org.mockito.internal.invocation.InvocationMatcher.captureArgumentsFrom(InvocationMatcher.java:123)
+	at org.mockito.internal.invocation.InvocationMatcherTest.should_capture_arguments_when_args_count_does_NOT_match(InvocationMatcherTest.java:170)

@@ -1,0 +1,10 @@
+public void testSimpleModeLeavesUnusedParams() {
+    args.add("--compilation_level=SIMPLE_OPTIMIZATIONS");
+    testSame("window.f = function(a) {};");
+The last line shown above failed with the following stack trace.
+junit.framework.AssertionFailedError: 
+	at com.google.javascript.jscomp.CommandLineRunnerTest.test(CommandLineRunnerTest.java:1204)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.test(CommandLineRunnerTest.java:1175)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testSame(CommandLineRunnerTest.java:1163)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testSame(CommandLineRunnerTest.java:1159)
+	at com.google.javascript.jscomp.CommandLineRunnerTest.testSimpleModeLeavesUnusedParams(CommandLineRunnerTest.java:156)

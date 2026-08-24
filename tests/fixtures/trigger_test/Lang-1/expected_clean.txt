@@ -1,0 +1,12 @@
+public void TestLang747() {
+        assertEquals(Integer.valueOf(0x8000),      NumberUtils.createNumber("0x8000"));
+        assertEquals(Integer.valueOf(0x80000),     NumberUtils.createNumber("0x80000"));
+        assertEquals(Integer.valueOf(0x800000),    NumberUtils.createNumber("0x800000"));
+        assertEquals(Integer.valueOf(0x8000000),   NumberUtils.createNumber("0x8000000"));
+        assertEquals(Integer.valueOf(0x7FFFFFFF),  NumberUtils.createNumber("0x7FFFFFFF"));
+        assertEquals(Long.valueOf(0x80000000L),    NumberUtils.createNumber("0x80000000"));
+The last line shown above failed with the following stack trace.
+java.lang.NumberFormatException: For input string: "80000000"
+	at org.apache.commons.lang3.math.NumberUtils.createInteger(NumberUtils.java:684)
+	at org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:474)
+	at org.apache.commons.lang3.math.NumberUtilsTest.TestLang747(NumberUtilsTest.java:256)
