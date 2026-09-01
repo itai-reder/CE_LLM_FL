@@ -7,6 +7,10 @@ dist/
 build/
 .eggs/
 
+# Jupyter server runtime state (RTC store, server config)
+.jupyter/
+.jupyter_ystore.db
+
 # Tooling caches
 .mypy_cache/
 .ruff_cache/
