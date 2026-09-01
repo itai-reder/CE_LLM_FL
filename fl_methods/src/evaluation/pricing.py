@@ -31,7 +31,7 @@ class ModelPrice:
 MODEL_PRICES: dict[str, ModelPrice] = {
     "gpt-5": ModelPrice(input_per_m=1.25, cached_per_m=0.125, output_per_m=10.0),
     "gpt-5-mini": ModelPrice(input_per_m=0.25, cached_per_m=0.025, output_per_m=2.0),
-    "gpt-5-nano": ModelPrice(input_per_m=0.05, cached_per_m=0.0005, output_per_m=0.4),
+    "gpt-5-nano": ModelPrice(input_per_m=0.05, cached_per_m=0.005, output_per_m=0.4),
 }
 
 

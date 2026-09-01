@@ -400,7 +400,7 @@ fails (`ResultsBuildError`). Slimming is therefore never a silent approximation.
    "responses": [{"model": "gpt-5-nano-2025-08-07",
                   "input_tokens": 7435, "cached_tokens": 1152, "output_tokens": 474}],
    "usage_totals": {"input_tokens": 7435, "cached_tokens": 1152,
-                    "output_tokens": 474, "cost_usd": 0.000504}}}}
+                    "output_tokens": 474, "cost_usd": 0.00050951}}}}
 ```
 
 `meta.json` records `benchmark`, `project`, `bug_id`, `source`, and the two processed-tree signals
@@ -448,7 +448,7 @@ Written under `results/<BM>/<Project>/<BugId>/evaluation/`:
 |---|---|---|
 | `baselines.csv` | Ochiai, SBIR, BoostN against `faults.csv` | `Ochiai,1.0,1.0,1,1,1,1,1,0.0,0,0,0,` |
 | `baselines_first.csv` | the same, against `faults_first.csv` | — |
-| `flexfl.csv` | every Agent4LR config against `faults.csv` | `Agent4LR-M1R1-M1R1-M1R1,1.0,1.0,1,1,1,1,1,0.0,7435,1152,474,0.000504` |
+| `flexfl.csv` | every Agent4LR config against `faults.csv` | `Agent4LR-M1R1-M1R1-M1R1,1.0,1.0,1,1,1,1,1,0.0,7435,1152,474,0.000510` |
 | `flexfl_first.csv` | the same, against `faults_first.csv` | — |
 
 Schema: `Method,FR,AR,Top1,Top2,Top3,Top4,Top5,WE,InputTokens,CachedTokens,OutputTokens,CostUSD`.
